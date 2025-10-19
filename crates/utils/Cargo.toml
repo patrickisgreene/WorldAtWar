@@ -1,0 +1,8 @@
+[package]
+name = "waw_utils"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+rand.workspace = true
+bevy_color.workspace = true
