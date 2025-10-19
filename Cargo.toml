@@ -27,6 +27,7 @@ bevy_gltf = "0.17.2"
 bevy_gizmos = "0.17.2"
 bevy_image = "0.17.2"
 bevy_input = "0.17.2"
+bevy_internal = "0.17.2"
 bevy_input_focus = "0.17.2"
 bevy_light = "0.17.2"
 bevy_log = "0.17.2"
@@ -58,8 +59,8 @@ bevy_window = "0.17.2"
 
 ron = "0.11.0"
 rand = "0.9.2"
-clap = "4.5.49"
 bevy-inspector-egui = "0.34.0"
+clap = { version = "4.5.47", features = ["derive"] }
 serde = { version = "1.0.228", features = ["derive"] }
 bevy_hanabi = { version = "0.17", features = ["3d", "serde"] }
 big_space = { git = "https://github.com/TotalKrill/big_space", rev = "ceb418f", features = ["camera", "debug"] }
