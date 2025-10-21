@@ -1,0 +1,11 @@
+[package]
+name = "waw_ron_asset"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+bevy_app.workspace = true
+bevy_asset.workspace = true
+
+ron.workspace = true
+serde.workspace = true
