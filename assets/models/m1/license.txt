@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low poly M1 "Abrams"
+* source:	https://sketchfab.com/3d-models/low-poly-m1-abrams-283791f26b034b92816f850757fbf403
+* author:	s9pata (https://sketchfab.com/s9pata)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low poly M1 "Abrams"" (https://sketchfab.com/3d-models/low-poly-m1-abrams-283791f26b034b92816f850757fbf403) by s9pata (https://sketchfab.com/s9pata) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

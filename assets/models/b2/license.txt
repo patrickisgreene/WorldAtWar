@@ -1,0 +1,11 @@
+Model Information:
+* title:	b2 stealth bomber
+* source:	https://sketchfab.com/3d-models/b2-stealth-bomber-103774b477954e3e9d171d17af650939
+* author:	CreaDX (https://sketchfab.com/CreaDX)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "b2 stealth bomber" (https://sketchfab.com/3d-models/b2-stealth-bomber-103774b477954e3e9d171d17af650939) by CreaDX (https://sketchfab.com/CreaDX) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

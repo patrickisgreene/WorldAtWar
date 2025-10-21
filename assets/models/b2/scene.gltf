@@ -1,0 +1,337 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3246,
+      "max": [
+        14.584952354431152,
+        0.9250300526618958,
+        3.2525076866149902
+      ],
+      "min": [
+        -14.411834716796875,
+        -0.8608408570289612,
+        -8.289901733398438
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 38952,
+      "componentType": 5126,
+      "count": 3246,
+      "max": [
+        0.9987850189208984,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.9987850189208984,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3246,
+      "max": [
+        0.9759388566017151,
+        0.9783359169960022
+      ],
+      "min": [
+        0.021664170548319817,
+        0.02166414074599743
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 5178,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 77904,
+      "componentType": 5126,
+      "count": 134,
+      "max": [
+        0.7693324685096741,
+        0.555942952632904,
+        2.425809144973755
+      ],
+      "min": [
+        -0.7726646065711975,
+        0.305717796087265,
+        1.0228170156478882
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 79512,
+      "componentType": 5126,
+      "count": 134,
+      "max": [
+        0.8775061368942261,
+        0.8559233546257019,
+        0.5878927707672119
+      ],
+      "min": [
+        -0.8642462491989136,
+        0.45563045144081116,
+        0.09992405027151108
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 25968,
+      "componentType": 5126,
+      "count": 134,
+      "max": [
+        1.0,
+        1.0000001192092896
+      ],
+      "min": [
+        0.0,
+        0.9999998807907104
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 20712,
+      "componentType": 5125,
+      "count": 204,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "CreaDX (https://sketchfab.com/CreaDX)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/b2-stealth-bomber-103774b477954e3e9d171d17af650939",
+      "title": "b2 stealth bomber"
+    },
+    "generator": "Sketchfab-16.16.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 21528,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 27040,
+      "byteOffset": 21528,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 81120,
+      "byteOffset": 48568,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 129688,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0418765,
+          0.0418765,
+          0.0418765,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9906361299340231
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.00156293,
+          0.0,
+          0.0114086,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.9996344470782688
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cylinder_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cylinder.003_Material.001_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "450b1e851eb64569a0882525f0a9bb25.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        17.198362350463867,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        17.19836235046385,
+        7.517643556979981e-07,
+        0.0,
+        0.0,
+        -7.517643556979981e-07,
+        17.19836235046385,
+        0.0,
+        -41.86699295043945,
+        27.743515014648438,
+        -96.0121841430664,
+        1.0
+      ],
+      "name": "Cylinder"
+    },
+    {
+      "mesh": 0,
+      "name": "Cylinder_Material_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        17.198362350463867,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        17.19836235046385,
+        7.517643556979981e-07,
+        0.0,
+        0.0,
+        -7.517643556979981e-07,
+        17.19836235046385,
+        0.0,
+        -41.86699295043945,
+        27.743515014648438,
+        -96.0121841430664,
+        1.0
+      ],
+      "name": "Cylinder.003"
+    },
+    {
+      "mesh": 1,
+      "name": "Cylinder.003_Material.001_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

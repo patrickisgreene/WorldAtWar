@@ -1,0 +1,15 @@
+Weapon(
+    id: "b2",
+    name: "Spirit",
+    movement: Movement(
+        altitude: 20000.0,
+        speed: 50000.0,
+        settings: [FollowHeightMap]
+    ),
+    model: Model(
+        file: "b2/scene.gltf",
+        transformation: Transformation(
+            scale: 1000.0
+        )
+    ),
+)

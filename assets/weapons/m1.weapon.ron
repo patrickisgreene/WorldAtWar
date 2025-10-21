@@ -1,0 +1,15 @@
+Weapon(
+    id: "M1",
+    name: "Abrams",
+    model: Model(
+        file: "m1/scene.gltf",
+        scale: 10000.0
+    )
+    movement: Movement(
+        speed: 10000.0,
+    ),
+    transformation: Transformation(
+        translation: (0.0, 0.0, 0.0),
+        rotation: (0.0, 3.14159265, 0.0)
+    )
+)

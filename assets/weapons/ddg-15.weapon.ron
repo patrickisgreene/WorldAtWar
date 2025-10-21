@@ -1,0 +1,11 @@
+Weapon(
+    id: "ddg-15",
+    name: "Arleigh Burke",
+    movement: Movement(
+        speed: 5000.0,
+    ),
+    model: Model(
+        file: "ddg-15/scene.gltf",
+        scale: 10000.0
+    )
+)
