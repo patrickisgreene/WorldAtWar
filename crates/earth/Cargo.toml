@@ -30,6 +30,7 @@ bevy_core_pipeline.workspace = true
 rand.workspace = true
 
 waw_utils = { path = "../utils" }
+waw_geocoord = { path = "../geocoord" }
 
 [dev-dependencies]
 bevy.workspace = true

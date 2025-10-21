@@ -58,18 +58,22 @@ pub fn generate_chunk_mesh(chunk: &Chunk, heightmap: Option<&Image>) -> (Mesh, D
             let sphere_pos = cube_to_sphere(cube_pos).normalize() * EARTH_RADIUS;
 
             // Calculate normal (pointing outward from sphere center)
-            let sphere_normal = cube_to_sphere(cube_pos).normalize().as_vec3();
+            //let sphere_normal = cube_to_sphere(cube_pos).normalize().as_vec3();
+
+            let coord = waw_geocoord::GeoCoord::from_world(sphere_pos);
+
+            let normal = coord.surface_normal();
 
             // Convert cube face position to equirectangular UV for NASA Blue Marble texture
-            let texture_uv = cube_to_equirectangular_uv(cube_pos);
+            let texture_uv = coord.uv();//cube_to_equirectangular_uv(cube_pos);
 
             let elevation = sample_texture(heightmap, texture_uv) as f64 * 500000.0;
 
-            let final_pos = sphere_pos + sphere_normal.as_dvec3() * elevation;
+            let final_pos = sphere_pos + normal * elevation;
 
             vertex_grid.push((
                 (final_pos - chunk_center).as_vec3(),
-                sphere_normal,
+                normal.as_vec3(),
                 texture_uv,
             ));
         }

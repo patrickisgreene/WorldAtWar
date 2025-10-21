@@ -1,0 +1,11 @@
+[package]
+name = "waw_geocoord"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+bevy_reflect.workspace = true
+bevy_derive.workspace = true
+
+serde.workspace = true
+bevy_math.workspace = true
