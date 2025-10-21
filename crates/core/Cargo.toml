@@ -9,6 +9,7 @@ bevy_app.workspace = true
 bevy_asset.workspace = true
 bevy_window.workspace = true
 bevy_internal.workspace = true
+bevy_transform.workspace = true
 clap = { workspace = true, features = ["derive"] }
 
 [dev-dependencies]

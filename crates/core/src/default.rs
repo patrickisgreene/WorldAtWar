@@ -23,7 +23,7 @@ impl Default for WawDefaultPlugin {
 
 impl WawDefaultPlugin {
     pub fn asset_plugin(&self) -> AssetPlugin {
-        let file_path = format!("{}/assets", env!("CARGO_MANIFEST_DIR"));
+        let file_path = format!("{}\\..\\..\\assets", env!("CARGO_MANIFEST_DIR"));
         AssetPlugin {
             file_path,
             ..Default::default()
@@ -53,6 +53,7 @@ impl WawDefaultPlugin {
             .set(self.log_plugin())
             .set(self.asset_plugin())
             .set(self.window_plugin())
+            .disable::<TransformPlugin>()
     }
 
     pub fn from_args() -> WawDefaultPlugin {

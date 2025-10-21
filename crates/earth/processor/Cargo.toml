@@ -1,0 +1,10 @@
+[package]
+name = "waw_earth_processor"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+image = "0.25.2"
+shapefile = "0.7.0"
+rayon = "1.11.0"
+clap = { workspace = true, features = ["derive"] }
