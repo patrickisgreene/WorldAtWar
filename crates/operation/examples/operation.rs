@@ -3,6 +3,7 @@ use bevy::{
     core_pipeline::tonemapping::Tonemapping, input::common_conditions::input_toggle_active,
     prelude::*,
 };
+use big_space::camera::BigSpaceCameraInput;
 use big_space::prelude::*;
 
 use operation::{Formation, Maneuver, Operation, OperationsPlugin, OrbitLength, WeaponCount, WeaponHandle};
@@ -36,6 +37,10 @@ fn main() {
             (spawn_grid, (spawn_lighting, spawn_camera).after(spawn_grid)),
         )
         .add_systems(Startup, spawn_operation)
+        .add_systems(
+            Update,
+            escape_key_to_camera
+        )
         .run();
 }
 
@@ -52,6 +57,13 @@ pub fn spawn_grid(mut commands: Commands) {
         ));
     });
 }
+
+pub fn escape_key_to_camera(keys: Res<ButtonInput<KeyCode>>, mut input: ResMut<BigSpaceCameraInput>) {
+    if keys.just_pressed(KeyCode::Escape) {
+        input.defaults_disabled = !input.defaults_disabled;
+    }
+}
+
 
 pub fn spawn_lighting(mut commands: Commands, grid: Query<(Entity, &Grid), With<EarthOriginGrid>>) {
     let Ok((grid_entity, grid)) = grid.single() else {

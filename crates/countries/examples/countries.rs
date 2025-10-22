@@ -7,6 +7,7 @@ use big_space::camera::BigSpaceCameraInput;
 use big_space::prelude::*;
 
 use waw_core::WawCorePlugins;
+use waw_countries::CountriesPlugin;
 use waw_earth::{EarthLevelOfDetailFocus, EarthOriginGrid, EarthPlugin, EarthResolution};
 use waw_utils::consts::{EARTH_RADIUS, GEOSYNCHRONUS_ORBIT};
 
@@ -15,6 +16,7 @@ fn main() {
         .add_plugins((
             WawCorePlugins::from_args(),
             EarthPlugin,
+            CountriesPlugin,
             BigSpaceDefaultPlugins,
         ))
         .insert_resource(EarthResolution::Low)
@@ -57,7 +59,6 @@ pub fn escape_key_to_camera(keys: Res<ButtonInput<KeyCode>>, mut input: ResMut<B
         input.defaults_disabled = !input.defaults_disabled;
     }
 }
-
 
 pub fn spawn_lighting(mut commands: Commands, grid: Query<(Entity, &Grid), With<EarthOriginGrid>>) {
     let Ok((grid_entity, grid)) = grid.single() else {
