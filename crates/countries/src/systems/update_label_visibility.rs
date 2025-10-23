@@ -1,11 +1,11 @@
 use bevy_asset::AssetServer;
 use bevy_camera::prelude::*;
-use bevy_color::palettes::tailwind::{SLATE_500, SLATE_800};
 use bevy_ecs::prelude::*;
 use bevy_text::prelude::*;
 use bevy_transform::prelude::*;
 use bevy_ui::prelude::*;
 use big_space::prelude::*;
+use waw_combatants::{Combatant, CombatantColor};
 use waw_earth::EarthLevelOfDetailFocus;
 
 use crate::labels::{CityEntity, CityLabel, CityLabelConfig, CityLabelEntity, HasCityLabel};
@@ -18,6 +18,7 @@ pub fn manage_city_label_visibility(
     grid_query: Query<&Grid>,
     labels: Query<&CityLabel>,
     config: Res<CityLabelConfig>,
+    combatants: Query<&Combatant>,
     cities_without_labels: Query<(Entity, &CityEntity), Without<HasCityLabel>>,
     cities_with_labels: Query<(Entity, &CityEntity, &CityLabelEntity), With<HasCityLabel>>,
     camera_query: Query<(&Transform, &CellCoord), (With<Camera3d>, With<EarthLevelOfDetailFocus>)>,
@@ -56,6 +57,12 @@ pub fn manage_city_label_visibility(
             continue;
         }
 
+        let (bg, highlight) = combatants.into_iter()
+            .filter(|c| c.countries.contains(&city.country_code))
+            .map(|x|(x.color.background(), x.color.highlight()))
+            .next()
+            .unwrap_or((CombatantColor::Neutral.background(), CombatantColor::Neutral.highlight()));
+
         let container = commands
             .spawn((
                 Name::new(format!("{} Label", city.name)),
@@ -67,8 +74,8 @@ pub fn manage_city_label_visibility(
                     padding: UiRect::all(px(5.0)),
                     ..Default::default()
                 },
-                BorderColor::all(SLATE_500),
-                BackgroundColor(SLATE_800.into()),
+                BorderColor::all(highlight),
+                BackgroundColor(bg.into()),
                 BorderRadius::all(px(2.0)),
                 CityLabel {
                     city_entity,

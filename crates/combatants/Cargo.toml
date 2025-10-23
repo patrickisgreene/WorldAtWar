@@ -1,0 +1,27 @@
+[package]
+name = "waw_combatants"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+bevy_ecs.workspace = true
+bevy_app.workspace = true
+bevy_math.workspace = true
+bevy_color.workspace = true
+bevy_asset.workspace = true
+bevy_reflect.workspace = true
+
+waw_ron_asset = { path = "../ron_asset" }
+
+serde.workspace = true
+
+[dev-dependencies]
+bevy.workspace = true
+big_space.workspace = true
+bevy-inspector-egui.workspace = true
+
+waw_core = { path = "../core" }
+waw_utils = { path = "../utils" }
+waw_radar = { path = "../radar" }
+waw_earth = { path = "../earth" }
+waw_countries = { path = "../countries" }

@@ -6,6 +6,7 @@ use bevy::{
 use big_space::camera::BigSpaceCameraInput;
 use big_space::prelude::*;
 
+use waw_combatants::CombatantsPlugin;
 use waw_core::WawCorePlugins;
 use waw_countries::CountriesPlugin;
 use waw_earth::{EarthLevelOfDetailFocus, EarthOriginGrid, EarthPlugin};
@@ -19,6 +20,7 @@ fn main() {
             EarthPlugin,
             CountriesPlugin,
             RadarPlugin,
+            CombatantsPlugin,
             BigSpaceDefaultPlugins,
         ))
         .insert_resource(AmbientLight {
