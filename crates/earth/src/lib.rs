@@ -23,23 +23,11 @@ use std::fmt;
 #[derive(Resource, Default, Debug, PartialEq, Clone, Copy, Hash, Eq)]
 pub enum EarthResolution {
     Low,
-    #[default]
     Mid,
+    #[default]
     High,
     Ultra,
     Max
-}
-
-impl EarthResolution {
-    pub fn one_up(&self) -> EarthResolution {
-        match self {
-            EarthResolution::Low => EarthResolution::Mid,
-            EarthResolution::Mid => EarthResolution::High,
-            EarthResolution::High => EarthResolution::Ultra,
-            EarthResolution::Ultra => EarthResolution::Max,
-            EarthResolution::Max => EarthResolution::Low
-        }
-    }
 }
 
 impl fmt::Display for EarthResolution {

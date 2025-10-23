@@ -8,7 +8,7 @@ use big_space::prelude::*;
 
 use waw_operation::{Formation, Maneuver, Operation, OperationsPlugin, OrbitLength, WeaponCount, WeaponHandle};
 use waw_core::WawCorePlugins;
-use waw_earth::{EarthLevelOfDetailFocus, EarthOriginGrid, EarthPlugin, EarthResolution};
+use waw_earth::{EarthLevelOfDetailFocus, EarthOriginGrid, EarthPlugin};
 use waw_geocoord::GeoCoord;
 use waw_utils::consts::{EARTH_RADIUS, GEOSYNCHRONUS_ORBIT};
 use waw_weapons::WeaponsPlugin;
@@ -23,7 +23,6 @@ fn main() {
             OperationsPlugin,
             BigSpaceDefaultPlugins,
         ))
-        .insert_resource(EarthResolution::Low)
         .insert_resource(AmbientLight {
             brightness: 500.0,
             ..Default::default()

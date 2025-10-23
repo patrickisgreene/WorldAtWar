@@ -7,7 +7,7 @@ use big_space::camera::BigSpaceCameraInput;
 use big_space::prelude::*;
 
 use waw_core::WawCorePlugins;
-use waw_earth::{EarthLevelOfDetailFocus, EarthOriginGrid, EarthPlugin, EarthResolution};
+use waw_earth::{EarthLevelOfDetailFocus, EarthOriginGrid, EarthPlugin};
 use waw_utils::consts::{EARTH_RADIUS, GEOSYNCHRONUS_ORBIT};
 
 fn main() {
@@ -17,7 +17,6 @@ fn main() {
             EarthPlugin,
             BigSpaceDefaultPlugins,
         ))
-        .insert_resource(EarthResolution::Low)
         .insert_resource(AmbientLight {
             brightness: 500.0,
             ..Default::default()

@@ -47,10 +47,10 @@ impl Default for CityLabelConfig {
     fn default() -> Self {
         Self {
             // Spawn labels when camera is within 2 million meters (2000 km)
-            spawn_distance: 2_000_000.0,
+            spawn_distance: 1_000_000.0,
             // Despawn when camera moves beyond 2.5 million meters (2500 km)
             // Keep some hysteresis to prevent flickering, but not too much
-            despawn_distance: 2_500_000.0,
+            despawn_distance: 1_000_000.0,
             font_size: 16.0,
         }
     }
