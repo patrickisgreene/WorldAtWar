@@ -1,0 +1,14 @@
+[package]
+name = "waw_radar"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+bevy_ecs.workspace = true
+bevy_app.workspace = true
+bevy_math.workspace = true
+bevy_color.workspace = true
+bevy_gizmos.workspace = true
+bevy_transform.workspace = true
+
+big_space.workspace = true

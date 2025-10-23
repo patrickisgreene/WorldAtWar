@@ -9,6 +9,7 @@ use big_space::prelude::*;
 use waw_core::WawCorePlugins;
 use waw_countries::CountriesPlugin;
 use waw_earth::{EarthLevelOfDetailFocus, EarthOriginGrid, EarthPlugin, EarthResolution};
+use waw_radar::RadarPlugin;
 use waw_utils::consts::{EARTH_RADIUS, GEOSYNCHRONUS_ORBIT};
 
 fn main() {
@@ -17,6 +18,7 @@ fn main() {
             WawCorePlugins::from_args(),
             EarthPlugin,
             CountriesPlugin,
+            RadarPlugin,
             BigSpaceDefaultPlugins,
         ))
         .insert_resource(EarthResolution::Low)

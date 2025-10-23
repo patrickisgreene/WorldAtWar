@@ -117,10 +117,12 @@ pub fn manage_city_label_visibility(
             .add_children(&[icon_entity, label_entity]);
 
         // Mark the city as having a label (both marker and direct component)
+        // Also add the radar gizmo visibility marker
         commands
             .entity(city_entity)
             .insert(HasCityLabel)
-            .insert(CityLabelEntity(container));
+            .insert(CityLabelEntity(container))
+            .insert(waw_radar::RadarGizmoVisible);
     }
 
     // Check existing labels - despawn if too far OR behind horizon
@@ -150,11 +152,12 @@ pub fn manage_city_label_visibility(
             // Despawn the label entity directly
             commands.entity(has_label.0).despawn();
 
-            // Remove the marker and relationship from the city entity
+            // Remove the marker, relationship, and radar gizmo visibility from the city entity
             commands
                 .entity(city_entity)
                 .remove::<HasCityLabel>()
-                .remove::<CityLabelEntity>();
+                .remove::<CityLabelEntity>()
+                .remove::<waw_radar::RadarGizmoVisible>();
         }
     }
 }

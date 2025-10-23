@@ -6,6 +6,21 @@ use super::{Movement, Transformation};
 use serde::{Deserialize, Serialize};
 use bevy_asset::{AssetPath, prelude::*};
 
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Radar {
+    pub strength: f32,
+    pub shape: RadarShape,
+    #[serde(default)]
+    pub transformation: Transformation
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(untagged)]
+pub enum RadarShape {
+    Sphere(f64),
+    Cone { radius: f64, length: f64 }
+}
+
 #[derive(Serialize, Deserialize)]
 pub struct Model {
     pub file: PathBuf,
@@ -19,6 +34,7 @@ pub struct Weapon {
     pub name: String,
     pub movement: Movement,
     pub model: Model,
+    pub radar: Option<Radar>
 }
 
 impl Weapon {

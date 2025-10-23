@@ -23,6 +23,7 @@ big_space.workspace = true
 waw_geocoord = { path = "../geocoord" }
 waw_ron_asset = { path = "../ron_asset" }
 waw_earth = { path = "../earth" }
+waw_radar = { path = "../radar" }
 
 [dev-dependencies]
 bevy.workspace = true

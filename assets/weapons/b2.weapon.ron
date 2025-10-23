@@ -6,6 +6,13 @@ Weapon(
         speed: 50000.0,
         settings: [FollowHeightMap]
     ),
+    radar: Some(Radar(
+        strength: 1.0,
+        shape: Cone(
+            length: 100000.0,
+            radius: 100000.0,
+        )
+    )),
     model: Model(
         file: "b2/scene.gltf",
         transformation: Transformation(

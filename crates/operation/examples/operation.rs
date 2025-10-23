@@ -6,7 +6,7 @@ use bevy::{
 use big_space::camera::BigSpaceCameraInput;
 use big_space::prelude::*;
 
-use operation::{Formation, Maneuver, Operation, OperationsPlugin, OrbitLength, WeaponCount, WeaponHandle};
+use waw_operation::{Formation, Maneuver, Operation, OperationsPlugin, OrbitLength, WeaponCount, WeaponHandle};
 use waw_core::WawCorePlugins;
 use waw_earth::{EarthLevelOfDetailFocus, EarthOriginGrid, EarthPlugin, EarthResolution};
 use waw_geocoord::GeoCoord;
@@ -19,6 +19,7 @@ fn main() {
             WawCorePlugins::from_args(),
             EarthPlugin,
             WeaponsPlugin,
+            waw_radar::RadarPlugin,
             OperationsPlugin,
             BigSpaceDefaultPlugins,
         ))
@@ -139,13 +140,13 @@ fn spawn_operation(mut commands: Commands, assets: Res<AssetServer>, grid: Query
             Operation {
                 starting: GeoCoord::DALLAS,
                 maneuvers: vec![
-                    Maneuver::Stop(operation::StopBehavior::Orbit { center: GeoCoord::MIAMI, radius: 10_000.0, length: OrbitLength::Indefinite })
+                    Maneuver::Stop(waw_operation::StopBehavior::Orbit { center: GeoCoord::MIAMI, radius: 10_000.0, length: OrbitLength::Indefinite })
                 ]
             },
             WeaponCount(5),
             Formation::Chevron,
             WeaponHandle(assets.load("weapons/b2.weapon.ron"))
-        ));
+        )).id();
 
     commands.grid(grid_entity, grid.clone())
         .spawn_spatial((

@@ -1,5 +1,5 @@
 [package]
-name = "operation"
+name = "waw_operation"
 version.workspace = true
 edition.workspace = true
 
@@ -23,6 +23,7 @@ big_space.workspace = true
 bevy_hanabi.workspace = true
 
 waw_earth = { path = "../earth" }
+waw_radar = { path = "../radar" }
 waw_weapons = { path = "../weapons" }
 waw_geocoord = { path = "../geocoord" }
 
