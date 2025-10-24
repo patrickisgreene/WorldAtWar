@@ -1,9 +1,9 @@
-use bevy_ecs::prelude::*;
 use bevy_app::prelude::*;
 use bevy_asset::prelude::*;
-use bevy_reflect::TypePath;
-use serde::{Serialize, Deserialize};
 use bevy_color::{palettes::tailwind, prelude::*};
+use bevy_ecs::prelude::*;
+use bevy_reflect::TypePath;
+use serde::{Deserialize, Serialize};
 use waw_ron_asset::RonAssetPlugin;
 
 #[derive(Debug, PartialEq, Clone, Copy, Serialize, Deserialize)]
@@ -121,7 +121,7 @@ impl CombatantColor {
 #[derive(Asset, TypePath, Component, Serialize, Deserialize)]
 pub struct Combatant {
     pub color: CombatantColor,
-    pub countries: Vec<String>
+    pub countries: Vec<String>,
 }
 
 pub struct CombatantsPlugin;
@@ -136,15 +136,10 @@ impl Plugin for CombatantsPlugin {
 fn temp_load_combatants(mut commands: Commands) {
     commands.spawn(Combatant {
         color: CombatantColor::Red,
-        countries: vec![
-            "US".into(),
-            "CA".into()
-        ]
+        countries: vec!["US".into(), "CA".into()],
     });
     commands.spawn(Combatant {
         color: CombatantColor::Violet,
-        countries: vec![
-            "MX".into()
-        ]
+        countries: vec!["MX".into()],
     });
 }

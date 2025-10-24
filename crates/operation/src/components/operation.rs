@@ -12,7 +12,7 @@ pub struct OperationIndex(pub usize);
 #[require(OperationIndex)]
 pub struct Operation {
     pub starting: GeoCoord,
-    pub maneuvers: Vec<Maneuver>
+    pub maneuvers: Vec<Maneuver>,
 }
 
 #[derive(Debug, PartialEq, Clone)]
@@ -22,11 +22,11 @@ pub enum Maneuver {
         operation: Operation,
         formation: Formation,
         count: usize,
-        weapon: Handle<Weapon>
+        weapon: Handle<Weapon>,
     },
     StraightTo(GeoCoord),
     BallisticTo(GeoCoord),
-    Stop(StopBehavior)
+    Stop(StopBehavior),
 }
 
 #[derive(Debug, PartialEq, Clone)]
@@ -35,6 +35,6 @@ pub enum StopBehavior {
     Orbit {
         center: GeoCoord,
         radius: f64,
-        length: OrbitLength
-    }
+        length: OrbitLength,
+    },
 }

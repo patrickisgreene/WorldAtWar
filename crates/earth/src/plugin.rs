@@ -8,16 +8,14 @@ pub struct EarthPlugin;
 
 impl Plugin for EarthPlugin {
     fn build(&self, app: &mut App) {
-        app.add_plugins((
-            MaterialPlugin::<EarthMaterial>::default(),
-        ))
-        .add_systems(
-            Update,
-            (
-                systems::subdivide_chunks,
-                systems::merge_chunks.after(systems::subdivide_chunks),
-            ),
-        )
-        .add_systems(Startup, systems::spawn_base_tiles);
+        app.add_plugins((MaterialPlugin::<EarthMaterial>::default(),))
+            .add_systems(
+                Update,
+                (
+                    systems::subdivide_chunks,
+                    systems::merge_chunks.after(systems::subdivide_chunks),
+                ),
+            )
+            .add_systems(Startup, systems::spawn_base_tiles);
     }
 }

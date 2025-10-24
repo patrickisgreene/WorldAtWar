@@ -1,7 +1,7 @@
-mod weapon;
 mod movement;
 mod transformation;
+mod weapon;
 
-pub use weapon::*;
 pub use movement::*;
 pub use transformation::*;
+pub use weapon::*;

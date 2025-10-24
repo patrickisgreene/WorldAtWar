@@ -4,9 +4,9 @@ use waw_geocoord::GeoCoord;
 #[derive(Component)]
 #[require(OrbitAroundState)]
 pub struct OrbitAround {
-    pub center: GeoCoord, 
+    pub center: GeoCoord,
     pub radius: f64,
-    pub length: OrbitLength
+    pub length: OrbitLength,
 }
 
 #[derive(Component, Default)]

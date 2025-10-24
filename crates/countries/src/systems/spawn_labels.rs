@@ -1,11 +1,11 @@
+use bevy_asset::prelude::*;
 use bevy_color::palettes::tailwind::LIME_400;
 use bevy_ecs::prelude::*;
-use bevy_asset::prelude::*;
 use bevy_transform::prelude::*;
 use big_space::prelude::*;
 use waw_geocoord::GeoCoord;
 
-use crate::{labels::CityEntity, CountriesResource, data::Country};
+use crate::{CountriesResource, data::Country, labels::CityEntity};
 use waw_earth::EarthOriginGrid;
 
 /// System to spawn city entities from loaded country assets
@@ -66,7 +66,7 @@ pub fn spawn_city_entities(
                 waw_radar::Radar {
                     strength: 1.0,
                     rotation: Default::default(),
-                    translation: Default::default()
+                    translation: Default::default(),
                 },
                 Transform::from_translation(grid_offset),
             ));

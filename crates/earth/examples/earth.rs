@@ -30,10 +30,7 @@ fn main() {
             PreStartup,
             (spawn_grid, (spawn_lighting, spawn_camera).after(spawn_grid)),
         )
-        .add_systems(
-            Update,
-            escape_key_to_camera
-        )
+        .add_systems(Update, escape_key_to_camera)
         .run();
 }
 
@@ -51,12 +48,14 @@ pub fn spawn_grid(mut commands: Commands) {
     });
 }
 
-pub fn escape_key_to_camera(keys: Res<ButtonInput<KeyCode>>, mut input: ResMut<BigSpaceCameraInput>) {
+pub fn escape_key_to_camera(
+    keys: Res<ButtonInput<KeyCode>>,
+    mut input: ResMut<BigSpaceCameraInput>,
+) {
     if keys.just_pressed(KeyCode::Escape) {
         input.defaults_disabled = !input.defaults_disabled;
     }
 }
-
 
 pub fn spawn_lighting(mut commands: Commands, grid: Query<(Entity, &Grid), With<EarthOriginGrid>>) {
     let Ok((grid_entity, grid)) = grid.single() else {

@@ -1,6 +1,6 @@
 mod components;
-mod systems;
 mod plugin;
+mod systems;
 
-pub use plugin::*;
 pub use components::*;
+pub use plugin::*;

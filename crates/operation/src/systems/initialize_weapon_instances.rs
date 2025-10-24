@@ -35,7 +35,8 @@ pub fn initialize_weapon_instances(
             let rotation = op.starting.rotation();
 
             // Set the correct position for the intitial starting point.
-            let root_entity = commands.entity(entity)
+            let root_entity = commands
+                .entity(entity)
                 .insert((
                     cell,
                     Transform::from_translation(trans).with_rotation(rotation),
@@ -45,14 +46,19 @@ pub fn initialize_weapon_instances(
             if let Some(radar) = weapon.radar.as_ref() {
                 let transform = radar.transformation.transform(Vec3::ZERO);
                 let shape = match radar.shape {
-                    waw_weapons::data::RadarShape::Cone { radius, length } => waw_radar::RadarShape::Cone { radius, length },
-                    waw_weapons::data::RadarShape::Sphere(radius) => waw_radar::RadarShape::Sphere { radius }
+                    waw_weapons::data::RadarShape::Cone { radius, length } => {
+                        waw_radar::RadarShape::Cone { radius, length }
+                    }
+                    waw_weapons::data::RadarShape::Sphere(radius) => {
+                        waw_radar::RadarShape::Sphere { radius }
+                    }
                 };
-                commands.entity(root_entity)
+                commands
+                    .entity(root_entity)
                     .insert(waw_radar::Radar {
                         strength: radar.strength,
                         rotation: transform.rotation,
-                        translation: transform.translation
+                        translation: transform.translation,
                     })
                     .insert(shape)
                     .insert(waw_radar::RadarGizmoVisible);

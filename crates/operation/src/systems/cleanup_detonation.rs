@@ -6,7 +6,7 @@ use crate::Detonation;
 pub fn cleanup_detonation(
     mut commands: Commands,
     time: Res<Time>,
-    mut query: Query<(Entity, &mut Detonation)>
+    mut query: Query<(Entity, &mut Detonation)>,
 ) {
     for (entity, mut detonation) in query.iter_mut() {
         detonation.timer.tick(time.delta());

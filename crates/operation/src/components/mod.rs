@@ -1,15 +1,15 @@
+mod ballistic;
+mod detonate;
 mod formation;
-mod weapon;
+mod operation;
 mod orbit;
 mod travel;
-mod ballistic;
-mod operation;
-mod detonate;
+mod weapon;
 
 pub use ballistic::*;
-pub use formation::*;
-pub use weapon::*;
-pub use operation::*;
-pub use travel::*;
-pub use orbit::*;
 pub use detonate::*;
+pub use formation::*;
+pub use operation::*;
+pub use orbit::*;
+pub use travel::*;
+pub use weapon::*;

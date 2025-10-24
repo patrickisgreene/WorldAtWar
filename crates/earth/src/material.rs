@@ -1,7 +1,7 @@
 use bevy_asset::prelude::*;
-use bevy_ecs::prelude::*;
 use bevy_color::prelude::*;
-use bevy_image::{prelude::*, ImageLoaderSettings, ImageSamplerDescriptor};
+use bevy_ecs::prelude::*;
+use bevy_image::{ImageLoaderSettings, ImageSamplerDescriptor, prelude::*};
 use bevy_pbr::{ExtendedMaterial, MaterialExtension, prelude::*};
 use bevy_reflect::prelude::*;
 use bevy_render::render_resource::AsBindGroup;
@@ -82,13 +82,16 @@ impl EarthMaterialHandle {
         materials: &mut Assets<EarthMaterial>,
         resolution: EarthResolution,
     ) -> EarthMaterialHandle {
-        let water_normal = assets.load_with_settings(WATER_NORMAL_ASSET_PATH, |settings: &mut ImageLoaderSettings| {
-            settings.sampler = bevy_image::ImageSampler::Descriptor(ImageSamplerDescriptor {
-                address_mode_u: bevy_image::ImageAddressMode::Repeat,
-                address_mode_v: bevy_image::ImageAddressMode::Repeat,
-                 ..Default::default()
-            });
-        });
+        let water_normal = assets.load_with_settings(
+            WATER_NORMAL_ASSET_PATH,
+            |settings: &mut ImageLoaderSettings| {
+                settings.sampler = bevy_image::ImageSampler::Descriptor(ImageSamplerDescriptor {
+                    address_mode_u: bevy_image::ImageAddressMode::Repeat,
+                    address_mode_v: bevy_image::ImageAddressMode::Repeat,
+                    ..Default::default()
+                });
+            },
+        );
 
         let base_color = assets.load(format!("textures/earth/{}/base_color.png", resolution));
         let normal_map = assets.load(format!("textures/earth/{}/normal_map.png", resolution));
@@ -97,7 +100,10 @@ impl EarthMaterialHandle {
         let distance_map = assets.load(format!("textures/earth/{}/distance_map.png", resolution));
         let road_map = assets.load(format!("textures/earth/{}/road_mask.png", resolution));
         let lake_map = assets.load(format!("textures/earth/{}/lake_mask.png", resolution));
-        let night_base_color = assets.load(format!("textures/earth/{}/night_base_color.png", resolution));
+        let night_base_color = assets.load(format!(
+            "textures/earth/{}/night_base_color.png",
+            resolution
+        ));
         let chloro_map = assets.load(format!("textures/earth/{}/chlorophyll.png", resolution));
 
         EarthMaterialHandle(materials.add(EarthMaterial {

@@ -1,16 +1,16 @@
 use bevy_asset::prelude::*;
 use bevy_ecs::prelude::*;
+use bevy_image::prelude::*;
 use bevy_internal::log::warn;
 use bevy_math::DVec3;
 use bevy_time::prelude::*;
-use bevy_image::prelude::*;
 use bevy_transform::prelude::*;
 
 use big_space::prelude::*;
 
-use waw_geocoord::GeoCoord;
 use waw_earth::EarthOriginGrid;
 use waw_earth::geometry::EarthHeightMap;
+use waw_geocoord::GeoCoord;
 use waw_weapons::data::{MovementSettings, Weapon};
 
 use crate::*;
@@ -59,8 +59,10 @@ pub fn travel_straight_to(
                 // Entities should only pass the query filter if
                 // they are currently in the `TravelTo` Maneuver
                 // so the other variants are unreachable.
-                Maneuver::Stop(_) | Maneuver::Release { .. } |
-                Maneuver::BallisticTo(_) | Maneuver::Detonate => {}
+                Maneuver::Stop(_)
+                | Maneuver::Release { .. }
+                | Maneuver::BallisticTo(_)
+                | Maneuver::Detonate => {}
                 Maneuver::StraightTo(to) => {
                     if let Some(start) = state.start {
                         let altitude_offset = DVec3::new(0.0, weapon.movement.altitude, 0.0);
@@ -100,8 +102,15 @@ pub fn travel_straight_to(
                             // Lerp between start and end position
                             let current_pos = start_pos.slerp(end_pos, state.progress as f64);
 
-                            let height_map_height = if weapon.movement.settings.contains(&MovementSettings::FollowHeightMap) {
-                                 sample_texture(images.get(&heightmap.get()), GeoCoord::from_world(current_pos).uv()) * 500000.0
+                            let height_map_height = if weapon
+                                .movement
+                                .settings
+                                .contains(&MovementSettings::FollowHeightMap)
+                            {
+                                sample_texture(
+                                    images.get(&heightmap.get()),
+                                    GeoCoord::from_world(current_pos).uv(),
+                                ) * 500000.0
                             } else {
                                 0.0
                             };
@@ -127,7 +136,7 @@ pub fn travel_straight_to(
                             let base_forward_dvec = DVec3::new(
                                 base_forward.x as f64,
                                 base_forward.y as f64,
-                                base_forward.z as f64
+                                base_forward.z as f64,
                             );
 
                             // Calculate angle between base forward and desired forward
@@ -141,7 +150,7 @@ pub fn travel_straight_to(
                             // Create heading rotation around the up axis
                             let heading_rotation = bevy_math::Quat::from_axis_angle(
                                 bevy_math::Vec3::new(up.x as f32, up.y as f32, up.z as f32),
-                                (angle * rotation_dir) as f32
+                                (angle * rotation_dir) as f32,
                             );
 
                             // Combine base rotation with heading rotation

@@ -1,13 +1,18 @@
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 
-use crate::processing::generate_scaled_image;
 use crate::args::{CliArgs, EarthCommand};
+use crate::processing::generate_scaled_image;
 
 pub fn handle_chlorophyll(args: &CliArgs) {
-    let EarthCommand::Chlorophyll { input, output, resolutions } = &args.command else {
+    let EarthCommand::Chlorophyll {
+        input,
+        output,
+        resolutions,
+    } = &args.command
+    else {
         unreachable!()
     };
-    
+
     print!("Processing chlorophyll...");
 
     resolutions.par_iter().for_each(|resolution| {

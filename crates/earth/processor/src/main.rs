@@ -51,7 +51,11 @@ fn main() {
                 urban_areas_input_default,
                 handle_urban_areas_mask
             );
-            run_subcommand!(NightBaseColor, night_base_color_input_default, handle_night_base_color);
+            run_subcommand!(
+                NightBaseColor,
+                night_base_color_input_default,
+                handle_night_base_color
+            );
         }
     }
 }

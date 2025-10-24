@@ -8,5 +8,5 @@ pub struct BallisticTo(pub GeoCoord);
 #[derive(Default, Component)]
 pub struct BallisticToState {
     pub progress: f64,
-    pub start: Option<GeoCoord>
+    pub start: Option<GeoCoord>,
 }

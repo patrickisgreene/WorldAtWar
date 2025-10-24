@@ -1,6 +1,13 @@
 use image::{ImageBuffer, Luma};
 
-pub fn draw_line(img: &mut ImageBuffer<Luma<u8>, Vec<u8>>, x0: i32, y0: i32, x1: i32, y1: i32, color: Luma<u8>) {
+pub fn draw_line(
+    img: &mut ImageBuffer<Luma<u8>, Vec<u8>>,
+    x0: i32,
+    y0: i32,
+    x1: i32,
+    y1: i32,
+    color: Luma<u8>,
+) {
     let width = img.width() as i32;
     let height = img.height() as i32;
 

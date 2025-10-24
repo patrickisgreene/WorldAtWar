@@ -65,7 +65,7 @@ pub fn generate_chunk_mesh(chunk: &Chunk, heightmap: Option<&Image>) -> (Mesh, D
             let normal = coord.surface_normal();
 
             // Convert cube face position to equirectangular UV for NASA Blue Marble texture
-            let texture_uv = coord.uv();//cube_to_equirectangular_uv(cube_pos);
+            let texture_uv = coord.uv(); //cube_to_equirectangular_uv(cube_pos);
 
             let elevation = sample_texture(heightmap, texture_uv) as f64 * 500000.0;
 

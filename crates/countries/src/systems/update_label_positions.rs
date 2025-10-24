@@ -1,8 +1,8 @@
-use bevy_ecs::prelude::*;
 use bevy_camera::prelude::*;
+use bevy_ecs::prelude::*;
 use bevy_transform::prelude::*;
-use big_space::prelude::*;
 use bevy_ui::prelude::*;
+use big_space::prelude::*;
 use waw_earth::EarthLevelOfDetailFocus;
 
 use crate::labels::CityLabel;
@@ -12,9 +12,14 @@ use crate::labels::CityLabel;
 pub fn update_city_label_positions(
     grid_query: Query<(Entity, &Grid)>,
     mut labels: Query<(&mut Node, &CityLabel, &mut Visibility)>,
-    camera_query: Query<(&Camera, &GlobalTransform, &CellCoord, &Transform), (With<Camera3d>, With<EarthLevelOfDetailFocus>)>,
+    camera_query: Query<
+        (&Camera, &GlobalTransform, &CellCoord, &Transform),
+        (With<Camera3d>, With<EarthLevelOfDetailFocus>),
+    >,
 ) {
-    let Ok((camera, camera_global_transform, camera_cell, camera_transform)) = camera_query.single() else {
+    let Ok((camera, camera_global_transform, camera_cell, camera_transform)) =
+        camera_query.single()
+    else {
         return;
     };
 
@@ -54,7 +59,8 @@ pub fn update_city_label_positions(
         let city_pos_relative_to_camera_cell = cell_offset_in_world + city_offset.as_dvec3();
 
         // Now convert to local camera space by subtracting camera's local position
-        let pos_in_camera_cell = city_pos_relative_to_camera_cell - camera_transform.translation.as_dvec3();
+        let pos_in_camera_cell =
+            city_pos_relative_to_camera_cell - camera_transform.translation.as_dvec3();
 
         // Convert to f32 Vec3 for projection
         let local_pos = pos_in_camera_cell.as_vec3();

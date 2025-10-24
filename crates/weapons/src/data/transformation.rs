@@ -1,6 +1,6 @@
 use bevy_math::prelude::*;
 use bevy_transform::prelude::*;
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 
 mod vec3_serde {
     use bevy_math::Vec3;

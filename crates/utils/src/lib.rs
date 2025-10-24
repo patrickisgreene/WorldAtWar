@@ -1,2 +1,2 @@
-pub mod consts;
 pub mod color;
+pub mod consts;

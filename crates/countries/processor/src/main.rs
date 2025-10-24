@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
-use std::fs;
-use std::error::Error;
 use std::collections::HashSet;
+use std::error::Error;
+use std::fs;
 
 #[derive(Debug, Serialize, Deserialize)]
 struct Coordinates {
@@ -103,7 +103,11 @@ async fn fetch_cities(country_code: &str) -> Result<Vec<City>, Box<dyn Error>> {
 
         // Check if we got a successful response
         if !response.status().is_success() {
-            eprintln!("  Warning: API returned status {} for page {}", response.status(), page);
+            eprintln!(
+                "  Warning: API returned status {} for page {}",
+                response.status(),
+                page
+            );
             break;
         }
 
@@ -146,13 +150,15 @@ async fn fetch_cities(country_code: &str) -> Result<Vec<City>, Box<dyn Error>> {
 }
 
 async fn process_country(country: &RestCountryResponse) -> Result<(), Box<dyn Error>> {
-    let capital_name = country.capital
+    let capital_name = country
+        .capital
         .as_ref()
         .and_then(|caps| caps.first())
         .map(|s| s.as_str())
         .unwrap_or("");
-    
-    let capital_coords = country.capital_info
+
+    let capital_coords = country
+        .capital_info
         .as_ref()
         .and_then(|info| info.latlng.as_ref())
         .and_then(|coords| {
@@ -165,22 +171,27 @@ async fn process_country(country: &RestCountryResponse) -> Result<(), Box<dyn Er
                 None
             }
         });
-    
+
     // Fetch cities for this country
     let mut cities = fetch_cities(&country.code).await.unwrap_or_default();
-    
+
     // If no cities found or capital not in list, add capital manually
     let capital_index = if !capital_name.is_empty() {
-        let cap_idx = cities.iter().position(|c| c.name.to_lowercase() == capital_name.to_lowercase());
+        let cap_idx = cities
+            .iter()
+            .position(|c| c.name.to_lowercase() == capital_name.to_lowercase());
 
         if let Some(idx) = cap_idx {
             idx
         } else {
             // Add capital to the beginning of the list
-            cities.insert(0, City {
-                name: capital_name.to_string(),
-                coordinates: capital_coords.unwrap_or(Coordinates { lat: 0.0, lon: 0.0 }),
-            });
+            cities.insert(
+                0,
+                City {
+                    name: capital_name.to_string(),
+                    coordinates: capital_coords.unwrap_or(Coordinates { lat: 0.0, lon: 0.0 }),
+                },
+            );
             0
         }
     } else if !cities.is_empty() {
@@ -193,7 +204,7 @@ async fn process_country(country: &RestCountryResponse) -> Result<(), Box<dyn Er
         });
         0
     };
-    
+
     let country_data = CountryData {
         name: country.name.common.clone(),
         code: country.code.clone(),
@@ -201,12 +212,16 @@ async fn process_country(country: &RestCountryResponse) -> Result<(), Box<dyn Er
         capital: capital_index,
         cities,
     };
-    
+
     // Serialize to RON format
     let ron_string = ron::ser::to_string_pretty(&country_data, ron::ser::PrettyConfig::default())?;
-    
+
     // Write to file
-    let filename = format!("{}/../../../assets/countries/{}.country.ron", env!("CARGO_MANIFEST_DIR"), country.code);
+    let filename = format!(
+        "{}/../../../assets/countries/{}.country.ron",
+        env!("CARGO_MANIFEST_DIR"),
+        country.code
+    );
     fs::write(&filename, ron_string)?;
 
     Ok(())
@@ -229,7 +244,10 @@ async fn main() -> Result<(), Box<dyn Error>> {
         .filter(|country| !existing.contains(&country.code))
         .collect();
 
-    println!("Need to process {} new countries", countries_to_process.len());
+    println!(
+        "Need to process {} new countries",
+        countries_to_process.len()
+    );
 
     if countries_to_process.is_empty() {
         println!("All countries already processed!");
@@ -238,7 +256,12 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     // Process only new countries
     for (idx, country) in countries_to_process.iter().enumerate() {
-        print!("[{}/{}] Processing {}... ", idx + 1, countries_to_process.len(), country.code);
+        print!(
+            "[{}/{}] Processing {}... ",
+            idx + 1,
+            countries_to_process.len(),
+            country.code
+        );
         match process_country(country).await {
             Ok(_) => println!("✓"),
             Err(e) => println!("✗ Error: {}", e),

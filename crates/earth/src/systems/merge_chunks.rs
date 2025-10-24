@@ -6,7 +6,9 @@ use bevy_transform::prelude::*;
 use big_space::prelude::*;
 
 use crate::{
-    detail::{distance_to_lod_level, Branch, CameraQuery, Leaf, UrbanEntityFor, CHILDREN_PER_CHUNK},
+    detail::{
+        Branch, CHILDREN_PER_CHUNK, CameraQuery, Leaf, UrbanEntityFor, distance_to_lod_level,
+    },
     geometry::Chunk,
 };
 

@@ -7,7 +7,9 @@ use big_space::prelude::*;
 use waw_utils::color::random_color;
 
 use crate::{
-    geometry::{generate_chunk_mesh, Chunk, CubeFace, EarthHeightMap, EarthUrbanAreas}, material::EarthMaterial, EarthMaterialHandle, EarthOriginGrid, EarthResolution
+    EarthMaterialHandle, EarthOriginGrid, EarthResolution,
+    geometry::{Chunk, CubeFace, EarthHeightMap, EarthUrbanAreas, generate_chunk_mesh},
+    material::EarthMaterial,
 };
 
 pub fn spawn_base_tiles(
@@ -18,7 +20,7 @@ pub fn spawn_base_tiles(
     grid: Query<(Entity, &Grid), With<EarthOriginGrid>>,
     mut materials: ResMut<Assets<EarthMaterial>>,
 ) {
-    let res = resolution.map(|x|x.clone()).unwrap_or_default();
+    let res = resolution.map(|x| x.clone()).unwrap_or_default();
     commands.insert_resource(EarthHeightMap::create(&assets, res));
     commands.insert_resource(EarthUrbanAreas::create(&assets, res));
 

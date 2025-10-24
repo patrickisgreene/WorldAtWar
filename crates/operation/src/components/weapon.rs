@@ -1,5 +1,5 @@
-use bevy_ecs::prelude::*;
 use bevy_asset::prelude::*;
+use bevy_ecs::prelude::*;
 use bevy_internal::prelude::*;
 
 use waw_weapons::data::Weapon;

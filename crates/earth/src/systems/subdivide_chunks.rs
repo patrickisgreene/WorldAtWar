@@ -9,9 +9,9 @@ use big_space::prelude::*;
 use waw_utils::color::random_color;
 
 use crate::{
-    detail::{distance_to_lod_level, CameraQuery, Leaf, UrbanEntityFor},
-    geometry::{generate_chunk_mesh, Chunk, EarthHeightMap},
-    EarthMaterialHandle
+    EarthMaterialHandle,
+    detail::{CameraQuery, Leaf, UrbanEntityFor, distance_to_lod_level},
+    geometry::{Chunk, EarthHeightMap, generate_chunk_mesh},
 };
 
 #[derive(Component, Default, Debug, PartialEq, Clone, Copy)]

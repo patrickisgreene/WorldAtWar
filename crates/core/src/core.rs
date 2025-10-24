@@ -35,7 +35,6 @@ impl Default for WawCorePlugins {
 
 impl PluginGroup for WawCorePlugins {
     fn build(self) -> PluginGroupBuilder {
-        PluginGroupBuilder::start::<Self>()
-            .add(WawDefaultPlugin::from(&self))
+        PluginGroupBuilder::start::<Self>().add(WawDefaultPlugin::from(&self))
     }
 }

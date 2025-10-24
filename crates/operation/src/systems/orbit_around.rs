@@ -1,18 +1,21 @@
 use bevy_asset::prelude::*;
 use bevy_ecs::prelude::*;
+use bevy_image::prelude::*;
 use bevy_internal::log::warn;
 use bevy_math::DVec3;
 use bevy_time::prelude::*;
 use bevy_transform::prelude::*;
-use bevy_image::prelude::*;
 
 use big_space::prelude::*;
-use waw_weapons::data::{MovementSettings, Weapon};
 use waw_earth::geometry::EarthHeightMap;
+use waw_weapons::data::{MovementSettings, Weapon};
 
 use waw_geocoord::GeoCoord;
 
-use crate::{Maneuver, Operation, OperationIndex, OrbitAround, OrbitAroundState, OrbitLength, StopBehavior, WeaponHandle};
+use crate::{
+    Maneuver, Operation, OperationIndex, OrbitAround, OrbitAroundState, OrbitLength, StopBehavior,
+    WeaponHandle,
+};
 
 pub fn orbit_around(
     grids: Grids,
@@ -43,10 +46,16 @@ pub fn orbit_around(
                 // Entities should only pass the query filter if
                 // they are currently in the `Orbit` Maneuver
                 // so the other variants are unreachable.
-                Maneuver::Release { .. } |
-                Maneuver::StraightTo(_) | Maneuver::Stop(StopBehavior::Stop) |
-                Maneuver::BallisticTo(_) | Maneuver::Detonate => unreachable!(),
-                Maneuver::Stop(StopBehavior::Orbit { center, radius, length }) => {
+                Maneuver::Release { .. }
+                | Maneuver::StraightTo(_)
+                | Maneuver::Stop(StopBehavior::Stop)
+                | Maneuver::BallisticTo(_)
+                | Maneuver::Detonate => unreachable!(),
+                Maneuver::Stop(StopBehavior::Orbit {
+                    center,
+                    radius,
+                    length,
+                }) => {
                     let altitude_offset = DVec3::new(0.0, weapon.movement.altitude, 0.0);
 
                     // Convert speed from km/h to m/s
@@ -85,12 +94,20 @@ pub fn orbit_around(
                     let tangent2 = center_normal.cross(tangent1).normalize();
 
                     // Calculate current position on the orbit circle
-                    let offset = tangent1 * (angle.cos() * radius) + tangent2 * (angle.sin() * radius);
+                    let offset =
+                        tangent1 * (angle.cos() * radius) + tangent2 * (angle.sin() * radius);
                     let current_pos = center_pos + offset;
 
                     // Apply height map offset if enabled
-                    let height_map_height = if weapon.movement.settings.contains(&MovementSettings::FollowHeightMap) {
-                        sample_texture(images.get(&heightmap.get()), GeoCoord::from_world(current_pos).uv())
+                    let height_map_height = if weapon
+                        .movement
+                        .settings
+                        .contains(&MovementSettings::FollowHeightMap)
+                    {
+                        sample_texture(
+                            images.get(&heightmap.get()),
+                            GeoCoord::from_world(current_pos).uv(),
+                        )
                     } else {
                         0.0
                     };
@@ -110,14 +127,15 @@ pub fn orbit_around(
                     let up = adjusted_pos.normalize(); // Normal to Earth's surface
 
                     // Project forward direction onto the tangent plane
-                    let forward_tangent = (forward_normalized - up * forward_normalized.dot(up)).normalize();
+                    let forward_tangent =
+                        (forward_normalized - up * forward_normalized.dot(up)).normalize();
 
                     // Calculate the heading rotation
                     let base_forward = base_rotation * bevy_math::Vec3::Z;
                     let base_forward_dvec = DVec3::new(
                         base_forward.x as f64,
                         base_forward.y as f64,
-                        base_forward.z as f64
+                        base_forward.z as f64,
                     );
 
                     let cos_angle = base_forward_dvec.dot(forward_tangent).clamp(-1.0, 1.0);
@@ -128,7 +146,7 @@ pub fn orbit_around(
 
                     let heading_rotation = bevy_math::Quat::from_axis_angle(
                         bevy_math::Vec3::new(up.x as f32, up.y as f32, up.z as f32),
-                        (heading_angle * rotation_dir) as f32
+                        (heading_angle * rotation_dir) as f32,
                     );
 
                     trans.rotation = heading_rotation * base_rotation;

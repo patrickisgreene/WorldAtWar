@@ -57,11 +57,15 @@ pub fn manage_city_label_visibility(
             continue;
         }
 
-        let (bg, highlight) = combatants.into_iter()
+        let (bg, highlight) = combatants
+            .into_iter()
             .filter(|c| c.countries.contains(&city.country_code))
-            .map(|x|(x.color.background(), x.color.highlight()))
+            .map(|x| (x.color.background(), x.color.highlight()))
             .next()
-            .unwrap_or((CombatantColor::Neutral.background(), CombatantColor::Neutral.highlight()));
+            .unwrap_or((
+                CombatantColor::Neutral.background(),
+                CombatantColor::Neutral.highlight(),
+            ));
 
         let container = commands
             .spawn((

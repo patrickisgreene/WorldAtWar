@@ -1,11 +1,10 @@
+use bevy_asset::{LoadedFolder, prelude::*};
 use bevy_ecs::prelude::*;
-use bevy_asset::{prelude::*, LoadedFolder};
 
-
-mod plugin;
-mod systems;
 pub mod data;
 pub mod labels;
+mod plugin;
+mod systems;
 
 pub use plugin::CountriesPlugin;
 

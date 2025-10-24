@@ -3,7 +3,7 @@ use std::str::FromStr;
 #[derive(Debug, PartialEq, Clone, Copy)]
 pub struct ImageResolution {
     pub height: u32,
-    pub width: u32
+    pub width: u32,
 }
 
 impl std::fmt::Display for ImageResolution {
@@ -14,7 +14,7 @@ impl std::fmt::Display for ImageResolution {
 
 pub enum ImageResolutionError {
     InvalidSeperator,
-    Int(std::num::ParseIntError)
+    Int(std::num::ParseIntError),
 }
 
 impl From<std::num::ParseIntError> for ImageResolutionError {
@@ -35,7 +35,7 @@ impl FromStr for ImageResolution {
 
         Ok(ImageResolution {
             width: u32::from_str(chunks[0])?,
-            height: u32::from_str(chunks[1])?
+            height: u32::from_str(chunks[1])?,
         })
     }
 }

@@ -1,15 +1,11 @@
-use std::fmt;
-use bevy_reflect::prelude::*;
 use bevy_derive::{Deref, DerefMut};
+use bevy_math::{DVec2, DVec3, prelude::*};
+use bevy_reflect::prelude::*;
 use serde::{Deserialize, Serialize};
-use bevy_math::{DVec3, DVec2, prelude::*};
+use std::fmt;
 
 /// Geographic Latitude & Longtitude coordinate.
-#[derive(
-    Reflect,
-    Debug, PartialEq, Clone, Copy,
-    Deref, DerefMut, Serialize, Deserialize,
-)]
+#[derive(Reflect, Debug, PartialEq, Clone, Copy, Deref, DerefMut, Serialize, Deserialize)]
 pub struct GeoCoord(DVec2);
 
 impl fmt::Display for GeoCoord {
@@ -26,14 +22,14 @@ impl GeoCoord {
     pub const BERLIN: Self = Self(DVec2::new(52.504043, 13.393236));
     pub const KYIV: Self = Self(DVec2::new(50.45466, 30.5238));
     pub const MOSCOW: Self = Self(DVec2::new(55.751244, 37.618423));
-    pub const CAIRO: Self = Self(DVec2::new(	30.033333, 31.233334));
+    pub const CAIRO: Self = Self(DVec2::new(30.033333, 31.233334));
     pub const PERTH: Self = Self(DVec2::new(-31.9522, 115.8614));
     pub const TOKYO: Self = Self(DVec2::new(35.652832, 139.839478));
-    
+
     pub const HOUSTON: Self = Self(DVec2::new(29.749907, -95.358421));
     pub const DALLAS: Self = Self(DVec2::new(32.779167, -96.808891));
     pub const MIAMI: Self = Self(DVec2::new(25.761681, -80.191788));
-    pub const WASHINGTON_DC: Self = Self(DVec2::new(38.895,-77.0366));
+    pub const WASHINGTON_DC: Self = Self(DVec2::new(38.895, -77.0366));
     pub const SEATTLE: Self = Self(DVec2::new(47.608013, -122.335167));
     pub const MEMPHIS: Self = Self(DVec2::new(35.117500, -89.971107));
 }
@@ -113,7 +109,6 @@ impl GeoCoord {
 
 /// Math
 impl GeoCoord {
-
     /// Calculate the great-circle distance between two coordinates using the Haversine formula.
     /// Returns the distance in meters.
     pub fn distance(&self, other: Self) -> f64 {
@@ -144,7 +139,8 @@ impl GeoCoord {
         let bx = lat2.cos() * delta_lon.cos();
         let by = lat2.cos() * delta_lon.sin();
 
-        let lat_mid = (lat1.sin() + lat2.sin()).atan2(((lat1.cos() + bx).powi(2) + by.powi(2)).sqrt());
+        let lat_mid =
+            (lat1.sin() + lat2.sin()).atan2(((lat1.cos() + bx).powi(2) + by.powi(2)).sqrt());
         let lon_mid = lon1 + by.atan2(lat1.cos() + bx);
 
         Self::from_gps(lat_mid.to_degrees(), lon_mid.to_degrees())
@@ -196,13 +192,10 @@ mod tests {
             GeoCoord::SEATTLE,
             GeoCoord::PARIS,
             GeoCoord::PERTH,
-            GeoCoord::LONDON
+            GeoCoord::LONDON,
         ];
         for city in cities {
-            assert_eq!(
-                city,
-                GeoCoord::from_world(city.world_pos()),
-            );
+            assert_eq!(city, GeoCoord::from_world(city.world_pos()),);
         }
     }
 
@@ -223,20 +216,31 @@ mod tests {
         let dist_to_paris = midpoint.distance(paris);
         let dist_to_london = midpoint.distance(london);
         let diff = (dist_to_paris - dist_to_london).abs();
-        assert!(diff < 100.0, "Midpoint should be equidistant from both points. Difference: {} meters", diff);
+        assert!(
+            diff < 100.0,
+            "Midpoint should be equidistant from both points. Difference: {} meters",
+            diff
+        );
 
         // The sum of distances from midpoint to both points should equal the total distance
         let total_distance = paris.distance(london);
         let sum_of_halves = dist_to_paris + dist_to_london;
         let distance_diff = (total_distance - sum_of_halves).abs();
-        assert!(distance_diff < 1.0, "Sum of half distances should match total. Diff: {} meters", distance_diff);
+        assert!(
+            distance_diff < 1.0,
+            "Sum of half distances should match total. Diff: {} meters",
+            distance_diff
+        );
 
         // Test midpoint is symmetric (a.midpoint(b) == b.midpoint(a))
         let midpoint_reverse = london.midpoint(paris);
         let lat_diff = (midpoint.0.x - midpoint_reverse.0.x).abs();
         let lon_diff = (midpoint.0.y - midpoint_reverse.0.y).abs();
         assert!(lat_diff < 0.0001, "Midpoint should be symmetric (latitude)");
-        assert!(lon_diff < 0.0001, "Midpoint should be symmetric (longitude)");
+        assert!(
+            lon_diff < 0.0001,
+            "Midpoint should be symmetric (longitude)"
+        );
 
         // Test with a longer distance (Miami to Tokyo)
         let miami = GeoCoord::MIAMI;
@@ -246,11 +250,18 @@ mod tests {
         let dist_miami = mid_pacific.distance(miami);
         let dist_tokyo = mid_pacific.distance(tokyo);
         let diff_pacific = (dist_miami - dist_tokyo).abs();
-        assert!(diff_pacific < 100.0, "Midpoint across Pacific should be equidistant. Difference: {} meters", diff_pacific);
+        assert!(
+            diff_pacific < 100.0,
+            "Midpoint across Pacific should be equidistant. Difference: {} meters",
+            diff_pacific
+        );
 
         // Test midpoint with the same point (should return the same point)
         let same_point = paris.midpoint(paris);
-        assert_eq!(same_point, paris, "Midpoint of same point should return itself");
+        assert_eq!(
+            same_point, paris,
+            "Midpoint of same point should return itself"
+        );
     }
 
     #[test]
@@ -265,8 +276,16 @@ mod tests {
         let result = start.lerp_to(end, 1.0);
         let diff_lat = (result.0.x - end.0.x).abs();
         let diff_lon = (result.0.y - end.0.y).abs();
-        assert!(diff_lat < 0.0001, "Latitude difference too large: {}", diff_lat);
-        assert!(diff_lon < 0.0001, "Longitude difference too large: {}", diff_lon);
+        assert!(
+            diff_lat < 0.0001,
+            "Latitude difference too large: {}",
+            diff_lat
+        );
+        assert!(
+            diff_lon < 0.0001,
+            "Longitude difference too large: {}",
+            diff_lon
+        );
 
         // Test that t=0.5 returns approximately the midpoint
         let midpoint = start.midpoint(end);
@@ -275,8 +294,16 @@ mod tests {
         // Should be very close (within a small tolerance due to floating-point precision)
         let diff_lat = (midpoint.0.x - lerp_mid.0.x).abs();
         let diff_lon = (midpoint.0.y - lerp_mid.0.y).abs();
-        assert!(diff_lat < 0.0001, "Latitude difference too large: {}", diff_lat);
-        assert!(diff_lon < 0.0001, "Longitude difference too large: {}", diff_lon);
+        assert!(
+            diff_lat < 0.0001,
+            "Latitude difference too large: {}",
+            diff_lat
+        );
+        assert!(
+            diff_lon < 0.0001,
+            "Longitude difference too large: {}",
+            diff_lon
+        );
 
         // Test that interpolated points lie on the great circle path
         // The distances should add up correctly
@@ -288,10 +315,18 @@ mod tests {
         // Check that the sum of distances is approximately equal to total distance
         let distance_sum = first_quarter + remaining;
         let diff = (total_distance - distance_sum).abs();
-        assert!(diff < 1.0, "Distance sum should match total distance. Diff: {} meters", diff);
+        assert!(
+            diff < 1.0,
+            "Distance sum should match total distance. Diff: {} meters",
+            diff
+        );
 
         // Verify the quarter point is approximately 25% of the way
         let ratio = first_quarter / total_distance;
-        assert!((ratio - 0.25).abs() < 0.001, "Quarter point ratio incorrect: {}", ratio);
+        assert!(
+            (ratio - 0.25).abs() < 0.001,
+            "Quarter point ratio incorrect: {}",
+            ratio
+        );
     }
 }

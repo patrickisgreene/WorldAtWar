@@ -27,7 +27,7 @@ pub enum EarthResolution {
     #[default]
     High,
     Ultra,
-    Max
+    Max,
 }
 
 impl fmt::Display for EarthResolution {
@@ -37,7 +37,7 @@ impl fmt::Display for EarthResolution {
             EarthResolution::Mid => write!(f, "5400x2700"),
             EarthResolution::High => write!(f, "8100x4050"),
             EarthResolution::Ultra => write!(f, "10800x5400"),
-            EarthResolution::Max => write!(f, "21600x10800")
+            EarthResolution::Max => write!(f, "21600x10800"),
         }
     }
 }

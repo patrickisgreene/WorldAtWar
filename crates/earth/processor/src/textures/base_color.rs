@@ -1,8 +1,13 @@
-use crate::processing::generate_scaled_image;
 use crate::args::{CliArgs, EarthCommand};
+use crate::processing::generate_scaled_image;
 
 pub fn handle_base_color(args: &CliArgs) {
-    let EarthCommand::BaseColor { input, output, resolutions } = &args.command else {
+    let EarthCommand::BaseColor {
+        input,
+        output,
+        resolutions,
+    } = &args.command
+    else {
         unreachable!()
     };
 

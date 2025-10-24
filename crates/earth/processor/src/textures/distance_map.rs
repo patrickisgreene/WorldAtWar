@@ -2,10 +2,18 @@ use std::path::Path;
 
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 
-use crate::{args::{CliArgs, EarthCommand, ImageResolution}, processing::render_shapefile};
+use crate::{
+    args::{CliArgs, EarthCommand, ImageResolution},
+    processing::render_shapefile,
+};
 
 pub fn handle_distance_map(args: &CliArgs) {
-    let EarthCommand::DistanceMap { input, output, resolutions } = &args.command else {
+    let EarthCommand::DistanceMap {
+        input,
+        output,
+        resolutions,
+    } = &args.command
+    else {
         unreachable!()
     };
 
@@ -29,7 +37,7 @@ pub fn handle_distance_map(args: &CliArgs) {
 fn generate_distance_map(
     input_file: &Path,
     resolution: ImageResolution,
-    output_file: &Path
+    output_file: &Path,
 ) -> Result<(), Box<dyn std::error::Error>> {
     let ocean_mask = render_shapefile(input_file, resolution, false)?;
 
@@ -48,7 +56,9 @@ fn generate_distance_map(
 /// Compute the Euclidean distance transform from an ocean mask.
 /// Input: binary image where 0 = ocean, 255 = land
 /// Output: grayscale image where pixel values represent distance to nearest ocean
-fn compute_distance_transform(mask: &image::ImageBuffer<image::Luma<u8>, Vec<u8>>) -> image::ImageBuffer<image::Luma<u8>, Vec<u8>> {
+fn compute_distance_transform(
+    mask: &image::ImageBuffer<image::Luma<u8>, Vec<u8>>,
+) -> image::ImageBuffer<image::Luma<u8>, Vec<u8>> {
     let width = mask.width();
     let height = mask.height();
 
@@ -79,12 +89,14 @@ fn compute_distance_transform(mask: &image::ImageBuffer<image::Luma<u8>, Vec<u8>
 
                 // Top-left diagonal
                 if x > 0 && y > 0 {
-                    min_dist = min_dist.min(distances[y as usize - 1][x as usize - 1] + std::f32::consts::SQRT_2);
+                    min_dist = min_dist
+                        .min(distances[y as usize - 1][x as usize - 1] + std::f32::consts::SQRT_2);
                 }
 
                 // Top-right diagonal
                 if x < width - 1 && y > 0 {
-                    min_dist = min_dist.min(distances[y as usize - 1][x as usize + 1] + std::f32::consts::SQRT_2);
+                    min_dist = min_dist
+                        .min(distances[y as usize - 1][x as usize + 1] + std::f32::consts::SQRT_2);
                 }
 
                 distances[y as usize][x as usize] = min_dist;
@@ -109,12 +121,14 @@ fn compute_distance_transform(mask: &image::ImageBuffer<image::Luma<u8>, Vec<u8>
 
             // Bottom-right diagonal
             if x < width - 1 && y < height - 1 {
-                min_dist = min_dist.min(distances[y as usize + 1][x as usize + 1] + std::f32::consts::SQRT_2);
+                min_dist = min_dist
+                    .min(distances[y as usize + 1][x as usize + 1] + std::f32::consts::SQRT_2);
             }
 
             // Bottom-left diagonal
             if x > 0 && y < height - 1 {
-                min_dist = min_dist.min(distances[y as usize + 1][x as usize - 1] + std::f32::consts::SQRT_2);
+                min_dist = min_dist
+                    .min(distances[y as usize + 1][x as usize - 1] + std::f32::consts::SQRT_2);
             }
 
             distances[y as usize][x as usize] = min_dist;
@@ -122,9 +136,13 @@ fn compute_distance_transform(mask: &image::ImageBuffer<image::Luma<u8>, Vec<u8>
     }
 
     // Find max distance for normalization
-    let max_distance = distances.iter()
+    let max_distance = distances
+        .iter()
         .flat_map(|row| row.iter())
-        .fold(0.0f32, |acc, &d| if d.is_finite() { acc.max(d) } else { acc });
+        .fold(
+            0.0f32,
+            |acc, &d| if d.is_finite() { acc.max(d) } else { acc },
+        );
 
     // Create output image, normalizing distances to 0-255 range
     let mut output = image::ImageBuffer::new(width, height);

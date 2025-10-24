@@ -1,8 +1,13 @@
-use crate::processing::generate_scaled_image;
 use crate::args::{CliArgs, EarthCommand};
+use crate::processing::generate_scaled_image;
 
 pub fn handle_night_base_color(args: &CliArgs) {
-    let EarthCommand::NightBaseColor { input, output, resolutions } = &args.command else {
+    let EarthCommand::NightBaseColor {
+        input,
+        output,
+        resolutions,
+    } = &args.command
+    else {
         unreachable!()
     };
 
@@ -17,7 +22,10 @@ pub fn handle_night_base_color(args: &CliArgs) {
         }
         match generate_scaled_image(input, *resolution, &out_file_path) {
             Ok(_) => print!("✔"),
-            Err(err) => eprintln!("  Error scaling night_base_color to {}: {}", resolution, err),
+            Err(err) => eprintln!(
+                "  Error scaling night_base_color to {}: {}",
+                resolution, err
+            ),
         }
     }
 

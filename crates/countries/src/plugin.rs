@@ -3,7 +3,7 @@ use bevy_ecs::prelude::*;
 
 use waw_ron_asset::RonAssetPlugin;
 
-use crate::{systems, data::Country, labels::CityLabelConfig};
+use crate::{data::Country, labels::CityLabelConfig, systems};
 
 pub struct CountriesPlugin;
 
@@ -17,7 +17,8 @@ impl Plugin for CountriesPlugin {
                 (
                     systems::spawn_city_entities,
                     systems::manage_city_label_visibility.after(systems::spawn_city_entities),
-                    systems::update_city_label_positions.after(systems::manage_city_label_visibility),
+                    systems::update_city_label_positions
+                        .after(systems::manage_city_label_visibility),
                 ),
             );
     }

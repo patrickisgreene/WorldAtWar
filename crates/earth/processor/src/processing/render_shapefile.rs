@@ -1,13 +1,17 @@
 use std::path::Path;
 
-use image::Luma;
-use std::error::Error;
-use shapefile::Reader;
-use image::ImageBuffer;
-use crate::args::ImageResolution;
 use super::{draw_line, fill_polygon};
+use crate::args::ImageResolution;
+use image::ImageBuffer;
+use image::Luma;
+use shapefile::Reader;
+use std::error::Error;
 
-pub fn render_shapefile(input_file: &Path, resolution: ImageResolution, invert_color: bool) -> Result<ImageBuffer<Luma<u8>, Vec<u8>>, Box<dyn Error>> {
+pub fn render_shapefile(
+    input_file: &Path,
+    resolution: ImageResolution,
+    invert_color: bool,
+) -> Result<ImageBuffer<Luma<u8>, Vec<u8>>, Box<dyn Error>> {
     let bg_color = Luma([if invert_color { 0u8 } else { 255u8 }]);
     // Create a white image (background)
     let mut img = ImageBuffer::from_pixel(resolution.width, resolution.height, bg_color);
@@ -27,7 +31,8 @@ pub fn render_shapefile(input_file: &Path, resolution: ImageResolution, invert_c
             shapefile::Shape::Polygon(polygon) => {
                 for ring in polygon.rings() {
                     // Convert points to pixel coordinates
-                    let pixels: Vec<(i32, i32)> = ring.points()
+                    let pixels: Vec<(i32, i32)> = ring
+                        .points()
                         .iter()
                         .map(|point| {
                             let x = ((point.x + 180.0) / 360.0 * resolution.width as f64) as i32;
@@ -39,7 +44,7 @@ pub fn render_shapefile(input_file: &Path, resolution: ImageResolution, invert_c
                     // Fill the polygon using scanline algorithm
                     fill_polygon(&mut img, &pixels, color);
                 }
-            },
+            }
             shapefile::Shape::Polyline(polyline) => {
                 for part in polyline.parts() {
                     let points: Vec<_> = part.into_iter().collect();
@@ -56,7 +61,7 @@ pub fn render_shapefile(input_file: &Path, resolution: ImageResolution, invert_c
                         draw_line(&mut img, x1, y1, x2, y2, color);
                     }
                 }
-            },
+            }
             shapefile::Shape::Point(point) => {
                 let x = ((point.x + 180.0) / 360.0 * resolution.width as f64) as i32;
                 let y = ((90.0 - point.y) / 180.0 * resolution.height as f64) as i32;
@@ -64,17 +69,21 @@ pub fn render_shapefile(input_file: &Path, resolution: ImageResolution, invert_c
                 if x >= 0 && x < resolution.width as i32 && y >= 0 && y < resolution.height as i32 {
                     img.put_pixel(x as u32, y as u32, color);
                 }
-            },
+            }
             shapefile::Shape::Multipoint(multipoint) => {
                 for point in multipoint.points() {
                     let x = ((point.x + 180.0) / 360.0 * resolution.width as f64) as i32;
                     let y = ((90.0 - point.y) / 180.0 * resolution.height as f64) as i32;
 
-                    if x >= 0 && x < resolution.width as i32 && y >= 0 && y < resolution.height as i32 {
+                    if x >= 0
+                        && x < resolution.width as i32
+                        && y >= 0
+                        && y < resolution.height as i32
+                    {
                         img.put_pixel(x as u32, y as u32, color);
                     }
                 }
-            },
+            }
             _ => {} // Handle other shape types if needed
         }
     }

@@ -53,8 +53,10 @@ pub fn ballistic_to(
                 // Entities should only pass the query filter if
                 // they are currently in the `Orbit` Maneuver
                 // so the other variants are unreachable.
-                Maneuver::Stop(_) | Maneuver::StraightTo(_) |
-                Maneuver::Detonate | Maneuver::Release { .. } => unreachable!(),
+                Maneuver::Stop(_)
+                | Maneuver::StraightTo(_)
+                | Maneuver::Detonate
+                | Maneuver::Release { .. } => unreachable!(),
                 Maneuver::BallisticTo(to) => {
                     let start = state.start.unwrap();
                     let delta_time = time.delta_secs_f64();
@@ -75,12 +77,8 @@ pub fn ballistic_to(
                     state.progress = state.progress.clamp(0.0, 1.0);
 
                     // Calculate the current position along the ballistic arc
-                    let current_pos = ballistic_arc_position(
-                        start_pos,
-                        end_pos,
-                        state.progress,
-                        distance,
-                    );
+                    let current_pos =
+                        ballistic_arc_position(start_pos, end_pos, state.progress, distance);
 
                     // Update entity position using big_space grid system
                     //grid.set_grid_position_double(&mut cell, &mut trans, current_pos);
@@ -114,7 +112,8 @@ pub fn ballistic_to(
                     if state.progress >= 1.0 {
                         // Maneuver complete - advance to next maneuver or despawn
                         // Remove ballistic component to exit this system
-                        commands.entity(entity)
+                        commands
+                            .entity(entity)
                             .remove::<BallisticToState>()
                             .remove::<BallisticTo>()
                             .insert(OperationIndex(op_index.0 + 1));

@@ -8,5 +8,5 @@ pub struct TravelStraightTo(pub GeoCoord);
 #[derive(Default, Component)]
 pub struct TravelStraightToState {
     pub progress: f64,
-    pub start: Option<GeoCoord>
+    pub start: Option<GeoCoord>,
 }

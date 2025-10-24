@@ -1,9 +1,9 @@
-use bevy_ecs::prelude::*;
 use bevy_app::prelude::*;
-use bevy_math::prelude::*;
 use bevy_color::prelude::*;
-use bevy_transform::prelude::*;
+use bevy_ecs::prelude::*;
 use bevy_gizmos::prelude::*;
+use bevy_math::prelude::*;
+use bevy_transform::prelude::*;
 
 use big_space::prelude::*;
 
@@ -24,13 +24,8 @@ pub struct Radar {
 
 #[derive(Component)]
 pub enum RadarShape {
-    Cone {
-        radius: f64,
-        length: f64
-    },
-    Sphere {
-        radius: f64
-    }
+    Cone { radius: f64, length: f64 },
+    Sphere { radius: f64 },
 }
 
 pub struct RadarPlugin;
@@ -44,7 +39,17 @@ impl Plugin for RadarPlugin {
 fn draw_radar_gizmos(
     grids: Grids,
     mut gizmos: Gizmos,
-    query: Query<(Entity, &Radar, &RadarShape, Option<&RadarGizmoColor>, &CellCoord, &Transform), With<RadarGizmoVisible>>
+    query: Query<
+        (
+            Entity,
+            &Radar,
+            &RadarShape,
+            Option<&RadarGizmoColor>,
+            &CellCoord,
+            &Transform,
+        ),
+        With<RadarGizmoVisible>,
+    >,
 ) {
     for (entity, radar, shape, color, cell, transform) in query {
         let color = color.map(|x| x.0).unwrap_or(Color::WHITE);
@@ -61,7 +66,7 @@ fn draw_radar_gizmos(
                     position.as_vec3(),
                     //rotation,
                     *radius as f32,
-                    color
+                    color,
                 );
             }
             RadarShape::Cone { radius, length } => {
@@ -85,11 +90,7 @@ fn draw_radar_gizmos(
                 let offset = isometry.rotation * bevy_math::Vec3::Y * (*length as f32 / 2.0);
                 isometry.translation += bevy_math::Vec3A::from(-offset);
 
-                gizmos.primitive_3d(
-                    &cone,
-                    isometry,
-                    Color::srgba(1.0, 0.0, 1.0, 1.0)
-                );
+                gizmos.primitive_3d(&cone, isometry, Color::srgba(1.0, 0.0, 1.0, 1.0));
             }
         }
     }

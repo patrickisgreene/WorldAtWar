@@ -1,7 +1,11 @@
 use image::{ImageBuffer, Luma};
 
 // Scanline polygon fill algorithm
-pub fn fill_polygon(img: &mut ImageBuffer<Luma<u8>, Vec<u8>>, vertices: &[(i32, i32)], color: Luma<u8>) {
+pub fn fill_polygon(
+    img: &mut ImageBuffer<Luma<u8>, Vec<u8>>,
+    vertices: &[(i32, i32)],
+    color: Luma<u8>,
+) {
     if vertices.len() < 3 {
         return;
     }
@@ -11,7 +15,12 @@ pub fn fill_polygon(img: &mut ImageBuffer<Luma<u8>, Vec<u8>>, vertices: &[(i32, 
 
     // Find bounding box
     let min_y = vertices.iter().map(|(_, y)| *y).min().unwrap().max(0);
-    let max_y = vertices.iter().map(|(_, y)| *y).max().unwrap().min(height - 1);
+    let max_y = vertices
+        .iter()
+        .map(|(_, y)| *y)
+        .max()
+        .unwrap()
+        .min(height - 1);
 
     // For each scanline
     for y in min_y..=max_y {

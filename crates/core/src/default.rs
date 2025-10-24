@@ -75,12 +75,12 @@ impl Plugin for WawDefaultPlugin {
     }
 }
 
-impl <'a>From<&'a WawCorePlugins> for WawDefaultPlugin {
+impl<'a> From<&'a WawCorePlugins> for WawDefaultPlugin {
     fn from(value: &'a WawCorePlugins) -> Self {
         WawDefaultPlugin {
             log_level: value.log_level,
             log_filter: value.log_filter.clone(),
-            window_title: value.window_title.clone()
+            window_title: value.window_title.clone(),
         }
     }
 }
