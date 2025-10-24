@@ -1,0 +1,17 @@
+Alliance(
+    name_short: "NATO",
+    name_long: Some("North Atlantic Treaty Organization"),
+    color: (0.039, 0.278, 0.569),
+    countries: [
+        "US",
+        "CA",
+        "GB",
+        "FR",
+        "IT",
+        "ES",
+        "NL",
+        "AT",
+        "BE",
+        "PT"
+    ]
+)

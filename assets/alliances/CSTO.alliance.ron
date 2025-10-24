@@ -1,0 +1,12 @@
+Alliance(
+    name_short: "CSTO",
+    name_long: Some("Collective Security Treaty Organization"),
+    color: (0.039, 0.278, 0.569),
+    countries: [
+        "RU",
+        "BY",
+        "KZ",
+        "KG",
+        "TJ"
+    ]
+)
