@@ -1,32 +1,8 @@
-use std::path::PathBuf;
-
-use super::{Movement, Transformation};
+use super::{Movement, Radar, Model};
 use bevy_asset::{AssetPath, prelude::*};
 use bevy_gltf::prelude::*;
 use bevy_reflect::TypePath;
 use serde::{Deserialize, Serialize};
-
-#[derive(Debug, Serialize, Deserialize)]
-pub struct Radar {
-    pub strength: f32,
-    pub shape: RadarShape,
-    #[serde(default)]
-    pub transformation: Transformation,
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-#[serde(untagged)]
-pub enum RadarShape {
-    Sphere(f64),
-    Cone { radius: f64, length: f64 },
-}
-
-#[derive(Serialize, Deserialize)]
-pub struct Model {
-    pub file: PathBuf,
-    #[serde(default)]
-    pub transformation: Transformation,
-}
 
 #[derive(Asset, TypePath, Serialize, Deserialize)]
 pub struct Weapon {
