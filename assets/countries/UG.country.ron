@@ -1,0 +1,288 @@
+(
+    name: "Uganda",
+    code: "UG",
+    population: 45741000,
+    capital: 0,
+    cities: [
+        (
+            name: "Kampala",
+            coordinates: (
+                lat: 0.313611111,
+                lon: 32.581111111,
+            ),
+        ),
+//         (
+//             name: "Mbale City",
+//             coordinates: (
+//                 lat: 1.0711896,
+//                 lon: 34.1749506,
+//             ),
+//         ),
+        (
+            name: "Arua",
+            coordinates: (
+                lat: 3.03,
+                lon: 30.91,
+            ),
+        ),
+        (
+            name: "Masaka",
+            coordinates: (
+                lat: -0.333611111,
+                lon: 31.733888888,
+            ),
+        ),
+//         (
+//             name: "Jinja",
+//             coordinates: (
+//                 lat: 0.4353036,
+//                 lon: 33.2055568,
+//             ),
+//         ),
+        (
+            name: "Mbarara City",
+            coordinates: (
+                lat: -0.613333333,
+                lon: 30.658333333,
+            ),
+        ),
+        (
+            name: "Gulu City",
+            coordinates: (
+                lat: 2.766666666,
+                lon: 32.305555555,
+            ),
+        ),
+//         (
+//             name: "Kasangati",
+//             coordinates: (
+//                 lat: 0.44,
+//                 lon: 32.6,
+//             ),
+//         ),
+//         (
+//             name: "Mukono",
+//             coordinates: (
+//                 lat: 0.353333333,
+//                 lon: 32.755277777,
+//             ),
+//         ),
+//         (
+//             name: "Njeru",
+//             coordinates: (
+//                 lat: 0.428611111,
+//                 lon: 33.148611111,
+//             ),
+//         ),
+//         (
+//             name: "Kajansi",
+//             coordinates: (
+//                 lat: 0.215555555,
+//                 lon: 32.534444444,
+//             ),
+//         ),
+//         (
+//             name: "Lugazi",
+//             coordinates: (
+//                 lat: 0.383333,
+//                 lon: 32.924167,
+//             ),
+//         ),
+//         (
+//             name: "Mubende",
+//             coordinates: (
+//                 lat: 0.5575,
+//                 lon: 31.395,
+//             ),
+//         ),
+//         (
+//             name: "Ibanda",
+//             coordinates: (
+//                 lat: -0.12,
+//                 lon: 30.5,
+//             ),
+//         ),
+        (
+            name: "Lira",
+            coordinates: (
+                lat: 2.248888888,
+                lon: 32.9,
+            ),
+        ),
+//         (
+//             name: "Kasese",
+//             coordinates: (
+//                 lat: 0.23,
+//                 lon: 29.988333333,
+//             ),
+//         ),
+        (
+            name: "Abim",
+            coordinates: (
+                lat: 2.735,
+                lon: 33.66805556,
+            ),
+        ),
+//         (
+//             name: "Mityana",
+//             coordinates: (
+//                 lat: 0.402222222,
+//                 lon: 32.045833333,
+//             ),
+//         ),
+//         (
+//             name: "Wakiso Town",
+//             coordinates: (
+//                 lat: 0.4,
+//                 lon: 32.4825,
+//             ),
+//         ),
+//         (
+//             name: "Bwizibwera",
+//             coordinates: (
+//                 lat: -0.592,
+//                 lon: 30.629,
+//             ),
+//         ),
+//         (
+//             name: "Kotido",
+//             coordinates: (
+//                 lat: 3.006111,
+//                 lon: 34.1125,
+//             ),
+//         ),
+//         (
+//             name: "Entebbe",
+//             coordinates: (
+//                 lat: 0.05621,
+//                 lon: 32.47949,
+//             ),
+//         ),
+//         (
+//             name: "Kamuli",
+//             coordinates: (
+//                 lat: 0.9445873,
+//                 lon: 33.1236818,
+//             ),
+//         ),
+//         (
+//             name: "Apac",
+//             coordinates: (
+//                 lat: 1.97556,
+//                 lon: 32.53861,
+//             ),
+//         ),
+//         (
+//             name: "Iganga",
+//             coordinates: (
+//                 lat: 0.614722222,
+//                 lon: 33.478888888,
+//             ),
+//         ),
+//         (
+//             name: "Busia",
+//             coordinates: (
+//                 lat: 0.466944444,
+//                 lon: 34.09,
+//             ),
+//         ),
+//         (
+//             name: "Koboko",
+//             coordinates: (
+//                 lat: 3.413611111,
+//                 lon: 30.959722222,
+//             ),
+//         ),
+        (
+            name: "Soroti",
+            coordinates: (
+                lat: 1.683333333,
+                lon: 33.616666666,
+            ),
+        ),
+//         (
+//             name: "Fort Portal",
+//             coordinates: (
+//                 lat: 0.656388888,
+//                 lon: 30.279722222,
+//             ),
+//         ),
+//         (
+//             name: "Mpondwe",
+//             coordinates: (
+//                 lat: 0.032959,
+//                 lon: 29.7602463,
+//             ),
+//         ),
+        (
+            name: "Kabale",
+            coordinates: (
+                lat: -1.24857,
+                lon: 29.98993,
+            ),
+        ),
+//         (
+//             name: "Kapchorwa",
+//             coordinates: (
+//                 lat: 1.4,
+//                 lon: 34.45,
+//             ),
+//         ),
+//         (
+//             name: "Mpigi",
+//             coordinates: (
+//                 lat: 0.23,
+//                 lon: 32.33,
+//             ),
+//         ),
+//         (
+//             name: "Luwero",
+//             coordinates: (
+//                 lat: 0.84917,
+//                 lon: 32.47306,
+//             ),
+//         ),
+//         (
+//             name: "Tororo",
+//             coordinates: (
+//                 lat: 0.692777777,
+//                 lon: 34.180833333,
+//             ),
+//         ),
+//         (
+//             name: "Yumbe",
+//             coordinates: (
+//                 lat: 3.465,
+//                 lon: 31.245,
+//             ),
+//         ),
+//         (
+//             name: "Bugembe",
+//             coordinates: (
+//                 lat: 0.4675,
+//                 lon: 33.24166667,
+//             ),
+//         ),
+        (
+            name: "Kitgum",
+            coordinates: (
+                lat: 3.288888888,
+                lon: 32.877777777,
+            ),
+        ),
+//         (
+//             name: "Adjumani",
+//             coordinates: (
+//                 lat: 3.384444,
+//                 lon: 31.781944,
+//             ),
+//         ),
+//         (
+//             name: "Nebbi",
+//             coordinates: (
+//                 lat: 2.478055555,
+//                 lon: 31.088888888,
+//             ),
+//         ),
+    ],
+)

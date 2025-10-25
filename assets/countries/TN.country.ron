@@ -1,0 +1,323 @@
+(
+    name: "Tunisia",
+    code: "TN",
+    population: 11818618,
+    capital: 0,
+    cities: [
+        (
+            name: "Tunis",
+            coordinates: (
+                lat: 36.800833333,
+                lon: 10.18,
+            ),
+        ),
+        (
+            name: "Sfax",
+            coordinates: (
+                lat: 34.74,
+                lon: 10.76,
+            ),
+        ),
+//         (
+//             name: "Sousse",
+//             coordinates: (
+//                 lat: 35.833333333,
+//                 lon: 10.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Kairouan",
+//             coordinates: (
+//                 lat: 35.6781,
+//                 lon: 10.09633,
+//             ),
+//         ),
+//         (
+//             name: "Bizerte",
+//             coordinates: (
+//                 lat: 37.274444444,
+//                 lon: 9.873888888,
+//             ),
+//         ),
+//         (
+//             name: "La Soukra",
+//             coordinates: (
+//                 lat: 36.88333333,
+//                 lon: 10.25,
+//             ),
+//         ),
+        (
+            name: "Gabès",
+            coordinates: (
+                lat: 33.881388888,
+                lon: 10.098333333,
+            ),
+        ),
+//         (
+//             name: "Aryanah",
+//             coordinates: (
+//                 lat: 36.8625,
+//                 lon: 10.195555555,
+//             ),
+//         ),
+//         (
+//             name: "Hammamet",
+//             coordinates: (
+//                 lat: 36.416666666,
+//                 lon: 10.6,
+//             ),
+//         ),
+        (
+            name: "Gafsa",
+            coordinates: (
+                lat: 34.416666666,
+                lon: 8.783333333,
+            ),
+        ),
+//         (
+//             name: "Monastir",
+//             coordinates: (
+//                 lat: 35.77799,
+//                 lon: 10.82617,
+//             ),
+//         ),
+//         (
+//             name: "La Marsa",
+//             coordinates: (
+//                 lat: 36.876388888,
+//                 lon: 10.325277777,
+//             ),
+//         ),
+//         (
+//             name: "Ben Arous",
+//             coordinates: (
+//                 lat: 36.753055555,
+//                 lon: 10.218888888,
+//             ),
+//         ),
+        (
+            name: "Kasserine",
+            coordinates: (
+                lat: 35.166666666,
+                lon: 8.833333333,
+            ),
+        ),
+//         (
+//             name: "Zarzis",
+//             coordinates: (
+//                 lat: 33.5,
+//                 lon: 11.116666666,
+//             ),
+//         ),
+//         (
+//             name: "La Goulette",
+//             coordinates: (
+//                 lat: 36.819111,
+//                 lon: 10.306377,
+//             ),
+//         ),
+//         (
+//             name: "Houmt Souk",
+//             coordinates: (
+//                 lat: 33.866666666,
+//                 lon: 10.85,
+//             ),
+//         ),
+//         (
+//             name: "Fouchana",
+//             coordinates: (
+//                 lat: 36.698705,
+//                 lon: 10.169306,
+//             ),
+//         ),
+//         (
+//             name: "El Hamma",
+//             coordinates: (
+//                 lat: 33.886386,
+//                 lon: 9.795073,
+//             ),
+//         ),
+//         (
+//             name: "M\'saken",
+//             coordinates: (
+//                 lat: 35.733333333,
+//                 lon: 10.583333333,
+//             ),
+//         ),
+//         (
+//             name: "Le Bardo",
+//             coordinates: (
+//                 lat: 36.809166666,
+//                 lon: 10.140555555,
+//             ),
+//         ),
+//         (
+//             name: "Medenine",
+//             coordinates: (
+//                 lat: 33.354722222,
+//                 lon: 10.505277777,
+//             ),
+//         ),
+//         (
+//             name: "Nabeul",
+//             coordinates: (
+//                 lat: 36.451389,
+//                 lon: 10.736111,
+//             ),
+//         ),
+//         (
+//             name: "Tataouine",
+//             coordinates: (
+//                 lat: 32.933333333,
+//                 lon: 10.45,
+//             ),
+//         ),
+//         (
+//             name: "Mohamedia",
+//             coordinates: (
+//                 lat: 36.68,
+//                 lon: 10.17,
+//             ),
+//         ),
+//         (
+//             name: "Ben Gardane",
+//             coordinates: (
+//                 lat: 33.138888888,
+//                 lon: 11.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Skanes",
+//             coordinates: (
+//                 lat: 35.7749,
+//                 lon: 10.79464,
+//             ),
+//         ),
+//         (
+//             name: "Béja",
+//             coordinates: (
+//                 lat: 36.725555555,
+//                 lon: 9.181666666,
+//             ),
+//         ),
+//         (
+//             name: "Radès",
+//             coordinates: (
+//                 lat: 36.766666666,
+//                 lon: 10.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Kelibia",
+//             coordinates: (
+//                 lat: 36.8475,
+//                 lon: 11.093888888,
+//             ),
+//         ),
+//         (
+//             name: "Oued Ellil",
+//             coordinates: (
+//                 lat: 36.83333333,
+//                 lon: 10.05,
+//             ),
+//         ),
+//         (
+//             name: "Moknine",
+//             coordinates: (
+//                 lat: 35.628278,
+//                 lon: 10.899639,
+//             ),
+//         ),
+//         (
+//             name: "Menzel Bourguiba",
+//             coordinates: (
+//                 lat: 37.15,
+//                 lon: 9.783333333,
+//             ),
+//         ),
+//         (
+//             name: "El Kef",
+//             coordinates: (
+//                 lat: 36.166666666,
+//                 lon: 8.7,
+//             ),
+//         ),
+//         (
+//             name: "Kalâa Kebira",
+//             coordinates: (
+//                 lat: 35.86666667,
+//                 lon: 10.53333333,
+//             ),
+//         ),
+//         (
+//             name: "Mahdia",
+//             coordinates: (
+//                 lat: 35.504722222,
+//                 lon: 11.062222222,
+//             ),
+//         ),
+//         (
+//             name: "Jemmal",
+//             coordinates: (
+//                 lat: 35.64,
+//                 lon: 10.76,
+//             ),
+//         ),
+//         (
+//             name: "Ksar Hellal",
+//             coordinates: (
+//                 lat: 35.65,
+//                 lon: 10.9,
+//             ),
+//         ),
+//         (
+//             name: "Sidi Bouzid",
+//             coordinates: (
+//                 lat: 35.038055555,
+//                 lon: 9.485833333,
+//             ),
+//         ),
+//         (
+//             name: "Jendouba",
+//             coordinates: (
+//                 lat: 36.501111111,
+//                 lon: 8.780277777,
+//             ),
+//         ),
+//         (
+//             name: "Soliman",
+//             coordinates: (
+//                 lat: 36.695126,
+//                 lon: 10.491257,
+//             ),
+//         ),
+//         (
+//             name: "Hammam Sousse",
+//             coordinates: (
+//                 lat: 35.85888889,
+//                 lon: 10.59388889,
+//             ),
+//         ),
+//         (
+//             name: "Hammam-Lif",
+//             coordinates: (
+//                 lat: 36.730833333,
+//                 lon: 10.3275,
+//             ),
+//         ),
+//         (
+//             name: "Dar Chaabane",
+//             coordinates: (
+//                 lat: 36.47,
+//                 lon: 10.75,
+//             ),
+//         ),
+//         (
+//             name: "Gremda",
+//             coordinates: (
+//                 lat: 34.79075,
+//                 lon: 10.72059,
+//             ),
+//         ),
+    ],
+)

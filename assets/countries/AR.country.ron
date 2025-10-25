@@ -1,0 +1,358 @@
+(
+    name: "Argentina",
+    code: "AR",
+    population: 45376763,
+    capital: 0,
+    cities: [
+        (
+            name: "Buenos Aires",
+            coordinates: (
+                lat: -34.599722222,
+                lon: -58.381944444,
+            ),
+        ),
+//         (
+//             name: "La Matanza Partido",
+//             coordinates: (
+//                 lat: -34.716666666,
+//                 lon: -58.633333333,
+//             ),
+//         ),
+        (
+            name: "Córdoba",
+            coordinates: (
+                lat: -31.416666666,
+                lon: -64.183333333,
+            ),
+        ),
+        (
+            name: "Rosario",
+            coordinates: (
+                lat: -32.9575,
+                lon: -60.639444444,
+            ),
+        ),
+        (
+            name: "San Miguel de Tucumán",
+            coordinates: (
+                lat: -26.816666666,
+                lon: -65.216666666,
+            ),
+        ),
+        (
+            name: "Mar del Plata",
+            coordinates: (
+                lat: -38.0,
+                lon: -57.55,
+            ),
+        ),
+        (
+            name: "San Juan",
+            coordinates: (
+                lat: -31.5375,
+                lon: -68.536388888,
+            ),
+        ),
+//         (
+//             name: "Lanús Partido",
+//             coordinates: (
+//                 lat: -34.7,
+//                 lon: -58.4,
+//             ),
+//         ),
+//         (
+//             name: "Lanús",
+//             coordinates: (
+//                 lat: -34.7,
+//                 lon: -58.4,
+//             ),
+//         ),
+        (
+            name: "Santa Fe",
+            coordinates: (
+                lat: -31.633333333,
+                lon: -60.7,
+            ),
+        ),
+//         (
+//             name: "Pilar Partido",
+//             coordinates: (
+//                 lat: -34.466666666,
+//                 lon: -58.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Avellaneda Partido",
+//             coordinates: (
+//                 lat: -34.666666666,
+//                 lon: -58.35,
+//             ),
+//         ),
+//         (
+//             name: "Avellaneda",
+//             coordinates: (
+//                 lat: -34.6625,
+//                 lon: -58.367777777,
+//             ),
+//         ),
+        (
+            name: "Bahía Blanca",
+            coordinates: (
+                lat: -38.716666666,
+                lon: -62.266666666,
+            ),
+        ),
+//         (
+//             name: "Quilmes",
+//             coordinates: (
+//                 lat: -34.716666666,
+//                 lon: -58.266666666,
+//             ),
+//         ),
+//         (
+//             name: "Gregorio de Laferrere",
+//             coordinates: (
+//                 lat: -34.75,
+//                 lon: -58.583333333,
+//             ),
+//         ),
+//         (
+//             name: "Merlo",
+//             coordinates: (
+//                 lat: -34.6653,
+//                 lon: -58.7275,
+//             ),
+//         ),
+//         (
+//             name: "González Catán",
+//             coordinates: (
+//                 lat: -34.770833333,
+//                 lon: -58.646388888,
+//             ),
+//         ),
+//         (
+//             name: "Palermo",
+//             coordinates: (
+//                 lat: -34.58856,
+//                 lon: -58.43053,
+//             ),
+//         ),
+//         (
+//             name: "José C. Paz",
+//             coordinates: (
+//                 lat: -34.516666666,
+//                 lon: -58.766666666,
+//             ),
+//         ),
+        (
+            name: "San Rafael",
+            coordinates: (
+                lat: -34.6175,
+                lon: -68.335555555,
+            ),
+        ),
+        (
+            name: "Las Heras",
+            coordinates: (
+                lat: -32.85,
+                lon: -68.816666666,
+            ),
+        ),
+        (
+            name: "Comodoro Rivadavia",
+            coordinates: (
+                lat: -45.866666666,
+                lon: -67.5,
+            ),
+        ),
+//         (
+//             name: "La Plata",
+//             coordinates: (
+//                 lat: -34.933333333,
+//                 lon: -57.95,
+//             ),
+//         ),
+//         (
+//             name: "Godoy Cruz",
+//             coordinates: (
+//                 lat: -32.916666666,
+//                 lon: -68.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Isidro Casanova",
+//             coordinates: (
+//                 lat: -34.7,
+//                 lon: -58.583333333,
+//             ),
+//         ),
+        (
+            name: "La Rioja",
+            coordinates: (
+                lat: -29.413055555,
+                lon: -66.855833333,
+            ),
+        ),
+//         (
+//             name: "Berazategui",
+//             coordinates: (
+//                 lat: -34.767888888,
+//                 lon: -58.213277777,
+//             ),
+//         ),
+//         (
+//             name: "Ituzaingó Partido",
+//             coordinates: (
+//                 lat: -34.652222222,
+//                 lon: -58.675,
+//             ),
+//         ),
+        (
+            name: "General José de San Martín",
+            coordinates: (
+                lat: -22.55,
+                lon: -63.81,
+            ),
+        ),
+//         (
+//             name: "Caballito",
+//             coordinates: (
+//                 lat: -34.616666666,
+//                 lon: -58.45,
+//             ),
+//         ),
+//         (
+//             name: "Moreno",
+//             coordinates: (
+//                 lat: -34.657619444,
+//                 lon: -58.787241666,
+//             ),
+//         ),
+//         (
+//             name: "Ezeiza",
+//             coordinates: (
+//                 lat: -34.833333333,
+//                 lon: -58.516666666,
+//             ),
+//         ),
+//         (
+//             name: "San Nicolás de los Arroyos",
+//             coordinates: (
+//                 lat: -33.333333333,
+//                 lon: -60.216666666,
+//             ),
+//         ),
+//         (
+//             name: "San Miguel",
+//             coordinates: (
+//                 lat: -34.533333333,
+//                 lon: -58.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Virrey del Pino",
+//             coordinates: (
+//                 lat: -34.8447,
+//                 lon: -58.6517,
+//             ),
+//         ),
+        (
+            name: "Tandil",
+            coordinates: (
+                lat: -37.3287,
+                lon: -59.1369,
+            ),
+        ),
+//         (
+//             name: "Rafael Castillo",
+//             coordinates: (
+//                 lat: -34.716666666,
+//                 lon: -58.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Florencio Varela",
+//             coordinates: (
+//                 lat: -34.80896,
+//                 lon: -58.27623,
+//             ),
+//         ),
+//         (
+//             name: "San Justo",
+//             coordinates: (
+//                 lat: -34.683333333,
+//                 lon: -58.55,
+//             ),
+//         ),
+//         (
+//             name: "Ciudad Madero",
+//             coordinates: (
+//                 lat: -34.68801,
+//                 lon: -58.49329,
+//             ),
+//         ),
+//         (
+//             name: "Almagro",
+//             coordinates: (
+//                 lat: -34.6,
+//                 lon: -58.416666666,
+//             ),
+//         ),
+//         (
+//             name: "Ituzaingó",
+//             coordinates: (
+//                 lat: -34.658223,
+//                 lon: -58.667213,
+//             ),
+//         ),
+//         (
+//             name: "Belgrano",
+//             coordinates: (
+//                 lat: -34.5627,
+//                 lon: -58.45829,
+//             ),
+//         ),
+        (
+            name: "Olavarría Partido",
+            coordinates: (
+                lat: -35.7,
+                lon: -63.0,
+            ),
+        ),
+//         (
+//             name: "Temperley",
+//             coordinates: (
+//                 lat: -34.766666666,
+//                 lon: -58.383333333,
+//             ),
+//         ),
+//         (
+//             name: "Ramos Mejía",
+//             coordinates: (
+//                 lat: -34.65,
+//                 lon: -58.566666666,
+//             ),
+//         ),
+//         (
+//             name: "Pergamino",
+//             coordinates: (
+//                 lat: -33.883611111,
+//                 lon: -60.566944444,
+//             ),
+//         ),
+//         (
+//             name: "Lomas de Zamora",
+//             coordinates: (
+//                 lat: -34.766666666,
+//                 lon: -58.4,
+//             ),
+//         ),
+//         (
+//             name: "Bernal",
+//             coordinates: (
+//                 lat: -34.7,
+//                 lon: -58.283333333,
+//             ),
+//         ),
+    ],
+)

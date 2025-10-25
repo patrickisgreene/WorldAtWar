@@ -1,0 +1,120 @@
+(
+    name: "Jordan",
+    code: "JO",
+    population: 10203140,
+    capital: 0,
+    cities: [
+        (
+            name: "Amman",
+            coordinates: (
+                lat: 31.95,
+                lon: 35.933333333,
+            ),
+        ),
+//         (
+//             name: "Irbid",
+//             coordinates: (
+//                 lat: 32.555555555,
+//                 lon: 35.85,
+//             ),
+//         ),
+//         (
+//             name: "Zarqa",
+//             coordinates: (
+//                 lat: 32.083333333,
+//                 lon: 36.1,
+//             ),
+//         ),
+//         (
+//             name: "Russeifa",
+//             coordinates: (
+//                 lat: 32.017777777,
+//                 lon: 36.046388888,
+//             ),
+//         ),
+//         (
+//             name: "Al-Karak",
+//             coordinates: (
+//                 lat: 31.184444444,
+//                 lon: 35.705,
+//             ),
+//         ),
+//         (
+//             name: "Ar Ramtha",
+//             coordinates: (
+//                 lat: 32.559166666,
+//                 lon: 36.006944444,
+//             ),
+//         ),
+//         (
+//             name: "Wadi Al-Seer",
+//             coordinates: (
+//                 lat: 31.9545,
+//                 lon: 35.81831,
+//             ),
+//         ),
+        (
+            name: "Aqaba",
+            coordinates: (
+                lat: 29.52667,
+                lon: 35.00778,
+            ),
+        ),
+//         (
+//             name: "Ajloun",
+//             coordinates: (
+//                 lat: 32.3325,
+//                 lon: 35.751666666,
+//             ),
+//         ),
+//         (
+//             name: "Salt",
+//             coordinates: (
+//                 lat: 32.039166666,
+//                 lon: 35.727222222,
+//             ),
+//         ),
+//         (
+//             name: "Madaba",
+//             coordinates: (
+//                 lat: 31.716666666,
+//                 lon: 35.8,
+//             ),
+//         ),
+//         (
+//             name: "Azraq",
+//             coordinates: (
+//                 lat: 31.833333333,
+//                 lon: 36.816666666,
+//             ),
+//         ),
+//         (
+//             name: "Mafraq",
+//             coordinates: (
+//                 lat: 32.342777777,
+//                 lon: 36.205,
+//             ),
+//         ),
+//         (
+//             name: "Jerash",
+//             coordinates: (
+//                 lat: 32.28082,
+//                 lon: 35.89929,
+//             ),
+//         ),
+//         (
+//             name: "Al Jubayhah",
+//             coordinates: (
+//                 lat: 32.025555555,
+//                 lon: 35.864444444,
+//             ),
+//         ),
+//         (
+//             name: "Sahab",
+//             coordinates: (
+//                 lat: 31.87032,
+//                 lon: 36.00479,
+//             ),
+//         ),
+    ],
+)

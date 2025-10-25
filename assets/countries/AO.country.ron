@@ -1,0 +1,358 @@
+(
+    name: "Angola",
+    code: "AO",
+    population: 32866268,
+    capital: 0,
+    cities: [
+        (
+            name: "Luanda",
+            coordinates: (
+                lat: -8.83682,
+                lon: 13.23432,
+            ),
+        ),
+        (
+            name: "Lubango",
+            coordinates: (
+                lat: -14.92305556,
+                lon: 13.49166667,
+            ),
+        ),
+//         (
+//             name: "Cacuaco",
+//             coordinates: (
+//                 lat: -8.783333333,
+//                 lon: 13.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Lubango",
+//             coordinates: (
+//                 lat: -14.916666666,
+//                 lon: 13.5,
+//             ),
+//         ),
+        (
+            name: "Huambo",
+            coordinates: (
+                lat: -12.766666666,
+                lon: 15.733333333,
+            ),
+        ),
+        (
+            name: "Cabinda",
+            coordinates: (
+                lat: -5.56198,
+                lon: 12.19476,
+            ),
+        ),
+        (
+            name: "Malanje",
+            coordinates: (
+                lat: -9.54015,
+                lon: 16.34096,
+            ),
+        ),
+//         (
+//             name: "Sambizanga",
+//             coordinates: (
+//                 lat: -8.8125,
+//                 lon: 13.26222222,
+//             ),
+//         ),
+        (
+            name: "Uíge",
+            coordinates: (
+                lat: -7.57488,
+                lon: 15.06775,
+            ),
+        ),
+        (
+            name: "Benguela",
+            coordinates: (
+                lat: -12.55,
+                lon: 13.416666666,
+            ),
+        ),
+//         (
+//             name: "Benguela",
+//             coordinates: (
+//                 lat: -12.58,
+//                 lon: 13.40777778,
+//             ),
+//         ),
+//         (
+//             name: "Kuito",
+//             coordinates: (
+//                 lat: -12.383333333,
+//                 lon: 16.933333333,
+//             ),
+//         ),
+//         (
+//             name: "Lobito",
+//             coordinates: (
+//                 lat: -12.35,
+//                 lon: 13.546388888,
+//             ),
+//         ),
+        (
+            name: "Saurimo",
+            coordinates: (
+                lat: -9.6589,
+                lon: 20.3934,
+            ),
+        ),
+        (
+            name: "Menongue",
+            coordinates: (
+                lat: -14.6556,
+                lon: 17.6842,
+            ),
+        ),
+//         (
+//             name: "Cubal",
+//             coordinates: (
+//                 lat: -13.033333333,
+//                 lon: 14.233333333,
+//             ),
+//         ),
+        (
+            name: "Luena",
+            coordinates: (
+                lat: -11.783,
+                lon: 19.913,
+            ),
+        ),
+        (
+            name: "Ombadja",
+            coordinates: (
+                lat: -16.700555555,
+                lon: 14.888055555,
+            ),
+        ),
+//         (
+//             name: "Bailundo",
+//             coordinates: (
+//                 lat: -12.19583333,
+//                 lon: 15.85555556,
+//             ),
+//         ),
+        (
+            name: "Sumbe",
+            coordinates: (
+                lat: -11.2052,
+                lon: 13.8417,
+            ),
+        ),
+//         (
+//             name: "Caála",
+//             coordinates: (
+//                 lat: -12.85,
+//                 lon: 15.55,
+//             ),
+//         ),
+//         (
+//             name: "Amboim",
+//             coordinates: (
+//                 lat: -10.85,
+//                 lon: 14.3667,
+//             ),
+//         ),
+        (
+            name: "Matala",
+            coordinates: (
+                lat: -14.73056992,
+                lon: 15.03669,
+            ),
+        ),
+        (
+            name: "Andulo",
+            coordinates: (
+                lat: -11.21242,
+                lon: 16.47281,
+            ),
+        ),
+        (
+            name: "Moçâmedes",
+            coordinates: (
+                lat: -15.195277777,
+                lon: 12.150833333,
+            ),
+        ),
+//         (
+//             name: "Ganda",
+//             coordinates: (
+//                 lat: -13.016666666,
+//                 lon: 14.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Dande",
+//             coordinates: (
+//                 lat: -8.472777777,
+//                 lon: 13.373055555,
+//             ),
+//         ),
+//         (
+//             name: "Soyo",
+//             coordinates: (
+//                 lat: -6.133333333,
+//                 lon: 12.366666666,
+//             ),
+//         ),
+        (
+            name: "Chitato",
+            coordinates: (
+                lat: -7.34496,
+                lon: 20.8198,
+            ),
+        ),
+//         (
+//             name: "Chibia",
+//             coordinates: (
+//                 lat: -15.18333333,
+//                 lon: 13.7,
+//             ),
+//         ),
+//         (
+//             name: "Seles",
+//             coordinates: (
+//                 lat: -11.404722222,
+//                 lon: 14.300555555,
+//             ),
+//         ),
+        (
+            name: "Cuango",
+            coordinates: (
+                lat: -9.144444444,
+                lon: 18.046388888,
+            ),
+        ),
+//         (
+//             name: "Dundo",
+//             coordinates: (
+//                 lat: -7.380055555,
+//                 lon: 20.835055555,
+//             ),
+//         ),
+//         (
+//             name: "Catumbela",
+//             coordinates: (
+//                 lat: -12.41666667,
+//                 lon: 13.53333333,
+//             ),
+//         ),
+        (
+            name: "Cazengo",
+            coordinates: (
+                lat: -9.30815,
+                lon: 14.79858,
+            ),
+        ),
+//         (
+//             name: "Caluquembe",
+//             coordinates: (
+//                 lat: -13.783333333,
+//                 lon: 14.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Caconda",
+//             coordinates: (
+//                 lat: -13.75376,
+//                 lon: 15.15389,
+//             ),
+//         ),
+//         (
+//             name: "Bocoio",
+//             coordinates: (
+//                 lat: -12.33333,
+//                 lon: 14.16667,
+//             ),
+//         ),
+//         (
+//             name: "Quibala",
+//             coordinates: (
+//                 lat: -10.733611111,
+//                 lon: 14.98,
+//             ),
+//         ),
+//         (
+//             name: "N\'dalatando",
+//             coordinates: (
+//                 lat: -9.3,
+//                 lon: 14.91666667,
+//             ),
+//         ),
+//         (
+//             name: "Quipungo",
+//             coordinates: (
+//                 lat: -14.816666666,
+//                 lon: 14.55,
+//             ),
+//         ),
+        (
+            name: "Lucapa",
+            coordinates: (
+                lat: -8.4228,
+                lon: 20.7393,
+            ),
+        ),
+        (
+            name: "M\'banza-Kongo",
+            coordinates: (
+                lat: -6.266666666,
+                lon: 14.25,
+            ),
+        ),
+        (
+            name: "Namakunde",
+            coordinates: (
+                lat: -17.3,
+                lon: 15.85,
+            ),
+        ),
+//         (
+//             name: "Negage",
+//             coordinates: (
+//                 lat: -7.766666666,
+//                 lon: 15.266666666,
+//             ),
+//         ),
+//         (
+//             name: "Londuimbali",
+//             coordinates: (
+//                 lat: -12.241944444,
+//                 lon: 15.313333333,
+//             ),
+//         ),
+//         (
+//             name: "Chicomba",
+//             coordinates: (
+//                 lat: -14.133333333,
+//                 lon: 14.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Chinguar",
+//             coordinates: (
+//                 lat: -12.55,
+//                 lon: 16.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Catabola",
+//             coordinates: (
+//                 lat: -12.14094,
+//                 lon: 17.24148,
+//             ),
+//         ),
+        (
+            name: "Nharea",
+            coordinates: (
+                lat: -11.166666666,
+                lon: 17.25,
+            ),
+        ),
+    ],
+)

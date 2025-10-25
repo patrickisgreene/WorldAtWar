@@ -1,0 +1,22 @@
+(
+    name: "Belize",
+    code: "BZ",
+    population: 397621,
+    capital: 0,
+    cities: [
+        (
+            name: "Belmopan",
+            coordinates: (
+                lat: 17.25,
+                lon: -88.77,
+            ),
+        ),
+//         (
+//             name: "Belize City",
+//             coordinates: (
+//                 lat: 17.498611111,
+//                 lon: -88.188611111,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,288 @@
+(
+    name: "Uzbekistan",
+    code: "UZ",
+    population: 34232050,
+    capital: 0,
+    cities: [
+        (
+            name: "Tashkent",
+            coordinates: (
+                lat: 41.311111111,
+                lon: 69.279722222,
+            ),
+        ),
+        (
+            name: "Namangan",
+            coordinates: (
+                lat: 40.995277777,
+                lon: 71.6725,
+            ),
+        ),
+//         (
+//             name: "Andijan",
+//             coordinates: (
+//                 lat: 40.781944444,
+//                 lon: 72.344166666,
+//             ),
+//         ),
+        (
+            name: "Samarkand",
+            coordinates: (
+                lat: 39.654722222,
+                lon: 66.975833333,
+            ),
+        ),
+        (
+            name: "Nukus",
+            coordinates: (
+                lat: 42.464722222,
+                lon: 59.602222222,
+            ),
+        ),
+//         (
+//             name: "Fergana",
+//             coordinates: (
+//                 lat: 40.386388888,
+//                 lon: 71.786388888,
+//             ),
+//         ),
+//         (
+//             name: "Bukhara",
+//             coordinates: (
+//                 lat: 39.774722222,
+//                 lon: 64.428611111,
+//             ),
+//         ),
+        (
+            name: "Qarshi",
+            coordinates: (
+                lat: 38.866666666,
+                lon: 65.8,
+            ),
+        ),
+//         (
+//             name: "Kokand",
+//             coordinates: (
+//                 lat: 40.528611111,
+//                 lon: 70.9425,
+//             ),
+//         ),
+//         (
+//             name: "Margilan",
+//             coordinates: (
+//                 lat: 40.466666666,
+//                 lon: 71.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Navoiy",
+//             coordinates: (
+//                 lat: 40.083333333,
+//                 lon: 65.383333333,
+//             ),
+//         ),
+        (
+            name: "Jizzakh",
+            coordinates: (
+                lat: 40.116666666,
+                lon: 67.85,
+            ),
+        ),
+//         (
+//             name: "Chirchiq",
+//             coordinates: (
+//                 lat: 41.466666666,
+//                 lon: 69.583333333,
+//             ),
+//         ),
+        (
+            name: "Urgench",
+            coordinates: (
+                lat: 41.55177,
+                lon: 60.63143,
+            ),
+        ),
+//         (
+//             name: "Narpay District",
+//             coordinates: (
+//                 lat: 39.916666666,
+//                 lon: 66.0,
+//             ),
+//         ),
+//         (
+//             name: "Shahrisabz",
+//             coordinates: (
+//                 lat: 39.05,
+//                 lon: 66.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Olmaliq",
+//             coordinates: (
+//                 lat: 40.85,
+//                 lon: 69.6,
+//             ),
+//         ),
+        (
+            name: "Termez",
+            coordinates: (
+                lat: 37.224166666,
+                lon: 67.278333333,
+            ),
+        ),
+//         (
+//             name: "Angren",
+//             coordinates: (
+//                 lat: 41.016666666,
+//                 lon: 70.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Asaka",
+//             coordinates: (
+//                 lat: 40.633333333,
+//                 lon: 72.233333333,
+//             ),
+//         ),
+//         (
+//             name: "Khiva",
+//             coordinates: (
+//                 lat: 41.381388888,
+//                 lon: 60.361111111,
+//             ),
+//         ),
+        (
+            name: "Denov",
+            coordinates: (
+                lat: 38.266666666,
+                lon: 67.883333333,
+            ),
+        ),
+//         (
+//             name: "Kagan",
+//             coordinates: (
+//                 lat: 40.2,
+//                 lon: 64.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Kattakurgan",
+//             coordinates: (
+//                 lat: 39.895833333,
+//                 lon: 66.265555555,
+//             ),
+//         ),
+//         (
+//             name: "Bekobod",
+//             coordinates: (
+//                 lat: 40.225833333,
+//                 lon: 69.229166666,
+//             ),
+//         ),
+        (
+            name: "Kungrad",
+            coordinates: (
+                lat: 43.075833333,
+                lon: 58.906666666,
+            ),
+        ),
+//         (
+//             name: "Quvasoy",
+//             coordinates: (
+//                 lat: 40.297222222,
+//                 lon: 71.980277777,
+//             ),
+//         ),
+//         (
+//             name: "Yangiyo‘l",
+//             coordinates: (
+//                 lat: 41.1125,
+//                 lon: 69.046666666,
+//             ),
+//         ),
+//         (
+//             name: "Beruniy",
+//             coordinates: (
+//                 lat: 41.683333333,
+//                 lon: 60.75,
+//             ),
+//         ),
+//         (
+//             name: "Chust",
+//             coordinates: (
+//                 lat: 40.997777777,
+//                 lon: 71.240277777,
+//             ),
+//         ),
+//         (
+//             name: "Xojeli",
+//             coordinates: (
+//                 lat: 42.4,
+//                 lon: 59.433333333,
+//             ),
+//         ),
+//         (
+//             name: "Oltinkoʻl",
+//             coordinates: (
+//                 lat: 43.07583333,
+//                 lon: 58.90666667,
+//             ),
+//         ),
+//         (
+//             name: "Guliston",
+//             coordinates: (
+//                 lat: 40.5153,
+//                 lon: 68.7833,
+//             ),
+//         ),
+        (
+            name: "Zarafshon",
+            coordinates: (
+                lat: 41.566666666,
+                lon: 64.2,
+            ),
+        ),
+//         (
+//             name: "Tortkul",
+//             coordinates: (
+//                 lat: 41.55,
+//                 lon: 61.0,
+//             ),
+//         ),
+//         (
+//             name: "Rishton",
+//             coordinates: (
+//                 lat: 40.356666666,
+//                 lon: 71.284722222,
+//             ),
+//         ),
+//         (
+//             name: "Novyy Turtkul\'",
+//             coordinates: (
+//                 lat: 41.55,
+//                 lon: 61.016666666,
+//             ),
+//         ),
+//         (
+//             name: "Shahrixon",
+//             coordinates: (
+//                 lat: 40.716666666,
+//                 lon: 72.05,
+//             ),
+//         ),
+//         (
+//             name: "Taxiatosh",
+//             coordinates: (
+//                 lat: 42.333333333,
+//                 lon: 59.566666666,
+//             ),
+//         ),
+//         (
+//             name: "Koson",
+//             coordinates: (
+//                 lat: 39.036388888,
+//                 lon: 65.573055555,
+//             ),
+//         ),
+    ],
+)

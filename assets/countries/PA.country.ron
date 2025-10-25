@@ -1,0 +1,85 @@
+(
+    name: "Panama",
+    code: "PA",
+    population: 4314768,
+    capital: 0,
+    cities: [
+        (
+            name: "Panama City",
+            coordinates: (
+                lat: 8.971111111,
+                lon: -79.534722222,
+            ),
+        ),
+//         (
+//             name: "San Miguelito District",
+//             coordinates: (
+//                 lat: 9.05,
+//                 lon: -79.5,
+//             ),
+//         ),
+//         (
+//             name: "Colón District",
+//             coordinates: (
+//                 lat: 9.333333333,
+//                 lon: -79.9,
+//             ),
+//         ),
+//         (
+//             name: "Colón City",
+//             coordinates: (
+//                 lat: 9.359752777,
+//                 lon: -79.900419444,
+//             ),
+//         ),
+        (
+            name: "Santiago de Veraguas",
+            coordinates: (
+                lat: 8.105714,
+                lon: -80.971128,
+            ),
+        ),
+//         (
+//             name: "Tocumen",
+//             coordinates: (
+//                 lat: 9.08,
+//                 lon: -79.38,
+//             ),
+//         ),
+        (
+            name: "David",
+            coordinates: (
+                lat: 8.438180555,
+                lon: -82.424263888,
+            ),
+        ),
+//         (
+//             name: "Las Cumbres",
+//             coordinates: (
+//                 lat: 9.08,
+//                 lon: -79.53,
+//             ),
+//         ),
+//         (
+//             name: "La Chorrera",
+//             coordinates: (
+//                 lat: 8.8792,
+//                 lon: -79.7822,
+//             ),
+//         ),
+//         (
+//             name: "Pacora",
+//             coordinates: (
+//                 lat: 9.08,
+//                 lon: -79.28,
+//             ),
+//         ),
+//         (
+//             name: "Vacamonte",
+//             coordinates: (
+//                 lat: 8.86666667,
+//                 lon: -79.66666667,
+//             ),
+//         ),
+    ],
+)

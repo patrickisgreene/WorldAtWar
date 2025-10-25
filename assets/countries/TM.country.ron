@@ -1,0 +1,85 @@
+(
+    name: "Turkmenistan",
+    code: "TM",
+    population: 6031187,
+    capital: 0,
+    cities: [
+        (
+            name: "Ashgabat",
+            coordinates: (
+                lat: 37.95,
+                lon: 58.383333333,
+            ),
+        ),
+        (
+            name: "Türkmenabat",
+            coordinates: (
+                lat: 39.1,
+                lon: 63.566666666,
+            ),
+        ),
+        (
+            name: "Daşoguz",
+            coordinates: (
+                lat: 41.816666666,
+                lon: 59.983055555,
+            ),
+        ),
+        (
+            name: "Balkanabat",
+            coordinates: (
+                lat: 39.511944444,
+                lon: 54.365,
+            ),
+        ),
+        (
+            name: "Mary",
+            coordinates: (
+                lat: 37.6,
+                lon: 61.833333333,
+            ),
+        ),
+//         (
+//             name: "Baýramaly",
+//             coordinates: (
+//                 lat: 37.616666666,
+//                 lon: 62.15,
+//             ),
+//         ),
+        (
+            name: "Gyzylarbat",
+            coordinates: (
+                lat: 38.976388888,
+                lon: 56.275833333,
+            ),
+        ),
+        (
+            name: "Tejen",
+            coordinates: (
+                lat: 37.38338,
+                lon: 60.50545,
+            ),
+        ),
+        (
+            name: "Türkmenbaşy",
+            coordinates: (
+                lat: 40.016666666,
+                lon: 52.966666666,
+            ),
+        ),
+        (
+            name: "Magdanly",
+            coordinates: (
+                lat: 37.81244,
+                lon: 66.04656,
+            ),
+        ),
+//         (
+//             name: "Abadan Etrap",
+//             coordinates: (
+//                 lat: 38.05,
+//                 lon: 58.21666667,
+//             ),
+//         ),
+    ],
+)

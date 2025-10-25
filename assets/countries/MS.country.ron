@@ -1,0 +1,15 @@
+(
+    name: "Montserrat",
+    code: "MS",
+    population: 4922,
+    capital: 0,
+    cities: [
+        (
+            name: "Plymouth",
+            coordinates: (
+                lat: 16.7,
+                lon: -62.22,
+            ),
+        ),
+    ],
+)

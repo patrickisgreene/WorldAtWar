@@ -1,0 +1,78 @@
+(
+    name: "Uruguay",
+    code: "UY",
+    population: 3473727,
+    capital: 0,
+    cities: [
+        (
+            name: "Montevideo",
+            coordinates: (
+                lat: -34.905916666,
+                lon: -56.191311111,
+            ),
+        ),
+        (
+            name: "Salto",
+            coordinates: (
+                lat: -31.388916666,
+                lon: -57.960886111,
+            ),
+        ),
+//         (
+//             name: "Ciudad de la Costa",
+//             coordinates: (
+//                 lat: -34.816666666,
+//                 lon: -55.95,
+//             ),
+//         ),
+        (
+            name: "Rivera",
+            coordinates: (
+                lat: -30.900086111,
+                lon: -55.540816666,
+            ),
+        ),
+        (
+            name: "Maldonado",
+            coordinates: (
+                lat: -34.908741666,
+                lon: -54.958272222,
+            ),
+        ),
+        (
+            name: "Paysandú",
+            coordinates: (
+                lat: -32.321752777,
+                lon: -58.089213888,
+            ),
+        ),
+//         (
+//             name: "Las Piedras",
+//             coordinates: (
+//                 lat: -34.716666666,
+//                 lon: -56.216666666,
+//             ),
+//         ),
+        (
+            name: "Tacuarembó",
+            coordinates: (
+                lat: -31.71882,
+                lon: -55.97925,
+            ),
+        ),
+        (
+            name: "Mercedes",
+            coordinates: (
+                lat: -33.248447222,
+                lon: -58.029869444,
+            ),
+        ),
+        (
+            name: "Artigas",
+            coordinates: (
+                lat: -30.40431,
+                lon: -56.46926,
+            ),
+        ),
+    ],
+)

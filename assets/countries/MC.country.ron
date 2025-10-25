@@ -1,0 +1,15 @@
+(
+    name: "Monaco",
+    code: "MC",
+    population: 39244,
+    capital: 0,
+    cities: [
+        (
+            name: "Monaco",
+            coordinates: (
+                lat: 43.73,
+                lon: 7.42,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,176 @@
+(
+    name: "Zambia",
+    code: "ZM",
+    population: 18383956,
+    capital: 0,
+    cities: [
+        (
+            name: "Lusaka",
+            coordinates: (
+                lat: -15.416666666,
+                lon: 28.283333333,
+            ),
+        ),
+        (
+            name: "Kitwe",
+            coordinates: (
+                lat: -12.80243,
+                lon: 28.21323,
+            ),
+        ),
+//         (
+//             name: "Ndola",
+//             coordinates: (
+//                 lat: -12.968888888,
+//                 lon: 28.6325,
+//             ),
+//         ),
+        (
+            name: "Kabwe",
+            coordinates: (
+                lat: -14.433333333,
+                lon: 28.45,
+            ),
+        ),
+//         (
+//             name: "Chingola",
+//             coordinates: (
+//                 lat: -12.52897,
+//                 lon: 27.88382,
+//             ),
+//         ),
+//         (
+//             name: "Mufulira",
+//             coordinates: (
+//                 lat: -12.554580555,
+//                 lon: 28.260419444,
+//             ),
+//         ),
+        (
+            name: "Livingstone",
+            coordinates: (
+                lat: -17.85,
+                lon: 25.866666666,
+            ),
+        ),
+        (
+            name: "Kasama",
+            coordinates: (
+                lat: -10.211666666,
+                lon: 31.178333333,
+            ),
+        ),
+        (
+            name: "Mongu",
+            coordinates: (
+                lat: -15.416666666,
+                lon: 23.283333333,
+            ),
+        ),
+//         (
+//             name: "Luanshya",
+//             coordinates: (
+//                 lat: -13.133333333,
+//                 lon: 28.4,
+//             ),
+//         ),
+//         (
+//             name: "Chililabombwe",
+//             coordinates: (
+//                 lat: -12.366666666,
+//                 lon: 27.833333333,
+//             ),
+//         ),
+        (
+            name: "Chipata (Fort Jameson)",
+            coordinates: (
+                lat: -13.63333,
+                lon: 32.65,
+            ),
+        ),
+//         (
+//             name: "Mazabuka",
+//             coordinates: (
+//                 lat: -15.866666666,
+//                 lon: 27.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Shibuyunji District",
+//             coordinates: (
+//                 lat: -15.38923,
+//                 lon: 27.70259,
+//             ),
+//         ),
+        (
+            name: "Solwezi",
+            coordinates: (
+                lat: -12.1688,
+                lon: 26.38938,
+            ),
+        ),
+//         (
+//             name: "Kafue",
+//             coordinates: (
+//                 lat: -15.76911,
+//                 lon: 28.18136,
+//             ),
+//         ),
+//         (
+//             name: "Kapiri Mposhi",
+//             coordinates: (
+//                 lat: -13.97147,
+//                 lon: 28.66985,
+//             ),
+//         ),
+//         (
+//             name: "Monze",
+//             coordinates: (
+//                 lat: -16.283333333,
+//                 lon: 27.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Kansanshi",
+//             coordinates: (
+//                 lat: -12.1667,
+//                 lon: 26.7,
+//             ),
+//         ),
+//         (
+//             name: "Kalulushi",
+//             coordinates: (
+//                 lat: -12.84151,
+//                 lon: 28.09479,
+//             ),
+//         ),
+//         (
+//             name: "Choma",
+//             coordinates: (
+//                 lat: -16.816666666,
+//                 lon: 26.975,
+//             ),
+//         ),
+//         (
+//             name: "Monze",
+//             coordinates: (
+//                 lat: -16.25,
+//                 lon: 27.466666666,
+//             ),
+//         ),
+        (
+            name: "Mansa",
+            coordinates: (
+                lat: -11.19976,
+                lon: 28.89431,
+            ),
+        ),
+        (
+            name: "Nakonde",
+            coordinates: (
+                lat: -9.34213,
+                lon: 32.745,
+            ),
+        ),
+    ],
+)

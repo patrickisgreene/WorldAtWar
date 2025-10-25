@@ -1,0 +1,113 @@
+(
+    name: "Oman",
+    code: "OM",
+    population: 5106622,
+    capital: 0,
+    cities: [
+        (
+            name: "Muscat",
+            coordinates: (
+                lat: 23.613888888,
+                lon: 58.592222222,
+            ),
+        ),
+//         (
+//             name: "Seeb",
+//             coordinates: (
+//                 lat: 23.666666666,
+//                 lon: 58.161666666,
+//             ),
+//         ),
+//         (
+//             name: "Bawshar",
+//             coordinates: (
+//                 lat: 23.578611111,
+//                 lon: 58.408888888,
+//             ),
+//         ),
+        (
+            name: "Salalah",
+            coordinates: (
+                lat: 17.019722222,
+                lon: 54.089722222,
+            ),
+        ),
+//         (
+//             name: "Muttrah",
+//             coordinates: (
+//                 lat: 23.616666666,
+//                 lon: 58.566666666,
+//             ),
+//         ),
+//         (
+//             name: "Sohar",
+//             coordinates: (
+//                 lat: 24.342,
+//                 lon: 56.729888888,
+//             ),
+//         ),
+//         (
+//             name: "Rustaq",
+//             coordinates: (
+//                 lat: 23.3908,
+//                 lon: 57.4244,
+//             ),
+//         ),
+        (
+            name: "Sur",
+            coordinates: (
+                lat: 22.566666666,
+                lon: 59.528888888,
+            ),
+        ),
+        (
+            name: "Ibri",
+            coordinates: (
+                lat: 23.236388888,
+                lon: 56.504444444,
+            ),
+        ),
+//         (
+//             name: "Nizwa",
+//             coordinates: (
+//                 lat: 22.933333333,
+//                 lon: 57.533333333,
+//             ),
+//         ),
+        (
+            name: "Al-Buraimi",
+            coordinates: (
+                lat: 24.255791,
+                lon: 55.802528,
+            ),
+        ),
+//         (
+//             name: "Bahla",
+//             coordinates: (
+//                 lat: 22.97339,
+//                 lon: 57.29958,
+//             ),
+//         ),
+//         (
+//             name: "Khabura",
+//             coordinates: (
+//                 lat: 23.97144,
+//                 lon: 57.09313,
+//             ),
+//         ),
+//         (
+//             name: "Shinas",
+//             coordinates: (
+//                 lat: 24.75,
+//                 lon: 56.46666667,
+//             ),
+//         ),
+//         (
+//             name: "Sufālat Samā\'il",
+//             coordinates: (
+//                 lat: 23.316666666,
+//                 lon: 58.016666666,
+//             ),
+//         ),
+    ],
+)

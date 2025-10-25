@@ -1,0 +1,15 @@
+(
+    name: "Caribbean Netherlands",
+    code: "BQ",
+    population: 25987,
+    capital: 0,
+    cities: [
+        (
+            name: "Kralendijk",
+            coordinates: (
+                lat: 12.14,
+                lon: -68.27,
+            ),
+        ),
+    ],
+)

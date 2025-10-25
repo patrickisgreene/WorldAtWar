@@ -1,0 +1,43 @@
+(
+    name: "Cape Verde",
+    code: "CV",
+    population: 555988,
+    capital: 0,
+    cities: [
+        (
+            name: "Praia",
+            coordinates: (
+                lat: 14.917719444,
+                lon: -23.509155555,
+            ),
+        ),
+//         (
+//             name: "Praia",
+//             coordinates: (
+//                 lat: 14.95,
+//                 lon: -23.51666667,
+//             ),
+//         ),
+        (
+            name: "São Vicente",
+            coordinates: (
+                lat: 16.85,
+                lon: -24.97,
+            ),
+        ),
+//         (
+//             name: "Mindelo",
+//             coordinates: (
+//                 lat: 16.891352777,
+//                 lon: -24.987983333,
+//             ),
+//         ),
+//         (
+//             name: "Santa Catarina",
+//             coordinates: (
+//                 lat: 15.0975,
+//                 lon: -23.667777777,
+//             ),
+//         ),
+    ],
+)

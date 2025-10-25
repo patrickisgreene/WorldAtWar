@@ -1,0 +1,358 @@
+(
+    name: "Morocco",
+    code: "MA",
+    population: 36910558,
+    capital: 9,
+    cities: [
+        (
+            name: "Casablanca",
+            coordinates: (
+                lat: 33.599166666,
+                lon: -7.62,
+            ),
+        ),
+        (
+            name: "Tangier",
+            coordinates: (
+                lat: 35.776666666,
+                lon: -5.803888888,
+            ),
+        ),
+//         (
+//             name: "Fez",
+//             coordinates: (
+//                 lat: 34.043333333,
+//                 lon: -5.003333333,
+//             ),
+//         ),
+//         (
+//             name: "Tangier",
+//             coordinates: (
+//                 lat: 35.76727,
+//                 lon: -5.79975,
+//             ),
+//         ),
+        (
+            name: "Marrakesh",
+            coordinates: (
+                lat: 31.62947,
+                lon: -7.98108,
+            ),
+        ),
+//         (
+//             name: "Salé",
+//             coordinates: (
+//                 lat: 34.05,
+//                 lon: -6.816667,
+//             ),
+//         ),
+//         (
+//             name: "Meknes",
+//             coordinates: (
+//                 lat: 33.883333333,
+//                 lon: -5.55,
+//             ),
+//         ),
+//         (
+//             name: "Sidi Moumen",
+//             coordinates: (
+//                 lat: 33.594722222,
+//                 lon: -7.526944444,
+//             ),
+//         ),
+//         (
+//             name: "Hay Hassani",
+//             coordinates: (
+//                 lat: 33.57361111,
+//                 lon: -7.67611111,
+//             ),
+//         ),
+//         (
+//             name: "Rabat",
+//             coordinates: (
+//                 lat: 34.025277777,
+//                 lon: -6.836111111,
+//             ),
+//         ),
+//         (
+//             name: "Kenitra",
+//             coordinates: (
+//                 lat: 34.25,
+//                 lon: -6.583333333,
+//             ),
+//         ),
+        (
+            name: "Oujda",
+            coordinates: (
+                lat: 34.68139,
+                lon: -1.90858,
+            ),
+        ),
+        (
+            name: "Agadir",
+            coordinates: (
+                lat: 30.421388888,
+                lon: -9.583055555,
+            ),
+        ),
+//         (
+//             name: "Aïn Chock",
+//             coordinates: (
+//                 lat: 33.54055556,
+//                 lon: -7.5875,
+//             ),
+//         ),
+        (
+            name: "Safi",
+            coordinates: (
+                lat: 32.283333333,
+                lon: -9.233333333,
+            ),
+        ),
+//         (
+//             name: "Temara",
+//             coordinates: (
+//                 lat: 33.923366666,
+//                 lon: -6.907647222,
+//             ),
+//         ),
+        (
+            name: "El Jadida",
+            coordinates: (
+                lat: 33.2342,
+                lon: -8.5228,
+            ),
+        ),
+//         (
+//             name: "Ait Melloul",
+//             coordinates: (
+//                 lat: 30.334166666,
+//                 lon: -9.497222222,
+//             ),
+//         ),
+        (
+            name: "Beni Mellal",
+            coordinates: (
+                lat: 32.339444444,
+                lon: -6.360833333,
+            ),
+        ),
+//         (
+//             name: "Bouskoura",
+//             coordinates: (
+//                 lat: 33.44888889,
+//                 lon: -7.64861111,
+//             ),
+//         ),
+//         (
+//             name: "Mohammedia",
+//             coordinates: (
+//                 lat: 33.683333333,
+//                 lon: -7.383333333,
+//             ),
+//         ),
+//         (
+//             name: "Settat",
+//             coordinates: (
+//                 lat: 33.002319,
+//                 lon: -7.619801,
+//             ),
+//         ),
+//         (
+//             name: "Berrechid",
+//             coordinates: (
+//                 lat: 33.27,
+//                 lon: -7.587222222,
+//             ),
+//         ),
+        (
+            name: "Nador",
+            coordinates: (
+                lat: 35.1667,
+                lon: -2.93333,
+            ),
+        ),
+//         (
+//             name: "Fes el Bali",
+//             coordinates: (
+//                 lat: 34.07,
+//                 lon: -4.954722222,
+//             ),
+//         ),
+//         (
+//             name: "Aïn Sebaâ",
+//             coordinates: (
+//                 lat: 33.602777777,
+//                 lon: -7.541944444,
+//             ),
+//         ),
+        (
+            name: "Taza",
+            coordinates: (
+                lat: 34.214442,
+                lon: -4.008789,
+            ),
+        ),
+//         (
+//             name: "Larache",
+//             coordinates: (
+//                 lat: 35.183333333,
+//                 lon: -6.15,
+//             ),
+//         ),
+        (
+            name: "Guelmim",
+            coordinates: (
+                lat: 28.983333333,
+                lon: -10.066666666,
+            ),
+        ),
+//         (
+//             name: "Khemisset",
+//             coordinates: (
+//                 lat: 33.81,
+//                 lon: -6.06,
+//             ),
+//         ),
+//         (
+//             name: "Ksar el-Kebir",
+//             coordinates: (
+//                 lat: 35.0,
+//                 lon: -5.9,
+//             ),
+//         ),
+        (
+            name: "Khenifra",
+            coordinates: (
+                lat: 32.93,
+                lon: -5.66,
+            ),
+        ),
+//         (
+//             name: "Skhirat",
+//             coordinates: (
+//                 lat: 33.85,
+//                 lon: -7.03,
+//             ),
+//         ),
+//         (
+//             name: "Beni Yakhlef",
+//             coordinates: (
+//                 lat: 33.66805556,
+//                 lon: -7.25138889,
+//             ),
+//         ),
+//         (
+//             name: "Sidi Yahya Zaer",
+//             coordinates: (
+//                 lat: 33.826111111,
+//                 lon: -6.903888888,
+//             ),
+//         ),
+//         (
+//             name: "Ben Guerir",
+//             coordinates: (
+//                 lat: 32.23,
+//                 lon: -7.95,
+//             ),
+//         ),
+//         (
+//             name: "Ait Amira",
+//             coordinates: (
+//                 lat: 30.173888888,
+//                 lon: -9.488055555,
+//             ),
+//         ),
+//         (
+//             name: "Drarga",
+//             coordinates: (
+//                 lat: 30.4529,
+//                 lon: -9.48082,
+//             ),
+//         ),
+//         (
+//             name: "Lqliâa",
+//             coordinates: (
+//                 lat: 30.294166666,
+//                 lon: -9.454444444,
+//             ),
+//         ),
+//         (
+//             name: "Tassoultante",
+//             coordinates: (
+//                 lat: 31.554166666,
+//                 lon: -7.976111111,
+//             ),
+//         ),
+//         (
+//             name: "Harbil",
+//             coordinates: (
+//                 lat: 31.760277777,
+//                 lon: -8.107222222,
+//             ),
+//         ),
+//         (
+//             name: "Roches Noires",
+//             coordinates: (
+//                 lat: 33.6,
+//                 lon: -7.58333333,
+//             ),
+//         ),
+//         (
+//             name: "Moulay Abdallah",
+//             coordinates: (
+//                 lat: 33.1978,
+//                 lon: -8.58833,
+//             ),
+//         ),
+//         (
+//             name: "Tiflet",
+//             coordinates: (
+//                 lat: 33.9,
+//                 lon: -6.33,
+//             ),
+//         ),
+        (
+            name: "Taourirt",
+            coordinates: (
+                lat: 34.41,
+                lon: -2.89,
+            ),
+        ),
+//         (
+//             name: "Ain Aouda",
+//             coordinates: (
+//                 lat: 33.811111111,
+//                 lon: -6.792222222,
+//             ),
+//         ),
+//         (
+//             name: "Chellalate",
+//             coordinates: (
+//                 lat: 33.599166666,
+//                 lon: -7.416666666,
+//             ),
+//         ),
+        (
+            name: "Errachidia",
+            coordinates: (
+                lat: 31.931944444,
+                lon: -4.424444444,
+            ),
+        ),
+//         (
+//             name: "Fkih Ben Saleh",
+//             coordinates: (
+//                 lat: 32.50705,
+//                 lon: -6.68858,
+//             ),
+//         ),
+//         (
+//             name: "Al Majjatia Oulad Taleb",
+//             coordinates: (
+//                 lat: 33.484444444,
+//                 lon: -7.511944444,
+//             ),
+//         ),
+    ],
+)

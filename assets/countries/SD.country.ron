@@ -1,0 +1,302 @@
+(
+    name: "Sudan",
+    code: "SD",
+    population: 43849269,
+    capital: 1,
+    cities: [
+        (
+            name: "Sudan",
+            coordinates: (
+                lat: 15.0,
+                lon: 32.0,
+            ),
+        ),
+        (
+            name: "Khartoum",
+            coordinates: (
+                lat: 15.60308,
+                lon: 32.52654,
+            ),
+        ),
+//         (
+//             name: "Omdurman",
+//             coordinates: (
+//                 lat: 15.683517,
+//                 lon: 32.462887,
+//             ),
+//         ),
+//         (
+//             name: "Khartoum North",
+//             coordinates: (
+//                 lat: 15.633333333,
+//                 lon: 32.633333333,
+//             ),
+//         ),
+        (
+            name: "Port Sudan",
+            coordinates: (
+                lat: 19.615833333,
+                lon: 37.216388888,
+            ),
+        ),
+        (
+            name: "El-Obeid",
+            coordinates: (
+                lat: 13.183333333,
+                lon: 30.216666666,
+            ),
+        ),
+        (
+            name: "Kassala",
+            coordinates: (
+                lat: 15.45,
+                lon: 36.4,
+            ),
+        ),
+        (
+            name: "Kosti",
+            coordinates: (
+                lat: 13.166666666,
+                lon: 32.666666666,
+            ),
+        ),
+        (
+            name: "Nyala",
+            coordinates: (
+                lat: 12.05,
+                lon: 24.883333333,
+            ),
+        ),
+        (
+            name: "Al Qadarif",
+            coordinates: (
+                lat: 14.033333333,
+                lon: 35.383333333,
+            ),
+        ),
+        (
+            name: "Wad Madani",
+            coordinates: (
+                lat: 14.4,
+                lon: 33.51,
+            ),
+        ),
+        (
+            name: "Al-Fashir",
+            coordinates: (
+                lat: 13.626983333,
+                lon: 25.349583333,
+            ),
+        ),
+        (
+            name: "Ed Daein",
+            coordinates: (
+                lat: 11.433333333,
+                lon: 26.15,
+            ),
+        ),
+        (
+            name: "Kurmuk",
+            coordinates: (
+                lat: 10.5563,
+                lon: 34.2848,
+            ),
+        ),
+        (
+            name: "Singa",
+            coordinates: (
+                lat: 13.148333333,
+                lon: 33.931111111,
+            ),
+        ),
+        (
+            name: "Ad-Damazin",
+            coordinates: (
+                lat: 11.766666666,
+                lon: 34.35,
+            ),
+        ),
+        (
+            name: "Geneina",
+            coordinates: (
+                lat: 13.45,
+                lon: 22.45,
+            ),
+        ),
+//         (
+//             name: "Sengs",
+//             coordinates: (
+//                 lat: 13.55,
+//                 lon: 33.6,
+//             ),
+//         ),
+//         (
+//             name: "Rabak",
+//             coordinates: (
+//                 lat: 13.15,
+//                 lon: 32.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Al Manāqil",
+//             coordinates: (
+//                 lat: 14.245833333,
+//                 lon: 32.989166666,
+//             ),
+//         ),
+        (
+            name: "Gereida",
+            coordinates: (
+                lat: 11.277,
+                lon: 25.142,
+            ),
+        ),
+        (
+            name: "Atbarah",
+            coordinates: (
+                lat: 17.716666666,
+                lon: 33.983333333,
+            ),
+        ),
+        (
+            name: "En Nahud",
+            coordinates: (
+                lat: 12.7,
+                lon: 28.433333333,
+            ),
+        ),
+//         (
+//             name: "Ad-Damir",
+//             coordinates: (
+//                 lat: 17.592777777,
+//                 lon: 33.959166666,
+//             ),
+//         ),
+        (
+            name: "Kaduqli",
+            coordinates: (
+                lat: 11.016666666,
+                lon: 29.716666666,
+            ),
+        ),
+//         (
+//             name: "Ed Dueim",
+//             coordinates: (
+//                 lat: 14.0,
+//                 lon: 32.316666666,
+//             ),
+//         ),
+//         (
+//             name: "Buram",
+//             coordinates: (
+//                 lat: 10.85826,
+//                 lon: 25.15921,
+//             ),
+//         ),
+        (
+            name: "Shendi",
+            coordinates: (
+                lat: 16.691388888,
+                lon: 33.433888888,
+            ),
+        ),
+//         (
+//             name: "New Halfa",
+//             coordinates: (
+//                 lat: 15.33,
+//                 lon: 35.598333333,
+//             ),
+//         ),
+        (
+            name: "Dalang",
+            coordinates: (
+                lat: 12.045941,
+                lon: 29.651048,
+            ),
+        ),
+//         (
+//             name: "Er Roseires",
+//             coordinates: (
+//                 lat: 11.8659,
+//                 lon: 34.3869,
+//             ),
+//         ),
+        (
+            name: "Umm Ruwaba",
+            coordinates: (
+                lat: 12.905833333,
+                lon: 31.215555555,
+            ),
+        ),
+        (
+            name: "Dongola",
+            coordinates: (
+                lat: 19.176944444,
+                lon: 30.483888888,
+            ),
+        ),
+        (
+            name: "Kas",
+            coordinates: (
+                lat: 12.50974,
+                lon: 24.28519,
+            ),
+        ),
+//         (
+//             name: "Mellit",
+//             coordinates: (
+//                 lat: 14.13333,
+//                 lon: 25.55,
+//             ),
+//         ),
+//         (
+//             name: "Al Hasahisa",
+//             coordinates: (
+//                 lat: 14.75264,
+//                 lon: 33.29836,
+//             ),
+//         ),
+        (
+            name: "Abu Jibeha",
+            coordinates: (
+                lat: 11.41666667,
+                lon: 31.21666667,
+            ),
+        ),
+//         (
+//             name: "Suakin",
+//             coordinates: (
+//                 lat: 19.1025,
+//                 lon: 37.33,
+//             ),
+//         ),
+//         (
+//             name: "Khashm El Girba",
+//             coordinates: (
+//                 lat: 14.966666666,
+//                 lon: 35.916666666,
+//             ),
+//         ),
+        (
+            name: "Kebkabiya",
+            coordinates: (
+                lat: 13.650321,
+                lon: 24.0902512,
+            ),
+        ),
+//         (
+//             name: "Tullus",
+//             coordinates: (
+//                 lat: 11.0904,
+//                 lon: 24.53015,
+//             ),
+//         ),
+        (
+            name: "Mujlad",
+            coordinates: (
+                lat: 11.033333333,
+                lon: 27.733333333,
+            ),
+        ),
+    ],
+)

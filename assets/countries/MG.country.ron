@@ -1,0 +1,211 @@
+(
+    name: "Madagascar",
+    code: "MG",
+    population: 27691019,
+    capital: 0,
+    cities: [
+        (
+            name: "Antananarivo",
+            coordinates: (
+                lat: -18.91,
+                lon: 47.525,
+            ),
+        ),
+        (
+            name: "Mandritsara",
+            coordinates: (
+                lat: -15.8333,
+                lon: 48.8167,
+            ),
+        ),
+        (
+            name: "Antsirabe",
+            coordinates: (
+                lat: -19.866666666,
+                lon: 47.033333333,
+            ),
+        ),
+        (
+            name: "Toamasina",
+            coordinates: (
+                lat: -18.155,
+                lon: 49.41,
+            ),
+        ),
+        (
+            name: "Fianarantsoa",
+            coordinates: (
+                lat: -21.433333333,
+                lon: 47.083333333,
+            ),
+        ),
+        (
+            name: "Toliara",
+            coordinates: (
+                lat: -23.35,
+                lon: 43.666666666,
+            ),
+        ),
+        (
+            name: "Mahajanga",
+            coordinates: (
+                lat: -15.716666666,
+                lon: 46.316666666,
+            ),
+        ),
+        (
+            name: "Antsiranana",
+            coordinates: (
+                lat: -12.322444444,
+                lon: 49.295,
+            ),
+        ),
+//         (
+//             name: "Imerintsitosika",
+//             coordinates: (
+//                 lat: -18.9833,
+//                 lon: 47.3167,
+//             ),
+//         ),
+//         (
+//             name: "Antanifotsy",
+//             coordinates: (
+//                 lat: -20.133333333,
+//                 lon: 47.55,
+//             ),
+//         ),
+        (
+            name: "Ambovombe-Androy",
+            coordinates: (
+                lat: -25.176944444,
+                lon: 46.086944444,
+            ),
+        ),
+//         (
+//             name: "Tôlanaro",
+//             coordinates: (
+//                 lat: -25.0325,
+//                 lon: 46.983333333,
+//             ),
+//         ),
+        (
+            name: "Ambanja",
+            coordinates: (
+                lat: -13.678611111,
+                lon: 48.452222222,
+            ),
+        ),
+        (
+            name: "Antsalova",
+            coordinates: (
+                lat: -18.4,
+                lon: 44.37,
+            ),
+        ),
+        (
+            name: "Morondava",
+            coordinates: (
+                lat: -20.284722222,
+                lon: 44.3175,
+            ),
+        ),
+//         (
+//             name: "Andoany",
+//             coordinates: (
+//                 lat: -13.4012,
+//                 lon: 48.2718,
+//             ),
+//         ),
+        (
+            name: "Ambatondrazaka",
+            coordinates: (
+                lat: -17.833333333,
+                lon: 48.416666666,
+            ),
+        ),
+//         (
+//             name: "Amboasary",
+//             coordinates: (
+//                 lat: -25.038217,
+//                 lon: 46.386309,
+//             ),
+//         ),
+        (
+            name: "Tsiroanomandidy",
+            coordinates: (
+                lat: -18.7698,
+                lon: 46.05,
+            ),
+        ),
+        (
+            name: "Manakara",
+            coordinates: (
+                lat: -22.15,
+                lon: 48.0,
+            ),
+        ),
+//         (
+//             name: "Ambalavao",
+//             coordinates: (
+//                 lat: -21.84,
+//                 lon: 46.94,
+//             ),
+//         ),
+        (
+            name: "Maroantsetra",
+            coordinates: (
+                lat: -15.433333333,
+                lon: 49.75,
+            ),
+        ),
+        (
+            name: "Fenoarivo Atsinanana",
+            coordinates: (
+                lat: -17.22,
+                lon: 49.25,
+            ),
+        ),
+//         (
+//             name: "Soavinandriana",
+//             coordinates: (
+//                 lat: -19.166666666,
+//                 lon: 46.733055555,
+//             ),
+//         ),
+        (
+            name: "Ihosy",
+            coordinates: (
+                lat: -22.4036,
+                lon: 46.1258,
+            ),
+        ),
+//         (
+//             name: "Marovoay",
+//             coordinates: (
+//                 lat: -16.111111111,
+//                 lon: 46.643888888,
+//             ),
+//         ),
+        (
+            name: "Vangaindrano",
+            coordinates: (
+                lat: -23.35,
+                lon: 47.605,
+            ),
+        ),
+        (
+            name: "Ampanihy",
+            coordinates: (
+                lat: -24.6937,
+                lon: 44.74581,
+            ),
+        ),
+        (
+            name: "Mahanoro",
+            coordinates: (
+                lat: -19.9,
+                lon: 48.8,
+            ),
+        ),
+    ],
+)

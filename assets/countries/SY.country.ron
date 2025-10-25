@@ -1,0 +1,302 @@
+(
+    name: "Syria",
+    code: "SY",
+    population: 17500657,
+    capital: 0,
+    cities: [
+        (
+            name: "Damascus",
+            coordinates: (
+                lat: 33.513055555,
+                lon: 36.291944444,
+            ),
+        ),
+//         (
+//             name: "Aleppo",
+//             coordinates: (
+//                 lat: 36.2,
+//                 lon: 37.16,
+//             ),
+//         ),
+//         (
+//             name: "Homs",
+//             coordinates: (
+//                 lat: 34.733333333,
+//                 lon: 36.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Latakia",
+//             coordinates: (
+//                 lat: 35.523611111,
+//                 lon: 35.791666666,
+//             ),
+//         ),
+//         (
+//             name: "Hama",
+//             coordinates: (
+//                 lat: 35.135,
+//                 lon: 36.75,
+//             ),
+//         ),
+//         (
+//             name: "Tartus",
+//             coordinates: (
+//                 lat: 34.883333333,
+//                 lon: 35.883333333,
+//             ),
+//         ),
+//         (
+//             name: "Douma",
+//             coordinates: (
+//                 lat: 33.572222222,
+//                 lon: 36.401944444,
+//             ),
+//         ),
+        (
+            name: "Raqqa",
+            coordinates: (
+                lat: 35.95,
+                lon: 39.01,
+            ),
+        ),
+        (
+            name: "Deir ez-Zor",
+            coordinates: (
+                lat: 35.333333333,
+                lon: 40.15,
+            ),
+        ),
+        (
+            name: "Al-Hasakah",
+            coordinates: (
+                lat: 36.511666666,
+                lon: 40.742222222,
+            ),
+        ),
+//         (
+//             name: "Qamishli",
+//             coordinates: (
+//                 lat: 37.05,
+//                 lon: 41.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Idlib",
+//             coordinates: (
+//                 lat: 35.933333333,
+//                 lon: 36.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Azaz",
+//             coordinates: (
+//                 lat: 36.586111111,
+//                 lon: 37.044722222,
+//             ),
+//         ),
+//         (
+//             name: "Nawa",
+//             coordinates: (
+//                 lat: 32.883333333,
+//                 lon: 36.05,
+//             ),
+//         ),
+//         (
+//             name: "al-Bab",
+//             coordinates: (
+//                 lat: 36.37051,
+//                 lon: 37.5157,
+//             ),
+//         ),
+//         (
+//             name: "Jaramana",
+//             coordinates: (
+//                 lat: 33.483333333,
+//                 lon: 36.35,
+//             ),
+//         ),
+//         (
+//             name: "Jisr ash-Shughur",
+//             coordinates: (
+//                 lat: 35.812585337,
+//                 lon: 36.317605276,
+//             ),
+//         ),
+//         (
+//             name: "Salamiyah",
+//             coordinates: (
+//                 lat: 35.011111111,
+//                 lon: 37.053055555,
+//             ),
+//         ),
+//         (
+//             name: "Daraa",
+//             coordinates: (
+//                 lat: 32.61889,
+//                 lon: 36.10213,
+//             ),
+//         ),
+//         (
+//             name: "Al-Safira",
+//             coordinates: (
+//                 lat: 36.076944444,
+//                 lon: 37.3725,
+//             ),
+//         ),
+//         (
+//             name: "Al-Hajar al-Aswad",
+//             coordinates: (
+//                 lat: 33.458055555,
+//                 lon: 36.305277777,
+//             ),
+//         ),
+//         (
+//             name: "Darayya",
+//             coordinates: (
+//                 lat: 33.458888888,
+//                 lon: 36.237222222,
+//             ),
+//         ),
+//         (
+//             name: "Al-Tabqah",
+//             coordinates: (
+//                 lat: 35.834444444,
+//                 lon: 38.546388888,
+//             ),
+//         ),
+//         (
+//             name: "Manbij",
+//             coordinates: (
+//                 lat: 36.533333333,
+//                 lon: 37.95,
+//             ),
+//         ),
+//         (
+//             name: "Qardaha",
+//             coordinates: (
+//                 lat: 35.359722222,
+//                 lon: 35.921388888,
+//             ),
+//         ),
+//         (
+//             name: "Al-Suwayda",
+//             coordinates: (
+//                 lat: 32.7,
+//                 lon: 36.566666666,
+//             ),
+//         ),
+//         (
+//             name: "Al-Tall",
+//             coordinates: (
+//                 lat: 33.610277777,
+//                 lon: 36.310555555,
+//             ),
+//         ),
+//         (
+//             name: "Khan Shaykhun",
+//             coordinates: (
+//                 lat: 35.441944444,
+//                 lon: 36.650833333,
+//             ),
+//         ),
+//         (
+//             name: "Ariha",
+//             coordinates: (
+//                 lat: 35.816666666,
+//                 lon: 36.6,
+//             ),
+//         ),
+//         (
+//             name: "Al-Rastan",
+//             coordinates: (
+//                 lat: 34.916666666,
+//                 lon: 36.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Al-Nabek",
+//             coordinates: (
+//                 lat: 34.025,
+//                 lon: 36.734444444,
+//             ),
+//         ),
+//         (
+//             name: "Abu Kamal",
+//             coordinates: (
+//                 lat: 34.45,
+//                 lon: 40.918611111,
+//             ),
+//         ),
+//         (
+//             name: "Arbin",
+//             coordinates: (
+//                 lat: 33.536944444,
+//                 lon: 36.366111111,
+//             ),
+//         ),
+//         (
+//             name: "Mayadin",
+//             coordinates: (
+//                 lat: 35.020833333,
+//                 lon: 40.453333333,
+//             ),
+//         ),
+//         (
+//             name: "Amoudah",
+//             coordinates: (
+//                 lat: 37.104166666,
+//                 lon: 40.93,
+//             ),
+//         ),
+//         (
+//             name: "Al-Qusayr",
+//             coordinates: (
+//                 lat: 34.508888888,
+//                 lon: 36.579722222,
+//             ),
+//         ),
+//         (
+//             name: "Harasta",
+//             coordinates: (
+//                 lat: 33.558611111,
+//                 lon: 36.365,
+//             ),
+//         ),
+//         (
+//             name: "Talbiseh",
+//             coordinates: (
+//                 lat: 34.840555555,
+//                 lon: 36.730833333,
+//             ),
+//         ),
+//         (
+//             name: "Aïn al-Arab",
+//             coordinates: (
+//                 lat: 36.891027777,
+//                 lon: 38.353611111,
+//             ),
+//         ),
+//         (
+//             name: "Baniyas",
+//             coordinates: (
+//                 lat: 35.182222222,
+//                 lon: 35.940277777,
+//             ),
+//         ),
+//         (
+//             name: "Tedef",
+//             coordinates: (
+//                 lat: 36.348055555,
+//                 lon: 37.530833333,
+//             ),
+//         ),
+//         (
+//             name: "Yabrud",
+//             coordinates: (
+//                 lat: 33.967222222,
+//                 lon: 36.657222222,
+//             ),
+//         ),
+    ],
+)

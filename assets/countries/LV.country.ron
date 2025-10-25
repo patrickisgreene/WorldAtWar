@@ -1,0 +1,43 @@
+(
+    name: "Latvia",
+    code: "LV",
+    population: 1901548,
+    capital: 0,
+    cities: [
+        (
+            name: "Riga",
+            coordinates: (
+                lat: 56.9475,
+                lon: 24.106944444,
+            ),
+        ),
+        (
+            name: "Daugavpils",
+            coordinates: (
+                lat: 55.871388888,
+                lon: 26.516111111,
+            ),
+        ),
+        (
+            name: "Liepāja",
+            coordinates: (
+                lat: 56.508333333,
+                lon: 21.011111111,
+            ),
+        ),
+//         (
+//             name: "Jelgava",
+//             coordinates: (
+//                 lat: 56.652222222,
+//                 lon: 23.724444444,
+//             ),
+//         ),
+//         (
+//             name: "Jūrmala",
+//             coordinates: (
+//                 lat: 56.972222222,
+//                 lon: 23.796944444,
+//             ),
+//         ),
+    ],
+)

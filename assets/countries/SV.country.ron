@@ -1,0 +1,148 @@
+(
+    name: "El Salvador",
+    code: "SV",
+    population: 6486201,
+    capital: 0,
+    cities: [
+        (
+            name: "San Salvador",
+            coordinates: (
+                lat: 13.697597222,
+                lon: -89.191155555,
+            ),
+        ),
+//         (
+//             name: "Santa Ana",
+//             coordinates: (
+//                 lat: 13.994744444,
+//                 lon: -89.556608333,
+//             ),
+//         ),
+//         (
+//             name: "San Miguel",
+//             coordinates: (
+//                 lat: 13.480358333,
+//                 lon: -88.177222222,
+//             ),
+//         ),
+//         (
+//             name: "Ahuachapán",
+//             coordinates: (
+//                 lat: 13.923388888,
+//                 lon: -89.846294444,
+//             ),
+//         ),
+//         (
+//             name: "Santa Tecla",
+//             coordinates: (
+//                 lat: 13.673722222,
+//                 lon: -89.288597222,
+//             ),
+//         ),
+//         (
+//             name: "San Juan Opico",
+//             coordinates: (
+//                 lat: 13.876372222,
+//                 lon: -89.358458333,
+//             ),
+//         ),
+//         (
+//             name: "Izalco",
+//             coordinates: (
+//                 lat: 13.746183333,
+//                 lon: -89.675633333,
+//             ),
+//         ),
+//         (
+//             name: "Chalchuapa",
+//             coordinates: (
+//                 lat: 13.985291666,
+//                 lon: -89.680244444,
+//             ),
+//         ),
+//         (
+//             name: "Sonsonate",
+//             coordinates: (
+//                 lat: 13.720613888,
+//                 lon: -89.727486111,
+//             ),
+//         ),
+//         (
+//             name: "Usulután",
+//             coordinates: (
+//                 lat: 13.343788888,
+//                 lon: -88.438230555,
+//             ),
+//         ),
+//         (
+//             name: "Ciudad Arce",
+//             coordinates: (
+//                 lat: 13.840258333,
+//                 lon: -89.443763888,
+//             ),
+//         ),
+//         (
+//             name: "Zacatecoluca",
+//             coordinates: (
+//                 lat: 13.507286111,
+//                 lon: -88.870208333,
+//             ),
+//         ),
+//         (
+//             name: "Metapán",
+//             coordinates: (
+//                 lat: 14.332147222,
+//                 lon: -89.448105555,
+//             ),
+//         ),
+//         (
+//             name: "Quezaltepeque",
+//             coordinates: (
+//                 lat: 13.83124,
+//                 lon: -89.27221,
+//             ),
+//         ),
+//         (
+//             name: "Nahuizalco",
+//             coordinates: (
+//                 lat: 13.779188888,
+//                 lon: -89.737297222,
+//             ),
+//         ),
+//         (
+//             name: "Acajutla",
+//             coordinates: (
+//                 lat: 13.589766666,
+//                 lon: -89.829763888,
+//             ),
+//         ),
+//         (
+//             name: "San Vicente",
+//             coordinates: (
+//                 lat: 13.643286111,
+//                 lon: -88.783641666,
+//             ),
+//         ),
+//         (
+//             name: "Cojutepeque",
+//             coordinates: (
+//                 lat: 13.721708333,
+//                 lon: -88.934544444,
+//             ),
+//         ),
+//         (
+//             name: "San Francisco Menéndez",
+//             coordinates: (
+//                 lat: 13.843388888,
+//                 lon: -90.014608333,
+//             ),
+//         ),
+//         (
+//             name: "La Unión",
+//             coordinates: (
+//                 lat: 13.337122222,
+//                 lon: -87.843055555,
+//             ),
+//         ),
+    ],
+)

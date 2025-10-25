@@ -1,0 +1,15 @@
+(
+    name: "Wallis and Futuna",
+    code: "WF",
+    population: 11750,
+    capital: 0,
+    cities: [
+        (
+            name: "Mata-Utu",
+            coordinates: (
+                lat: -13.95,
+                lon: -171.93,
+            ),
+        ),
+    ],
+)

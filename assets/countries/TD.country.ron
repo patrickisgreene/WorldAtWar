@@ -1,0 +1,120 @@
+(
+    name: "Chad",
+    code: "TD",
+    population: 16425859,
+    capital: 0,
+    cities: [
+        (
+            name: "N\'Djamena",
+            coordinates: (
+                lat: 12.11,
+                lon: 15.05,
+            ),
+        ),
+        (
+            name: "Moundou",
+            coordinates: (
+                lat: 8.566666666,
+                lon: 16.083333333,
+            ),
+        ),
+        (
+            name: "Sarh",
+            coordinates: (
+                lat: 9.15,
+                lon: 18.383333333,
+            ),
+        ),
+        (
+            name: "Léré",
+            coordinates: (
+                lat: 9.65555556,
+                lon: 14.225,
+            ),
+        ),
+        (
+            name: "Kélo",
+            coordinates: (
+                lat: 9.30859,
+                lon: 15.80658,
+            ),
+        ),
+        (
+            name: "Abéché",
+            coordinates: (
+                lat: 13.833055555,
+                lon: 20.834722222,
+            ),
+        ),
+        (
+            name: "Goundi",
+            coordinates: (
+                lat: 9.36389,
+                lon: 17.3644,
+            ),
+        ),
+        (
+            name: "Doba",
+            coordinates: (
+                lat: 8.65,
+                lon: 16.85,
+            ),
+        ),
+        (
+            name: "Goz Beïda",
+            coordinates: (
+                lat: 12.223611111,
+                lon: 21.414444444,
+            ),
+        ),
+        (
+            name: "Ennedi-Ouest",
+            coordinates: (
+                lat: 18.5,
+                lon: 21.4,
+            ),
+        ),
+        (
+            name: "Mongo",
+            coordinates: (
+                lat: 12.182777777,
+                lon: 18.684722222,
+            ),
+        ),
+        (
+            name: "Iriba",
+            coordinates: (
+                lat: 15.11666667,
+                lon: 22.25,
+            ),
+        ),
+        (
+            name: "Amdjarass",
+            coordinates: (
+                lat: 16.0659,
+                lon: 22.8431,
+            ),
+        ),
+        (
+            name: "Faya-Largeau",
+            coordinates: (
+                lat: 17.93,
+                lon: 19.103055555,
+            ),
+        ),
+        (
+            name: "Fianga",
+            coordinates: (
+                lat: 9.915277777,
+                lon: 15.1375,
+            ),
+        ),
+//         (
+//             name: "Pala",
+//             coordinates: (
+//                 lat: 9.35,
+//                 lon: 14.966666666,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,36 @@
+(
+    name: "Liberia",
+    code: "LR",
+    population: 5057677,
+    capital: 0,
+    cities: [
+        (
+            name: "Monrovia",
+            coordinates: (
+                lat: 6.310555555,
+                lon: -10.804722222,
+            ),
+        ),
+//         (
+//             name: "Buchanan",
+//             coordinates: (
+//                 lat: 5.883333333,
+//                 lon: -10.05,
+//             ),
+//         ),
+//         (
+//             name: "Kakata",
+//             coordinates: (
+//                 lat: 6.53,
+//                 lon: -10.351666666,
+//             ),
+//         ),
+        (
+            name: "Sanniquellie",
+            coordinates: (
+                lat: 7.362222222,
+                lon: -8.706111111,
+            ),
+        ),
+    ],
+)

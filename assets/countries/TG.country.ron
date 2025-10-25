@@ -1,0 +1,85 @@
+(
+    name: "Togo",
+    code: "TG",
+    population: 8278737,
+    capital: 0,
+    cities: [
+        (
+            name: "Lomé",
+            coordinates: (
+                lat: 6.13,
+                lon: 1.215833333,
+            ),
+        ),
+//         (
+//             name: "Vo",
+//             coordinates: (
+//                 lat: 6.333333333,
+//                 lon: 1.533333333,
+//             ),
+//         ),
+        (
+            name: "Kara",
+            coordinates: (
+                lat: 9.548888888,
+                lon: 1.190555555,
+            ),
+        ),
+        (
+            name: "Dapaong",
+            coordinates: (
+                lat: 10.866666666,
+                lon: 0.2,
+            ),
+        ),
+//         (
+//             name: "Sokodé",
+//             coordinates: (
+//                 lat: 8.983333333,
+//                 lon: 1.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Amou",
+//             coordinates: (
+//                 lat: 7.5,
+//                 lon: 1.05,
+//             ),
+//         ),
+//         (
+//             name: "Lama-Kara",
+//             coordinates: (
+//                 lat: 9.615,
+//                 lon: 1.242222222,
+//             ),
+//         ),
+//         (
+//             name: "Atakpamé",
+//             coordinates: (
+//                 lat: 7.526944444,
+//                 lon: 1.126666666,
+//             ),
+//         ),
+//         (
+//             name: "Kpalimé",
+//             coordinates: (
+//                 lat: 6.91,
+//                 lon: 0.628055555,
+//             ),
+//         ),
+//         (
+//             name: "Tsévié",
+//             coordinates: (
+//                 lat: 6.433333333,
+//                 lon: 1.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Notsé",
+//             coordinates: (
+//                 lat: 6.948333333,
+//                 lon: 1.168055555,
+//             ),
+//         ),
+    ],
+)

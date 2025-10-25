@@ -1,0 +1,29 @@
+(
+    name: "Eritrea",
+    code: "ER",
+    population: 5352000,
+    capital: 0,
+    cities: [
+        (
+            name: "Asmara",
+            coordinates: (
+                lat: 15.333333333,
+                lon: 38.916666666,
+            ),
+        ),
+//         (
+//             name: "Keren",
+//             coordinates: (
+//                 lat: 15.783333333,
+//                 lon: 38.45,
+//             ),
+//         ),
+        (
+            name: "Assab",
+            coordinates: (
+                lat: 13.007777777,
+                lon: 42.741111111,
+            ),
+        ),
+    ],
+)

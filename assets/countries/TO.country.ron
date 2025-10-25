@@ -1,0 +1,15 @@
+(
+    name: "Tonga",
+    code: "TO",
+    population: 105697,
+    capital: 0,
+    cities: [
+        (
+            name: "Nuku\'alofa",
+            coordinates: (
+                lat: -21.13,
+                lon: -175.2,
+            ),
+        ),
+    ],
+)

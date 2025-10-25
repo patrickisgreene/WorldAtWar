@@ -1,0 +1,64 @@
+(
+    name: "North Macedonia",
+    code: "MK",
+    population: 2077132,
+    capital: 0,
+    cities: [
+        (
+            name: "Skopje",
+            coordinates: (
+                lat: 41.996111111,
+                lon: 21.431666666,
+            ),
+        ),
+//         (
+//             name: "Kumanovo",
+//             coordinates: (
+//                 lat: 42.132222222,
+//                 lon: 21.714444444,
+//             ),
+//         ),
+//         (
+//             name: "Bitola",
+//             coordinates: (
+//                 lat: 41.031944444,
+//                 lon: 21.334722222,
+//             ),
+//         ),
+//         (
+//             name: "Prilep",
+//             coordinates: (
+//                 lat: 41.346388888,
+//                 lon: 21.554166666,
+//             ),
+//         ),
+//         (
+//             name: "Tetovo",
+//             coordinates: (
+//                 lat: 42.010277777,
+//                 lon: 20.971388888,
+//             ),
+//         ),
+//         (
+//             name: "Veles",
+//             coordinates: (
+//                 lat: 41.775833333,
+//                 lon: 21.762777777,
+//             ),
+//         ),
+//         (
+//             name: "Štip",
+//             coordinates: (
+//                 lat: 41.735833333,
+//                 lon: 22.191388888,
+//             ),
+//         ),
+//         (
+//             name: "Veles",
+//             coordinates: (
+//                 lat: 41.715277777,
+//                 lon: 21.775277777,
+//             ),
+//         ),
+    ],
+)

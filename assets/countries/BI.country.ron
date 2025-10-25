@@ -1,0 +1,36 @@
+(
+    name: "Burundi",
+    code: "BI",
+    population: 11890781,
+    capital: 1,
+    cities: [
+//         (
+//             name: "Bujumbura",
+//             coordinates: (
+//                 lat: -3.3825,
+//                 lon: 29.361111111,
+//             ),
+//         ),
+        (
+            name: "Gitega",
+            coordinates: (
+                lat: -3.428333333,
+                lon: 29.925,
+            ),
+        ),
+//         (
+//             name: "Commune Mutimbuzi",
+//             coordinates: (
+//                 lat: -3.33627,
+//                 lon: 29.23232,
+//             ),
+//         ),
+        (
+            name: "Commune of Bwambarangwe",
+            coordinates: (
+                lat: -2.5525,
+                lon: 30.34083333,
+            ),
+        ),
+    ],
+)

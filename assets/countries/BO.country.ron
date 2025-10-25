@@ -1,0 +1,204 @@
+(
+    name: "Bolivia",
+    code: "BO",
+    population: 11673029,
+    capital: 5,
+    cities: [
+        (
+            name: "Santa Cruz de la Sierra",
+            coordinates: (
+                lat: -17.789166666,
+                lon: -63.1975,
+            ),
+        ),
+//         (
+//             name: "Santa Cruz de la Sierra",
+//             coordinates: (
+//                 lat: -17.866667,
+//                 lon: -63.0,
+//             ),
+//         ),
+        (
+            name: "El Alto",
+            coordinates: (
+                lat: -16.504722222,
+                lon: -68.163333333,
+            ),
+        ),
+//         (
+//             name: "La Paz",
+//             coordinates: (
+//                 lat: -16.495833333,
+//                 lon: -68.133333333,
+//             ),
+//         ),
+        (
+            name: "Cochabamba",
+            coordinates: (
+                lat: -17.3935419,
+                lon: -66.1570139,
+            ),
+        ),
+        (
+            name: "Sucre",
+            coordinates: (
+                lat: -19.0475,
+                lon: -65.26,
+            ),
+        ),
+        (
+            name: "Oruro",
+            coordinates: (
+                lat: -17.966666666,
+                lon: -67.116666666,
+            ),
+        ),
+//         (
+//             name: "Sucre",
+//             coordinates: (
+//                 lat: -18.95,
+//                 lon: -65.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Warnes",
+//             coordinates: (
+//                 lat: -17.51027778,
+//                 lon: -63.16472222,
+//             ),
+//         ),
+//         (
+//             name: "Potosí",
+//             coordinates: (
+//                 lat: -19.58361,
+//                 lon: -65.75306,
+//             ),
+//         ),
+        (
+            name: "Tarija",
+            coordinates: (
+                lat: -21.533888888,
+                lon: -64.734166666,
+            ),
+        ),
+//         (
+//             name: "Sacaba",
+//             coordinates: (
+//                 lat: -17.404166666,
+//                 lon: -66.040833333,
+//             ),
+//         ),
+//         (
+//             name: "Quillacollo",
+//             coordinates: (
+//                 lat: -17.3975,
+//                 lon: -66.281666666,
+//             ),
+//         ),
+//         (
+//             name: "Montero",
+//             coordinates: (
+//                 lat: -17.3425,
+//                 lon: -63.255277777,
+//             ),
+//         ),
+        (
+            name: "Trinidad",
+            coordinates: (
+                lat: -14.833333333,
+                lon: -64.9,
+            ),
+        ),
+        (
+            name: "Yacuiba",
+            coordinates: (
+                lat: -22.013888888,
+                lon: -63.677777777,
+            ),
+        ),
+//         (
+//             name: "Yacuíba",
+//             coordinates: (
+//                 lat: -21.7,
+//                 lon: -63.166667,
+//             ),
+//         ),
+//         (
+//             name: "La Guardia",
+//             coordinates: (
+//                 lat: -18.0,
+//                 lon: -63.183333,
+//             ),
+//         ),
+        (
+            name: "Riberalta",
+            coordinates: (
+                lat: -11.005,
+                lon: -66.066111111,
+            ),
+        ),
+        (
+            name: "Villa Tunari",
+            coordinates: (
+                lat: -16.9725,
+                lon: -65.42,
+            ),
+        ),
+//         (
+//             name: "Colcapirhua",
+//             coordinates: (
+//                 lat: -17.390833333,
+//                 lon: -66.238611111,
+//             ),
+//         ),
+//         (
+//             name: "Yapacani",
+//             coordinates: (
+//                 lat: -16.95,
+//                 lon: -64.26666667,
+//             ),
+//         ),
+        (
+            name: "Municipio de Caranavi",
+            coordinates: (
+                lat: -15.666667,
+                lon: -67.416667,
+            ),
+        ),
+//         (
+//             name: "El Torno",
+//             coordinates: (
+//                 lat: -18.05,
+//                 lon: -63.45,
+//             ),
+//         ),
+//         (
+//             name: "Sipe Sipe",
+//             coordinates: (
+//                 lat: -17.45,
+//                 lon: -66.38333333,
+//             ),
+//         ),
+//         (
+//             name: "Puerto Villarroel",
+//             coordinates: (
+//                 lat: -16.866666666,
+//                 lon: -64.783055555,
+//             ),
+//         ),
+        (
+            name: "Cobija",
+            coordinates: (
+                lat: -11.0182955,
+                lon: -68.7537452,
+            ),
+        ),
+//         (
+//             name: "Caranavi",
+//             coordinates: (
+//                 lat: -15.83403,
+//                 lon: -67.56586,
+//             ),
+//         ),
+    ],
+)

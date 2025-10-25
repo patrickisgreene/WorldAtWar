@@ -1,0 +1,36 @@
+(
+    name: "Fiji",
+    code: "FJ",
+    population: 896444,
+    capital: 0,
+    cities: [
+        (
+            name: "Suva",
+            coordinates: (
+                lat: -18.133333333,
+                lon: 178.433333333,
+            ),
+        ),
+//         (
+//             name: "Nasinu",
+//             coordinates: (
+//                 lat: -18.066666666,
+//                 lon: 178.5,
+//             ),
+//         ),
+        (
+            name: "Nadi",
+            coordinates: (
+                lat: -17.8,
+                lon: 177.416666666,
+            ),
+        ),
+//         (
+//             name: "Lautoka",
+//             coordinates: (
+//                 lat: -17.61686,
+//                 lon: 177.45049,
+//             ),
+//         ),
+    ],
+)

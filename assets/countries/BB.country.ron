@@ -1,0 +1,15 @@
+(
+    name: "Barbados",
+    code: "BB",
+    population: 287371,
+    capital: 0,
+    cities: [
+        (
+            name: "Bridgetown",
+            coordinates: (
+                lat: 13.0975,
+                lon: -59.616666666,
+            ),
+        ),
+    ],
+)

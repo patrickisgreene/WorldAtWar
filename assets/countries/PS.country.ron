@@ -1,0 +1,15 @@
+(
+    name: "Palestine",
+    code: "PS",
+    population: 4803269,
+    capital: 0,
+    cities: [
+        (
+            name: "Ramallah",
+            coordinates: (
+                lat: 31.9,
+                lon: 35.2,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,29 @@
+(
+    name: "Djibouti",
+    code: "DJ",
+    population: 988002,
+    capital: 0,
+    cities: [
+        (
+            name: "Djibouti",
+            coordinates: (
+                lat: 11.58,
+                lon: 43.15,
+            ),
+        ),
+//         (
+//             name: "Djibouti City",
+//             coordinates: (
+//                 lat: 11.595,
+//                 lon: 43.148055555,
+//             ),
+//         ),
+//         (
+//             name: "Ali Sabieh",
+//             coordinates: (
+//                 lat: 11.155833333,
+//                 lon: 42.7125,
+//             ),
+//         ),
+    ],
+)

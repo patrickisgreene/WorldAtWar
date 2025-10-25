@@ -1,0 +1,281 @@
+(
+    name: "Australia",
+    code: "AU",
+    population: 25687041,
+    capital: 7,
+    cities: [
+        (
+            name: "Sydney",
+            coordinates: (
+                lat: -33.86785,
+                lon: 151.20732,
+            ),
+        ),
+        (
+            name: "Melbourne",
+            coordinates: (
+                lat: -37.814166666,
+                lon: 144.963055555,
+            ),
+        ),
+        (
+            name: "Brisbane",
+            coordinates: (
+                lat: -27.467777777,
+                lon: 153.027777777,
+            ),
+        ),
+        (
+            name: "Perth",
+            coordinates: (
+                lat: -31.95224,
+                lon: 115.8614,
+            ),
+        ),
+        (
+            name: "Adelaide",
+            coordinates: (
+                lat: -34.9275,
+                lon: 138.6,
+            ),
+        ),
+//         (
+//             name: "City of Gold Coast",
+//             coordinates: (
+//                 lat: -28.001111111,
+//                 lon: 153.428333333,
+//             ),
+//         ),
+//         (
+//             name: "Gold Coast",
+//             coordinates: (
+//                 lat: -28.016666666,
+//                 lon: 153.4,
+//             ),
+//         ),
+        (
+            name: "Canberra",
+            coordinates: (
+                lat: -35.28346,
+                lon: 149.12807,
+            ),
+        ),
+//         (
+//             name: "Ipswich",
+//             coordinates: (
+//                 lat: -27.616666666,
+//                 lon: 152.766666666,
+//             ),
+//         ),
+        (
+            name: "Hobart",
+            coordinates: (
+                lat: -42.883333333,
+                lon: 147.316666666,
+            ),
+        ),
+//         (
+//             name: "Geelong",
+//             coordinates: (
+//                 lat: -38.15,
+//                 lon: 144.35,
+//             ),
+//         ),
+        (
+            name: "Townsville",
+            coordinates: (
+                lat: -19.262222222,
+                lon: 146.815833333,
+            ),
+        ),
+        (
+            name: "Cairns",
+            coordinates: (
+                lat: -16.92366,
+                lon: 145.76613,
+            ),
+        ),
+        (
+            name: "Darwin",
+            coordinates: (
+                lat: -12.438055555,
+                lon: 130.841111111,
+            ),
+        ),
+//         (
+//             name: "Ballarat",
+//             coordinates: (
+//                 lat: -37.560833333,
+//                 lon: 143.8475,
+//             ),
+//         ),
+        (
+            name: "Toowoomba",
+            coordinates: (
+                lat: -27.55,
+                lon: 151.95,
+            ),
+        ),
+        (
+            name: "Bendigo",
+            coordinates: (
+                lat: -36.75,
+                lon: 144.266666666,
+            ),
+        ),
+//         (
+//             name: "Mandurah",
+//             coordinates: (
+//                 lat: -32.528888888,
+//                 lon: 115.723055555,
+//             ),
+//         ),
+        (
+            name: "Launceston",
+            coordinates: (
+                lat: -41.444444444,
+                lon: 147.137777777,
+            ),
+        ),
+        (
+            name: "Mackay",
+            coordinates: (
+                lat: -21.15345,
+                lon: 149.16554,
+            ),
+        ),
+        (
+            name: "Bunbury",
+            coordinates: (
+                lat: -33.327222222,
+                lon: 115.636944444,
+            ),
+        ),
+//         (
+//             name: "Point Cook",
+//             coordinates: (
+//                 lat: -37.909,
+//                 lon: 144.752,
+//             ),
+//         ),
+//         (
+//             name: "Craigieburn",
+//             coordinates: (
+//                 lat: -37.594,
+//                 lon: 144.934,
+//             ),
+//         ),
+        (
+            name: "Rockhampton",
+            coordinates: (
+                lat: -23.378972222,
+                lon: 150.510894444,
+            ),
+        ),
+        (
+            name: "Hervey Bay",
+            coordinates: (
+                lat: -25.28762,
+                lon: 152.76936,
+            ),
+        ),
+//         (
+//             name: "Tarneit",
+//             coordinates: (
+//                 lat: -37.833,
+//                 lon: 144.672,
+//             ),
+//         ),
+//         (
+//             name: "Melbourne central business district",
+//             coordinates: (
+//                 lat: -37.8137756,
+//                 lon: 144.9645192,
+//             ),
+//         ),
+//         (
+//             name: "Pakenham",
+//             coordinates: (
+//                 lat: -38.0712,
+//                 lon: 145.4878,
+//             ),
+//         ),
+//         (
+//             name: "Bundaberg",
+//             coordinates: (
+//                 lat: -24.85,
+//                 lon: 152.35,
+//             ),
+//         ),
+//         (
+//             name: "Reservoir",
+//             coordinates: (
+//                 lat: -37.71667,
+//                 lon: 145.0,
+//             ),
+//         ),
+//         (
+//             name: "Blacktown",
+//             coordinates: (
+//                 lat: -33.770555555,
+//                 lon: 150.9066667,
+//             ),
+//         ),
+//         (
+//             name: "Berwick",
+//             coordinates: (
+//                 lat: -38.031,
+//                 lon: 145.344,
+//             ),
+//         ),
+//         (
+//             name: "Werribee",
+//             coordinates: (
+//                 lat: -37.9,
+//                 lon: 144.664,
+//             ),
+//         ),
+        (
+            name: "Wagga Wagga",
+            coordinates: (
+                lat: -35.119444444,
+                lon: 147.366666666,
+            ),
+        ),
+        (
+            name: "Port Macquarie",
+            coordinates: (
+                lat: -31.431666666,
+                lon: 152.9177778,
+            ),
+        ),
+        (
+            name: "Dubbo",
+            coordinates: (
+                lat: -32.248333333,
+                lon: 148.6011111,
+            ),
+        ),
+//         (
+//             name: "Glen Waverley",
+//             coordinates: (
+//                 lat: -37.84,
+//                 lon: 145.166,
+//             ),
+//         ),
+        (
+            name: "Orange",
+            coordinates: (
+                lat: -33.281666666,
+                lon: 149.1011111,
+            ),
+        ),
+//         (
+//             name: "Castle Hill",
+//             coordinates: (
+//                 lat: -33.731666666,
+//                 lon: 151.0094444,
+//             ),
+//         ),
+    ],
+)

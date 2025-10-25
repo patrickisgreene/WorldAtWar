@@ -1,0 +1,15 @@
+(
+    name: "Samoa",
+    code: "WS",
+    population: 198410,
+    capital: 0,
+    cities: [
+        (
+            name: "Apia",
+            coordinates: (
+                lat: -13.82,
+                lon: -171.77,
+            ),
+        ),
+    ],
+)

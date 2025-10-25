@@ -1,0 +1,15 @@
+(
+    name: "Liechtenstein",
+    code: "LI",
+    population: 38137,
+    capital: 0,
+    cities: [
+        (
+            name: "Vaduz",
+            coordinates: (
+                lat: 47.13,
+                lon: 9.52,
+            ),
+        ),
+    ],
+)

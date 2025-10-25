@@ -1,0 +1,71 @@
+(
+    name: "Cambodia",
+    code: "KH",
+    population: 16718971,
+    capital: 0,
+    cities: [
+        (
+            name: "Phnom Penh",
+            coordinates: (
+                lat: 11.569583333,
+                lon: 104.921027777,
+            ),
+        ),
+        (
+            name: "Siem Reap",
+            coordinates: (
+                lat: 13.362222222,
+                lon: 103.859722222,
+            ),
+        ),
+//         (
+//             name: "Battambang",
+//             coordinates: (
+//                 lat: 13.102777777,
+//                 lon: 103.198333333,
+//             ),
+//         ),
+        (
+            name: "Kampong Trach District",
+            coordinates: (
+                lat: 10.55,
+                lon: 104.46666667,
+            ),
+        ),
+        (
+            name: "Poipet",
+            coordinates: (
+                lat: 13.65611,
+                lon: 102.5625,
+            ),
+        ),
+        (
+            name: "Kampong Chhnang",
+            coordinates: (
+                lat: 12.25,
+                lon: 104.666666666,
+            ),
+        ),
+        (
+            name: "Sihanoukville",
+            coordinates: (
+                lat: 10.6333,
+                lon: 103.5,
+            ),
+        ),
+//         (
+//             name: "Kampong Cham",
+//             coordinates: (
+//                 lat: 11.993333333,
+//                 lon: 105.463611111,
+//             ),
+//         ),
+        (
+            name: "Pursat",
+            coordinates: (
+                lat: 12.533333333,
+                lon: 103.916666666,
+            ),
+        ),
+    ],
+)

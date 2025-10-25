@@ -1,0 +1,106 @@
+(
+    name: "Slovakia",
+    code: "SK",
+    population: 5458827,
+    capital: 0,
+    cities: [
+        (
+            name: "Bratislava",
+            coordinates: (
+                lat: 48.144722222,
+                lon: 17.112777777,
+            ),
+        ),
+        (
+            name: "Košice",
+            coordinates: (
+                lat: 48.716666666,
+                lon: 21.25,
+            ),
+        ),
+//         (
+//             name: "Petržalka",
+//             coordinates: (
+//                 lat: 48.133333333,
+//                 lon: 17.116666666,
+//             ),
+//         ),
+//         (
+//             name: "Prešov",
+//             coordinates: (
+//                 lat: 49.0,
+//                 lon: 21.233333333,
+//             ),
+//         ),
+//         (
+//             name: "Žilina",
+//             coordinates: (
+//                 lat: 49.216666666,
+//                 lon: 18.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Nitra",
+//             coordinates: (
+//                 lat: 48.314722222,
+//                 lon: 18.0875,
+//             ),
+//         ),
+//         (
+//             name: "Banská Bystrica",
+//             coordinates: (
+//                 lat: 48.735277777,
+//                 lon: 19.145277777,
+//             ),
+//         ),
+//         (
+//             name: "Trnava",
+//             coordinates: (
+//                 lat: 48.37775,
+//                 lon: 17.586211111,
+//             ),
+//         ),
+//         (
+//             name: "Trenčín",
+//             coordinates: (
+//                 lat: 48.894166666,
+//                 lon: 18.040555555,
+//             ),
+//         ),
+//         (
+//             name: "Martin",
+//             coordinates: (
+//                 lat: 49.063611111,
+//                 lon: 18.921388888,
+//             ),
+//         ),
+//         (
+//             name: "Poprad",
+//             coordinates: (
+//                 lat: 49.05,
+//                 lon: 20.3,
+//             ),
+//         ),
+//         (
+//             name: "Old Town of Bratislava",
+//             coordinates: (
+//                 lat: 48.143333333,
+//                 lon: 17.1075,
+//             ),
+//         ),
+//         (
+//             name: "Nové Mesto",
+//             coordinates: (
+//                 lat: 48.17222222,
+//                 lon: 17.12861111,
+//             ),
+//         ),
+//         (
+//             name: "Prievidza",
+//             coordinates: (
+//                 lat: 48.771388888,
+//                 lon: 18.624166666,
+//             ),
+//         ),
+    ],
+)

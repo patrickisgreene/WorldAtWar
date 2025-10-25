@@ -1,0 +1,29 @@
+(
+    name: "Montenegro",
+    code: "ME",
+    population: 621718,
+    capital: 1,
+    cities: [
+//         (
+//             name: "Podgorica Capital City",
+//             coordinates: (
+//                 lat: 42.47,
+//                 lon: 19.28,
+//             ),
+//         ),
+        (
+            name: "Podgorica",
+            coordinates: (
+                lat: 42.441388888,
+                lon: 19.262777777,
+            ),
+        ),
+//         (
+//             name: "Nikšić",
+//             coordinates: (
+//                 lat: 42.78,
+//                 lon: 18.94,
+//             ),
+//         ),
+    ],
+)

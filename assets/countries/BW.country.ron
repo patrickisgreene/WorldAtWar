@@ -1,0 +1,71 @@
+(
+    name: "Botswana",
+    code: "BW",
+    population: 2351625,
+    capital: 0,
+    cities: [
+        (
+            name: "Gaborone",
+            coordinates: (
+                lat: -24.656944444,
+                lon: 25.908611111,
+            ),
+        ),
+        (
+            name: "Francistown",
+            coordinates: (
+                lat: -21.173611111,
+                lon: 27.5125,
+            ),
+        ),
+//         (
+//             name: "Mogoditshane",
+//             coordinates: (
+//                 lat: -24.633333333,
+//                 lon: 25.866666666,
+//             ),
+//         ),
+//         (
+//             name: "Molepolole",
+//             coordinates: (
+//                 lat: -24.4066,
+//                 lon: 25.4951,
+//             ),
+//         ),
+        (
+            name: "Selebi-Phikwe",
+            coordinates: (
+                lat: -21.966666666,
+                lon: 27.916666666,
+            ),
+        ),
+        (
+            name: "Mahalapye",
+            coordinates: (
+                lat: -23.1041,
+                lon: 26.8142,
+            ),
+        ),
+//         (
+//             name: "Kanye",
+//             coordinates: (
+//                 lat: -24.983333333,
+//                 lon: 25.35,
+//             ),
+//         ),
+        (
+            name: "Serowe",
+            coordinates: (
+                lat: -22.383333,
+                lon: 26.716667,
+            ),
+        ),
+//         (
+//             name: "Mochudi",
+//             coordinates: (
+//                 lat: -24.416666666,
+//                 lon: 26.15,
+//             ),
+//         ),
+    ],
+)

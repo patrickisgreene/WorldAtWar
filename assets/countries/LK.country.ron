@@ -1,0 +1,225 @@
+(
+    name: "Sri Lanka",
+    code: "LK",
+    population: 21919000,
+    capital: 9,
+    cities: [
+        (
+            name: "Colombo",
+            coordinates: (
+                lat: 6.926666666,
+                lon: 79.860555555,
+            ),
+        ),
+//         (
+//             name: "Dehiwala-Mount Lavinia",
+//             coordinates: (
+//                 lat: 6.839722222,
+//                 lon: 79.875833333,
+//             ),
+//         ),
+//         (
+//             name: "Maharagama",
+//             coordinates: (
+//                 lat: 6.849444444,
+//                 lon: 79.923611111,
+//             ),
+//         ),
+//         (
+//             name: "Gampaha",
+//             coordinates: (
+//                 lat: 7.091666666,
+//                 lon: 79.999722222,
+//             ),
+//         ),
+//         (
+//             name: "Moratuwa",
+//             coordinates: (
+//                 lat: 6.799072222,
+//                 lon: 79.876677777,
+//             ),
+//         ),
+//         (
+//             name: "Beruwala",
+//             coordinates: (
+//                 lat: 6.466666666,
+//                 lon: 79.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Negombo",
+//             coordinates: (
+//                 lat: 7.211111111,
+//                 lon: 79.838611111,
+//             ),
+//         ),
+//         (
+//             name: "Kandy",
+//             coordinates: (
+//                 lat: 7.293055555,
+//                 lon: 80.635,
+//             ),
+//         ),
+//         (
+//             name: "Pita Kotte",
+//             coordinates: (
+//                 lat: 6.890555555,
+//                 lon: 79.901388888,
+//             ),
+//         ),
+//         (
+//             name: "Sri Jayawardenepura Kotte",
+//             coordinates: (
+//                 lat: 6.9,
+//                 lon: 79.916388888,
+//             ),
+//         ),
+        (
+            name: "Trincomalee",
+            coordinates: (
+                lat: 8.566666666,
+                lon: 81.233333333,
+            ),
+        ),
+//         (
+//             name: "Batticaloa",
+//             coordinates: (
+//                 lat: 7.716666666,
+//                 lon: 81.7,
+//             ),
+//         ),
+//         (
+//             name: "Galle",
+//             coordinates: (
+//                 lat: 6.032777777,
+//                 lon: 80.215555555,
+//             ),
+//         ),
+//         (
+//             name: "Dambulla",
+//             coordinates: (
+//                 lat: 7.851389,
+//                 lon: 80.654167,
+//             ),
+//         ),
+//         (
+//             name: "Kalmunai",
+//             coordinates: (
+//                 lat: 7.416666666,
+//                 lon: 81.816666666,
+//             ),
+//         ),
+        (
+            name: "Jaffna",
+            coordinates: (
+                lat: 9.664722222,
+                lon: 80.016666666,
+            ),
+        ),
+//         (
+//             name: "Katunayake",
+//             coordinates: (
+//                 lat: 7.166666666,
+//                 lon: 79.866666666,
+//             ),
+//         ),
+//         (
+//             name: "Battaramulla",
+//             coordinates: (
+//                 lat: 6.901666666,
+//                 lon: 79.919166666,
+//             ),
+//         ),
+//         (
+//             name: "Vavuniya",
+//             coordinates: (
+//                 lat: 8.75,
+//                 lon: 80.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Matara",
+//             coordinates: (
+//                 lat: 5.95,
+//                 lon: 80.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Kolonnawa",
+//             coordinates: (
+//                 lat: 6.928333333,
+//                 lon: 79.895,
+//             ),
+//         ),
+//         (
+//             name: "Kotikawatta",
+//             coordinates: (
+//                 lat: 6.94111111,
+//                 lon: 79.91944444,
+//             ),
+//         ),
+//         (
+//             name: "Anuradhapura",
+//             coordinates: (
+//                 lat: 8.31223,
+//                 lon: 80.41306,
+//             ),
+//         ),
+//         (
+//             name: "Hendala",
+//             coordinates: (
+//                 lat: 6.990833333,
+//                 lon: 79.883055555,
+//             ),
+//         ),
+//         (
+//             name: "Ambalangoda",
+//             coordinates: (
+//                 lat: 6.2355,
+//                 lon: 80.0538,
+//             ),
+//         ),
+//         (
+//             name: "Ratnapura",
+//             coordinates: (
+//                 lat: 6.666666666,
+//                 lon: 80.400277777,
+//             ),
+//         ),
+//         (
+//             name: "Puttalam",
+//             coordinates: (
+//                 lat: 8.034166666,
+//                 lon: 79.835277777,
+//             ),
+//         ),
+//         (
+//             name: "Ampara",
+//             coordinates: (
+//                 lat: 7.283333333,
+//                 lon: 81.666666666,
+//             ),
+//         ),
+//         (
+//             name: "Badulla",
+//             coordinates: (
+//                 lat: 6.984722222,
+//                 lon: 81.056388888,
+//             ),
+//         ),
+//         (
+//             name: "Weeraketiya",
+//             coordinates: (
+//                 lat: 6.1668,
+//                 lon: 80.7467,
+//             ),
+//         ),
+//         (
+//             name: "Welisara",
+//             coordinates: (
+//                 lat: 7.0281,
+//                 lon: 79.9014,
+//             ),
+//         ),
+    ],
+)

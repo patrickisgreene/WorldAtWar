@@ -1,0 +1,15 @@
+(
+    name: "Bermuda",
+    code: "BM",
+    population: 63903,
+    capital: 0,
+    cities: [
+        (
+            name: "Hamilton",
+            coordinates: (
+                lat: 32.28,
+                lon: -64.78,
+            ),
+        ),
+    ],
+)

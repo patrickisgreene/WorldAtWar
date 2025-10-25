@@ -1,0 +1,358 @@
+(
+    name: "Iraq",
+    code: "IQ",
+    population: 40222503,
+    capital: 0,
+    cities: [
+        (
+            name: "Baghdad",
+            coordinates: (
+                lat: 33.315277777,
+                lon: 44.366111111,
+            ),
+        ),
+        (
+            name: "Mosul",
+            coordinates: (
+                lat: 36.366666666,
+                lon: 43.116666666,
+            ),
+        ),
+        (
+            name: "Basra",
+            coordinates: (
+                lat: 30.515,
+                lon: 47.81,
+            ),
+        ),
+        (
+            name: "Kirkuk",
+            coordinates: (
+                lat: 35.466666666,
+                lon: 44.4,
+            ),
+        ),
+//         (
+//             name: "Sulaymaniyah",
+//             coordinates: (
+//                 lat: 35.55,
+//                 lon: 45.433333333,
+//             ),
+//         ),
+//         (
+//             name: "Ramadi",
+//             coordinates: (
+//                 lat: 33.425833333,
+//                 lon: 43.299166666,
+//             ),
+//         ),
+        (
+            name: "Erbil",
+            coordinates: (
+                lat: 36.191111111,
+                lon: 44.009444444,
+            ),
+        ),
+//         (
+//             name: "Najaf",
+//             coordinates: (
+//                 lat: 32.028951,
+//                 lon: 44.339621,
+//             ),
+//         ),
+//         (
+//             name: "Karbala",
+//             coordinates: (
+//                 lat: 32.616666666,
+//                 lon: 44.033333333,
+//             ),
+//         ),
+        (
+            name: "Nasiriyah",
+            coordinates: (
+                lat: 31.043888888,
+                lon: 46.2575,
+            ),
+        ),
+//         (
+//             name: "Hillah",
+//             coordinates: (
+//                 lat: 32.483333333,
+//                 lon: 44.433333333,
+//             ),
+//         ),
+        (
+            name: "Amarah",
+            coordinates: (
+                lat: 31.833333333,
+                lon: 47.15,
+            ),
+        ),
+//         (
+//             name: "Baqubah",
+//             coordinates: (
+//                 lat: 33.744722222,
+//                 lon: 44.643611111,
+//             ),
+//         ),
+//         (
+//             name: "Al Diwaniyah",
+//             coordinates: (
+//                 lat: 31.99289,
+//                 lon: 44.92552,
+//             ),
+//         ),
+//         (
+//             name: "Kut",
+//             coordinates: (
+//                 lat: 32.514722222,
+//                 lon: 45.818888888,
+//             ),
+//         ),
+//         (
+//             name: "Az Zubayr",
+//             coordinates: (
+//                 lat: 30.389166666,
+//                 lon: 47.708055555,
+//             ),
+//         ),
+//         (
+//             name: "Duhok",
+//             coordinates: (
+//                 lat: 36.85,
+//                 lon: 42.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Fallujah",
+//             coordinates: (
+//                 lat: 33.35,
+//                 lon: 43.783333333,
+//             ),
+//         ),
+//         (
+//             name: "Zakho",
+//             coordinates: (
+//                 lat: 37.143611111,
+//                 lon: 42.681911111,
+//             ),
+//         ),
+//         (
+//             name: "Samawah",
+//             coordinates: (
+//                 lat: 31.316666666,
+//                 lon: 45.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Abu Al-Khaseeb",
+//             coordinates: (
+//                 lat: 30.452222222,
+//                 lon: 47.985833333,
+//             ),
+//         ),
+//         (
+//             name: "Hawija",
+//             coordinates: (
+//                 lat: 35.323249,
+//                 lon: 43.7739944,
+//             ),
+//         ),
+//         (
+//             name: "Abu Ghraib",
+//             coordinates: (
+//                 lat: 33.3131,
+//                 lon: 44.168644444,
+//             ),
+//         ),
+//         (
+//             name: "Kufa",
+//             coordinates: (
+//                 lat: 32.03,
+//                 lon: 44.4,
+//             ),
+//         ),
+//         (
+//             name: "Samarra",
+//             coordinates: (
+//                 lat: 34.1959,
+//                 lon: 43.88568,
+//             ),
+//         ),
+//         (
+//             name: "Jurf Al Sakhar",
+//             coordinates: (
+//                 lat: 32.87293,
+//                 lon: 44.2193,
+//             ),
+//         ),
+//         (
+//             name: "Al-Qurnah",
+//             coordinates: (
+//                 lat: 31.015833333,
+//                 lon: 47.430555555,
+//             ),
+//         ),
+//         (
+//             name: "Soran",
+//             coordinates: (
+//                 lat: 35.3,
+//                 lon: 44.833333,
+//             ),
+//         ),
+//         (
+//             name: "An Numaniyah",
+//             coordinates: (
+//                 lat: 32.556111111,
+//                 lon: 45.412777777,
+//             ),
+//         ),
+//         (
+//             name: "Umm Qasr",
+//             coordinates: (
+//                 lat: 30.034166666,
+//                 lon: 47.929444444,
+//             ),
+//         ),
+//         (
+//             name: "Tikrit",
+//             coordinates: (
+//                 lat: 34.6,
+//                 lon: 43.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Al-Faw",
+//             coordinates: (
+//                 lat: 29.98,
+//                 lon: 48.47,
+//             ),
+//         ),
+//         (
+//             name: "Iskandariya",
+//             coordinates: (
+//                 lat: 32.9,
+//                 lon: 44.35,
+//             ),
+//         ),
+//         (
+//             name: "Al Hartha",
+//             coordinates: (
+//                 lat: 30.584722222,
+//                 lon: 47.761111111,
+//             ),
+//         ),
+//         (
+//             name: "Al-Hay",
+//             coordinates: (
+//                 lat: 32.174166666,
+//                 lon: 46.043333333,
+//             ),
+//         ),
+//         (
+//             name: "Ash Shatrah",
+//             coordinates: (
+//                 lat: 31.409722222,
+//                 lon: 46.171666666,
+//             ),
+//         ),
+//         (
+//             name: "Tal Afar",
+//             coordinates: (
+//                 lat: 36.379166666,
+//                 lon: 42.449722222,
+//             ),
+//         ),
+//         (
+//             name: "Chamchamal",
+//             coordinates: (
+//                 lat: 35.533333333,
+//                 lon: 44.834166666,
+//             ),
+//         ),
+        (
+            name: "Husaybah",
+            coordinates: (
+                lat: 34.3914707,
+                lon: 40.9884453,
+            ),
+        ),
+//         (
+//             name: "Al Khalis",
+//             coordinates: (
+//                 lat: 33.851111111,
+//                 lon: 44.520277777,
+//             ),
+//         ),
+//         (
+//             name: "Az Zubaydiyah",
+//             coordinates: (
+//                 lat: 32.75884,
+//                 lon: 45.17727,
+//             ),
+//         ),
+//         (
+//             name: "Hīt",
+//             coordinates: (
+//                 lat: 33.641666666,
+//                 lon: 42.825,
+//             ),
+//         ),
+//         (
+//             name: "Halabja",
+//             coordinates: (
+//                 lat: 35.183333333,
+//                 lon: 45.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Balad",
+//             coordinates: (
+//                 lat: 34.014722222,
+//                 lon: 44.145555555,
+//             ),
+//         ),
+//         (
+//             name: "Tuz Khormato",
+//             coordinates: (
+//                 lat: 34.888055555,
+//                 lon: 44.6325,
+//             ),
+//         ),
+//         (
+//             name: "Shamia",
+//             coordinates: (
+//                 lat: 32.061666666,
+//                 lon: 44.771944444,
+//             ),
+//         ),
+//         (
+//             name: "Hindiya",
+//             coordinates: (
+//                 lat: 32.541944444,
+//                 lon: 44.221111111,
+//             ),
+//         ),
+//         (
+//             name: "Musayyib",
+//             coordinates: (
+//                 lat: 32.783888888,
+//                 lon: 44.276388888,
+//             ),
+//         ),
+//         (
+//             name: "Muqdadiyah",
+//             coordinates: (
+//                 lat: 33.978611111,
+//                 lon: 44.936944444,
+//             ),
+//         ),
+//         (
+//             name: "Al-Rumaitha",
+//             coordinates: (
+//                 lat: 31.528333333,
+//                 lon: 45.203611111,
+//             ),
+//         ),
+    ],
+)

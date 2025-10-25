@@ -1,0 +1,57 @@
+(
+    name: "Trinidad and Tobago",
+    code: "TT",
+    population: 1399491,
+    capital: 6,
+    cities: [
+//         (
+//             name: "Diego Martin",
+//             coordinates: (
+//                 lat: 10.708,
+//                 lon: -61.5581,
+//             ),
+//         ),
+//         (
+//             name: "Chaguanas",
+//             coordinates: (
+//                 lat: 10.514444444,
+//                 lon: -61.4075,
+//             ),
+//         ),
+//         (
+//             name: "Siparia",
+//             coordinates: (
+//                 lat: 10.133333333,
+//                 lon: -61.5,
+//             ),
+//         ),
+//         (
+//             name: "Chaguanas",
+//             coordinates: (
+//                 lat: 10.516666666,
+//                 lon: -61.416666666,
+//             ),
+//         ),
+//         (
+//             name: "Mon Repos",
+//             coordinates: (
+//                 lat: 10.279722222,
+//                 lon: -61.445833333,
+//             ),
+//         ),
+//         (
+//             name: "San Fernando",
+//             coordinates: (
+//                 lat: 10.283333333,
+//                 lon: -61.466666666,
+//             ),
+//         ),
+        (
+            name: "Port of Spain",
+            coordinates: (
+                lat: 10.666666666,
+                lon: -61.516666666,
+            ),
+        ),
+    ],
+)

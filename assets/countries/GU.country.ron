@@ -1,0 +1,15 @@
+(
+    name: "Guam",
+    code: "GU",
+    population: 168783,
+    capital: 0,
+    cities: [
+        (
+            name: "Hagåtña",
+            coordinates: (
+                lat: 13.48,
+                lon: 144.75,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,358 @@
+(
+    name: "Brazil",
+    code: "BR",
+    population: 212559409,
+    capital: 3,
+    cities: [
+        (
+            name: "São Paulo",
+            coordinates: (
+                lat: -23.550394444,
+                lon: -46.633947222,
+            ),
+        ),
+//         (
+//             name: "Greater Rio de Janeiro",
+//             coordinates: (
+//                 lat: -22.9028,
+//                 lon: -43.2078,
+//             ),
+//         ),
+        (
+            name: "Rio de Janeiro",
+            coordinates: (
+                lat: -22.911111111,
+                lon: -43.205555555,
+            ),
+        ),
+        (
+            name: "Brasília",
+            coordinates: (
+                lat: -15.77972,
+                lon: -47.92972,
+            ),
+        ),
+        (
+            name: "Belo Horizonte",
+            coordinates: (
+                lat: -19.92083,
+                lon: -43.93778,
+            ),
+        ),
+        (
+            name: "Salvador",
+            coordinates: (
+                lat: -12.97563,
+                lon: -38.49096,
+            ),
+        ),
+        (
+            name: "Fortaleza",
+            coordinates: (
+                lat: -3.7275,
+                lon: -38.5275,
+            ),
+        ),
+//         (
+//             name: "Salvador",
+//             coordinates: (
+//                 lat: -12.97177,
+//                 lon: -38.50811,
+//             ),
+//         ),
+//         (
+//             name: "Brasília",
+//             coordinates: (
+//                 lat: -15.79159,
+//                 lon: -47.89558,
+//             ),
+//         ),
+//         (
+//             name: "Belo Horizonte",
+//             coordinates: (
+//                 lat: -19.92623,
+//                 lon: -43.93982,
+//             ),
+//         ),
+//         (
+//             name: "Fortaleza",
+//             coordinates: (
+//                 lat: -3.71722,
+//                 lon: -38.54306,
+//             ),
+//         ),
+        (
+            name: "Manaus",
+            coordinates: (
+                lat: -3.04361,
+                lon: -60.01282,
+            ),
+        ),
+        (
+            name: "Curitiba",
+            coordinates: (
+                lat: -25.429722222,
+                lon: -49.271944444,
+            ),
+        ),
+        (
+            name: "Recife",
+            coordinates: (
+                lat: -8.05389,
+                lon: -34.88111,
+            ),
+        ),
+//         (
+//             name: "Recife",
+//             coordinates: (
+//                 lat: -8.053888888,
+//                 lon: -34.880833333,
+//             ),
+//         ),
+        (
+            name: "Goiânia",
+            coordinates: (
+                lat: -16.64019,
+                lon: -49.25993,
+            ),
+        ),
+        (
+            name: "Belém",
+            coordinates: (
+                lat: -1.45583,
+                lon: -48.50444,
+            ),
+        ),
+        (
+            name: "Porto Alegre",
+            coordinates: (
+                lat: -30.03283,
+                lon: -51.23019,
+            ),
+        ),
+//         (
+//             name: "Belém",
+//             coordinates: (
+//                 lat: -1.455833333,
+//                 lon: -48.503888888,
+//             ),
+//         ),
+//         (
+//             name: "Porto Alegre",
+//             coordinates: (
+//                 lat: -30.032777777,
+//                 lon: -51.23,
+//             ),
+//         ),
+//         (
+//             name: "Guarulhos",
+//             coordinates: (
+//                 lat: -23.41201,
+//                 lon: -46.44348,
+//             ),
+//         ),
+//         (
+//             name: "Campinas",
+//             coordinates: (
+//                 lat: -22.900913888,
+//                 lon: -47.057294444,
+//             ),
+//         ),
+//         (
+//             name: "Guarulhos",
+//             coordinates: (
+//                 lat: -23.46278,
+//                 lon: -46.53333,
+//             ),
+//         ),
+        (
+            name: "São Luís",
+            coordinates: (
+                lat: -2.53,
+                lon: -44.302777777,
+            ),
+        ),
+        (
+            name: "Maceió",
+            coordinates: (
+                lat: -9.57135,
+                lon: -35.68994,
+            ),
+        ),
+//         (
+//             name: "Campinas",
+//             coordinates: (
+//                 lat: -22.90556,
+//                 lon: -47.06083,
+//             ),
+//         ),
+//         (
+//             name: "Maceió",
+//             coordinates: (
+//                 lat: -9.665833333,
+//                 lon: -35.735,
+//             ),
+//         ),
+        (
+            name: "Campo Grande",
+            coordinates: (
+                lat: -20.468611111,
+                lon: -54.622222222,
+            ),
+        ),
+//         (
+//             name: "São Gonçalo",
+//             coordinates: (
+//                 lat: -22.826944444,
+//                 lon: -43.053888888,
+//             ),
+//         ),
+//         (
+//             name: "São Luís",
+//             coordinates: (
+//                 lat: -2.52972,
+//                 lon: -44.30278,
+//             ),
+//         ),
+//         (
+//             name: "Campo Grande",
+//             coordinates: (
+//                 lat: -20.44278,
+//                 lon: -54.64639,
+//             ),
+//         ),
+        (
+            name: "Teresina",
+            coordinates: (
+                lat: -5.090277777,
+                lon: -42.816666666,
+            ),
+        ),
+        (
+            name: "João Pessoa",
+            coordinates: (
+                lat: -7.12,
+                lon: -34.88,
+            ),
+        ),
+//         (
+//             name: "Duque de Caxias",
+//             coordinates: (
+//                 lat: -22.65681,
+//                 lon: -43.29286,
+//             ),
+//         ),
+//         (
+//             name: "Nova Iguaçu",
+//             coordinates: (
+//                 lat: -22.758888888,
+//                 lon: -43.450833333,
+//             ),
+//         ),
+//         (
+//             name: "São Bernardo do Campo",
+//             coordinates: (
+//                 lat: -23.693888888,
+//                 lon: -46.565,
+//             ),
+//         ),
+//         (
+//             name: "Nova Iguaçu",
+//             coordinates: (
+//                 lat: -22.75917,
+//                 lon: -43.45111,
+//             ),
+//         ),
+//         (
+//             name: "Duque de Caxias",
+//             coordinates: (
+//                 lat: -22.78556,
+//                 lon: -43.31167,
+//             ),
+//         ),
+//         (
+//             name: "João Pessoa",
+//             coordinates: (
+//                 lat: -7.115,
+//                 lon: -34.86306,
+//             ),
+//         ),
+        (
+            name: "Natal",
+            coordinates: (
+                lat: -5.795,
+                lon: -35.208888888,
+            ),
+        ),
+//         (
+//             name: "Santo André",
+//             coordinates: (
+//                 lat: -23.71057,
+//                 lon: -46.5046,
+//             ),
+//         ),
+//         (
+//             name: "Sorocaba",
+//             coordinates: (
+//                 lat: -23.501944444,
+//                 lon: -47.457777777,
+//             ),
+//         ),
+        (
+            name: "Uberlândia",
+            coordinates: (
+                lat: -18.918888888,
+                lon: -48.276944444,
+            ),
+        ),
+//         (
+//             name: "Osasco",
+//             coordinates: (
+//                 lat: -23.532777777,
+//                 lon: -46.791944444,
+//             ),
+//         ),
+//         (
+//             name: "São Bernardo do Campo",
+//             coordinates: (
+//                 lat: -23.69389,
+//                 lon: -46.565,
+//             ),
+//         ),
+        (
+            name: "Ribeirão Preto",
+            coordinates: (
+                lat: -21.1776315,
+                lon: -47.8100983,
+            ),
+        ),
+//         (
+//             name: "São José dos Campos",
+//             coordinates: (
+//                 lat: -23.17944,
+//                 lon: -45.88694,
+//             ),
+//         ),
+//         (
+//             name: "São José dos Campos",
+//             coordinates: (
+//                 lat: -23.178888888,
+//                 lon: -45.886944444,
+//             ),
+//         ),
+//         (
+//             name: "Ribeirão Preto",
+//             coordinates: (
+//                 lat: -21.1775,
+//                 lon: -47.81028,
+//             ),
+//         ),
+//         (
+//             name: "Jaboatão",
+//             coordinates: (
+//                 lat: -8.18028,
+//                 lon: -35.00139,
+//             ),
+//         ),
+    ],
+)

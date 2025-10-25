@@ -1,0 +1,358 @@
+(
+    name: "Ethiopia",
+    code: "ET",
+    population: 114963583,
+    capital: 0,
+    cities: [
+        (
+            name: "Addis Ababa",
+            coordinates: (
+                lat: 9.027222222,
+                lon: 38.736944444,
+            ),
+        ),
+//         (
+//             name: "Adama",
+//             coordinates: (
+//                 lat: 8.55,
+//                 lon: 39.266666666,
+//             ),
+//         ),
+        (
+            name: "Gondar",
+            coordinates: (
+                lat: 12.6,
+                lon: 37.466666666,
+            ),
+        ),
+        (
+            name: "Mekele",
+            coordinates: (
+                lat: 13.496944444,
+                lon: 39.476944444,
+            ),
+        ),
+        (
+            name: "Hawaasa",
+            coordinates: (
+                lat: 7.05,
+                lon: 38.466666666,
+            ),
+        ),
+        (
+            name: "Dire Dawa",
+            coordinates: (
+                lat: 9.583333333,
+                lon: 41.866666666,
+            ),
+        ),
+//         (
+//             name: "Bahir Dar",
+//             coordinates: (
+//                 lat: 11.585,
+//                 lon: 37.39,
+//             ),
+//         ),
+//         (
+//             name: "Sodo",
+//             coordinates: (
+//                 lat: 6.9,
+//                 lon: 37.75,
+//             ),
+//         ),
+//         (
+//             name: "Shashamane",
+//             coordinates: (
+//                 lat: 7.2,
+//                 lon: 38.583333333,
+//             ),
+//         ),
+//         (
+//             name: "Dessie",
+//             coordinates: (
+//                 lat: 11.133333333,
+//                 lon: 39.633333333,
+//             ),
+//         ),
+        (
+            name: "Jimma",
+            coordinates: (
+                lat: 7.666666666,
+                lon: 36.833333333,
+            ),
+        ),
+//         (
+//             name: "Jijiga",
+//             coordinates: (
+//                 lat: 9.35,
+//                 lon: 42.8,
+//             ),
+//         ),
+//         (
+//             name: "Harar",
+//             coordinates: (
+//                 lat: 9.31387,
+//                 lon: 42.11815,
+//             ),
+//         ),
+        (
+            name: "Debre Berhan",
+            coordinates: (
+                lat: 9.678611111,
+                lon: 39.533333333,
+            ),
+        ),
+//         (
+//             name: "Debre Marqos",
+//             coordinates: (
+//                 lat: 10.333333333,
+//                 lon: 37.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Debre Tabor",
+//             coordinates: (
+//                 lat: 11.85,
+//                 lon: 38.016666666,
+//             ),
+//         ),
+//         (
+//             name: "Weldiya",
+//             coordinates: (
+//                 lat: 11.8306,
+//                 lon: 39.6,
+//             ),
+//         ),
+        (
+            name: "Shire",
+            coordinates: (
+                lat: 14.1,
+                lon: 38.2833,
+            ),
+        ),
+//         (
+//             name: "Bishoftu",
+//             coordinates: (
+//                 lat: 8.75,
+//                 lon: 38.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Negele Arsi",
+//             coordinates: (
+//                 lat: 7.3547,
+//                 lon: 38.67465,
+//             ),
+//         ),
+//         (
+//             name: "Adwa",
+//             coordinates: (
+//                 lat: 14.166666666,
+//                 lon: 38.9,
+//             ),
+//         ),
+//         (
+//             name: "Kombolcha",
+//             coordinates: (
+//                 lat: 11.085555555,
+//                 lon: 39.738055555,
+//             ),
+//         ),
+//         (
+//             name: "Areka",
+//             coordinates: (
+//                 lat: 7.06666667,
+//                 lon: 37.7,
+//             ),
+//         ),
+//         (
+//             name: "Akaki",
+//             coordinates: (
+//                 lat: 8.833333333,
+//                 lon: 38.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Adigrat",
+//             coordinates: (
+//                 lat: 14.266666666,
+//                 lon: 39.45,
+//             ),
+//         ),
+        (
+            name: "Nekemte",
+            coordinates: (
+                lat: 9.088333333,
+                lon: 36.547222222,
+            ),
+        ),
+//         (
+//             name: "Meki",
+//             coordinates: (
+//                 lat: 8.15,
+//                 lon: 38.81666667,
+//             ),
+//         ),
+        (
+            name: "Arba Minch",
+            coordinates: (
+                lat: 6.033333333,
+                lon: 37.55,
+            ),
+        ),
+        (
+            name: "Negele Boran",
+            coordinates: (
+                lat: 5.333333333,
+                lon: 39.583333333,
+            ),
+        ),
+//         (
+//             name: "Allamata",
+//             coordinates: (
+//                 lat: 12.4167,
+//                 lon: 39.55,
+//             ),
+//         ),
+//         (
+//             name: "Hosaena",
+//             coordinates: (
+//                 lat: 7.55,
+//                 lon: 37.85,
+//             ),
+//         ),
+//         (
+//             name: "Asella",
+//             coordinates: (
+//                 lat: 7.95,
+//                 lon: 39.116666666,
+//             ),
+//         ),
+//         (
+//             name: "Axum",
+//             coordinates: (
+//                 lat: 14.12109,
+//                 lon: 38.72337,
+//             ),
+//         ),
+        (
+            name: "Gambela",
+            coordinates: (
+                lat: 8.25,
+                lon: 34.5833,
+            ),
+        ),
+//         (
+//             name: "Boditi",
+//             coordinates: (
+//                 lat: 6.96666667,
+//                 lon: 37.86666667,
+//             ),
+//         ),
+        (
+            name: "Mizan Teferi",
+            coordinates: (
+                lat: 7.0,
+                lon: 35.58333333,
+            ),
+        ),
+//         (
+//             name: "Mojo",
+//             coordinates: (
+//                 lat: 8.65,
+//                 lon: 39.0833,
+//             ),
+//         ),
+//         (
+//             name: "Dila",
+//             coordinates: (
+//                 lat: 6.4125,
+//                 lon: 38.31166667,
+//             ),
+//         ),
+//         (
+//             name: "Mota",
+//             coordinates: (
+//                 lat: 11.0833,
+//                 lon: 37.8667,
+//             ),
+//         ),
+//         (
+//             name: "Finote Selam",
+//             coordinates: (
+//                 lat: 10.7,
+//                 lon: 37.2667,
+//             ),
+//         ),
+        (
+            name: "Hagere Mariam",
+            coordinates: (
+                lat: 5.583333333,
+                lon: 38.25,
+            ),
+        ),
+//         (
+//             name: "Dangila",
+//             coordinates: (
+//                 lat: 11.26667,
+//                 lon: 36.83333,
+//             ),
+//         ),
+//         (
+//             name: "Chagni",
+//             coordinates: (
+//                 lat: 10.95,
+//                 lon: 36.5,
+//             ),
+//         ),
+//         (
+//             name: "Maychew",
+//             coordinates: (
+//                 lat: 12.783333333,
+//                 lon: 39.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Sebeta",
+//             coordinates: (
+//                 lat: 8.916666666,
+//                 lon: 38.616666666,
+//             ),
+//         ),
+        (
+            name: "Ambo",
+            coordinates: (
+                lat: 8.983333333,
+                lon: 37.85,
+            ),
+        ),
+//         (
+//             name: "Wereta",
+//             coordinates: (
+//                 lat: 11.9167,
+//                 lon: 37.7,
+//             ),
+//         ),
+//         (
+//             name: "Kebri Mangest",
+//             coordinates: (
+//                 lat: 5.883333333,
+//                 lon: 38.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Injibara (Kossober)",
+//             coordinates: (
+//                 lat: 10.95,
+//                 lon: 36.9333,
+//             ),
+//         ),
+//         (
+//             name: "Shakiso",
+//             coordinates: (
+//                 lat: 5.76494,
+//                 lon: 38.91006,
+//             ),
+//         ),
+    ],
+)

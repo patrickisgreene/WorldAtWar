@@ -1,0 +1,358 @@
+(
+    name: "Pakistan",
+    code: "PK",
+    population: 220892331,
+    capital: 7,
+    cities: [
+        (
+            name: "Karachi",
+            coordinates: (
+                lat: 24.86,
+                lon: 67.01,
+            ),
+        ),
+        (
+            name: "Faisalabad",
+            coordinates: (
+                lat: 31.418,
+                lon: 73.079,
+            ),
+        ),
+//         (
+//             name: "Gujranwala",
+//             coordinates: (
+//                 lat: 32.15567,
+//                 lon: 74.18705,
+//             ),
+//         ),
+//         (
+//             name: "Peshawar",
+//             coordinates: (
+//                 lat: 34.014444444,
+//                 lon: 71.5675,
+//             ),
+//         ),
+//         (
+//             name: "Multan",
+//             coordinates: (
+//                 lat: 30.19679,
+//                 lon: 71.47824,
+//             ),
+//         ),
+        (
+            name: "Hyderabad",
+            coordinates: (
+                lat: 25.379166666,
+                lon: 68.368333333,
+            ),
+        ),
+//         (
+//             name: "Orangi Town",
+//             coordinates: (
+//                 lat: 24.95,
+//                 lon: 66.966666666,
+//             ),
+//         ),
+        (
+            name: "Islamabad",
+            coordinates: (
+                lat: 33.698888888,
+                lon: 73.036944444,
+            ),
+        ),
+        (
+            name: "Quetta",
+            coordinates: (
+                lat: 30.18414,
+                lon: 67.00141,
+            ),
+        ),
+        (
+            name: "Bahawalpur",
+            coordinates: (
+                lat: 29.39779,
+                lon: 71.6752,
+            ),
+        ),
+//         (
+//             name: "Muzaffarabad",
+//             coordinates: (
+//                 lat: 34.37,
+//                 lon: 73.471111111,
+//             ),
+//         ),
+//         (
+//             name: "Battagram",
+//             coordinates: (
+//                 lat: 34.679637,
+//                 lon: 73.026299,
+//             ),
+//         ),
+//         (
+//             name: "Malir Town",
+//             coordinates: (
+//                 lat: 24.893055555,
+//                 lon: 67.195277777,
+//             ),
+//         ),
+//         (
+//             name: "Sialkot",
+//             coordinates: (
+//                 lat: 32.5,
+//                 lon: 74.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Zafarwal",
+//             coordinates: (
+//                 lat: 32.34631,
+//                 lon: 74.89987,
+//             ),
+//         ),
+        (
+            name: "Sukkur",
+            coordinates: (
+                lat: 27.699522222,
+                lon: 68.867286111,
+            ),
+        ),
+//         (
+//             name: "Larkana",
+//             coordinates: (
+//                 lat: 27.55898,
+//                 lon: 68.21204,
+//             ),
+//         ),
+//         (
+//             name: "Chiniot",
+//             coordinates: (
+//                 lat: 31.716666666,
+//                 lon: 72.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Sheikhupura",
+//             coordinates: (
+//                 lat: 31.708333333,
+//                 lon: 74.0,
+//             ),
+//         ),
+//         (
+//             name: "Gulberg Town",
+//             coordinates: (
+//                 lat: 24.9369,
+//                 lon: 67.0759,
+//             ),
+//         ),
+        (
+            name: "Rahim Yar Khan",
+            coordinates: (
+                lat: 28.41987,
+                lon: 70.30345,
+            ),
+        ),
+//         (
+//             name: "Kabal",
+//             coordinates: (
+//                 lat: 34.783333333,
+//                 lon: 72.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Jhang",
+//             coordinates: (
+//                 lat: 31.268055555,
+//                 lon: 72.318055555,
+//             ),
+//         ),
+//         (
+//             name: "Baldia Town",
+//             coordinates: (
+//                 lat: 24.924444444,
+//                 lon: 66.973611111,
+//             ),
+//         ),
+        (
+            name: "Dera Ghazi Khan",
+            coordinates: (
+                lat: 30.05,
+                lon: 70.633333333,
+            ),
+        ),
+//         (
+//             name: "Gujrat",
+//             coordinates: (
+//                 lat: 32.573611111,
+//                 lon: 74.078888888,
+//             ),
+//         ),
+//         (
+//             name: "Jhang Sadar",
+//             coordinates: (
+//                 lat: 31.26666667,
+//                 lon: 72.31666667,
+//             ),
+//         ),
+//         (
+//             name: "Shah Faisal Town",
+//             coordinates: (
+//                 lat: 24.8806,
+//                 lon: 67.1625,
+//             ),
+//         ),
+//         (
+//             name: "Kasur",
+//             coordinates: (
+//                 lat: 31.116666666,
+//                 lon: 74.45,
+//             ),
+//         ),
+//         (
+//             name: "Mardan",
+//             coordinates: (
+//                 lat: 34.19794,
+//                 lon: 72.04965,
+//             ),
+//         ),
+//         (
+//             name: "Malir Cantonment",
+//             coordinates: (
+//                 lat: 24.95,
+//                 lon: 67.216666666,
+//             ),
+//         ),
+        (
+            name: "Chakwal",
+            coordinates: (
+                lat: 32.932861111,
+                lon: 72.862944444,
+            ),
+        ),
+//         (
+//             name: "Mingora",
+//             coordinates: (
+//                 lat: 34.771666666,
+//                 lon: 72.36,
+//             ),
+//         ),
+        (
+            name: "Nawabshah",
+            coordinates: (
+                lat: 26.244166666,
+                lon: 68.41,
+            ),
+        ),
+//         (
+//             name: "Kotri",
+//             coordinates: (
+//                 lat: 25.366,
+//                 lon: 68.31216,
+//             ),
+//         ),
+//         (
+//             name: "Wah",
+//             coordinates: (
+//                 lat: 33.81,
+//                 lon: 72.709722222,
+//             ),
+//         ),
+//         (
+//             name: "Sahiwal",
+//             coordinates: (
+//                 lat: 30.66595,
+//                 lon: 73.10186,
+//             ),
+//         ),
+//         (
+//             name: "Mirpur Khas",
+//             coordinates: (
+//                 lat: 25.5276,
+//                 lon: 69.01255,
+//             ),
+//         ),
+//         (
+//             name: "Okara",
+//             coordinates: (
+//                 lat: 30.81,
+//                 lon: 73.459722222,
+//             ),
+//         ),
+//         (
+//             name: "Kamoke",
+//             coordinates: (
+//                 lat: 31.97444,
+//                 lon: 74.22444,
+//             ),
+//         ),
+//         (
+//             name: "Sadiqabad",
+//             coordinates: (
+//                 lat: 28.283333333,
+//                 lon: 70.116666666,
+//             ),
+//         ),
+//         (
+//             name: "Burewala",
+//             coordinates: (
+//                 lat: 30.15,
+//                 lon: 72.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Jacobabad",
+//             coordinates: (
+//                 lat: 28.276944444,
+//                 lon: 68.451388888,
+//             ),
+//         ),
+//         (
+//             name: "Shahkot Tehsil",
+//             coordinates: (
+//                 lat: 31.561666666,
+//                 lon: 73.4875,
+//             ),
+//         ),
+//         (
+//             name: "Jhelum",
+//             coordinates: (
+//                 lat: 32.933333333,
+//                 lon: 73.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Būrewāla",
+//             coordinates: (
+//                 lat: 30.166666666,
+//                 lon: 72.65,
+//             ),
+//         ),
+//         (
+//             name: "Kohat",
+//             coordinates: (
+//                 lat: 33.586944444,
+//                 lon: 71.441388888,
+//             ),
+//         ),
+//         (
+//             name: "Hafizabad",
+//             coordinates: (
+//                 lat: 32.066666666,
+//                 lon: 73.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Khanewal",
+//             coordinates: (
+//                 lat: 30.3,
+//                 lon: 71.933333333,
+//             ),
+//         ),
+//         (
+//             name: "Muridke",
+//             coordinates: (
+//                 lat: 31.802,
+//                 lon: 74.255,
+//             ),
+//         ),
+    ],
+)

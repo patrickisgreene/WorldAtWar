@@ -1,0 +1,358 @@
+(
+    name: "Venezuela",
+    code: "VE",
+    population: 28435943,
+    capital: 0,
+    cities: [
+        (
+            name: "Caracas",
+            coordinates: (
+                lat: 10.5,
+                lon: -66.933333333,
+            ),
+        ),
+//         (
+//             name: "Valencia",
+//             coordinates: (
+//                 lat: 10.166666666,
+//                 lon: -68.0,
+//             ),
+//         ),
+        (
+            name: "Maracaibo",
+            coordinates: (
+                lat: 10.633333333,
+                lon: -71.633333333,
+            ),
+        ),
+//         (
+//             name: "Municipio Maracaibo",
+//             coordinates: (
+//                 lat: 10.6602709,
+//                 lon: -71.6761783,
+//             ),
+//         ),
+//         (
+//             name: "Maracay",
+//             coordinates: (
+//                 lat: 10.246944444,
+//                 lon: -67.595833333,
+//             ),
+//         ),
+        (
+            name: "Barquisimeto",
+            coordinates: (
+                lat: 10.067777777,
+                lon: -69.346694444,
+            ),
+        ),
+//         (
+//             name: "Municipio Iribarren",
+//             coordinates: (
+//                 lat: 10.135277777,
+//                 lon: -69.393888888,
+//             ),
+//         ),
+        (
+            name: "Barinas",
+            coordinates: (
+                lat: 8.633333333,
+                lon: -70.216666666,
+            ),
+        ),
+        (
+            name: "Maturín",
+            coordinates: (
+                lat: 9.7422774,
+                lon: -63.1888854,
+            ),
+        ),
+        (
+            name: "Ciudad Guayana",
+            coordinates: (
+                lat: 8.3223763,
+                lon: -62.6896622,
+            ),
+        ),
+//         (
+//             name: "Municipio Caroní",
+//             coordinates: (
+//                 lat: 8.25,
+//                 lon: -62.714444444,
+//             ),
+//         ),
+//         (
+//             name: "Catia La Mar",
+//             coordinates: (
+//                 lat: 10.6,
+//                 lon: -67.033333333,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Sucre",
+//             coordinates: (
+//                 lat: 10.471944444,
+//                 lon: -66.760833333,
+//             ),
+//         ),
+        (
+            name: "Ciudad Bolívar",
+            coordinates: (
+                lat: 8.1028532,
+                lon: -63.5469562,
+            ),
+        ),
+        (
+            name: "Barcelona",
+            coordinates: (
+                lat: 10.133333333,
+                lon: -64.683333333,
+            ),
+        ),
+//         (
+//             name: "Municipio Maturín",
+//             coordinates: (
+//                 lat: 9.5032466,
+//                 lon: -62.9351834,
+//             ),
+//         ),
+//         (
+//             name: "Santa Teresa del Tuy",
+//             coordinates: (
+//                 lat: 10.233333333,
+//                 lon: -66.65,
+//             ),
+//         ),
+//         (
+//             name: "Municipio San Francisco",
+//             coordinates: (
+//                 lat: 10.546111111,
+//                 lon: -71.693611111,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Simón Bolívar",
+//             coordinates: (
+//                 lat: 10.016111111,
+//                 lon: -64.605,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Girardot",
+//             coordinates: (
+//                 lat: 10.351944444,
+//                 lon: -67.583888888,
+//             ),
+//         ),
+//         (
+//             name: "Cumaná",
+//             coordinates: (
+//                 lat: 10.45,
+//                 lon: -64.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Petare",
+//             coordinates: (
+//                 lat: 10.48333333,
+//                 lon: -66.81666667,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Barinas",
+//             coordinates: (
+//                 lat: 8.2658564,
+//                 lon: -70.041963,
+//             ),
+//         ),
+//         (
+//             name: "Cabimas",
+//             coordinates: (
+//                 lat: 10.4,
+//                 lon: -71.433333333,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Heres",
+//             coordinates: (
+//                 lat: 7.911944444,
+//                 lon: -63.635833333,
+//             ),
+//         ),
+//         (
+//             name: "Los Teques",
+//             coordinates: (
+//                 lat: 10.341111111,
+//                 lon: -67.040555555,
+//             ),
+//         ),
+//         (
+//             name: "Puerto La Cruz",
+//             coordinates: (
+//                 lat: 10.216666666,
+//                 lon: -64.616666666,
+//             ),
+//         ),
+        (
+            name: "Punto Fijo",
+            coordinates: (
+                lat: 11.71666667,
+                lon: -70.18333333,
+            ),
+        ),
+        (
+            name: "San Cristóbal",
+            coordinates: (
+                lat: 7.76593,
+                lon: -72.23576,
+            ),
+        ),
+//         (
+//             name: "Coro",
+//             coordinates: (
+//                 lat: 11.395,
+//                 lon: -69.681583333,
+//             ),
+//         ),
+//         (
+//             name: "Municipio San Cristóbal",
+//             coordinates: (
+//                 lat: 7.7395694,
+//                 lon: -72.1839527,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Cabimas",
+//             coordinates: (
+//                 lat: 10.4000275,
+//                 lon: -71.3335426,
+//             ),
+//         ),
+//         (
+//             name: "Turmero",
+//             coordinates: (
+//                 lat: 10.228333333,
+//                 lon: -67.475277777,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Guaicaipuro",
+//             coordinates: (
+//                 lat: 10.264722222,
+//                 lon: -67.013888888,
+//             ),
+//         ),
+        (
+            name: "Valera",
+            coordinates: (
+                lat: 9.31778,
+                lon: -70.60361,
+            ),
+        ),
+        (
+            name: "Mérida",
+            coordinates: (
+                lat: 8.583333333,
+                lon: -71.133333333,
+            ),
+        ),
+//         (
+//             name: "Municipio Sotillo",
+//             coordinates: (
+//                 lat: 10.172222222,
+//                 lon: -64.598888888,
+//             ),
+//         ),
+//         (
+//             name: "Nuestra Señora del Rosario de Baruta",
+//             coordinates: (
+//                 lat: 10.478048833,
+//                 lon: -66.861786333,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Baruta",
+//             coordinates: (
+//                 lat: 10.428888888,
+//                 lon: -66.873055555,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Carirubana",
+//             coordinates: (
+//                 lat: 11.708611111,
+//                 lon: -70.005555555,
+//             ),
+//         ),
+//         (
+//             name: "San Felipe",
+//             coordinates: (
+//                 lat: 10.335277777,
+//                 lon: -68.745833333,
+//             ),
+//         ),
+//         (
+//             name: "Cúa",
+//             coordinates: (
+//                 lat: 10.166666666,
+//                 lon: -66.883333333,
+//             ),
+//         ),
+//         (
+//             name: "La Victoria",
+//             coordinates: (
+//                 lat: 10.227777777,
+//                 lon: -67.333611111,
+//             ),
+//         ),
+        (
+            name: "El Tigre",
+            coordinates: (
+                lat: 8.88583333,
+                lon: -64.26111111,
+            ),
+        ),
+//         (
+//             name: "Municipio Miranda",
+//             coordinates: (
+//                 lat: 11.319722222,
+//                 lon: -69.841388888,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Mariño",
+//             coordinates: (
+//                 lat: 10.360833333,
+//                 lon: -67.480833333,
+//             ),
+//         ),
+//         (
+//             name: "Municipio Plaza",
+//             coordinates: (
+//                 lat: 10.467777777,
+//                 lon: -66.628333333,
+//             ),
+//         ),
+//         (
+//             name: "Puerto Cabello",
+//             coordinates: (
+//                 lat: 10.466666666,
+//                 lon: -68.016666666,
+//             ),
+//         ),
+        (
+            name: "Guarenas",
+            coordinates: (
+                lat: 34.532777777,
+                lon: 69.165833333,
+            ),
+        ),
+//         (
+//             name: "Municipio Mara",
+//             coordinates: (
+//                 lat: 10.904722222,
+//                 lon: -71.935,
+//             ),
+//         ),
+    ],
+)

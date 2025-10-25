@@ -1,0 +1,50 @@
+(
+    name: "Mongolia",
+    code: "MN",
+    population: 3278292,
+    capital: 0,
+    cities: [
+        (
+            name: "Ulan Bator",
+            coordinates: (
+                lat: 47.92,
+                lon: 106.91,
+            ),
+        ),
+//         (
+//             name: "Ulaanbaatar",
+//             coordinates: (
+//                 lat: 47.921357,
+//                 lon: 106.905515,
+//             ),
+//         ),
+        (
+            name: "Mörön",
+            coordinates: (
+                lat: 49.6375,
+                lon: 100.161388888,
+            ),
+        ),
+        (
+            name: "Erdenet",
+            coordinates: (
+                lat: 49.033333333,
+                lon: 104.083333333,
+            ),
+        ),
+        (
+            name: "Darkhan",
+            coordinates: (
+                lat: 49.486666666,
+                lon: 105.922777777,
+            ),
+        ),
+        (
+            name: "Ölgii",
+            coordinates: (
+                lat: 48.965636111,
+                lon: 89.963208333,
+            ),
+        ),
+    ],
+)

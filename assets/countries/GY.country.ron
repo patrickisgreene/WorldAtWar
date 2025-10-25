@@ -1,0 +1,15 @@
+(
+    name: "Guyana",
+    code: "GY",
+    population: 786559,
+    capital: 0,
+    cities: [
+        (
+            name: "Georgetown",
+            coordinates: (
+                lat: 6.805833333,
+                lon: -58.150833333,
+            ),
+        ),
+    ],
+)

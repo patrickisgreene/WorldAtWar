@@ -1,0 +1,274 @@
+(
+    name: "Saudi Arabia",
+    code: "SA",
+    population: 34813867,
+    capital: 0,
+    cities: [
+        (
+            name: "Riyadh",
+            coordinates: (
+                lat: 24.65,
+                lon: 46.71,
+            ),
+        ),
+        (
+            name: "Jeddah",
+            coordinates: (
+                lat: 21.542777777,
+                lon: 39.172777777,
+            ),
+        ),
+//         (
+//             name: "Mecca",
+//             coordinates: (
+//                 lat: 21.4225,
+//                 lon: 39.826111111,
+//             ),
+//         ),
+        (
+            name: "Medina",
+            coordinates: (
+                lat: 24.47,
+                lon: 39.61,
+            ),
+        ),
+//         (
+//             name: "Sultanah",
+//             coordinates: (
+//                 lat: 24.5,
+//                 lon: 39.5833,
+//             ),
+//         ),
+        (
+            name: "Dammam",
+            coordinates: (
+                lat: 26.433333333,
+                lon: 50.1,
+            ),
+        ),
+        (
+            name: "Tabuk",
+            coordinates: (
+                lat: 28.397222222,
+                lon: 36.578888888,
+            ),
+        ),
+//         (
+//             name: "Ta\'if",
+//             coordinates: (
+//                 lat: 21.266666666,
+//                 lon: 40.416666666,
+//             ),
+//         ),
+        (
+            name: "Hafar Al-Batin",
+            coordinates: (
+                lat: 28.434166666,
+                lon: 45.963611111,
+            ),
+        ),
+//         (
+//             name: "Jubail",
+//             coordinates: (
+//                 lat: 27.0,
+//                 lon: 49.666666666,
+//             ),
+//         ),
+        (
+            name: "Burayda",
+            coordinates: (
+                lat: 26.333333333,
+                lon: 43.966666666,
+            ),
+        ),
+        (
+            name: "Abha",
+            coordinates: (
+                lat: 18.216666666,
+                lon: 42.5,
+            ),
+        ),
+        (
+            name: "Ha\'il",
+            coordinates: (
+                lat: 27.516666666,
+                lon: 41.683333333,
+            ),
+        ),
+        (
+            name: "Yanbu",
+            coordinates: (
+                lat: 24.088263888,
+                lon: 38.058194444,
+            ),
+        ),
+        (
+            name: "Al-Mubarraz",
+            coordinates: (
+                lat: 25.4416,
+                lon: 49.6642,
+            ),
+        ),
+//         (
+//             name: "Al-Thuqbah",
+//             coordinates: (
+//                 lat: 26.273611,
+//                 lon: 50.191944,
+//             ),
+//         ),
+        (
+            name: "نجران الماضي والحاضر نجران",
+            coordinates: (
+                lat: 17.4917,
+                lon: 44.1322,
+            ),
+        ),
+//         (
+//             name: "Khobar",
+//             coordinates: (
+//                 lat: 26.3,
+//                 lon: 50.216666666,
+//             ),
+//         ),
+        (
+            name: "Sakakah",
+            coordinates: (
+                lat: 29.96974,
+                lon: 40.20641,
+            ),
+        ),
+//         (
+//             name: "Dhahran",
+//             coordinates: (
+//                 lat: 26.266666666,
+//                 lon: 50.15,
+//             ),
+//         ),
+        (
+            name: "Jizan",
+            coordinates: (
+                lat: 16.889166666,
+                lon: 42.561111111,
+            ),
+        ),
+//         (
+//             name: "Ar Rass",
+//             coordinates: (
+//                 lat: 25.866666666,
+//                 lon: 43.5,
+//             ),
+//         ),
+//         (
+//             name: "Al Hawiyah",
+//             coordinates: (
+//                 lat: 21.42415,
+//                 lon: 40.49303,
+//             ),
+//         ),
+        (
+            name: "Az Zulfi",
+            coordinates: (
+                lat: 26.299444444,
+                lon: 44.815555555,
+            ),
+        ),
+        (
+            name: "Qurayyat",
+            coordinates: (
+                lat: 31.33176,
+                lon: 37.34282,
+            ),
+        ),
+//         (
+//             name: "Khamis Mushait",
+//             coordinates: (
+//                 lat: 18.3,
+//                 lon: 42.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Al Qaţīf",
+//             coordinates: (
+//                 lat: 26.56542,
+//                 lon: 50.0089,
+//             ),
+//         ),
+//         (
+//             name: "Qatif",
+//             coordinates: (
+//                 lat: 26.6,
+//                 lon: 49.96667,
+//             ),
+//         ),
+//         (
+//             name: "Tārūt",
+//             coordinates: (
+//                 lat: 26.57332,
+//                 lon: 50.03694,
+//             ),
+//         ),
+//         (
+//             name: "Saihat",
+//             coordinates: (
+//                 lat: 26.475,
+//                 lon: 50.041666666,
+//             ),
+//         ),
+//         (
+//             name: "Ash Shafa",
+//             coordinates: (
+//                 lat: 21.0694,
+//                 lon: 40.3119,
+//             ),
+//         ),
+        (
+            name: "Bisha",
+            coordinates: (
+                lat: 20.00054,
+                lon: 42.6052,
+            ),
+        ),
+        (
+            name: "Dawadmi",
+            coordinates: (
+                lat: 24.50772,
+                lon: 44.39237,
+            ),
+        ),
+        (
+            name: "Al Khafjī",
+            coordinates: (
+                lat: 28.439166666,
+                lon: 48.491388888,
+            ),
+        ),
+        (
+            name: "Rafha",
+            coordinates: (
+                lat: 29.63425,
+                lon: 43.51941,
+            ),
+        ),
+        (
+            name: "Turaif",
+            coordinates: (
+                lat: 31.67252,
+                lon: 38.66374,
+            ),
+        ),
+//         (
+//             name: "Safwa City",
+//             coordinates: (
+//                 lat: 26.65,
+//                 lon: 49.95,
+//             ),
+//         ),
+//         (
+//             name: "Abu `Arish",
+//             coordinates: (
+//                 lat: 16.96887,
+//                 lon: 42.83251,
+//             ),
+//         ),
+    ],
+)

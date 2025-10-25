@@ -1,0 +1,29 @@
+(
+    name: "Bahamas",
+    code: "BS",
+    population: 393248,
+    capital: 0,
+    cities: [
+        (
+            name: "Nassau",
+            coordinates: (
+                lat: 25.078055555,
+                lon: -77.338611111,
+            ),
+        ),
+//         (
+//             name: "Lucaya",
+//             coordinates: (
+//                 lat: 26.533333333,
+//                 lon: -78.666666666,
+//             ),
+//         ),
+        (
+            name: "Freeport",
+            coordinates: (
+                lat: 26.52028,
+                lon: -78.64528,
+            ),
+        ),
+    ],
+)

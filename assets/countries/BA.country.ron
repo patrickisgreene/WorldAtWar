@@ -1,0 +1,99 @@
+(
+    name: "Bosnia and Herzegovina",
+    code: "BA",
+    population: 3280815,
+    capital: 0,
+    cities: [
+        (
+            name: "Sarajevo",
+            coordinates: (
+                lat: 43.856388888,
+                lon: 18.413055555,
+            ),
+        ),
+//         (
+//             name: "Banja Luka",
+//             coordinates: (
+//                 lat: 44.7725,
+//                 lon: 17.1925,
+//             ),
+//         ),
+//         (
+//             name: "Zenica",
+//             coordinates: (
+//                 lat: 44.201666666,
+//                 lon: 17.903888888,
+//             ),
+//         ),
+//         (
+//             name: "Bijeljina",
+//             coordinates: (
+//                 lat: 44.756666666,
+//                 lon: 19.215555555,
+//             ),
+//         ),
+//         (
+//             name: "Tuzla",
+//             coordinates: (
+//                 lat: 44.53842,
+//                 lon: 18.66709,
+//             ),
+//         ),
+//         (
+//             name: "Mostar",
+//             coordinates: (
+//                 lat: 43.343611111,
+//                 lon: 17.8075,
+//             ),
+//         ),
+//         (
+//             name: "Prijedor",
+//             coordinates: (
+//                 lat: 44.966666666,
+//                 lon: 16.7,
+//             ),
+//         ),
+//         (
+//             name: "Ilidža",
+//             coordinates: (
+//                 lat: 43.83148,
+//                 lon: 18.30697,
+//             ),
+//         ),
+//         (
+//             name: "Doboj",
+//             coordinates: (
+//                 lat: 44.733333333,
+//                 lon: 18.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Zvornik",
+//             coordinates: (
+//                 lat: 44.383333333,
+//                 lon: 19.1,
+//             ),
+//         ),
+//         (
+//             name: "Bihać",
+//             coordinates: (
+//                 lat: 44.814722222,
+//                 lon: 15.869166666,
+//             ),
+//         ),
+//         (
+//             name: "Travnik",
+//             coordinates: (
+//                 lat: 44.225421879,
+//                 lon: 17.666868517,
+//             ),
+//         ),
+//         (
+//             name: "Lukavac",
+//             coordinates: (
+//                 lat: 44.533333333,
+//                 lon: 18.533333333,
+//             ),
+//         ),
+    ],
+)

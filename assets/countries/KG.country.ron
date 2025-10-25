@@ -1,0 +1,92 @@
+(
+    name: "Kyrgyzstan",
+    code: "KG",
+    population: 6591600,
+    capital: 0,
+    cities: [
+        (
+            name: "Bishkek",
+            coordinates: (
+                lat: 42.866666666,
+                lon: 74.566666666,
+            ),
+        ),
+        (
+            name: "Osh",
+            coordinates: (
+                lat: 40.533333333,
+                lon: 72.783333333,
+            ),
+        ),
+//         (
+//             name: "Birinchi May District",
+//             coordinates: (
+//                 lat: 42.88704,
+//                 lon: 74.58213,
+//             ),
+//         ),
+//         (
+//             name: "Ak-Suu",
+//             coordinates: (
+//                 lat: 41.49634,
+//                 lon: 71.9975,
+//             ),
+//         ),
+//         (
+//             name: "Manas",
+//             coordinates: (
+//                 lat: 40.9375,
+//                 lon: 72.98611111,
+//             ),
+//         ),
+        (
+            name: "Karakol",
+            coordinates: (
+                lat: 42.490555555,
+                lon: 78.393611111,
+            ),
+        ),
+        (
+            name: "Balykchy",
+            coordinates: (
+                lat: 42.460277777,
+                lon: 76.187222222,
+            ),
+        ),
+//         (
+//             name: "Tokmok",
+//             coordinates: (
+//                 lat: 42.839,
+//                 lon: 75.291,
+//             ),
+//         ),
+//         (
+//             name: "Kyzyl-Kiya",
+//             coordinates: (
+//                 lat: 40.266666666,
+//                 lon: 72.05,
+//             ),
+//         ),
+//         (
+//             name: "Özgön",
+//             coordinates: (
+//                 lat: 40.766666666,
+//                 lon: 73.3,
+//             ),
+//         ),
+        (
+            name: "Naryn",
+            coordinates: (
+                lat: 41.433333333,
+                lon: 76.0,
+            ),
+        ),
+//         (
+//             name: "Bazar-Korgon",
+//             coordinates: (
+//                 lat: 41.07,
+//                 lon: 72.74,
+//             ),
+//         ),
+    ],
+)

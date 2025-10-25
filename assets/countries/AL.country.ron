@@ -1,0 +1,78 @@
+(
+    name: "Albania",
+    code: "AL",
+    population: 2837743,
+    capital: 0,
+    cities: [
+        (
+            name: "Tirana",
+            coordinates: (
+                lat: 41.328888888,
+                lon: 19.817777777,
+            ),
+        ),
+//         (
+//             name: "Vlorë",
+//             coordinates: (
+//                 lat: 40.45,
+//                 lon: 19.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Kamëz",
+//             coordinates: (
+//                 lat: 41.383333333,
+//                 lon: 19.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Durrës",
+//             coordinates: (
+//                 lat: 41.313333333,
+//                 lon: 19.445833333,
+//             ),
+//         ),
+//         (
+//             name: "Elbasan",
+//             coordinates: (
+//                 lat: 41.11138,
+//                 lon: 20.08224,
+//             ),
+//         ),
+//         (
+//             name: "Shkodër",
+//             coordinates: (
+//                 lat: 42.06828,
+//                 lon: 19.51258,
+//             ),
+//         ),
+//         (
+//             name: "Bashkia e Pogradecit",
+//             coordinates: (
+//                 lat: 40.9,
+//                 lon: 20.65,
+//             ),
+//         ),
+//         (
+//             name: "Fier-cifci",
+//             coordinates: (
+//                 lat: 40.71667,
+//                 lon: 19.56667,
+//             ),
+//         ),
+//         (
+//             name: "Fier",
+//             coordinates: (
+//                 lat: 40.716666666,
+//                 lon: 19.55,
+//             ),
+//         ),
+//         (
+//             name: "Korçë",
+//             coordinates: (
+//                 lat: 40.616666666,
+//                 lon: 20.766666666,
+//             ),
+//         ),
+    ],
+)

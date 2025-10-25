@@ -1,0 +1,15 @@
+(
+    name: "Isle of Man",
+    code: "IM",
+    population: 85032,
+    capital: 0,
+    cities: [
+        (
+            name: "Douglas",
+            coordinates: (
+                lat: 54.15,
+                lon: -4.48,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,43 @@
+(
+    name: "Costa Rica",
+    code: "CR",
+    population: 5094114,
+    capital: 0,
+    cities: [
+        (
+            name: "San José",
+            coordinates: (
+                lat: 9.932738888,
+                lon: -84.079613888,
+            ),
+        ),
+        (
+            name: "Limón",
+            coordinates: (
+                lat: 9.99074,
+                lon: -83.03596,
+            ),
+        ),
+//         (
+//             name: "San Isidro de El General",
+//             coordinates: (
+//                 lat: 9.3674,
+//                 lon: -83.69713,
+//             ),
+//         ),
+//         (
+//             name: "Alajuela",
+//             coordinates: (
+//                 lat: 10.02408,
+//                 lon: -84.20609,
+//             ),
+//         ),
+//         (
+//             name: "Puntarenas",
+//             coordinates: (
+//                 lat: 9.977302777,
+//                 lon: -84.834641666,
+//             ),
+//         ),
+    ],
+)

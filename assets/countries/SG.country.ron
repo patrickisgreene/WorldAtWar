@@ -1,0 +1,127 @@
+(
+    name: "Singapore",
+    code: "SG",
+    population: 5685807,
+    capital: 0,
+    cities: [
+        (
+            name: "Singapore",
+            coordinates: (
+                lat: 1.3,
+                lon: 103.8,
+            ),
+        ),
+//         (
+//             name: "Tampines",
+//             coordinates: (
+//                 lat: 1.34959,
+//                 lon: 103.957,
+//             ),
+//         ),
+//         (
+//             name: "Jurong West",
+//             coordinates: (
+//                 lat: 1.3445,
+//                 lon: 103.706816666,
+//             ),
+//         ),
+//         (
+//             name: "Sengkang New Town",
+//             coordinates: (
+//                 lat: 1.39167,
+//                 lon: 103.89444,
+//             ),
+//         ),
+//         (
+//             name: "Hougang",
+//             coordinates: (
+//                 lat: 1.35667,
+//                 lon: 103.89083,
+//             ),
+//         ),
+//         (
+//             name: "Yishun New Town",
+//             coordinates: (
+//                 lat: 1.433333333,
+//                 lon: 103.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Choa Chu Kang",
+//             coordinates: (
+//                 lat: 1.383333333,
+//                 lon: 103.75,
+//             ),
+//         ),
+//         (
+//             name: "Punggol",
+//             coordinates: (
+//                 lat: 1.41444,
+//                 lon: 103.90694,
+//             ),
+//         ),
+//         (
+//             name: "Bukit Merah",
+//             coordinates: (
+//                 lat: 1.28583,
+//                 lon: 103.81944,
+//             ),
+//         ),
+//         (
+//             name: "Pasir Ris",
+//             coordinates: (
+//                 lat: 1.372,
+//                 lon: 103.9473,
+//             ),
+//         ),
+//         (
+//             name: "Serangoon",
+//             coordinates: (
+//                 lat: 1.35083,
+//                 lon: 103.87083,
+//             ),
+//         ),
+//         (
+//             name: "Toa Payoh",
+//             coordinates: (
+//                 lat: 1.33611,
+//                 lon: 103.85,
+//             ),
+//         ),
+//         (
+//             name: "Geylang",
+//             coordinates: (
+//                 lat: 1.31953,
+//                 lon: 103.88689,
+//             ),
+//         ),
+//         (
+//             name: "Bishan",
+//             coordinates: (
+//                 lat: 1.35083,
+//                 lon: 103.851,
+//             ),
+//         ),
+//         (
+//             name: "Jurong",
+//             coordinates: (
+//                 lat: 1.316672222,
+//                 lon: 103.716894444,
+//             ),
+//         ),
+//         (
+//             name: "Jurong East",
+//             coordinates: (
+//                 lat: 1.328883333,
+//                 lon: 103.739947222,
+//             ),
+//         ),
+//         (
+//             name: "Marine Parade",
+//             coordinates: (
+//                 lat: 1.30306,
+//                 lon: 103.90778,
+//             ),
+//         ),
+    ],
+)

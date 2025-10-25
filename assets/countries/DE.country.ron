@@ -1,0 +1,358 @@
+(
+    name: "Germany",
+    code: "DE",
+    population: 83240525,
+    capital: 0,
+    cities: [
+        (
+            name: "Berlin",
+            coordinates: (
+                lat: 52.516666666,
+                lon: 13.383333333,
+            ),
+        ),
+        (
+            name: "Hamburg",
+            coordinates: (
+                lat: 53.55,
+                lon: 10.0,
+            ),
+        ),
+        (
+            name: "Munich",
+            coordinates: (
+                lat: 48.15389,
+                lon: 11.54806,
+            ),
+        ),
+        (
+            name: "Cologne",
+            coordinates: (
+                lat: 50.942222222,
+                lon: 6.957777777,
+            ),
+        ),
+        (
+            name: "Frankfurt",
+            coordinates: (
+                lat: 50.110555555,
+                lon: 8.682222222,
+            ),
+        ),
+        (
+            name: "Bremen",
+            coordinates: (
+                lat: 53.08333,
+                lon: 8.83333,
+            ),
+        ),
+//         (
+//             name: "Stuttgart",
+//             coordinates: (
+//                 lat: 48.7775,
+//                 lon: 9.18,
+//             ),
+//         ),
+//         (
+//             name: "Düsseldorf",
+//             coordinates: (
+//                 lat: 51.225555555,
+//                 lon: 6.776666666,
+//             ),
+//         ),
+        (
+            name: "Leipzig",
+            coordinates: (
+                lat: 51.339444,
+                lon: 12.371111,
+            ),
+        ),
+//         (
+//             name: "Dortmund",
+//             coordinates: (
+//                 lat: 51.513888888,
+//                 lon: 7.465277777,
+//             ),
+//         ),
+//         (
+//             name: "Essen",
+//             coordinates: (
+//                 lat: 51.450833333,
+//                 lon: 7.013055555,
+//             ),
+//         ),
+//         (
+//             name: "Bremen",
+//             coordinates: (
+//                 lat: 53.075833333,
+//                 lon: 8.807222222,
+//             ),
+//         ),
+//         (
+//             name: "Dresden",
+//             coordinates: (
+//                 lat: 51.0833,
+//                 lon: 13.7666,
+//             ),
+//         ),
+//         (
+//             name: "Hanover",
+//             coordinates: (
+//                 lat: 52.374444444,
+//                 lon: 9.738611111,
+//             ),
+//         ),
+        (
+            name: "Nuremberg",
+            coordinates: (
+                lat: 49.453888888,
+                lon: 11.0775,
+            ),
+        ),
+//         (
+//             name: "lsjbot Duisburg",
+//             coordinates: (
+//                 lat: 51.43247,
+//                 lon: 6.76516,
+//             ),
+//         ),
+//         (
+//             name: "Duisburg",
+//             coordinates: (
+//                 lat: 51.432222222,
+//                 lon: 6.761111111,
+//             ),
+//         ),
+//         (
+//             name: "Nuremberg",
+//             coordinates: (
+//                 lat: 49.45421,
+//                 lon: 11.07752,
+//             ),
+//         ),
+//         (
+//             name: "Pankow",
+//             coordinates: (
+//                 lat: 52.566666666,
+//                 lon: 13.4,
+//             ),
+//         ),
+//         (
+//             name: "Bezirk Mitte",
+//             coordinates: (
+//                 lat: 52.516666666,
+//                 lon: 13.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Bochum",
+//             coordinates: (
+//                 lat: 51.483333333,
+//                 lon: 7.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Wuppertal",
+//             coordinates: (
+//                 lat: 51.266666666,
+//                 lon: 7.183333333,
+//             ),
+//         ),
+//         (
+//             name: "Tempelhof-Schöneberg",
+//             coordinates: (
+//                 lat: 52.466666666,
+//                 lon: 13.383333333,
+//             ),
+//         ),
+//         (
+//             name: "Charlottenburg-Wilmersdorf",
+//             coordinates: (
+//                 lat: 52.5,
+//                 lon: 13.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Bielefeld",
+//             coordinates: (
+//                 lat: 52.02152,
+//                 lon: 8.53529,
+//             ),
+//         ),
+//         (
+//             name: "Bonn",
+//             coordinates: (
+//                 lat: 50.735277777,
+//                 lon: 7.102222222,
+//             ),
+//         ),
+//         (
+//             name: "Neukölln",
+//             coordinates: (
+//                 lat: 52.483333333,
+//                 lon: 13.45,
+//             ),
+//         ),
+//         (
+//             name: "Münster",
+//             coordinates: (
+//                 lat: 51.9625,
+//                 lon: 7.625555555,
+//             ),
+//         ),
+//         (
+//             name: "Mannheim",
+//             coordinates: (
+//                 lat: 49.487777777,
+//                 lon: 8.466111111,
+//             ),
+//         ),
+//         (
+//             name: "Karlsruhe",
+//             coordinates: (
+//                 lat: 49.00937,
+//                 lon: 8.40444,
+//             ),
+//         ),
+//         (
+//             name: "Augsburg",
+//             coordinates: (
+//                 lat: 48.36733,
+//                 lon: 10.89213,
+//             ),
+//         ),
+//         (
+//             name: "Hamburg-Nord",
+//             coordinates: (
+//                 lat: 53.616666666,
+//                 lon: 10.0,
+//             ),
+//         ),
+//         (
+//             name: "Hamburg-Mitte",
+//             coordinates: (
+//                 lat: 53.550277777,
+//                 lon: 9.994166666,
+//             ),
+//         ),
+//         (
+//             name: "Lichtenberg",
+//             coordinates: (
+//                 lat: 52.533333333,
+//                 lon: 13.5,
+//             ),
+//         ),
+//         (
+//             name: "Friedrichshain-Kreuzberg",
+//             coordinates: (
+//                 lat: 52.5,
+//                 lon: 13.45,
+//             ),
+//         ),
+//         (
+//             name: "Wiesbaden",
+//             coordinates: (
+//                 lat: 50.0825,
+//                 lon: 8.24,
+//             ),
+//         ),
+//         (
+//             name: "Treptow-Köpenick",
+//             coordinates: (
+//                 lat: 52.45,
+//                 lon: 13.566666666,
+//             ),
+//         ),
+//         (
+//             name: "Marzahn-Hellersdorf",
+//             coordinates: (
+//                 lat: 52.533333333,
+//                 lon: 13.583333333,
+//             ),
+//         ),
+//         (
+//             name: "Mönchengladbach",
+//             coordinates: (
+//                 lat: 51.2,
+//                 lon: 6.433333333,
+//             ),
+//         ),
+//         (
+//             name: "Reinickendorf",
+//             coordinates: (
+//                 lat: 52.566666666,
+//                 lon: 13.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Gelsenkirchen",
+//             coordinates: (
+//                 lat: 51.516666666,
+//                 lon: 7.1,
+//             ),
+//         ),
+//         (
+//             name: "Altona",
+//             coordinates: (
+//                 lat: 53.55,
+//                 lon: 9.9333,
+//             ),
+//         ),
+//         (
+//             name: "Eimsbüttel",
+//             coordinates: (
+//                 lat: 53.574444444,
+//                 lon: 9.959444444,
+//             ),
+//         ),
+//         (
+//             name: "Aachen",
+//             coordinates: (
+//                 lat: 50.77664,
+//                 lon: 6.08342,
+//             ),
+//         ),
+//         (
+//             name: "Brunswick",
+//             coordinates: (
+//                 lat: 52.269166666,
+//                 lon: 10.521111111,
+//             ),
+//         ),
+//         (
+//             name: "Chemnitz",
+//             coordinates: (
+//                 lat: 50.833333333,
+//                 lon: 12.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Kiel",
+//             coordinates: (
+//                 lat: 54.323333333,
+//                 lon: 10.139444444,
+//             ),
+//         ),
+//         (
+//             name: "Spandau",
+//             coordinates: (
+//                 lat: 52.55,
+//                 lon: 13.2,
+//             ),
+//         ),
+//         (
+//             name: "Halle (Saale)",
+//             coordinates: (
+//                 lat: 51.48139,
+//                 lon: 11.98556,
+//             ),
+//         ),
+//         (
+//             name: "Magdeburg",
+//             coordinates: (
+//                 lat: 52.1275,
+//                 lon: 11.629166,
+//             ),
+//         ),
+    ],
+)

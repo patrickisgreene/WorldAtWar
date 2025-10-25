@@ -12,7 +12,7 @@ pub fn handle_bathyometry(args: &CliArgs) {
         unreachable!()
     };
 
-    print!("Processing bathyometry");
+    print!("Processing bathyometry...");
 
     resolutions.par_iter().for_each(|resolution| {
         let mut out_file_path = output.clone();

@@ -1,0 +1,358 @@
+(
+    name: "United Kingdom",
+    code: "GB",
+    population: 67215293,
+    capital: 1,
+    cities: [
+//         (
+//             name: "Greater London",
+//             coordinates: (
+//                 lat: 51.5,
+//                 lon: -0.083333333,
+//             ),
+//         ),
+        (
+            name: "London",
+            coordinates: (
+                lat: 51.507222222,
+                lon: -0.1275,
+            ),
+        ),
+//         (
+//             name: "Birmingham",
+//             coordinates: (
+//                 lat: 52.48,
+//                 lon: -1.9025,
+//             ),
+//         ),
+//         (
+//             name: "Tyneside",
+//             coordinates: (
+//                 lat: 54.98333,
+//                 lon: -1.5,
+//             ),
+//         ),
+        (
+            name: "Glasgow",
+            coordinates: (
+                lat: 55.861111111,
+                lon: -4.25,
+            ),
+        ),
+//         (
+//             name: "Sheffield",
+//             coordinates: (
+//                 lat: 53.38297,
+//                 lon: -1.4659,
+//             ),
+//         ),
+//         (
+//             name: "Manchester",
+//             coordinates: (
+//                 lat: 53.466666666,
+//                 lon: -2.233333333,
+//             ),
+//         ),
+//         (
+//             name: "Leeds",
+//             coordinates: (
+//                 lat: 53.7975,
+//                 lon: -1.543611111,
+//             ),
+//         ),
+//         (
+//             name: "Liverpool",
+//             coordinates: (
+//                 lat: 53.407222222,
+//                 lon: -2.991666666,
+//             ),
+//         ),
+//         (
+//             name: "Edinburgh",
+//             coordinates: (
+//                 lat: 55.953333333,
+//                 lon: -3.189166666,
+//             ),
+//         ),
+//         (
+//             name: "Bristol",
+//             coordinates: (
+//                 lat: 51.45523,
+//                 lon: -2.59665,
+//             ),
+//         ),
+//         (
+//             name: "Leicester",
+//             coordinates: (
+//                 lat: 52.636111111,
+//                 lon: -1.133055555,
+//             ),
+//         ),
+//         (
+//             name: "Cardiff",
+//             coordinates: (
+//                 lat: 51.481666666,
+//                 lon: -3.179166666,
+//             ),
+//         ),
+//         (
+//             name: "Coventry",
+//             coordinates: (
+//                 lat: 52.416666666,
+//                 lon: -1.516666666,
+//             ),
+//         ),
+//         (
+//             name: "Teesside",
+//             coordinates: (
+//                 lat: 54.56667,
+//                 lon: -1.23333,
+//             ),
+//         ),
+        (
+            name: "Belfast",
+            coordinates: (
+                lat: 54.596666666,
+                lon: -5.93,
+            ),
+        ),
+//         (
+//             name: "Newcastle upon Tyne",
+//             coordinates: (
+//                 lat: 54.977777777,
+//                 lon: -1.613333333,
+//             ),
+//         ),
+//         (
+//             name: "Stockport",
+//             coordinates: (
+//                 lat: 53.408333333,
+//                 lon: -2.149444444,
+//             ),
+//         ),
+//         (
+//             name: "Bradford",
+//             coordinates: (
+//                 lat: 53.794,
+//                 lon: -1.751,
+//             ),
+//         ),
+//         (
+//             name: "Nottingham",
+//             coordinates: (
+//                 lat: 52.955,
+//                 lon: -1.149166666,
+//             ),
+//         ),
+//         (
+//             name: "Bolton",
+//             coordinates: (
+//                 lat: 53.578333333,
+//                 lon: -2.43,
+//             ),
+//         ),
+//         (
+//             name: "Brighton and Hove",
+//             coordinates: (
+//                 lat: 50.827777777,
+//                 lon: -0.152777777,
+//             ),
+//         ),
+//         (
+//             name: "Sunderland",
+//             coordinates: (
+//                 lat: 54.9,
+//                 lon: -1.380277777,
+//             ),
+//         ),
+//         (
+//             name: "Southampton",
+//             coordinates: (
+//                 lat: 50.906666666,
+//                 lon: -1.404444444,
+//             ),
+//         ),
+        (
+            name: "Plymouth",
+            coordinates: (
+                lat: 50.371388888,
+                lon: -4.142222222,
+            ),
+        ),
+//         (
+//             name: "Milton Keynes",
+//             coordinates: (
+//                 lat: 52.033333333,
+//                 lon: -0.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Kingston upon Hull",
+//             coordinates: (
+//                 lat: 53.7446,
+//                 lon: -0.33525,
+//             ),
+//         ),
+//         (
+//             name: "Derby",
+//             coordinates: (
+//                 lat: 52.921666666,
+//                 lon: -1.476666666,
+//             ),
+//         ),
+//         (
+//             name: "Wolverhampton",
+//             coordinates: (
+//                 lat: 52.584166666,
+//                 lon: -2.125277777,
+//             ),
+//         ),
+//         (
+//             name: "Stoke-on-Trent",
+//             coordinates: (
+//                 lat: 53.0,
+//                 lon: -2.183333333,
+//             ),
+//         ),
+//         (
+//             name: "Portsmouth",
+//             coordinates: (
+//                 lat: 50.805833333,
+//                 lon: -1.087222222,
+//             ),
+//         ),
+//         (
+//             name: "Westminster",
+//             coordinates: (
+//                 lat: 51.4995,
+//                 lon: -0.1333,
+//             ),
+//         ),
+//         (
+//             name: "Swansea",
+//             coordinates: (
+//                 lat: 51.616666666,
+//                 lon: -3.95,
+//             ),
+//         ),
+//         (
+//             name: "Northampton",
+//             coordinates: (
+//                 lat: 52.233333333,
+//                 lon: -0.9,
+//             ),
+//         ),
+//         (
+//             name: "Barnsley",
+//             coordinates: (
+//                 lat: 53.553611111,
+//                 lon: -1.478888888,
+//             ),
+//         ),
+//         (
+//             name: "Bexley",
+//             coordinates: (
+//                 lat: 51.441,
+//                 lon: 0.149,
+//             ),
+//         ),
+//         (
+//             name: "Swindon",
+//             coordinates: (
+//                 lat: 51.558333333,
+//                 lon: -1.781111111,
+//             ),
+//         ),
+//         (
+//             name: "Archway district",
+//             coordinates: (
+//                 lat: 51.56733,
+//                 lon: -0.13415,
+//             ),
+//         ),
+//         (
+//             name: "Luton",
+//             coordinates: (
+//                 lat: 51.878333333,
+//                 lon: -0.414722222,
+//             ),
+//         ),
+//         (
+//             name: "City of Westminster",
+//             coordinates: (
+//                 lat: 51.51291,
+//                 lon: -0.15895,
+//             ),
+//         ),
+//         (
+//             name: "York",
+//             coordinates: (
+//                 lat: 53.95,
+//                 lon: -1.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Solihull",
+//             coordinates: (
+//                 lat: 52.413,
+//                 lon: -1.772,
+//             ),
+//         ),
+//         (
+//             name: "Islington",
+//             coordinates: (
+//                 lat: 51.544,
+//                 lon: -0.1027,
+//             ),
+//         ),
+        (
+            name: "Aberdeen",
+            coordinates: (
+                lat: 57.15,
+                lon: -2.1,
+            ),
+        ),
+//         (
+//             name: "Gateshead",
+//             coordinates: (
+//                 lat: 54.95,
+//                 lon: -1.6,
+//             ),
+//         ),
+        (
+            name: "Norwich",
+            coordinates: (
+                lat: 52.62783,
+                lon: 1.29834,
+            ),
+        ),
+//         (
+//             name: "Peterborough",
+//             coordinates: (
+//                 lat: 52.5725,
+//                 lon: -0.243055555,
+//             ),
+//         ),
+//         (
+//             name: "Sutton",
+//             coordinates: (
+//                 lat: 51.3656,
+//                 lon: -0.1963,
+//             ),
+//         ),
+//         (
+//             name: "Bournemouth",
+//             coordinates: (
+//                 lat: 50.72048,
+//                 lon: -1.8795,
+//             ),
+//         ),
+//         (
+//             name: "Basildon",
+//             coordinates: (
+//                 lat: 51.5761,
+//                 lon: 0.4886,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,36 @@
+(
+    name: "Lesotho",
+    code: "LS",
+    population: 2142252,
+    capital: 0,
+    cities: [
+        (
+            name: "Maseru",
+            coordinates: (
+                lat: -29.31667,
+                lon: 27.48333,
+            ),
+        ),
+//         (
+//             name: "Teyateyaneng",
+//             coordinates: (
+//                 lat: -29.15,
+//                 lon: 27.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Mafeteng",
+//             coordinates: (
+//                 lat: -29.823055555,
+//                 lon: 27.2375,
+//             ),
+//         ),
+//         (
+//             name: "Hlotse",
+//             coordinates: (
+//                 lat: -28.87185,
+//                 lon: 28.04501,
+//             ),
+//         ),
+    ],
+)

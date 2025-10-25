@@ -1,0 +1,15 @@
+(
+    name: "Vatican City",
+    code: "VA",
+    population: 451,
+    capital: 0,
+    cities: [
+        (
+            name: "Vatican City",
+            coordinates: (
+                lat: 41.9,
+                lon: 12.45,
+            ),
+        ),
+    ],
+)

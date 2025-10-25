@@ -1,0 +1,15 @@
+(
+    name: "Réunion",
+    code: "RE",
+    population: 840974,
+    capital: 0,
+    cities: [
+        (
+            name: "Saint-Denis",
+            coordinates: (
+                lat: -20.88,
+                lon: 55.45,
+            ),
+        ),
+    ],
+)

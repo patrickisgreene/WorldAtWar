@@ -1,0 +1,15 @@
+(
+    name: "Saint Lucia",
+    code: "LC",
+    population: 183629,
+    capital: 0,
+    cities: [
+        (
+            name: "Castries",
+            coordinates: (
+                lat: 14.0,
+                lon: -61.0,
+            ),
+        ),
+    ],
+)

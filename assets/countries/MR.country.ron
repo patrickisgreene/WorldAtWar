@@ -1,0 +1,71 @@
+(
+    name: "Mauritania",
+    code: "MR",
+    population: 4649660,
+    capital: 0,
+    cities: [
+        (
+            name: "Nouakchott",
+            coordinates: (
+                lat: 18.08581,
+                lon: -15.9785,
+            ),
+        ),
+//         (
+//             name: "Nouakchott-Sud Region",
+//             coordinates: (
+//                 lat: 18.05,
+//                 lon: -16.0,
+//             ),
+//         ),
+        (
+            name: "Nouadhibou",
+            coordinates: (
+                lat: 20.94188,
+                lon: -17.03842,
+            ),
+        ),
+        (
+            name: "Kiffa",
+            coordinates: (
+                lat: 16.62073,
+                lon: -11.40208,
+            ),
+        ),
+        (
+            name: "Rosso",
+            coordinates: (
+                lat: 16.512777777,
+                lon: -15.805,
+            ),
+        ),
+        (
+            name: "Kaédi",
+            coordinates: (
+                lat: 16.15071,
+                lon: -13.50582,
+            ),
+        ),
+        (
+            name: "Zouérat",
+            coordinates: (
+                lat: 22.73542,
+                lon: -12.47134,
+            ),
+        ),
+//         (
+//             name: "Teyarett",
+//             coordinates: (
+//                 lat: 18.1289572,
+//                 lon: -15.9377834,
+//             ),
+//         ),
+        (
+            name: "Mbera",
+            coordinates: (
+                lat: 15.83888889,
+                lon: -5.79222222,
+            ),
+        ),
+    ],
+)

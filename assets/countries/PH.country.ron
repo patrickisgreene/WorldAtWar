@@ -1,0 +1,358 @@
+(
+    name: "Philippines",
+    code: "PH",
+    population: 109581085,
+    capital: 1,
+    cities: [
+//         (
+//             name: "Quezon City",
+//             coordinates: (
+//                 lat: 14.65,
+//                 lon: 121.0475,
+//             ),
+//         ),
+        (
+            name: "Manila",
+            coordinates: (
+                lat: 14.6042,
+                lon: 120.9822,
+            ),
+        ),
+        (
+            name: "Davao City",
+            coordinates: (
+                lat: 7.066233333,
+                lon: 125.609441666,
+            ),
+        ),
+//         (
+//             name: "Caloocan",
+//             coordinates: (
+//                 lat: 14.65,
+//                 lon: 120.966666666,
+//             ),
+//         ),
+//         (
+//             name: "Taguig",
+//             coordinates: (
+//                 lat: 14.516666666,
+//                 lon: 121.05,
+//             ),
+//         ),
+        (
+            name: "Budta",
+            coordinates: (
+                lat: 7.204166666,
+                lon: 124.439722222,
+            ),
+        ),
+//         (
+//             name: "Malingao",
+//             coordinates: (
+//                 lat: 7.160833333,
+//                 lon: 124.475,
+//             ),
+//         ),
+        (
+            name: "Zamboanga City",
+            coordinates: (
+                lat: 6.904166666,
+                lon: 122.076111111,
+            ),
+        ),
+        (
+            name: "Cebu City",
+            coordinates: (
+                lat: 10.3,
+                lon: 123.9,
+            ),
+        ),
+//         (
+//             name: "Antipolo",
+//             coordinates: (
+//                 lat: 14.62578,
+//                 lon: 121.12251,
+//             ),
+//         ),
+//         (
+//             name: "Pasig",
+//             coordinates: (
+//                 lat: 14.58691,
+//                 lon: 121.0614,
+//             ),
+//         ),
+//         (
+//             name: "Dasmariñas",
+//             coordinates: (
+//                 lat: 14.3209,
+//                 lon: 120.96452,
+//             ),
+//         ),
+        (
+            name: "Cagayan de Oro",
+            coordinates: (
+                lat: 8.483333333,
+                lon: 124.65,
+            ),
+        ),
+//         (
+//             name: "Valenzuela",
+//             coordinates: (
+//                 lat: 14.7,
+//                 lon: 120.983333333,
+//             ),
+//         ),
+        (
+            name: "General Santos",
+            coordinates: (
+                lat: 6.116666666,
+                lon: 125.166666666,
+            ),
+        ),
+//         (
+//             name: "Parañaque",
+//             coordinates: (
+//                 lat: 14.5,
+//                 lon: 120.98333,
+//             ),
+//         ),
+//         (
+//             name: "Bacoor",
+//             coordinates: (
+//                 lat: 14.41854,
+//                 lon: 120.97184,
+//             ),
+//         ),
+//         (
+//             name: "Tondo",
+//             coordinates: (
+//                 lat: 14.61667,
+//                 lon: 120.96667,
+//             ),
+//         ),
+//         (
+//             name: "Las Piñas",
+//             coordinates: (
+//                 lat: 14.45,
+//                 lon: 120.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Biñan",
+//             coordinates: (
+//                 lat: 14.333333333,
+//                 lon: 121.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Calamba",
+//             coordinates: (
+//                 lat: 14.216666666,
+//                 lon: 121.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Muntinlupa",
+//             coordinates: (
+//                 lat: 14.383333333,
+//                 lon: 121.05,
+//             ),
+//         ),
+//         (
+//             name: "Lapu-Lapu",
+//             coordinates: (
+//                 lat: 10.26889,
+//                 lon: 123.98878,
+//             ),
+//         ),
+//         (
+//             name: "Angeles",
+//             coordinates: (
+//                 lat: 15.147180555,
+//                 lon: 120.584733333,
+//             ),
+//         ),
+//         (
+//             name: "General Trias",
+//             coordinates: (
+//                 lat: 14.383333333,
+//                 lon: 120.883333333,
+//             ),
+//         ),
+//         (
+//             name: "Imus",
+//             coordinates: (
+//                 lat: 14.429722222,
+//                 lon: 120.936666666,
+//             ),
+//         ),
+        (
+            name: "Iloilo City",
+            coordinates: (
+                lat: 10.716666666,
+                lon: 122.566666666,
+            ),
+        ),
+//         (
+//             name: "Marikina",
+//             coordinates: (
+//                 lat: 14.65,
+//                 lon: 121.1,
+//             ),
+//         ),
+//         (
+//             name: "Mandaluyong",
+//             coordinates: (
+//                 lat: 14.583333333,
+//                 lon: 121.033333333,
+//             ),
+//         ),
+//         (
+//             name: "Mansilingan",
+//             coordinates: (
+//                 lat: 10.63111,
+//                 lon: 122.97889,
+//             ),
+//         ),
+//         (
+//             name: "Pasay",
+//             coordinates: (
+//                 lat: 14.543888888,
+//                 lon: 120.995,
+//             ),
+//         ),
+//         (
+//             name: "Rodriguez",
+//             coordinates: (
+//                 lat: 14.716666666,
+//                 lon: 121.116666666,
+//             ),
+//         ),
+//         (
+//             name: "Santa Rosa",
+//             coordinates: (
+//                 lat: 14.316666666,
+//                 lon: 121.116666666,
+//             ),
+//         ),
+//         (
+//             name: "Tarlac City",
+//             coordinates: (
+//                 lat: 15.48017,
+//                 lon: 120.59794,
+//             ),
+//         ),
+//         (
+//             name: "Malabon",
+//             coordinates: (
+//                 lat: 14.6625,
+//                 lon: 120.956666666,
+//             ),
+//         ),
+//         (
+//             name: "Lipa",
+//             coordinates: (
+//                 lat: 13.941111111,
+//                 lon: 121.162222222,
+//             ),
+//         ),
+//         (
+//             name: "Cainta",
+//             coordinates: (
+//                 lat: 14.566666666,
+//                 lon: 121.116666666,
+//             ),
+//         ),
+        (
+            name: "Butuan",
+            coordinates: (
+                lat: 8.95,
+                lon: 125.53333,
+            ),
+        ),
+//         (
+//             name: "Buldon",
+//             coordinates: (
+//                 lat: 7.516666666,
+//                 lon: 124.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Cotabato City",
+//             coordinates: (
+//                 lat: 7.216666666,
+//                 lon: 124.25,
+//             ),
+//         ),
+//         (
+//             name: "San Fernando",
+//             coordinates: (
+//                 lat: 15.033333333,
+//                 lon: 120.683333333,
+//             ),
+//         ),
+        (
+            name: "Baguio",
+            coordinates: (
+                lat: 16.411944444,
+                lon: 120.593333333,
+            ),
+        ),
+//         (
+//             name: "Iligan",
+//             coordinates: (
+//                 lat: 8.233333333,
+//                 lon: 124.25,
+//             ),
+//         ),
+//         (
+//             name: "Cabuyao",
+//             coordinates: (
+//                 lat: 14.275,
+//                 lon: 121.125,
+//             ),
+//         ),
+//         (
+//             name: "Mandaue",
+//             coordinates: (
+//                 lat: 10.32361,
+//                 lon: 123.92222,
+//             ),
+//         ),
+//         (
+//             name: "Batangas City",
+//             coordinates: (
+//                 lat: 13.75,
+//                 lon: 121.05,
+//             ),
+//         ),
+//         (
+//             name: "Cabanatuan",
+//             coordinates: (
+//                 lat: 15.490833333,
+//                 lon: 120.967777777,
+//             ),
+//         ),
+//         (
+//             name: "Tanza",
+//             coordinates: (
+//                 lat: 14.394444,
+//                 lon: 120.853056,
+//             ),
+//         ),
+//         (
+//             name: "Santa Maria",
+//             coordinates: (
+//                 lat: 14.818333333,
+//                 lon: 120.956333333,
+//             ),
+//         ),
+//         (
+//             name: "Binangonan",
+//             coordinates: (
+//                 lat: 14.451388888,
+//                 lon: 121.191944444,
+//             ),
+//         ),
+    ],
+)

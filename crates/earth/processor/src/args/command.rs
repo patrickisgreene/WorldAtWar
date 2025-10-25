@@ -116,7 +116,10 @@ pub fn distance_input_default() -> PathBuf {
     let mut path = PathBuf::new();
     path.push(env!("CARGO_MANIFEST_DIR"));
     path.pop();
+    path.pop();
+    path.pop();
     path.extend([
+        "data",
         "shapefiles",
         "ne_10m_countries",
         "ne_10m_admin_0_countries.shp",
@@ -127,6 +130,7 @@ pub fn distance_input_default() -> PathBuf {
 pub fn ocean_mask_input_default() -> PathBuf {
     let mut path = PathBuf::new();
     path.push(env!("CARGO_MANIFEST_DIR"));
+    path.pop();
     path.pop();
     path.pop();
     path.extend([
@@ -143,6 +147,7 @@ pub fn lake_mask_input_default() -> PathBuf {
     path.push(env!("CARGO_MANIFEST_DIR"));
     path.pop();
     path.pop();
+    path.pop();
     path.extend(["data", "shapefiles", "ne_10m_lakes", "ne_10m_lakes.shp"]);
     path
 }
@@ -150,6 +155,7 @@ pub fn lake_mask_input_default() -> PathBuf {
 pub fn urban_areas_input_default() -> PathBuf {
     let mut path = PathBuf::new();
     path.push(env!("CARGO_MANIFEST_DIR"));
+    path.pop();
     path.pop();
     path.pop();
     path.extend([
@@ -166,6 +172,7 @@ pub fn river_mask_input_default() -> PathBuf {
     path.push(env!("CARGO_MANIFEST_DIR"));
     path.pop();
     path.pop();
+    path.pop();
     path.extend([
         "data",
         "shapefiles",
@@ -180,6 +187,7 @@ pub fn road_mask_input_default() -> PathBuf {
     path.push(env!("CARGO_MANIFEST_DIR"));
     path.pop();
     path.pop();
+    path.pop();
     path.extend(["data", "shapefiles", "ne_10m_roads", "ne_10m_roads.shp"]);
     path
 }
@@ -189,13 +197,15 @@ pub fn light_mask_input_default() -> PathBuf {
     path.push(env!("CARGO_MANIFEST_DIR"));
     path.pop();
     path.pop();
-    path.extend(["data", "images", "black_marble_2016.jpg"]);
+    path.pop();
+    path.extend(["data", "images", "black_marble_stiched.png"]);
     path
 }
 
 pub fn chlorophyll_input_default() -> PathBuf {
     let mut path = PathBuf::new();
     path.push(env!("CARGO_MANIFEST_DIR"));
+    path.pop();
     path.pop();
     path.pop();
     path.extend(["data", "images", "chlorophyll.png"]);
@@ -207,6 +217,7 @@ pub fn topography_input_default() -> PathBuf {
     path.push(env!("CARGO_MANIFEST_DIR"));
     path.pop();
     path.pop();
+    path.pop();
     path.extend(["data", "images", "topography.png"]);
     path
 }
@@ -214,6 +225,7 @@ pub fn topography_input_default() -> PathBuf {
 pub fn earth_output_default() -> PathBuf {
     let mut path = PathBuf::new();
     path.push(env!("CARGO_MANIFEST_DIR"));
+    path.pop();
     path.pop();
     path.pop();
     path.extend(["assets", "textures", "earth"]);
@@ -225,6 +237,7 @@ pub fn bathyometry_input_default() -> PathBuf {
     path.push(env!("CARGO_MANIFEST_DIR"));
     path.pop();
     path.pop();
+    path.pop();
     path.extend(["data", "images", "bathyometry.png"]);
     path
 }
@@ -234,6 +247,7 @@ pub fn base_color_input_default() -> PathBuf {
     path.push(env!("CARGO_MANIFEST_DIR"));
     path.pop();
     path.pop();
+    path.pop();
     path.extend(["data", "images", "february_blue_marble.jpg"]);
     path
 }
@@ -241,6 +255,7 @@ pub fn base_color_input_default() -> PathBuf {
 pub fn night_base_color_input_default() -> PathBuf {
     let mut path = PathBuf::new();
     path.push(env!("CARGO_MANIFEST_DIR"));
+    path.pop();
     path.pop();
     path.pop();
     path.extend(["data", "images", "black_marble_stitched.png"]);

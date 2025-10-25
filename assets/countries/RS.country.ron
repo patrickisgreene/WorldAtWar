@@ -1,0 +1,176 @@
+(
+    name: "Serbia",
+    code: "RS",
+    population: 6908224,
+    capital: 1,
+    cities: [
+//         (
+//             name: "City of Belgrade",
+//             coordinates: (
+//                 lat: 44.81666668,
+//                 lon: 20.46666668,
+//             ),
+//         ),
+        (
+            name: "Belgrade",
+            coordinates: (
+                lat: 44.817777777,
+                lon: 20.456944444,
+            ),
+        ),
+//         (
+//             name: "Novi Sad",
+//             coordinates: (
+//                 lat: 45.264444444,
+//                 lon: 19.831666666,
+//             ),
+//         ),
+//         (
+//             name: "Niš",
+//             coordinates: (
+//                 lat: 43.319166666,
+//                 lon: 21.896111111,
+//             ),
+//         ),
+//         (
+//             name: "Zemun",
+//             coordinates: (
+//                 lat: 44.85,
+//                 lon: 20.4,
+//             ),
+//         ),
+//         (
+//             name: "Kragujevac",
+//             coordinates: (
+//                 lat: 44.01667,
+//                 lon: 20.91667,
+//             ),
+//         ),
+//         (
+//             name: "Subotica",
+//             coordinates: (
+//                 lat: 46.1,
+//                 lon: 19.66667,
+//             ),
+//         ),
+//         (
+//             name: "Valjevo",
+//             coordinates: (
+//                 lat: 44.266666666,
+//                 lon: 19.883333333,
+//             ),
+//         ),
+//         (
+//             name: "Pančevo",
+//             coordinates: (
+//                 lat: 44.873888888,
+//                 lon: 20.651944444,
+//             ),
+//         ),
+//         (
+//             name: "Čačak",
+//             coordinates: (
+//                 lat: 43.891388888,
+//                 lon: 20.349722222,
+//             ),
+//         ),
+//         (
+//             name: "Obrenovac",
+//             coordinates: (
+//                 lat: 44.666666666,
+//                 lon: 20.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Zrenjanin",
+//             coordinates: (
+//                 lat: 45.377777777,
+//                 lon: 20.386111111,
+//             ),
+//         ),
+//         (
+//             name: "Kraljevo",
+//             coordinates: (
+//                 lat: 43.72342,
+//                 lon: 20.686975,
+//             ),
+//         ),
+//         (
+//             name: "Novi Pazar",
+//             coordinates: (
+//                 lat: 43.15,
+//                 lon: 20.516666666,
+//             ),
+//         ),
+//         (
+//             name: "Smederevo",
+//             coordinates: (
+//                 lat: 44.663333333,
+//                 lon: 20.928888888,
+//             ),
+//         ),
+//         (
+//             name: "Leskovac",
+//             coordinates: (
+//                 lat: 42.99806,
+//                 lon: 21.94611,
+//             ),
+//         ),
+//         (
+//             name: "Užice",
+//             coordinates: (
+//                 lat: 43.85,
+//                 lon: 19.85,
+//             ),
+//         ),
+//         (
+//             name: "Kruševac",
+//             coordinates: (
+//                 lat: 43.583333333,
+//                 lon: 21.326666666,
+//             ),
+//         ),
+//         (
+//             name: "Vranje",
+//             coordinates: (
+//                 lat: 42.554166666,
+//                 lon: 21.897222222,
+//             ),
+//         ),
+//         (
+//             name: "Šabac",
+//             coordinates: (
+//                 lat: 44.755833333,
+//                 lon: 19.693888888,
+//             ),
+//         ),
+//         (
+//             name: "Sombor",
+//             coordinates: (
+//                 lat: 45.78,
+//                 lon: 19.12,
+//             ),
+//         ),
+//         (
+//             name: "Zaječar",
+//             coordinates: (
+//                 lat: 43.904166666,
+//                 lon: 22.284722222,
+//             ),
+//         ),
+//         (
+//             name: "Požarevac",
+//             coordinates: (
+//                 lat: 44.62,
+//                 lon: 21.189722222,
+//             ),
+//         ),
+//         (
+//             name: "Pirot",
+//             coordinates: (
+//                 lat: 43.151944444,
+//                 lon: 22.585,
+//             ),
+//         ),
+    ],
+)

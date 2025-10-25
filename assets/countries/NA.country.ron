@@ -1,0 +1,71 @@
+(
+    name: "Namibia",
+    code: "NA",
+    population: 2540916,
+    capital: 0,
+    cities: [
+        (
+            name: "Windhoek",
+            coordinates: (
+                lat: -22.57,
+                lon: 17.083611111,
+            ),
+        ),
+        (
+            name: "Rundu",
+            coordinates: (
+                lat: -17.916666666,
+                lon: 19.766666666,
+            ),
+        ),
+        (
+            name: "Walvis Bay",
+            coordinates: (
+                lat: -22.949444444,
+                lon: 14.506944444,
+            ),
+        ),
+//         (
+//             name: "Swakopmund",
+//             coordinates: (
+//                 lat: -22.666666666,
+//                 lon: 14.533333333,
+//             ),
+//         ),
+        (
+            name: "Oshakati",
+            coordinates: (
+                lat: -17.8,
+                lon: 15.683333333,
+            ),
+        ),
+        (
+            name: "Otjiwarongo",
+            coordinates: (
+                lat: -20.464166666,
+                lon: 16.652777777,
+            ),
+        ),
+        (
+            name: "Katima Mulilo",
+            coordinates: (
+                lat: -17.503888888,
+                lon: 24.275,
+            ),
+        ),
+//         (
+//             name: "Okahandja",
+//             coordinates: (
+//                 lat: -21.983333333,
+//                 lon: 16.916666666,
+//             ),
+//         ),
+        (
+            name: "Rehoboth",
+            coordinates: (
+                lat: -23.316666666,
+                lon: 17.083333333,
+            ),
+        ),
+    ],
+)

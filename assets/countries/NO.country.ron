@@ -1,0 +1,204 @@
+(
+    name: "Norway",
+    code: "NO",
+    population: 5379475,
+    capital: 0,
+    cities: [
+        (
+            name: "Oslo",
+            coordinates: (
+                lat: 59.913333333,
+                lon: 10.738888888,
+            ),
+        ),
+        (
+            name: "Bergen",
+            coordinates: (
+                lat: 60.3925,
+                lon: 5.323333333,
+            ),
+        ),
+        (
+            name: "Trondheim",
+            coordinates: (
+                lat: 63.44,
+                lon: 10.4,
+            ),
+        ),
+        (
+            name: "Stavanger",
+            coordinates: (
+                lat: 58.97,
+                lon: 5.731388888,
+            ),
+        ),
+//         (
+//             name: "Stavanger",
+//             coordinates: (
+//                 lat: 58.97005,
+//                 lon: 5.73332,
+//             ),
+//         ),
+//         (
+//             name: "Sandvika",
+//             coordinates: (
+//                 lat: 59.89,
+//                 lon: 10.526388888,
+//             ),
+//         ),
+//         (
+//             name: "Drammen",
+//             coordinates: (
+//                 lat: 59.74389,
+//                 lon: 10.20449,
+//             ),
+//         ),
+//         (
+//             name: "Lillestrøm",
+//             coordinates: (
+//                 lat: 59.95597,
+//                 lon: 11.04918,
+//             ),
+//         ),
+        (
+            name: "Kristiansand",
+            coordinates: (
+                lat: 58.14671,
+                lon: 7.9956,
+            ),
+        ),
+//         (
+//             name: "Sandefjord",
+//             coordinates: (
+//                 lat: 59.128811111,
+//                 lon: 10.219711111,
+//             ),
+//         ),
+//         (
+//             name: "Nordre Follo",
+//             coordinates: (
+//                 lat: 59.7413,
+//                 lon: 10.87969,
+//             ),
+//         ),
+//         (
+//             name: "Fredrikstad",
+//             coordinates: (
+//                 lat: 59.2181,
+//                 lon: 10.9298,
+//             ),
+//         ),
+//         (
+//             name: "Asker",
+//             coordinates: (
+//                 lat: 59.83527778,
+//                 lon: 10.435,
+//             ),
+//         ),
+//         (
+//             name: "Gamle Oslo",
+//             coordinates: (
+//                 lat: 59.912858333,
+//                 lon: 10.781858333,
+//             ),
+//         ),
+//         (
+//             name: "Tønsberg",
+//             coordinates: (
+//                 lat: 59.298055555,
+//                 lon: 10.423611111,
+//             ),
+//         ),
+//         (
+//             name: "Sandnes",
+//             coordinates: (
+//                 lat: 58.85,
+//                 lon: 5.73333333,
+//             ),
+//         ),
+//         (
+//             name: "Skien",
+//             coordinates: (
+//                 lat: 59.208061111,
+//                 lon: 9.552780555,
+//             ),
+//         ),
+//         (
+//             name: "Tønsberg",
+//             coordinates: (
+//                 lat: 59.267,
+//                 lon: 10.409,
+//             ),
+//         ),
+//         (
+//             name: "Sarpsborg",
+//             coordinates: (
+//                 lat: 59.28391,
+//                 lon: 11.10962,
+//             ),
+//         ),
+        (
+            name: "Ålesund",
+            coordinates: (
+                lat: 62.47225,
+                lon: 6.15492,
+            ),
+        ),
+//         (
+//             name: "Skien",
+//             coordinates: (
+//                 lat: 59.20962,
+//                 lon: 9.60897,
+//             ),
+//         ),
+//         (
+//             name: "Moss",
+//             coordinates: (
+//                 lat: 59.433888888,
+//                 lon: 10.6575,
+//             ),
+//         ),
+//         (
+//             name: "Lørenskog",
+//             coordinates: (
+//                 lat: 59.898888888,
+//                 lon: 10.964166666,
+//             ),
+//         ),
+//         (
+//             name: "Larvik",
+//             coordinates: (
+//                 lat: 59.05328,
+//                 lon: 10.03517,
+//             ),
+//         ),
+//         (
+//             name: "Haugesund",
+//             coordinates: (
+//                 lat: 59.41638889,
+//                 lon: 5.27,
+//             ),
+//         ),
+//         (
+//             name: "Sandefjord",
+//             coordinates: (
+//                 lat: 59.13118,
+//                 lon: 10.21665,
+//             ),
+//         ),
+//         (
+//             name: "Arendal",
+//             coordinates: (
+//                 lat: 58.466666666,
+//                 lon: 8.766666666,
+//             ),
+//         ),
+        (
+            name: "Bodø",
+            coordinates: (
+                lat: 67.28267,
+                lon: 14.37513,
+            ),
+        ),
+    ],
+)

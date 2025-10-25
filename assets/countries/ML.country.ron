@@ -1,0 +1,141 @@
+(
+    name: "Mali",
+    code: "ML",
+    population: 20250834,
+    capital: 0,
+    cities: [
+        (
+            name: "Bamako",
+            coordinates: (
+                lat: 12.645833333,
+                lon: -7.992222222,
+            ),
+        ),
+        (
+            name: "Sikasso",
+            coordinates: (
+                lat: 11.316666666,
+                lon: -5.666666666,
+            ),
+        ),
+        (
+            name: "Koutiala",
+            coordinates: (
+                lat: 12.383333333,
+                lon: -5.466666666,
+            ),
+        ),
+        (
+            name: "Kayes",
+            coordinates: (
+                lat: 14.449694444,
+                lon: -11.43675,
+            ),
+        ),
+//         (
+//             name: "Kati",
+//             coordinates: (
+//                 lat: 12.746666666,
+//                 lon: -8.071388888,
+//             ),
+//         ),
+        (
+            name: "Mopti",
+            coordinates: (
+                lat: 14.4843,
+                lon: -4.18296,
+            ),
+        ),
+//         (
+//             name: "San",
+//             coordinates: (
+//                 lat: 13.3,
+//                 lon: -4.9,
+//             ),
+//         ),
+        (
+            name: "Bougouni",
+            coordinates: (
+                lat: 11.41769,
+                lon: -7.48323,
+            ),
+        ),
+        (
+            name: "Kita",
+            coordinates: (
+                lat: 13.038888888,
+                lon: -9.4875,
+            ),
+        ),
+//         (
+//             name: "Fana",
+//             coordinates: (
+//                 lat: 12.78333333,
+//                 lon: -6.95,
+//             ),
+//         ),
+        (
+            name: "Markala",
+            coordinates: (
+                lat: 13.673888888,
+                lon: -6.075,
+            ),
+        ),
+//         (
+//             name: "Niono",
+//             coordinates: (
+//                 lat: 14.25,
+//                 lon: -6.0,
+//             ),
+//         ),
+        (
+            name: "Nioro du Sahel",
+            coordinates: (
+                lat: 15.183333333,
+                lon: -9.55,
+            ),
+        ),
+//         (
+//             name: "Pelengana",
+//             coordinates: (
+//                 lat: 13.4275,
+//                 lon: -6.221944,
+//             ),
+//         ),
+        (
+            name: "Gao",
+            coordinates: (
+                lat: 16.266666666,
+                lon: -0.05,
+            ),
+        ),
+        (
+            name: "Kolokani",
+            coordinates: (
+                lat: 13.590833333,
+                lon: -8.034166666,
+            ),
+        ),
+//         (
+//             name: "Koulikoro",
+//             coordinates: (
+//                 lat: 12.866666666,
+//                 lon: -7.566666666,
+//             ),
+//         ),
+        (
+            name: "Bourem",
+            coordinates: (
+                lat: 16.954166666,
+                lon: -0.350277777,
+            ),
+        ),
+//         (
+//             name: "Djenné",
+//             coordinates: (
+//                 lat: 13.9,
+//                 lon: -4.55,
+//             ),
+//         ),
+    ],
+)

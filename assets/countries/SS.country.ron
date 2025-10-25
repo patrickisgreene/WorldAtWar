@@ -1,0 +1,99 @@
+(
+    name: "South Sudan",
+    code: "SS",
+    population: 11193729,
+    capital: 0,
+    cities: [
+        (
+            name: "Juba",
+            coordinates: (
+                lat: 4.853888888,
+                lon: 31.5825,
+            ),
+        ),
+        (
+            name: "Wau",
+            coordinates: (
+                lat: 7.7,
+                lon: 27.983333333,
+            ),
+        ),
+        (
+            name: "Bor",
+            coordinates: (
+                lat: 6.216666666,
+                lon: 31.55,
+            ),
+        ),
+//         (
+//             name: "Wanyjok",
+//             coordinates: (
+//                 lat: 9.01666667,
+//                 lon: 27.65,
+//             ),
+//         ),
+        (
+            name: "Yei",
+            coordinates: (
+                lat: 4.083333333,
+                lon: 30.683333333,
+            ),
+        ),
+        (
+            name: "Malakal",
+            coordinates: (
+                lat: 9.533333333,
+                lon: 31.65,
+            ),
+        ),
+        (
+            name: "Yambio",
+            coordinates: (
+                lat: 4.566666666,
+                lon: 28.416666666,
+            ),
+        ),
+//         (
+//             name: "Kuajok",
+//             coordinates: (
+//                 lat: 8.31,
+//                 lon: 27.99,
+//             ),
+//         ),
+        (
+            name: "Maridi",
+            coordinates: (
+                lat: 4.915833333,
+                lon: 29.473888888,
+            ),
+        ),
+        (
+            name: "Parjok",
+            coordinates: (
+                lat: 3.872352,
+                lon: 32.479169,
+            ),
+        ),
+//         (
+//             name: "Gogrial",
+//             coordinates: (
+//                 lat: 8.53,
+//                 lon: 28.1,
+//             ),
+//         ),
+        (
+            name: "Nasir",
+            coordinates: (
+                lat: 8.6,
+                lon: 33.066666666,
+            ),
+        ),
+//         (
+//             name: "Aweil",
+//             coordinates: (
+//                 lat: 8.766666666,
+//                 lon: 27.4,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,85 @@
+(
+    name: "Tajikistan",
+    code: "TJ",
+    population: 9537642,
+    capital: 0,
+    cities: [
+        (
+            name: "Dushanbe",
+            coordinates: (
+                lat: 38.573055555,
+                lon: 68.786388888,
+            ),
+        ),
+        (
+            name: "Khujand",
+            coordinates: (
+                lat: 40.279444444,
+                lon: 69.631944444,
+            ),
+        ),
+        (
+            name: "Bokhtar",
+            coordinates: (
+                lat: 37.836388888,
+                lon: 68.780277777,
+            ),
+        ),
+        (
+            name: "Kulob",
+            coordinates: (
+                lat: 37.911944444,
+                lon: 69.780833333,
+            ),
+        ),
+//         (
+//             name: "Istaravshan",
+//             coordinates: (
+//                 lat: 39.910833333,
+//                 lon: 69.006388888,
+//             ),
+//         ),
+//         (
+//             name: "Isfara",
+//             coordinates: (
+//                 lat: 40.116666666,
+//                 lon: 70.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Konibodom",
+//             coordinates: (
+//                 lat: 40.283333333,
+//                 lon: 70.416666666,
+//             ),
+//         ),
+//         (
+//             name: "Guliston",
+//             coordinates: (
+//                 lat: 40.264722222,
+//                 lon: 69.789444444,
+//             ),
+//         ),
+//         (
+//             name: "Tursunzoda",
+//             coordinates: (
+//                 lat: 38.510833333,
+//                 lon: 68.230277777,
+//             ),
+//         ),
+        (
+            name: "Panjakent",
+            coordinates: (
+                lat: 39.503055555,
+                lon: 67.615,
+            ),
+        ),
+//         (
+//             name: "Vahdat",
+//             coordinates: (
+//                 lat: 38.553055555,
+//                 lon: 69.019722222,
+//             ),
+//         ),
+    ],
+)

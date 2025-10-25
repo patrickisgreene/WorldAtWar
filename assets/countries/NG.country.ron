@@ -1,0 +1,358 @@
+(
+    name: "Nigeria",
+    code: "NG",
+    population: 206139587,
+    capital: 5,
+    cities: [
+        (
+            name: "Lagos",
+            coordinates: (
+                lat: 6.456111111,
+                lon: 3.393611111,
+            ),
+        ),
+        (
+            name: "Kano",
+            coordinates: (
+                lat: 12.0,
+                lon: 8.516666666,
+            ),
+        ),
+        (
+            name: "Port Harcourt",
+            coordinates: (
+                lat: 4.77742,
+                lon: 7.0134,
+            ),
+        ),
+//         (
+//             name: "Ibadan",
+//             coordinates: (
+//                 lat: 7.3775,
+//                 lon: 3.905833333,
+//             ),
+//         ),
+        (
+            name: "Benin City",
+            coordinates: (
+                lat: 6.3176,
+                lon: 5.6145,
+            ),
+        ),
+        (
+            name: "Abuja",
+            coordinates: (
+                lat: 9.055555555,
+                lon: 7.491388888,
+            ),
+        ),
+//         (
+//             name: "Onitsha",
+//             coordinates: (
+//                 lat: 6.166666666,
+//                 lon: 6.783333333,
+//             ),
+//         ),
+        (
+            name: "Maiduguri",
+            coordinates: (
+                lat: 11.833333333,
+                lon: 13.15,
+            ),
+        ),
+//         (
+//             name: "Aba",
+//             coordinates: (
+//                 lat: 5.116666666,
+//                 lon: 7.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Ogbomosho",
+//             coordinates: (
+//                 lat: 8.133333333,
+//                 lon: 4.25,
+//             ),
+//         ),
+//         (
+//             name: "Enugu",
+//             coordinates: (
+//                 lat: 6.440277777,
+//                 lon: 7.494166666,
+//             ),
+//         ),
+        (
+            name: "Warri",
+            coordinates: (
+                lat: 5.516666666,
+                lon: 5.75,
+            ),
+        ),
+//         (
+//             name: "Owerri",
+//             coordinates: (
+//                 lat: 5.483333333,
+//                 lon: 7.033333333,
+//             ),
+//         ),
+//         (
+//             name: "Abeokuta",
+//             coordinates: (
+//                 lat: 7.15,
+//                 lon: 3.35,
+//             ),
+//         ),
+//         (
+//             name: "Ikeja",
+//             coordinates: (
+//                 lat: 6.583333333,
+//                 lon: 3.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Akure",
+//             coordinates: (
+//                 lat: 7.25,
+//                 lon: 5.195,
+//             ),
+//         ),
+//         (
+//             name: "Ilorin",
+//             coordinates: (
+//                 lat: 8.5,
+//                 lon: 4.55,
+//             ),
+//         ),
+        (
+            name: "Kaduna",
+            coordinates: (
+                lat: 10.523055555,
+                lon: 7.440277777,
+            ),
+        ),
+        (
+            name: "Bauchi",
+            coordinates: (
+                lat: 10.315833333,
+                lon: 9.844166666,
+            ),
+        ),
+        (
+            name: "Jalingo",
+            coordinates: (
+                lat: 8.9,
+                lon: 11.366666666,
+            ),
+        ),
+        (
+            name: "Jos",
+            coordinates: (
+                lat: 9.933333333,
+                lon: 8.883333333,
+            ),
+        ),
+//         (
+//             name: "Calabar",
+//             coordinates: (
+//                 lat: 4.95893,
+//                 lon: 8.32695,
+//             ),
+//         ),
+//         (
+//             name: "Ebute Ikorodu",
+//             coordinates: (
+//                 lat: 6.600833333,
+//                 lon: 3.488055555,
+//             ),
+//         ),
+//         (
+//             name: "Ile Ife",
+//             coordinates: (
+//                 lat: 7.466666666,
+//                 lon: 4.566666666,
+//             ),
+//         ),
+//         (
+//             name: "Okene",
+//             coordinates: (
+//                 lat: 7.55,
+//                 lon: 6.233333333,
+//             ),
+//         ),
+//         (
+//             name: "Ikare",
+//             coordinates: (
+//                 lat: 7.516666666,
+//                 lon: 5.75,
+//             ),
+//         ),
+//         (
+//             name: "Ado Ekiti",
+//             coordinates: (
+//                 lat: 7.616666666,
+//                 lon: 5.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Uyo",
+//             coordinates: (
+//                 lat: 5.05,
+//                 lon: 7.933333333,
+//             ),
+//         ),
+        (
+            name: "Sokoto",
+            coordinates: (
+                lat: 13.062222222,
+                lon: 5.233888888,
+            ),
+        ),
+//         (
+//             name: "Zaria",
+//             coordinates: (
+//                 lat: 11.066666666,
+//                 lon: 7.7,
+//             ),
+//         ),
+        (
+            name: "Yola",
+            coordinates: (
+                lat: 9.20839,
+                lon: 12.48146,
+            ),
+        ),
+//         (
+//             name: "Oyo",
+//             coordinates: (
+//                 lat: 7.833333333,
+//                 lon: 3.933333333,
+//             ),
+//         ),
+        (
+            name: "Gusau",
+            coordinates: (
+                lat: 12.166666666,
+                lon: 6.666666666,
+            ),
+        ),
+//         (
+//             name: "Ondo",
+//             coordinates: (
+//                 lat: 7.083333333,
+//                 lon: 4.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Iseyin",
+//             coordinates: (
+//                 lat: 7.966666666,
+//                 lon: 3.6,
+//             ),
+//         ),
+//         (
+//             name: "Umuahia",
+//             coordinates: (
+//                 lat: 5.533333333,
+//                 lon: 7.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Obalende",
+//             coordinates: (
+//                 lat: 6.44472222,
+//                 lon: 3.4175,
+//             ),
+//         ),
+        (
+            name: "Lafia",
+            coordinates: (
+                lat: 8.5,
+                lon: 8.516666666,
+            ),
+        ),
+//         (
+//             name: "Ilesa",
+//             coordinates: (
+//                 lat: 7.633333333,
+//                 lon: 4.75,
+//             ),
+//         ),
+        (
+            name: "Minna",
+            coordinates: (
+                lat: 9.613888888,
+                lon: 6.556944444,
+            ),
+        ),
+//         (
+//             name: "Zangon Kataf",
+//             coordinates: (
+//                 lat: 9.784597,
+//                 lon: 8.283949,
+//             ),
+//         ),
+        (
+            name: "Katsina",
+            coordinates: (
+                lat: 12.983333,
+                lon: 7.6,
+            ),
+        ),
+//         (
+//             name: "Akowonjo",
+//             coordinates: (
+//                 lat: 6.61012,
+//                 lon: 3.30968,
+//             ),
+//         ),
+//         (
+//             name: "Awka",
+//             coordinates: (
+//                 lat: 6.2,
+//                 lon: 7.066666666,
+//             ),
+//         ),
+//         (
+//             name: "Kaura Namoda",
+//             coordinates: (
+//                 lat: 12.6,
+//                 lon: 6.589722222,
+//             ),
+//         ),
+//         (
+//             name: "Effon-Alaiye",
+//             coordinates: (
+//                 lat: 7.65,
+//                 lon: 4.916667,
+//             ),
+//         ),
+//         (
+//             name: "Owo",
+//             coordinates: (
+//                 lat: 7.196111111,
+//                 lon: 5.586388888,
+//             ),
+//         ),
+//         (
+//             name: "Ikot Ekpene",
+//             coordinates: (
+//                 lat: 5.181944444,
+//                 lon: 7.714722222,
+//             ),
+//         ),
+//         (
+//             name: "Degema",
+//             coordinates: (
+//                 lat: 4.766698,
+//                 lon: 6.768736,
+//             ),
+//         ),
+        (
+            name: "Kwande",
+            coordinates: (
+                lat: 6.80099,
+                lon: 9.47021,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,365 @@
+(
+    name: "United States",
+    code: "US",
+    population: 329484123,
+    capital: 0,
+    cities: [
+        (
+            name: "Washington, D.C.",
+            coordinates: (
+                lat: 38.89,
+                lon: -77.05,
+            ),
+        ),
+        (
+            name: "New York City",
+            coordinates: (
+                lat: 40.712777777,
+                lon: -74.006111111,
+            ),
+        ),
+        (
+            name: "Los Angeles",
+            coordinates: (
+                lat: 34.05223,
+                lon: -118.24368,
+            ),
+        ),
+        (
+            name: "Chicago",
+            coordinates: (
+                lat: 41.881944444,
+                lon: -87.627777777,
+            ),
+        ),
+//         (
+//             name: "Brooklyn",
+//             coordinates: (
+//                 lat: 40.650833333,
+//                 lon: -73.949722222,
+//             ),
+//         ),
+//         (
+//             name: "Queens",
+//             coordinates: (
+//                 lat: 40.704166666,
+//                 lon: -73.917777777,
+//             ),
+//         ),
+        (
+            name: "Houston",
+            coordinates: (
+                lat: 29.762777777,
+                lon: -95.383055555,
+            ),
+        ),
+//         (
+//             name: "Kansas City metropolitan area",
+//             coordinates: (
+//                 lat: 39.1,
+//                 lon: -94.58,
+//             ),
+//         ),
+//         (
+//             name: "Manhattan",
+//             coordinates: (
+//                 lat: 40.728333333,
+//                 lon: -73.994166666,
+//             ),
+//         ),
+        (
+            name: "Phoenix",
+            coordinates: (
+                lat: 33.44838,
+                lon: -112.07404,
+            ),
+        ),
+        (
+            name: "Philadelphia",
+            coordinates: (
+                lat: 39.952777777,
+                lon: -75.163611111,
+            ),
+        ),
+//         (
+//             name: "The Bronx",
+//             coordinates: (
+//                 lat: 40.846666666,
+//                 lon: -73.873333333,
+//             ),
+//         ),
+        (
+            name: "San Antonio",
+            coordinates: (
+                lat: 29.425,
+                lon: -98.493888888,
+            ),
+        ),
+        (
+            name: "San Diego",
+            coordinates: (
+                lat: 32.715,
+                lon: -117.1625,
+            ),
+        ),
+        (
+            name: "Dallas",
+            coordinates: (
+                lat: 32.779166666,
+                lon: -96.808888888,
+            ),
+        ),
+//         (
+//             name: "San Jose",
+//             coordinates: (
+//                 lat: 37.304166666,
+//                 lon: -121.872777777,
+//             ),
+//         ),
+        (
+            name: "Austin",
+            coordinates: (
+                lat: 30.3,
+                lon: -97.733333333,
+            ),
+        ),
+        (
+            name: "Jacksonville",
+            coordinates: (
+                lat: 30.316666666,
+                lon: -81.65,
+            ),
+        ),
+//         (
+//             name: "Fort Worth",
+//             coordinates: (
+//                 lat: 32.756388888,
+//                 lon: -97.3325,
+//             ),
+//         ),
+        (
+            name: "Columbus",
+            coordinates: (
+                lat: 39.962222222,
+                lon: -83.000555555,
+            ),
+        ),
+        (
+            name: "Indianapolis",
+            coordinates: (
+                lat: 39.768611111,
+                lon: -86.158055555,
+            ),
+        ),
+        (
+            name: "Charlotte",
+            coordinates: (
+                lat: 35.226944444,
+                lon: -80.843333333,
+            ),
+        ),
+        (
+            name: "San Francisco",
+            coordinates: (
+                lat: 37.7775,
+                lon: -122.416388888,
+            ),
+        ),
+//         (
+//             name: "Hempstead",
+//             coordinates: (
+//                 lat: 40.704722222,
+//                 lon: -73.617222222,
+//             ),
+//         ),
+        (
+            name: "Seattle",
+            coordinates: (
+                lat: 47.605,
+                lon: -122.33,
+            ),
+        ),
+        (
+            name: "Denver",
+            coordinates: (
+                lat: 39.739166666,
+                lon: -104.984722222,
+            ),
+        ),
+//         (
+//             name: "Washington",
+//             coordinates: (
+//                 lat: 38.89511,
+//                 lon: -77.03637,
+//             ),
+//         ),
+        (
+            name: "Nashville",
+            coordinates: (
+                lat: 36.162222222,
+                lon: -86.774444444,
+            ),
+        ),
+        (
+            name: "Oklahoma City",
+            coordinates: (
+                lat: 35.482222222,
+                lon: -97.535277777,
+            ),
+        ),
+        (
+            name: "El Paso",
+            coordinates: (
+                lat: 31.759166666,
+                lon: -106.488611111,
+            ),
+        ),
+        (
+            name: "Boston",
+            coordinates: (
+                lat: 42.360277777,
+                lon: -71.057777777,
+            ),
+        ),
+        (
+            name: "Portland",
+            coordinates: (
+                lat: 45.516666666,
+                lon: -122.666666666,
+            ),
+        ),
+        (
+            name: "Las Vegas",
+            coordinates: (
+                lat: 36.17497,
+                lon: -115.13722,
+            ),
+        ),
+//         (
+//             name: "New South Memphis",
+//             coordinates: (
+//                 lat: 35.08676,
+//                 lon: -90.05676,
+//             ),
+//         ),
+        (
+            name: "Detroit",
+            coordinates: (
+                lat: 42.331666666,
+                lon: -83.0475,
+            ),
+        ),
+        (
+            name: "Memphis",
+            coordinates: (
+                lat: 35.146111111,
+                lon: -90.051944444,
+            ),
+        ),
+//         (
+//             name: "Baltimore",
+//             coordinates: (
+//                 lat: 39.286388888,
+//                 lon: -76.615,
+//             ),
+//         ),
+        (
+            name: "Milwaukee",
+            coordinates: (
+                lat: 43.05,
+                lon: -87.95,
+            ),
+        ),
+//         (
+//             name: "South Boston",
+//             coordinates: (
+//                 lat: 42.28582,
+//                 lon: -71.12909,
+//             ),
+//         ),
+        (
+            name: "Albuquerque",
+            coordinates: (
+                lat: 35.084444444,
+                lon: -106.650277777,
+            ),
+        ),
+        (
+            name: "Tucson",
+            coordinates: (
+                lat: 32.221666666,
+                lon: -110.926388888,
+            ),
+        ),
+        (
+            name: "Fresno",
+            coordinates: (
+                lat: 36.781666666,
+                lon: -119.792222222,
+            ),
+        ),
+        (
+            name: "Sacramento",
+            coordinates: (
+                lat: 38.575277777,
+                lon: -121.486111111,
+            ),
+        ),
+        (
+            name: "Kansas City",
+            coordinates: (
+                lat: 39.09973,
+                lon: -94.57857,
+            ),
+        ),
+//         (
+//             name: "Mesa",
+//             coordinates: (
+//                 lat: 33.415,
+//                 lon: -111.831388888,
+//             ),
+//         ),
+        (
+            name: "Atlanta",
+            coordinates: (
+                lat: 33.756944444,
+                lon: -84.390277777,
+            ),
+        ),
+        (
+            name: "Omaha",
+            coordinates: (
+                lat: 41.258611111,
+                lon: -95.9375,
+            ),
+        ),
+//         (
+//             name: "Brookhaven",
+//             coordinates: (
+//                 lat: 40.77927,
+//                 lon: -72.91538,
+//             ),
+//         ),
+        (
+            name: "Colorado Springs",
+            coordinates: (
+                lat: 38.863333333,
+                lon: -104.791944444,
+            ),
+        ),
+        (
+            name: "Raleigh",
+            coordinates: (
+                lat: 35.78,
+                lon: -78.64,
+            ),
+        ),
+//         (
+//             name: "Long Beach",
+//             coordinates: (
+//                 lat: 33.768055555,
+//                 lon: -118.195555555,
+//             ),
+//         ),
+    ],
+)

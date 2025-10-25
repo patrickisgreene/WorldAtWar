@@ -1,0 +1,358 @@
+(
+    name: "South Korea",
+    code: "KR",
+    population: 51780579,
+    capital: 0,
+    cities: [
+        (
+            name: "Seoul",
+            coordinates: (
+                lat: 37.56,
+                lon: 126.99,
+            ),
+        ),
+//         (
+//             name: "Busan",
+//             coordinates: (
+//                 lat: 35.18,
+//                 lon: 129.075,
+//             ),
+//         ),
+//         (
+//             name: "Incheon",
+//             coordinates: (
+//                 lat: 37.463888888,
+//                 lon: 126.648611111,
+//             ),
+//         ),
+//         (
+//             name: "Daegu",
+//             coordinates: (
+//                 lat: 35.871666666,
+//                 lon: 128.601666666,
+//             ),
+//         ),
+//         (
+//             name: "Daejeon",
+//             coordinates: (
+//                 lat: 36.321388888,
+//                 lon: 127.419722222,
+//             ),
+//         ),
+//         (
+//             name: "Daejeon",
+//             coordinates: (
+//                 lat: 36.35,
+//                 lon: 127.385,
+//             ),
+//         ),
+//         (
+//             name: "Gwangju",
+//             coordinates: (
+//                 lat: 35.166666666,
+//                 lon: 126.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Suwon",
+//             coordinates: (
+//                 lat: 37.285833333,
+//                 lon: 127.01,
+//             ),
+//         ),
+//         (
+//             name: "Ulsan",
+//             coordinates: (
+//                 lat: 35.55,
+//                 lon: 129.316666666,
+//             ),
+//         ),
+//         (
+//             name: "Yongin",
+//             coordinates: (
+//                 lat: 37.236111111,
+//                 lon: 127.201111111,
+//             ),
+//         ),
+//         (
+//             name: "Goyang",
+//             coordinates: (
+//                 lat: 37.656388888,
+//                 lon: 126.835,
+//             ),
+//         ),
+//         (
+//             name: "Changwon",
+//             coordinates: (
+//                 lat: 35.228055555,
+//                 lon: 128.681111111,
+//             ),
+//         ),
+//         (
+//             name: "Hwaseong",
+//             coordinates: (
+//                 lat: 37.20682,
+//                 lon: 126.8169,
+//             ),
+//         ),
+//         (
+//             name: "Seongnam",
+//             coordinates: (
+//                 lat: 37.438611111,
+//                 lon: 127.137777777,
+//             ),
+//         ),
+//         (
+//             name: "Seongnam-si",
+//             coordinates: (
+//                 lat: 37.43861,
+//                 lon: 127.13778,
+//             ),
+//         ),
+//         (
+//             name: "Cheongju",
+//             coordinates: (
+//                 lat: 36.637222222,
+//                 lon: 127.489722222,
+//             ),
+//         ),
+//         (
+//             name: "Bucheon",
+//             coordinates: (
+//                 lat: 37.498888888,
+//                 lon: 126.783055555,
+//             ),
+//         ),
+//         (
+//             name: "Namyangju",
+//             coordinates: (
+//                 lat: 37.636666666,
+//                 lon: 127.214166666,
+//             ),
+//         ),
+//         (
+//             name: "Cheonan",
+//             coordinates: (
+//                 lat: 36.81,
+//                 lon: 127.1475,
+//             ),
+//         ),
+//         (
+//             name: "Ansan",
+//             coordinates: (
+//                 lat: 37.323611111,
+//                 lon: 126.821944444,
+//             ),
+//         ),
+//         (
+//             name: "Pyeongtaek",
+//             coordinates: (
+//                 lat: 36.994722222,
+//                 lon: 127.088888888,
+//             ),
+//         ),
+//         (
+//             name: "Gimhae",
+//             coordinates: (
+//                 lat: 35.234166666,
+//                 lon: 128.881111111,
+//             ),
+//         ),
+//         (
+//             name: "Kimhae",
+//             coordinates: (
+//                 lat: 35.234166666,
+//                 lon: 128.881111111,
+//             ),
+//         ),
+//         (
+//             name: "Siheung",
+//             coordinates: (
+//                 lat: 37.39067,
+//                 lon: 126.7888,
+//             ),
+//         ),
+//         (
+//             name: "Pohang",
+//             coordinates: (
+//                 lat: 36.032222222,
+//                 lon: 129.365,
+//             ),
+//         ),
+//         (
+//             name: "Paju",
+//             coordinates: (
+//                 lat: 37.832777777,
+//                 lon: 126.816944444,
+//             ),
+//         ),
+        (
+            name: "Jeju City",
+            coordinates: (
+                lat: 33.50972,
+                lon: 126.52194,
+            ),
+        ),
+//         (
+//             name: "Uijeongbu-si",
+//             coordinates: (
+//                 lat: 37.7415,
+//                 lon: 127.0474,
+//             ),
+//         ),
+//         (
+//             name: "Uijeongbu",
+//             coordinates: (
+//                 lat: 37.748611111,
+//                 lon: 127.038888888,
+//             ),
+//         ),
+//         (
+//             name: "Gumi",
+//             coordinates: (
+//                 lat: 36.21,
+//                 lon: 128.354444444,
+//             ),
+//         ),
+//         (
+//             name: "Gwangju",
+//             coordinates: (
+//                 lat: 37.409166666,
+//                 lon: 127.259166666,
+//             ),
+//         ),
+//         (
+//             name: "Sejong",
+//             coordinates: (
+//                 lat: 36.487002,
+//                 lon: 127.282234,
+//             ),
+//         ),
+//         (
+//             name: "Dongdaemun District",
+//             coordinates: (
+//                 lat: 37.57418,
+//                 lon: 127.03988,
+//             ),
+//         ),
+//         (
+//             name: "Gwangmyeong",
+//             coordinates: (
+//                 lat: 37.477222222,
+//                 lon: 126.866388888,
+//             ),
+//         ),
+//         (
+//             name: "Gimpo",
+//             coordinates: (
+//                 lat: 37.623611111,
+//                 lon: 126.714166666,
+//             ),
+//         ),
+//         (
+//             name: "Jeonju",
+//             coordinates: (
+//                 lat: 35.821944444,
+//                 lon: 127.148888888,
+//             ),
+//         ),
+//         (
+//             name: "Jinju",
+//             coordinates: (
+//                 lat: 35.192777777,
+//                 lon: 128.084722222,
+//             ),
+//         ),
+//         (
+//             name: "Wonju",
+//             coordinates: (
+//                 lat: 37.341666666,
+//                 lon: 127.920833333,
+//             ),
+//         ),
+//         (
+//             name: "Hanam",
+//             coordinates: (
+//                 lat: 37.539166666,
+//                 lon: 127.214722222,
+//             ),
+//         ),
+//         (
+//             name: "Asan",
+//             coordinates: (
+//                 lat: 36.35,
+//                 lon: 126.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Gwangmyeong",
+//             coordinates: (
+//                 lat: 37.477222222,
+//                 lon: 126.866388888,
+//             ),
+//         ),
+//         (
+//             name: "Yangsan",
+//             coordinates: (
+//                 lat: 35.338611111,
+//                 lon: 129.038611111,
+//             ),
+//         ),
+//         (
+//             name: "Yangju",
+//             coordinates: (
+//                 lat: 37.785277777,
+//                 lon: 127.045833333,
+//             ),
+//         ),
+//         (
+//             name: "Chuncheon",
+//             coordinates: (
+//                 lat: 37.874722222,
+//                 lon: 127.734166666,
+//             ),
+//         ),
+//         (
+//             name: "Gyeongsan",
+//             coordinates: (
+//                 lat: 35.816666666,
+//                 lon: 128.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Yeosu",
+//             coordinates: (
+//                 lat: 34.760689,
+//                 lon: 127.662163,
+//             ),
+//         ),
+//         (
+//             name: "Iksan",
+//             coordinates: (
+//                 lat: 35.943888888,
+//                 lon: 126.954444444,
+//             ),
+//         ),
+//         (
+//             name: "Gunpo",
+//             coordinates: (
+//                 lat: 37.3675,
+//                 lon: 126.946944444,
+//             ),
+//         ),
+//         (
+//             name: "Gyeongsan",
+//             coordinates: (
+//                 lat: 35.82333,
+//                 lon: 128.73778,
+//             ),
+//         ),
+//         (
+//             name: "Suncheon",
+//             coordinates: (
+//                 lat: 34.950555555,
+//                 lon: 127.4875,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,29 @@
+(
+    name: "Papua New Guinea",
+    code: "PG",
+    population: 8947027,
+    capital: 0,
+    cities: [
+        (
+            name: "Port Moresby",
+            coordinates: (
+                lat: -9.478888888,
+                lon: 147.149444444,
+            ),
+        ),
+        (
+            name: "Lae",
+            coordinates: (
+                lat: -6.730277777,
+                lon: 147.000833333,
+            ),
+        ),
+        (
+            name: "Kokopo",
+            coordinates: (
+                lat: -4.35,
+                lon: 152.273611111,
+            ),
+        ),
+    ],
+)

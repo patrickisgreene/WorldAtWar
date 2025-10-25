@@ -1,0 +1,64 @@
+(
+    name: "Georgia",
+    code: "GE",
+    population: 3714000,
+    capital: 0,
+    cities: [
+        (
+            name: "Tbilisi",
+            coordinates: (
+                lat: 41.69143,
+                lon: 44.83412,
+            ),
+        ),
+        (
+            name: "Batumi",
+            coordinates: (
+                lat: 41.645833333,
+                lon: 41.641666666,
+            ),
+        ),
+//         (
+//             name: "Rustavi",
+//             coordinates: (
+//                 lat: 41.56271,
+//                 lon: 44.9787,
+//             ),
+//         ),
+//         (
+//             name: "Kutaisi",
+//             coordinates: (
+//                 lat: 42.25178,
+//                 lon: 42.69287,
+//             ),
+//         ),
+        (
+            name: "Sukhumi",
+            coordinates: (
+                lat: 43.00697,
+                lon: 40.9893,
+            ),
+        ),
+//         (
+//             name: "Gori",
+//             coordinates: (
+//                 lat: 41.981686111,
+//                 lon: 44.112416666,
+//             ),
+//         ),
+//         (
+//             name: "Poti",
+//             coordinates: (
+//                 lat: 42.15,
+//                 lon: 41.666666666,
+//             ),
+//         ),
+//         (
+//             name: "Zugdidi",
+//             coordinates: (
+//                 lat: 42.5084,
+//                 lon: 41.86796,
+//             ),
+//         ),
+    ],
+)

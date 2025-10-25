@@ -1,0 +1,225 @@
+(
+    name: "Benin",
+    code: "BJ",
+    population: 12123198,
+    capital: 5,
+    cities: [
+        (
+            name: "Banikoara",
+            coordinates: (
+                lat: 11.3,
+                lon: 2.433333333,
+            ),
+        ),
+//         (
+//             name: "Abomey-Calavi",
+//             coordinates: (
+//                 lat: 6.448611111,
+//                 lon: 2.355555555,
+//             ),
+//         ),
+        (
+            name: "Parakou",
+            coordinates: (
+                lat: 9.35,
+                lon: 2.616666666,
+            ),
+        ),
+//         (
+//             name: "Godomey",
+//             coordinates: (
+//                 lat: 6.366667,
+//                 lon: 2.35,
+//             ),
+//         ),
+        (
+            name: "Djougou",
+            coordinates: (
+                lat: 9.7,
+                lon: 1.666666666,
+            ),
+        ),
+        (
+            name: "Porto-Novo",
+            coordinates: (
+                lat: 6.483333333,
+                lon: 2.616666666,
+            ),
+        ),
+//         (
+//             name: "Kandi",
+//             coordinates: (
+//                 lat: 11.128611111,
+//                 lon: 2.936944444,
+//             ),
+//         ),
+//         (
+//             name: "Aplahoué",
+//             coordinates: (
+//                 lat: 6.933333,
+//                 lon: 1.683333,
+//             ),
+//         ),
+        (
+            name: "Malanville",
+            coordinates: (
+                lat: 11.866666666,
+                lon: 3.383333333,
+            ),
+        ),
+//         (
+//             name: "Ouidah",
+//             coordinates: (
+//                 lat: 6.366666666,
+//                 lon: 2.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Djakotomey",
+//             coordinates: (
+//                 lat: 6.9,
+//                 lon: 1.716667,
+//             ),
+//         ),
+//         (
+//             name: "Abomey",
+//             coordinates: (
+//                 lat: 7.185277777,
+//                 lon: 1.991388888,
+//             ),
+//         ),
+//         (
+//             name: "Gogounou",
+//             coordinates: (
+//                 lat: 10.83861,
+//                 lon: 2.83611,
+//             ),
+//         ),
+//         (
+//             name: "N’Dali",
+//             coordinates: (
+//                 lat: 9.860833333,
+//                 lon: 2.718055555,
+//             ),
+//         ),
+//         (
+//             name: "Dassa-Zoumé",
+//             coordinates: (
+//                 lat: 7.75,
+//                 lon: 2.183333333,
+//             ),
+//         ),
+//         (
+//             name: "Dogbo-Tota",
+//             coordinates: (
+//                 lat: 6.8,
+//                 lon: 1.783333,
+//             ),
+//         ),
+//         (
+//             name: "Savé",
+//             coordinates: (
+//                 lat: 8.033333333,
+//                 lon: 2.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Bohicon",
+//             coordinates: (
+//                 lat: 7.17826,
+//                 lon: 2.0667,
+//             ),
+//         ),
+        (
+            name: "Ségbana",
+            coordinates: (
+                lat: 10.92778,
+                lon: 3.69444,
+            ),
+        ),
+//         (
+//             name: "Lokossa",
+//             coordinates: (
+//                 lat: 6.633333333,
+//                 lon: 1.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Karimama",
+//             coordinates: (
+//                 lat: 12.066667,
+//                 lon: 3.183333,
+//             ),
+//         ),
+//         (
+//             name: "Nikki",
+//             coordinates: (
+//                 lat: 9.93333333,
+//                 lon: 3.20833333,
+//             ),
+//         ),
+//         (
+//             name: "Grand-Popo",
+//             coordinates: (
+//                 lat: 6.283333333,
+//                 lon: 1.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Athiémè",
+//             coordinates: (
+//                 lat: 6.583333,
+//                 lon: 1.666667,
+//             ),
+//         ),
+//         (
+//             name: "Agbangnizoun",
+//             coordinates: (
+//                 lat: 7.066667,
+//                 lon: 1.966667,
+//             ),
+//         ),
+        (
+            name: "Tanguiéta",
+            coordinates: (
+                lat: 11.03621,
+                lon: 1.41757,
+            ),
+        ),
+//         (
+//             name: "Natitingou",
+//             coordinates: (
+//                 lat: 10.3,
+//                 lon: 1.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Pobe",
+//             coordinates: (
+//                 lat: 6.98,
+//                 lon: 2.665,
+//             ),
+//         ),
+//         (
+//             name: "Bassila",
+//             coordinates: (
+//                 lat: 9.016666666,
+//                 lon: 1.666666666,
+//             ),
+//         ),
+//         (
+//             name: "Sakété",
+//             coordinates: (
+//                 lat: 6.736388888,
+//                 lon: 2.658055555,
+//             ),
+//         ),
+//         (
+//             name: "Comè",
+//             coordinates: (
+//                 lat: 6.4,
+//                 lon: 1.8833,
+//             ),
+//         ),
+    ],
+)

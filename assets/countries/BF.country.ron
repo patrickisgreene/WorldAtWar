@@ -1,0 +1,162 @@
+(
+    name: "Burkina Faso",
+    code: "BF",
+    population: 20903278,
+    capital: 0,
+    cities: [
+        (
+            name: "Ouagadougou",
+            coordinates: (
+                lat: 12.368611111,
+                lon: -1.5275,
+            ),
+        ),
+        (
+            name: "Bobo-Dioulasso",
+            coordinates: (
+                lat: 11.183333333,
+                lon: -4.283333333,
+            ),
+        ),
+        (
+            name: "Koudougou",
+            coordinates: (
+                lat: 12.25,
+                lon: -2.366666666,
+            ),
+        ),
+//         (
+//             name: "Saaba Department",
+//             coordinates: (
+//                 lat: 12.376944444,
+//                 lon: -1.420833333,
+//             ),
+//         ),
+        (
+            name: "Ouahigouya",
+            coordinates: (
+                lat: 13.583333333,
+                lon: -2.416666666,
+            ),
+        ),
+//         (
+//             name: "Kaya",
+//             coordinates: (
+//                 lat: 13.083333333,
+//                 lon: -1.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Banfora",
+//             coordinates: (
+//                 lat: 10.630833333,
+//                 lon: -4.758888888,
+//             ),
+//         ),
+        (
+            name: "Pouytenga",
+            coordinates: (
+                lat: 12.2525,
+                lon: -0.42694444,
+            ),
+        ),
+//         (
+//             name: "Fada N’Gourma",
+//             coordinates: (
+//                 lat: 12.05,
+//                 lon: 0.366666666,
+//             ),
+//         ),
+        (
+            name: "Dédougou",
+            coordinates: (
+                lat: 12.466666666,
+                lon: -3.466666666,
+            ),
+        ),
+//         (
+//             name: "Djibo",
+//             coordinates: (
+//                 lat: 14.1,
+//                 lon: -1.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Tenkodogo",
+//             coordinates: (
+//                 lat: 11.783333333,
+//                 lon: -0.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Kongoussi",
+//             coordinates: (
+//                 lat: 13.333333333,
+//                 lon: -1.533333333,
+//             ),
+//         ),
+        (
+            name: "Léo",
+            coordinates: (
+                lat: 11.1,
+                lon: -2.1,
+            ),
+        ),
+//         (
+//             name: "Saponé",
+//             coordinates: (
+//                 lat: 12.1,
+//                 lon: -1.56666667,
+//             ),
+//         ),
+//         (
+//             name: "Titao",
+//             coordinates: (
+//                 lat: 13.7667353,
+//                 lon: -2.0736431,
+//             ),
+//         ),
+        (
+            name: "Dori",
+            coordinates: (
+                lat: 14.03277,
+                lon: -0.03483,
+            ),
+        ),
+//         (
+//             name: "Koupéla",
+//             coordinates: (
+//                 lat: 12.179444444,
+//                 lon: -0.351666666,
+//             ),
+//         ),
+        (
+            name: "Arbinda Department",
+            coordinates: (
+                lat: 14.225277777,
+                lon: -0.859722222,
+            ),
+        ),
+        (
+            name: "Gaoua",
+            coordinates: (
+                lat: 10.316666666,
+                lon: -3.166666666,
+            ),
+        ),
+//         (
+//             name: "Garango",
+//             coordinates: (
+//                 lat: 11.804722222,
+//                 lon: -0.548888888,
+//             ),
+//         ),
+//         (
+//             name: "Gourcy",
+//             coordinates: (
+//                 lat: 13.20776,
+//                 lon: -2.35893,
+//             ),
+//         ),
+    ],
+)

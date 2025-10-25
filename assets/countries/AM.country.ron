@@ -1,0 +1,57 @@
+(
+    name: "Armenia",
+    code: "AM",
+    population: 2963234,
+    capital: 0,
+    cities: [
+        (
+            name: "Yerevan",
+            coordinates: (
+                lat: 40.16667,
+                lon: 44.5,
+            ),
+        ),
+//         (
+//             name: "Gyumri",
+//             coordinates: (
+//                 lat: 40.783333333,
+//                 lon: 43.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Vanadzor",
+//             coordinates: (
+//                 lat: 40.812777777,
+//                 lon: 44.488333333,
+//             ),
+//         ),
+//         (
+//             name: "Vagharshapat",
+//             coordinates: (
+//                 lat: 40.172777777,
+//                 lon: 44.2925,
+//             ),
+//         ),
+//         (
+//             name: "Hrazdan",
+//             coordinates: (
+//                 lat: 40.5,
+//                 lon: 44.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Abovyan",
+//             coordinates: (
+//                 lat: 40.273888888,
+//                 lon: 44.625555555,
+//             ),
+//         ),
+        (
+            name: "Kapan",
+            coordinates: (
+                lat: 39.201111111,
+                lon: 46.415,
+            ),
+        ),
+    ],
+)

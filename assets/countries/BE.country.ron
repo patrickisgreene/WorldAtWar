@@ -1,0 +1,365 @@
+(
+    name: "Belgium",
+    code: "BE",
+    population: 11555997,
+    capital: 0,
+    cities: [
+        (
+            name: "Brussels",
+            coordinates: (
+                lat: 50.83,
+                lon: 4.33,
+            ),
+        ),
+//         (
+//             name: "Brussels-Capital Region",
+//             coordinates: (
+//                 lat: 50.846666666,
+//                 lon: 4.3525,
+//             ),
+//         ),
+//         (
+//             name: "Antwerp",
+//             coordinates: (
+//                 lat: 51.2663,
+//                 lon: 4.37077,
+//             ),
+//         ),
+//         (
+//             name: "Antwerp",
+//             coordinates: (
+//                 lat: 51.220555555,
+//                 lon: 4.400277777,
+//             ),
+//         ),
+//         (
+//             name: "Ghent",
+//             coordinates: (
+//                 lat: 51.053611111,
+//                 lon: 3.725277777,
+//             ),
+//         ),
+//         (
+//             name: "Ghent",
+//             coordinates: (
+//                 lat: 51.05,
+//                 lon: 3.71667,
+//             ),
+//         ),
+//         (
+//             name: "Charleroi",
+//             coordinates: (
+//                 lat: 50.413,
+//                 lon: 4.44654,
+//             ),
+//         ),
+//         (
+//             name: "City of Brussels",
+//             coordinates: (
+//                 lat: 50.85045,
+//                 lon: 4.34878,
+//             ),
+//         ),
+//         (
+//             name: "Liège",
+//             coordinates: (
+//                 lat: 50.625555555,
+//                 lon: 5.598333333,
+//             ),
+//         ),
+//         (
+//             name: "Liège",
+//             coordinates: (
+//                 lat: 50.62564,
+//                 lon: 5.59837,
+//             ),
+//         ),
+//         (
+//             name: "Schaerbeek - Schaarbeek",
+//             coordinates: (
+//                 lat: 50.86946,
+//                 lon: 4.37943,
+//             ),
+//         ),
+//         (
+//             name: "Schaerbeek - Schaarbeek",
+//             coordinates: (
+//                 lat: 50.86935,
+//                 lon: 4.37737,
+//             ),
+//         ),
+//         (
+//             name: "Anderlecht",
+//             coordinates: (
+//                 lat: 50.83619,
+//                 lon: 4.31454,
+//             ),
+//         ),
+//         (
+//             name: "Bruges",
+//             coordinates: (
+//                 lat: 51.208888888,
+//                 lon: 3.224166666,
+//             ),
+//         ),
+//         (
+//             name: "Namur",
+//             coordinates: (
+//                 lat: 50.46821,
+//                 lon: 4.86729,
+//             ),
+//         ),
+//         (
+//             name: "Namur",
+//             coordinates: (
+//                 lat: 50.4669,
+//                 lon: 4.86746,
+//             ),
+//         ),
+//         (
+//             name: "Leuven",
+//             coordinates: (
+//                 lat: 50.87967,
+//                 lon: 4.70078,
+//             ),
+//         ),
+//         (
+//             name: "Leuven",
+//             coordinates: (
+//                 lat: 50.87959,
+//                 lon: 4.70093,
+//             ),
+//         ),
+//         (
+//             name: "Molenbeek-Saint-Jean - Sint-Jans-Molenbeek",
+//             coordinates: (
+//                 lat: 50.85531,
+//                 lon: 4.31761,
+//             ),
+//         ),
+//         (
+//             name: "Mons",
+//             coordinates: (
+//                 lat: 50.454722222,
+//                 lon: 3.9525,
+//             ),
+//         ),
+//         (
+//             name: "Mons",
+//             coordinates: (
+//                 lat: 50.45413,
+//                 lon: 3.95229,
+//             ),
+//         ),
+//         (
+//             name: "Ixelles - Elsene",
+//             coordinates: (
+//                 lat: 50.83333,
+//                 lon: 4.36667,
+//             ),
+//         ),
+//         (
+//             name: "Beveren-Kruibeke-Zwijndrecht",
+//             coordinates: (
+//                 lat: 51.22826,
+//                 lon: 4.29183,
+//             ),
+//         ),
+//         (
+//             name: "Mechelen",
+//             coordinates: (
+//                 lat: 51.02758,
+//                 lon: 4.48071,
+//             ),
+//         ),
+//         (
+//             name: "Uccle",
+//             coordinates: (
+//                 lat: 50.80225,
+//                 lon: 4.33943,
+//             ),
+//         ),
+//         (
+//             name: "La Louvière",
+//             coordinates: (
+//                 lat: 50.477777777,
+//                 lon: 4.188055555,
+//             ),
+//         ),
+//         (
+//             name: "Sint-Niklaas",
+//             coordinates: (
+//                 lat: 51.15997,
+//                 lon: 4.10893,
+//             ),
+//         ),
+//         (
+//             name: "Kortrijk",
+//             coordinates: (
+//                 lat: 50.8275,
+//                 lon: 3.265833333,
+//             ),
+//         ),
+//         (
+//             name: "Hasselt",
+//             coordinates: (
+//                 lat: 50.93106,
+//                 lon: 5.33781,
+//             ),
+//         ),
+//         (
+//             name: "Aalst",
+//             coordinates: (
+//                 lat: 50.93604,
+//                 lon: 4.0355,
+//             ),
+//         ),
+//         (
+//             name: "Mechelen",
+//             coordinates: (
+//                 lat: 51.02574,
+//                 lon: 4.47762,
+//             ),
+//         ),
+//         (
+//             name: "Kortrijk",
+//             coordinates: (
+//                 lat: 50.82803,
+//                 lon: 3.26487,
+//             ),
+//         ),
+//         (
+//             name: "Ostend",
+//             coordinates: (
+//                 lat: 51.225833333,
+//                 lon: 2.919444444,
+//             ),
+//         ),
+//         (
+//             name: "Tournai",
+//             coordinates: (
+//                 lat: 50.605555555,
+//                 lon: 3.388055555,
+//             ),
+//         ),
+//         (
+//             name: "Ostend",
+//             coordinates: (
+//                 lat: 51.21551,
+//                 lon: 2.927,
+//             ),
+//         ),
+//         (
+//             name: "Sint-Niklaas",
+//             coordinates: (
+//                 lat: 51.16509,
+//                 lon: 4.1437,
+//             ),
+//         ),
+//         (
+//             name: "Genk",
+//             coordinates: (
+//                 lat: 50.96619,
+//                 lon: 5.49511,
+//             ),
+//         ),
+//         (
+//             name: "Roeselare",
+//             coordinates: (
+//                 lat: 50.944722222,
+//                 lon: 3.123333333,
+//             ),
+//         ),
+//         (
+//             name: "Seraing",
+//             coordinates: (
+//                 lat: 50.5986,
+//                 lon: 5.5122,
+//             ),
+//         ),
+//         (
+//             name: "Genk",
+//             coordinates: (
+//                 lat: 50.965,
+//                 lon: 5.50082,
+//             ),
+//         ),
+//         (
+//             name: "Seraing",
+//             coordinates: (
+//                 lat: 50.58362,
+//                 lon: 5.50115,
+//             ),
+//         ),
+//         (
+//             name: "Mouscron",
+//             coordinates: (
+//                 lat: 50.7444,
+//                 lon: 3.2156,
+//             ),
+//         ),
+//         (
+//             name: "Woluwe-Saint-Lambert - Sint-Lambrechts-Woluwe",
+//             coordinates: (
+//                 lat: 50.84389,
+//                 lon: 4.42912,
+//             ),
+//         ),
+//         (
+//             name: "Forest - Vorst",
+//             coordinates: (
+//                 lat: 50.81678,
+//                 lon: 4.32775,
+//             ),
+//         ),
+//         (
+//             name: "Roeselare",
+//             coordinates: (
+//                 lat: 50.94653,
+//                 lon: 3.12269,
+//             ),
+//         ),
+//         (
+//             name: "Verviers",
+//             coordinates: (
+//                 lat: 50.583333333,
+//                 lon: 5.85,
+//             ),
+//         ),
+//         (
+//             name: "Verviers",
+//             coordinates: (
+//                 lat: 50.58907,
+//                 lon: 5.86241,
+//             ),
+//         ),
+//         (
+//             name: "Jette",
+//             coordinates: (
+//                 lat: 50.87309,
+//                 lon: 4.33419,
+//             ),
+//         ),
+//         (
+//             name: "Mouscron",
+//             coordinates: (
+//                 lat: 50.74497,
+//                 lon: 3.20639,
+//             ),
+//         ),
+//         (
+//             name: "Saint-Gilles - Sint-Gillis",
+//             coordinates: (
+//                 lat: 50.82763,
+//                 lon: 4.34389,
+//             ),
+//         ),
+//         (
+//             name: "Etterbeek",
+//             coordinates: (
+//                 lat: 50.83272,
+//                 lon: 4.38835,
+//             ),
+//         ),
+    ],
+)

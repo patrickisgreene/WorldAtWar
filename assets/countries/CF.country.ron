@@ -1,0 +1,57 @@
+(
+    name: "Central African Republic",
+    code: "CF",
+    population: 4829764,
+    capital: 0,
+    cities: [
+        (
+            name: "Bangui",
+            coordinates: (
+                lat: 4.37325,
+                lon: 18.562833333,
+            ),
+        ),
+//         (
+//             name: "Bimbo",
+//             coordinates: (
+//                 lat: 4.331305555,
+//                 lon: 18.516333333,
+//             ),
+//         ),
+//         (
+//             name: "Bégoua",
+//             coordinates: (
+//                 lat: 4.45,
+//                 lon: 18.5333,
+//             ),
+//         ),
+        (
+            name: "Berbérati",
+            coordinates: (
+                lat: 4.266666666,
+                lon: 15.783333333,
+            ),
+        ),
+//         (
+//             name: "Carnot",
+//             coordinates: (
+//                 lat: 4.933333333,
+//                 lon: 15.866666666,
+//             ),
+//         ),
+        (
+            name: "Bambari",
+            coordinates: (
+                lat: 5.766666666,
+                lon: 20.683333333,
+            ),
+        ),
+        (
+            name: "Bouar",
+            coordinates: (
+                lat: 5.95,
+                lon: 15.6,
+            ),
+        ),
+    ],
+)

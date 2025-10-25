@@ -1,0 +1,260 @@
+(
+    name: "Haiti",
+    code: "HT",
+    population: 11402533,
+    capital: 0,
+    cities: [
+        (
+            name: "Port-au-Prince",
+            coordinates: (
+                lat: 18.54349,
+                lon: -72.33881,
+            ),
+        ),
+//         (
+//             name: "Port-au-Prince",
+//             coordinates: (
+//                 lat: 18.546944444,
+//                 lon: -72.340277777,
+//             ),
+//         ),
+//         (
+//             name: "Carrefour",
+//             coordinates: (
+//                 lat: 18.53333,
+//                 lon: -72.4,
+//             ),
+//         ),
+//         (
+//             name: "Pétion-Ville",
+//             coordinates: (
+//                 lat: 18.509830555,
+//                 lon: -72.285552777,
+//             ),
+//         ),
+//         (
+//             name: "Gonaïves",
+//             coordinates: (
+//                 lat: 19.445555555,
+//                 lon: -72.688333333,
+//             ),
+//         ),
+//         (
+//             name: "Port-de-Paix",
+//             coordinates: (
+//                 lat: 19.93984,
+//                 lon: -72.83037,
+//             ),
+//         ),
+//         (
+//             name: "Delmas",
+//             coordinates: (
+//                 lat: 18.55,
+//                 lon: -72.3,
+//             ),
+//         ),
+//         (
+//             name: "Saint-Marc",
+//             coordinates: (
+//                 lat: 19.116666666,
+//                 lon: -72.7,
+//             ),
+//         ),
+//         (
+//             name: "Croix-des-Bouquets",
+//             coordinates: (
+//                 lat: 18.57677,
+//                 lon: -72.22625,
+//             ),
+//         ),
+//         (
+//             name: "Cap-Haïtien",
+//             coordinates: (
+//                 lat: 19.75,
+//                 lon: -72.2,
+//             ),
+//         ),
+//         (
+//             name: "Dessalines",
+//             coordinates: (
+//                 lat: 19.22149,
+//                 lon: -72.45363,
+//             ),
+//         ),
+//         (
+//             name: "Petite Rivière de l\'Artibonite",
+//             coordinates: (
+//                 lat: 19.13333333,
+//                 lon: -72.48333333,
+//             ),
+//         ),
+//         (
+//             name: "Bainet Arrondissement",
+//             coordinates: (
+//                 lat: 18.1831,
+//                 lon: -72.75,
+//             ),
+//         ),
+//         (
+//             name: "Gros-Morne",
+//             coordinates: (
+//                 lat: 19.666666666,
+//                 lon: -72.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Saint-Michel-de-l\'Atalaye",
+//             coordinates: (
+//                 lat: 19.366666666,
+//                 lon: -72.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Verrettes",
+//             coordinates: (
+//                 lat: 19.05,
+//                 lon: -72.466666666,
+//             ),
+//         ),
+//         (
+//             name: "Jacmel",
+//             coordinates: (
+//                 lat: 18.23427,
+//                 lon: -72.53539,
+//             ),
+//         ),
+//         (
+//             name: "Jérémie",
+//             coordinates: (
+//                 lat: 18.647222222,
+//                 lon: -74.113888888,
+//             ),
+//         ),
+//         (
+//             name: "Port-de-Paix",
+//             coordinates: (
+//                 lat: 19.95,
+//                 lon: -72.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Mirebalais",
+//             coordinates: (
+//                 lat: 18.833333333,
+//                 lon: -72.105277777,
+//             ),
+//         ),
+//         (
+//             name: "Belladère",
+//             coordinates: (
+//                 lat: 18.85,
+//                 lon: -71.783333333,
+//             ),
+//         ),
+//         (
+//             name: "Limbé",
+//             coordinates: (
+//                 lat: 19.705555555,
+//                 lon: -72.414722222,
+//             ),
+//         ),
+//         (
+//             name: "Thomassique",
+//             coordinates: (
+//                 lat: 19.083333333,
+//                 lon: -71.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Thomonde",
+//             coordinates: (
+//                 lat: 19.016666666,
+//                 lon: -71.966666666,
+//             ),
+//         ),
+//         (
+//             name: "Maïssade",
+//             coordinates: (
+//                 lat: 19.166666666,
+//                 lon: -72.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Miragoâne",
+//             coordinates: (
+//                 lat: 18.445833333,
+//                 lon: -73.09,
+//             ),
+//         ),
+//         (
+//             name: "Cerca-la-Source",
+//             coordinates: (
+//                 lat: 19.166666666,
+//                 lon: -71.783333333,
+//             ),
+//         ),
+//         (
+//             name: "Boucan-Carré",
+//             coordinates: (
+//                 lat: 18.966666666,
+//                 lon: -72.2,
+//             ),
+//         ),
+//         (
+//             name: "Thomazeau",
+//             coordinates: (
+//                 lat: 18.65297,
+//                 lon: -72.09391,
+//             ),
+//         ),
+//         (
+//             name: "Ennery",
+//             coordinates: (
+//                 lat: 19.483333333,
+//                 lon: -72.483333333,
+//             ),
+//         ),
+//         (
+//             name: "LasCahobas",
+//             coordinates: (
+//                 lat: 18.829166666,
+//                 lon: -71.936388888,
+//             ),
+//         ),
+//         (
+//             name: "L\'Estère",
+//             coordinates: (
+//                 lat: 19.33333,
+//                 lon: -72.66667,
+//             ),
+//         ),
+//         (
+//             name: "Pestel",
+//             coordinates: (
+//                 lat: 18.533333333,
+//                 lon: -73.8,
+//             ),
+//         ),
+//         (
+//             name: "Anse-Rouge",
+//             coordinates: (
+//                 lat: 19.633333333,
+//                 lon: -73.05,
+//             ),
+//         ),
+//         (
+//             name: "Kenscoff",
+//             coordinates: (
+//                 lat: 18.44773,
+//                 lon: -72.28398,
+//             ),
+//         ),
+//         (
+//             name: "L\'Asile",
+//             coordinates: (
+//                 lat: 18.383333333,
+//                 lon: -73.416666666,
+//             ),
+//         ),
+    ],
+)

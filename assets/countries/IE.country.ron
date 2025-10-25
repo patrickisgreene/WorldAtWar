@@ -1,0 +1,78 @@
+(
+    name: "Ireland",
+    code: "IE",
+    population: 4994724,
+    capital: 0,
+    cities: [
+        (
+            name: "Dublin",
+            coordinates: (
+                lat: 53.349722222,
+                lon: -6.260277777,
+            ),
+        ),
+//         (
+//             name: "Dublin City",
+//             coordinates: (
+//                 lat: 53.35512,
+//                 lon: -6.24922,
+//             ),
+//         ),
+        (
+            name: "Cork",
+            coordinates: (
+                lat: 51.9,
+                lon: -8.473055555,
+            ),
+        ),
+        (
+            name: "Galway",
+            coordinates: (
+                lat: 53.2729,
+                lon: -9.0418,
+            ),
+        ),
+//         (
+//             name: "Galway City",
+//             coordinates: (
+//                 lat: 53.2877,
+//                 lon: -9.05004,
+//             ),
+//         ),
+//         (
+//             name: "Tallaght",
+//             coordinates: (
+//                 lat: 53.2886,
+//                 lon: -6.3572,
+//             ),
+//         ),
+//         (
+//             name: "Limerick",
+//             coordinates: (
+//                 lat: 52.6653,
+//                 lon: -8.6238,
+//             ),
+//         ),
+        (
+            name: "Waterford",
+            coordinates: (
+                lat: 52.2583,
+                lon: -7.119,
+            ),
+        ),
+//         (
+//             name: "Drogheda",
+//             coordinates: (
+//                 lat: 53.715,
+//                 lon: -6.3525,
+//             ),
+//         ),
+//         (
+//             name: "Swords",
+//             coordinates: (
+//                 lat: 53.4597,
+//                 lon: -6.2181,
+//             ),
+//         ),
+    ],
+)

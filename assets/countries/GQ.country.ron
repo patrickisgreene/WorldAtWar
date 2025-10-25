@@ -1,0 +1,29 @@
+(
+    name: "Equatorial Guinea",
+    code: "GQ",
+    population: 1402985,
+    capital: 0,
+    cities: [
+        (
+            name: "Malabo",
+            coordinates: (
+                lat: 3.752063888,
+                lon: 8.7737,
+            ),
+        ),
+        (
+            name: "Bata",
+            coordinates: (
+                lat: 1.865,
+                lon: 9.77,
+            ),
+        ),
+//         (
+//             name: "Niefang",
+//             coordinates: (
+//                 lat: 1.85,
+//                 lon: 10.25,
+//             ),
+//         ),
+    ],
+)

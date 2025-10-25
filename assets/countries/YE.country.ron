@@ -1,0 +1,365 @@
+(
+    name: "Yemen",
+    code: "YE",
+    population: 29825968,
+    capital: 0,
+    cities: [
+        (
+            name: "Sana\'a",
+            coordinates: (
+                lat: 15.37,
+                lon: 44.19,
+            ),
+        ),
+//         (
+//             name: "Sanaa",
+//             coordinates: (
+//                 lat: 15.35,
+//                 lon: 44.2,
+//             ),
+//         ),
+//         (
+//             name: "Aden",
+//             coordinates: (
+//                 lat: 12.8,
+//                 lon: 45.033333333,
+//             ),
+//         ),
+//         (
+//             name: "Al Hudaydah",
+//             coordinates: (
+//                 lat: 14.802222222,
+//                 lon: 42.951111111,
+//             ),
+//         ),
+//         (
+//             name: "Ta\'izz",
+//             coordinates: (
+//                 lat: 13.578888888,
+//                 lon: 44.021944444,
+//             ),
+//         ),
+//         (
+//             name: "Ibb",
+//             coordinates: (
+//                 lat: 13.966666666,
+//                 lon: 44.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Dhamar",
+//             coordinates: (
+//                 lat: 14.55,
+//                 lon: 44.401666666,
+//             ),
+//         ),
+        (
+            name: "Mukalla",
+            coordinates: (
+                lat: 14.533333333,
+                lon: 49.133333333,
+            ),
+        ),
+        (
+            name: "Seiyun",
+            coordinates: (
+                lat: 15.966666666,
+                lon: 48.783333333,
+            ),
+        ),
+//         (
+//             name: "Ja‘ār",
+//             coordinates: (
+//                 lat: 13.42876,
+//                 lon: 45.76735,
+//             ),
+//         ),
+//         (
+//             name: "Tarim",
+//             coordinates: (
+//                 lat: 16.05,
+//                 lon: 49.0,
+//             ),
+//         ),
+//         (
+//             name: "Sheikh Othman",
+//             coordinates: (
+//                 lat: 12.87678,
+//                 lon: 44.99309,
+//             ),
+//         ),
+//         (
+//             name: "ʿAmrān",
+//             coordinates: (
+//                 lat: 15.65,
+//                 lon: 43.933333333,
+//             ),
+//         ),
+//         (
+//             name: "Aţ Ţarf al Yamānī",
+//             coordinates: (
+//                 lat: 14.41664,
+//                 lon: 43.24249,
+//             ),
+//         ),
+//         (
+//             name: "Zārah",
+//             coordinates: (
+//                 lat: 13.78764,
+//                 lon: 45.78764,
+//             ),
+//         ),
+//         (
+//             name: "‘Amrān",
+//             coordinates: (
+//                 lat: 15.67539,
+//                 lon: 43.9375,
+//             ),
+//         ),
+//         (
+//             name: "Al Ḩawţah",
+//             coordinates: (
+//                 lat: 13.06334,
+//                 lon: 44.88109,
+//             ),
+//         ),
+//         (
+//             name: "Lab‘ūs",
+//             coordinates: (
+//                 lat: 13.86072,
+//                 lon: 45.21806,
+//             ),
+//         ),
+        (
+            name: "Saada",
+            coordinates: (
+                lat: 16.94,
+                lon: 43.759166666,
+            ),
+        ),
+//         (
+//             name: "Sayyan",
+//             coordinates: (
+//                 lat: 15.171666666,
+//                 lon: 44.324166666,
+//             ),
+//         ),
+//         (
+//             name: "al-Shihr",
+//             coordinates: (
+//                 lat: 14.760833333,
+//                 lon: 49.606944444,
+//             ),
+//         ),
+//         (
+//             name: "Al Ma‘āşilah",
+//             coordinates: (
+//                 lat: 14.05533,
+//                 lon: 43.36915,
+//             ),
+//         ),
+//         (
+//             name: "Khadīr as Silmī",
+//             coordinates: (
+//                 lat: 13.4888,
+//                 lon: 44.18029,
+//             ),
+//         ),
+//         (
+//             name: "Old Sana\'a",
+//             coordinates: (
+//                 lat: 15.35555556,
+//                 lon: 44.20805556,
+//             ),
+//         ),
+//         (
+//             name: "Ash Shiḩr",
+//             coordinates: (
+//                 lat: 15.00772,
+//                 lon: 49.52328,
+//             ),
+//         ),
+//         (
+//             name: "Al Qaţn",
+//             coordinates: (
+//                 lat: 15.83717,
+//                 lon: 48.34345,
+//             ),
+//         ),
+//         (
+//             name: "Aţ Ţarf ash Shāmī",
+//             coordinates: (
+//                 lat: 14.58375,
+//                 lon: 43.33375,
+//             ),
+//         ),
+//         (
+//             name: "Bājil",
+//             coordinates: (
+//                 lat: 15.05299,
+//                 lon: 43.28307,
+//             ),
+//         ),
+//         (
+//             name: "Al Qārah",
+//             coordinates: (
+//                 lat: 13.71546,
+//                 lon: 45.28123,
+//             ),
+//         ),
+//         (
+//             name: "Okrug Hajjah",
+//             coordinates: (
+//                 lat: 15.632777777,
+//                 lon: 43.606111111,
+//             ),
+//         ),
+//         (
+//             name: "Khanwah",
+//             coordinates: (
+//                 lat: 13.77024,
+//                 lon: 44.12646,
+//             ),
+//         ),
+//         (
+//             name: "Zabid",
+//             coordinates: (
+//                 lat: 14.2,
+//                 lon: 43.316666666,
+//             ),
+//         ),
+//         (
+//             name: "Şa‘ḑah",
+//             coordinates: (
+//                 lat: 16.93728,
+//                 lon: 43.76123,
+//             ),
+//         ),
+//         (
+//             name: "Al Yūsufayn",
+//             coordinates: (
+//                 lat: 13.31082,
+//                 lon: 44.38697,
+//             ),
+//         ),
+        (
+            name: "Al ‘Ulyā",
+            coordinates: (
+                lat: 14.76627,
+                lon: 45.74,
+            ),
+        ),
+//         (
+//             name: "Khormaksar",
+//             coordinates: (
+//                 lat: 12.81,
+//                 lon: 45.037,
+//             ),
+//         ),
+//         (
+//             name: "Al Khalfīyah",
+//             coordinates: (
+//                 lat: 15.13111,
+//                 lon: 43.22399,
+//             ),
+//         ),
+//         (
+//             name: "Hajjah",
+//             coordinates: (
+//                 lat: 15.695,
+//                 lon: 43.5975,
+//             ),
+//         ),
+//         (
+//             name: "Yarim",
+//             coordinates: (
+//                 lat: 14.29384,
+//                 lon: 44.38168,
+//             ),
+//         ),
+//         (
+//             name: "Bajil",
+//             coordinates: (
+//                 lat: 15.058333333,
+//                 lon: 43.285,
+//             ),
+//         ),
+//         (
+//             name: "Rada\'a",
+//             coordinates: (
+//                 lat: 14.415833333,
+//                 lon: 44.842222222,
+//             ),
+//         ),
+//         (
+//             name: "Bayt al Faqīyah",
+//             coordinates: (
+//                 lat: 14.51272,
+//                 lon: 43.31061,
+//             ),
+//         ),
+        (
+            name: "Şayf",
+            coordinates: (
+                lat: 15.05566,
+                lon: 48.33099,
+            ),
+        ),
+//         (
+//             name: "Al Aqrūḑ",
+//             coordinates: (
+//                 lat: 13.43504,
+//                 lon: 44.05123,
+//             ),
+//         ),
+//         (
+//             name: "Ar Rāmīyah al ‘Ulyā",
+//             coordinates: (
+//                 lat: 14.77623,
+//                 lon: 43.39611,
+//             ),
+//         ),
+//         (
+//             name: "Al Ḩabīlayn",
+//             coordinates: (
+//                 lat: 13.52002,
+//                 lon: 44.85076,
+//             ),
+//         ),
+//         (
+//             name: "Az Zahrah Rab‘ al Wādī",
+//             coordinates: (
+//                 lat: 15.73703,
+//                 lon: 42.99036,
+//             ),
+//         ),
+//         (
+//             name: "Qadas",
+//             coordinates: (
+//                 lat: 13.28214,
+//                 lon: 44.15537,
+//             ),
+//         ),
+//         (
+//             name: "Bayt al-Faqih",
+//             coordinates: (
+//                 lat: 14.516666666,
+//                 lon: 43.316666666,
+//             ),
+//         ),
+//         (
+//             name: "Banī Thawāb",
+//             coordinates: (
+//                 lat: 15.9724,
+//                 lon: 43.19709,
+//             ),
+//         ),
+//         (
+//             name: "Sāmi‘",
+//             coordinates: (
+//                 lat: 13.38451,
+//                 lon: 44.12267,
+//             ),
+//         ),
+    ],
+)

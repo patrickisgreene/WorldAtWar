@@ -1,0 +1,274 @@
+(
+    name: "Finland",
+    code: "FI",
+    population: 5530719,
+    capital: 0,
+    cities: [
+        (
+            name: "Helsinki",
+            coordinates: (
+                lat: 60.16952,
+                lon: 24.93545,
+            ),
+        ),
+//         (
+//             name: "Espoo",
+//             coordinates: (
+//                 lat: 60.25,
+//                 lon: 24.66667,
+//             ),
+//         ),
+//         (
+//             name: "Tampere",
+//             coordinates: (
+//                 lat: 61.498055555,
+//                 lon: 23.76,
+//             ),
+//         ),
+//         (
+//             name: "Vantaa",
+//             coordinates: (
+//                 lat: 60.30794,
+//                 lon: 24.9847,
+//             ),
+//         ),
+//         (
+//             name: "Tampere urban area",
+//             coordinates: (
+//                 lat: 61.498055555,
+//                 lon: 23.760833333,
+//             ),
+//         ),
+        (
+            name: "Oulu",
+            coordinates: (
+                lat: 65.014166666,
+                lon: 25.471944444,
+            ),
+        ),
+//         (
+//             name: "Oulu central locality",
+//             coordinates: (
+//                 lat: 65.01236,
+//                 lon: 25.46816,
+//             ),
+//         ),
+//         (
+//             name: "Turku",
+//             coordinates: (
+//                 lat: 60.53333,
+//                 lon: 22.33333,
+//             ),
+//         ),
+//         (
+//             name: "East Helsinki",
+//             coordinates: (
+//                 lat: 60.21043,
+//                 lon: 25.08289,
+//             ),
+//         ),
+        (
+            name: "Jyväskylä",
+            coordinates: (
+                lat: 62.20806,
+                lon: 25.60742,
+            ),
+        ),
+        (
+            name: "Kuopio",
+            coordinates: (
+                lat: 62.88184,
+                lon: 27.6894,
+            ),
+        ),
+//         (
+//             name: "Lahti",
+//             coordinates: (
+//                 lat: 60.9803806,
+//                 lon: 25.654988,
+//             ),
+//         ),
+//         (
+//             name: "Pori urban area",
+//             coordinates: (
+//                 lat: 61.486667,
+//                 lon: 21.7975,
+//             ),
+//         ),
+        (
+            name: "Pori",
+            coordinates: (
+                lat: 61.486666666,
+                lon: 21.7975,
+            ),
+        ),
+//         (
+//             name: "Kouvola",
+//             coordinates: (
+//                 lat: 60.868055555,
+//                 lon: 26.704166666,
+//             ),
+//         ),
+        (
+            name: "Joensuu",
+            coordinates: (
+                lat: 62.5747,
+                lon: 30.33866,
+            ),
+        ),
+//         (
+//             name: "Joensuu central locality",
+//             coordinates: (
+//                 lat: 62.6,
+//                 lon: 29.75,
+//             ),
+//         ),
+        (
+            name: "Lappeenranta",
+            coordinates: (
+                lat: 61.02292,
+                lon: 28.27839,
+            ),
+        ),
+        (
+            name: "Vaasa",
+            coordinates: (
+                lat: 63.06985,
+                lon: 21.80267,
+            ),
+        ),
+//         (
+//             name: "Hämeenlinna",
+//             coordinates: (
+//                 lat: 61.0,
+//                 lon: 24.45,
+//             ),
+//         ),
+//         (
+//             name: "Vaasan keskustaajama",
+//             coordinates: (
+//                 lat: 63.09583333,
+//                 lon: 21.61527778,
+//             ),
+//         ),
+//         (
+//             name: "Seinäjoki",
+//             coordinates: (
+//                 lat: 62.790277777,
+//                 lon: 22.840277777,
+//             ),
+//         ),
+        (
+            name: "Rovaniemi",
+            coordinates: (
+                lat: 66.5027903,
+                lon: 25.7284789,
+            ),
+        ),
+//         (
+//             name: "Lappeenranta central locality",
+//             coordinates: (
+//                 lat: 61.05875194,
+//                 lon: 28.18768833,
+//             ),
+//         ),
+//         (
+//             name: "Kotka central locality",
+//             coordinates: (
+//                 lat: 60.46730556,
+//                 lon: 26.94583333,
+//             ),
+//         ),
+        (
+            name: "Mikkeli",
+            coordinates: (
+                lat: 61.6875,
+                lon: 27.273611111,
+            ),
+        ),
+//         (
+//             name: "Porvoo",
+//             coordinates: (
+//                 lat: 60.38585,
+//                 lon: 25.68229,
+//             ),
+//         ),
+//         (
+//             name: "Porvoo central locality",
+//             coordinates: (
+//                 lat: 60.39233,
+//                 lon: 25.66507,
+//             ),
+//         ),
+//         (
+//             name: "Salo",
+//             coordinates: (
+//                 lat: 60.38862,
+//                 lon: 23.13645,
+//             ),
+//         ),
+//         (
+//             name: "Kotka",
+//             coordinates: (
+//                 lat: 60.466666666,
+//                 lon: 26.945833333,
+//             ),
+//         ),
+        (
+            name: "Kokkola",
+            coordinates: (
+                lat: 63.8375831,
+                lon: 23.1319617,
+            ),
+        ),
+//         (
+//             name: "Hyvinkää",
+//             coordinates: (
+//                 lat: 60.63195,
+//                 lon: 24.8606,
+//             ),
+//         ),
+//         (
+//             name: "Järvenpää",
+//             coordinates: (
+//                 lat: 60.47803,
+//                 lon: 25.10241,
+//             ),
+//         ),
+//         (
+//             name: "Lohja",
+//             coordinates: (
+//                 lat: 60.37318,
+//                 lon: 23.93528,
+//             ),
+//         ),
+//         (
+//             name: "Nurmijärvi",
+//             coordinates: (
+//                 lat: 60.45312,
+//                 lon: 24.76288,
+//             ),
+//         ),
+//         (
+//             name: "Hyvinkää central locality",
+//             coordinates: (
+//                 lat: 60.63333,
+//                 lon: 24.86667,
+//             ),
+//         ),
+//         (
+//             name: "Tuusula",
+//             coordinates: (
+//                 lat: 60.44844,
+//                 lon: 25.01365,
+//             ),
+//         ),
+//         (
+//             name: "Kirkkonummi",
+//             coordinates: (
+//                 lat: 60.14698,
+//                 lon: 24.45885,
+//             ),
+//         ),
+    ],
+)

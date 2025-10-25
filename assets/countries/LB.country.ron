@@ -1,0 +1,85 @@
+(
+    name: "Lebanon",
+    code: "LB",
+    population: 6825442,
+    capital: 0,
+    cities: [
+        (
+            name: "Beirut",
+            coordinates: (
+                lat: 33.886944444,
+                lon: 35.513055555,
+            ),
+        ),
+//         (
+//             name: "South Governorate",
+//             coordinates: (
+//                 lat: 33.55,
+//                 lon: 35.383333333,
+//             ),
+//         ),
+//         (
+//             name: "Tripoli",
+//             coordinates: (
+//                 lat: 34.436666666,
+//                 lon: 35.834444444,
+//             ),
+//         ),
+//         (
+//             name: "Sidon",
+//             coordinates: (
+//                 lat: 33.55751,
+//                 lon: 35.37148,
+//             ),
+//         ),
+//         (
+//             name: "Tyre",
+//             coordinates: (
+//                 lat: 33.266666666,
+//                 lon: 35.2,
+//             ),
+//         ),
+//         (
+//             name: "Aley",
+//             coordinates: (
+//                 lat: 33.805277777,
+//                 lon: 35.6,
+//             ),
+//         ),
+//         (
+//             name: "Nabatieh",
+//             coordinates: (
+//                 lat: 33.366666666,
+//                 lon: 35.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Zahlé",
+//             coordinates: (
+//                 lat: 33.843888888,
+//                 lon: 35.907222222,
+//             ),
+//         ),
+//         (
+//             name: "Habboûch",
+//             coordinates: (
+//                 lat: 33.4,
+//                 lon: 35.48333333,
+//             ),
+//         ),
+//         (
+//             name: "Baalbek",
+//             coordinates: (
+//                 lat: 34.006111111,
+//                 lon: 36.208611111,
+//             ),
+//         ),
+//         (
+//             name: "Kabelias",
+//             coordinates: (
+//                 lat: 33.793409,
+//                 lon: 35.822696,
+//             ),
+//         ),
+    ],
+)

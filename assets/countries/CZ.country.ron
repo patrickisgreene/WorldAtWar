@@ -1,0 +1,309 @@
+(
+    name: "Czechia",
+    code: "CZ",
+    population: 10698896,
+    capital: 0,
+    cities: [
+        (
+            name: "Prague",
+            coordinates: (
+                lat: 50.08804,
+                lon: 14.42076,
+            ),
+        ),
+//         (
+//             name: "Brno",
+//             coordinates: (
+//                 lat: 49.195277777,
+//                 lon: 16.608333333,
+//             ),
+//         ),
+//         (
+//             name: "Ostrava",
+//             coordinates: (
+//                 lat: 49.835555555,
+//                 lon: 18.2925,
+//             ),
+//         ),
+//         (
+//             name: "Plzeň",
+//             coordinates: (
+//                 lat: 49.741388888,
+//                 lon: 13.3825,
+//             ),
+//         ),
+//         (
+//             name: "Prague 4",
+//             coordinates: (
+//                 lat: 50.062222222,
+//                 lon: 14.440277777,
+//             ),
+//         ),
+//         (
+//             name: "Prague 10",
+//             coordinates: (
+//                 lat: 50.06788,
+//                 lon: 14.46118,
+//             ),
+//         ),
+//         (
+//             name: "Liberec",
+//             coordinates: (
+//                 lat: 50.76711,
+//                 lon: 15.05619,
+//             ),
+//         ),
+//         (
+//             name: "Prague 8",
+//             coordinates: (
+//                 lat: 50.107777777,
+//                 lon: 14.471388888,
+//             ),
+//         ),
+//         (
+//             name: "Prague 6",
+//             coordinates: (
+//                 lat: 50.100833333,
+//                 lon: 14.394722222,
+//             ),
+//         ),
+//         (
+//             name: "Olomouc",
+//             coordinates: (
+//                 lat: 49.593888888,
+//                 lon: 17.250833333,
+//             ),
+//         ),
+        (
+            name: "České Budějovice",
+            coordinates: (
+                lat: 48.974722222,
+                lon: 14.474722222,
+            ),
+        ),
+//         (
+//             name: "Hradec Králové",
+//             coordinates: (
+//                 lat: 50.209166666,
+//                 lon: 15.831944444,
+//             ),
+//         ),
+//         (
+//             name: "Pardubice",
+//             coordinates: (
+//                 lat: 50.03861,
+//                 lon: 15.77916,
+//             ),
+//         ),
+//         (
+//             name: "Ústí nad Labem",
+//             coordinates: (
+//                 lat: 50.659166666,
+//                 lon: 14.041666666,
+//             ),
+//         ),
+//         (
+//             name: "Prague 5",
+//             coordinates: (
+//                 lat: 50.07416,
+//                 lon: 14.40286,
+//             ),
+//         ),
+//         (
+//             name: "Zlín",
+//             coordinates: (
+//                 lat: 49.233055555,
+//                 lon: 17.666944444,
+//             ),
+//         ),
+//         (
+//             name: "Prague 3",
+//             coordinates: (
+//                 lat: 50.084444444,
+//                 lon: 14.454166666,
+//             ),
+//         ),
+//         (
+//             name: "Prague 11",
+//             coordinates: (
+//                 lat: 50.028611111,
+//                 lon: 14.531666666,
+//             ),
+//         ),
+//         (
+//             name: "Kladno",
+//             coordinates: (
+//                 lat: 50.143055555,
+//                 lon: 14.105277777,
+//             ),
+//         ),
+//         (
+//             name: "Havířov",
+//             coordinates: (
+//                 lat: 49.777777777,
+//                 lon: 18.422777777,
+//             ),
+//         ),
+//         (
+//             name: "Most",
+//             coordinates: (
+//                 lat: 50.503055555,
+//                 lon: 13.636666666,
+//             ),
+//         ),
+//         (
+//             name: "Prague 9",
+//             coordinates: (
+//                 lat: 50.110555555,
+//                 lon: 14.5,
+//             ),
+//         ),
+//         (
+//             name: "Poruba",
+//             coordinates: (
+//                 lat: 49.825,
+//                 lon: 18.17111111,
+//             ),
+//         ),
+//         (
+//             name: "Stodůlky",
+//             coordinates: (
+//                 lat: 50.05,
+//                 lon: 14.31667,
+//             ),
+//         ),
+//         (
+//             name: "Prague 13",
+//             coordinates: (
+//                 lat: 50.05,
+//                 lon: 14.344444444,
+//             ),
+//         ),
+//         (
+//             name: "Žižkov",
+//             coordinates: (
+//                 lat: 50.0872,
+//                 lon: 14.4628,
+//             ),
+//         ),
+//         (
+//             name: "Prague 12",
+//             coordinates: (
+//                 lat: 50.01,
+//                 lon: 14.406944444,
+//             ),
+//         ),
+//         (
+//             name: "Opava",
+//             coordinates: (
+//                 lat: 49.938055555,
+//                 lon: 17.904444444,
+//             ),
+//         ),
+//         (
+//             name: "Jihlava",
+//             coordinates: (
+//                 lat: 49.400277777,
+//                 lon: 15.590555555,
+//             ),
+//         ),
+//         (
+//             name: "Frýdek-Místek",
+//             coordinates: (
+//                 lat: 49.688055555,
+//                 lon: 18.353611111,
+//             ),
+//         ),
+//         (
+//             name: "Teplice",
+//             coordinates: (
+//                 lat: 50.633333333,
+//                 lon: 13.816666666,
+//             ),
+//         ),
+//         (
+//             name: "Karlovy Vary",
+//             coordinates: (
+//                 lat: 50.230555555,
+//                 lon: 12.8725,
+//             ),
+//         ),
+//         (
+//             name: "Karviná",
+//             coordinates: (
+//                 lat: 49.854166666,
+//                 lon: 18.542777777,
+//             ),
+//         ),
+//         (
+//             name: "Vinohrady",
+//             coordinates: (
+//                 lat: 50.075556,
+//                 lon: 14.445833,
+//             ),
+//         ),
+//         (
+//             name: "Mladá Boleslav",
+//             coordinates: (
+//                 lat: 50.4125,
+//                 lon: 14.906388888,
+//             ),
+//         ),
+//         (
+//             name: "Prague 14",
+//             coordinates: (
+//                 lat: 50.102777777,
+//                 lon: 14.552222222,
+//             ),
+//         ),
+//         (
+//             name: "Chomutov",
+//             coordinates: (
+//                 lat: 50.462777777,
+//                 lon: 13.411111111,
+//             ),
+//         ),
+//         (
+//             name: "Děčín",
+//             coordinates: (
+//                 lat: 50.773611111,
+//                 lon: 14.196111111,
+//             ),
+//         ),
+//         (
+//             name: "Jablonec nad Nisou",
+//             coordinates: (
+//                 lat: 50.727777777,
+//                 lon: 15.17,
+//             ),
+//         ),
+//         (
+//             name: "Prague 2",
+//             coordinates: (
+//                 lat: 50.074166666,
+//                 lon: 14.442777777,
+//             ),
+//         ),
+//         (
+//             name: "Prague 7",
+//             coordinates: (
+//                 lat: 50.100555555,
+//                 lon: 14.435555555,
+//             ),
+//         ),
+//         (
+//             name: "Prostějov",
+//             coordinates: (
+//                 lat: 49.472222222,
+//                 lon: 17.110555555,
+//             ),
+//         ),
+//         (
+//             name: "Přerov",
+//             coordinates: (
+//                 lat: 49.455555555,
+//                 lon: 17.451111111,
+//             ),
+//         ),
+    ],
+)

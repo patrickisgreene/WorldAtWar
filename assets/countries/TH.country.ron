@@ -1,0 +1,358 @@
+(
+    name: "Thailand",
+    code: "TH",
+    population: 69799978,
+    capital: 0,
+    cities: [
+        (
+            name: "Bangkok",
+            coordinates: (
+                lat: 13.75,
+                lon: 100.516666666,
+            ),
+        ),
+        (
+            name: "Chiang Mai",
+            coordinates: (
+                lat: 18.788888888,
+                lon: 98.983333333,
+            ),
+        ),
+        (
+            name: "Phrae",
+            coordinates: (
+                lat: 18.08333,
+                lon: 100.0,
+            ),
+        ),
+//         (
+//             name: "Nonthaburi",
+//             coordinates: (
+//                 lat: 13.866666666,
+//                 lon: 100.516666666,
+//             ),
+//         ),
+//         (
+//             name: "Sai Mai",
+//             coordinates: (
+//                 lat: 13.919166666,
+//                 lon: 100.645833333,
+//             ),
+//         ),
+//         (
+//             name: "Khlong Sam Wa",
+//             coordinates: (
+//                 lat: 13.859722222,
+//                 lon: 100.704166666,
+//             ),
+//         ),
+//         (
+//             name: "Bang Khae",
+//             coordinates: (
+//                 lat: 13.696111111,
+//                 lon: 100.409444444,
+//             ),
+//         ),
+//         (
+//             name: "Bang Khen",
+//             coordinates: (
+//                 lat: 13.873888888,
+//                 lon: 100.596388888,
+//             ),
+//         ),
+//         (
+//             name: "Bang Khun Thian",
+//             coordinates: (
+//                 lat: 13.660833333,
+//                 lon: 100.435833333,
+//             ),
+//         ),
+//         (
+//             name: "Pak Kret",
+//             coordinates: (
+//                 lat: 13.9125,
+//                 lon: 100.497777777,
+//             ),
+//         ),
+//         (
+//             name: "Prawet",
+//             coordinates: (
+//                 lat: 13.716944444,
+//                 lon: 100.694444444,
+//             ),
+//         ),
+//         (
+//             name: "Lat Krabang",
+//             coordinates: (
+//                 lat: 13.723333333,
+//                 lon: 100.784166666,
+//             ),
+//         ),
+//         (
+//             name: "Nong Chok",
+//             coordinates: (
+//                 lat: 13.855555555,
+//                 lon: 100.8625,
+//             ),
+//         ),
+//         (
+//             name: "Don Mueang",
+//             coordinates: (
+//                 lat: 13.913611111,
+//                 lon: 100.589722222,
+//             ),
+//         ),
+        (
+            name: "Hat Yai",
+            coordinates: (
+                lat: 7.016666666,
+                lon: 100.466666666,
+            ),
+        ),
+//         (
+//             name: "Nong Khaem",
+//             coordinates: (
+//                 lat: 13.704722222,
+//                 lon: 100.348888888,
+//             ),
+//         ),
+//         (
+//             name: "Chatuchak",
+//             coordinates: (
+//                 lat: 13.828611111,
+//                 lon: 100.559722222,
+//             ),
+//         ),
+//         (
+//             name: "Chom Thong",
+//             coordinates: (
+//                 lat: 13.677222222,
+//                 lon: 100.484722222,
+//             ),
+//         ),
+//         (
+//             name: "Bang Kapi",
+//             coordinates: (
+//                 lat: 13.765833333,
+//                 lon: 100.647777777,
+//             ),
+//         ),
+//         (
+//             name: "Min Buri",
+//             coordinates: (
+//                 lat: 13.813888888,
+//                 lon: 100.748055555,
+//             ),
+//         ),
+//         (
+//             name: "Bueng Kum",
+//             coordinates: (
+//                 lat: 13.785277777,
+//                 lon: 100.669166666,
+//             ),
+//         ),
+        (
+            name: "Surat Thani",
+            coordinates: (
+                lat: 9.14011,
+                lon: 99.33311,
+            ),
+        ),
+        (
+            name: "Udon Thani",
+            coordinates: (
+                lat: 17.41567,
+                lon: 102.78589,
+            ),
+        ),
+        (
+            name: "Nakhon Ratchasima",
+            coordinates: (
+                lat: 14.973611,
+                lon: 102.083056,
+            ),
+        ),
+//         (
+//             name: "Phasi Charoen",
+//             coordinates: (
+//                 lat: 13.714722222,
+//                 lon: 100.437222222,
+//             ),
+//         ),
+//         (
+//             name: "Thung Khru",
+//             coordinates: (
+//                 lat: 13.628888888,
+//                 lon: 100.51,
+//             ),
+//         ),
+//         (
+//             name: "Suan Luang",
+//             coordinates: (
+//                 lat: 13.721222222,
+//                 lon: 100.629638888,
+//             ),
+//         ),
+//         (
+//             name: "Bang Sue",
+//             coordinates: (
+//                 lat: 13.809722222,
+//                 lon: 100.537222222,
+//             ),
+//         ),
+        (
+            name: "Pattaya",
+            coordinates: (
+                lat: 12.93333,
+                lon: 100.88333,
+            ),
+        ),
+//         (
+//             name: "Lat Phrao",
+//             coordinates: (
+//                 lat: 13.803611111,
+//                 lon: 100.6075,
+//             ),
+//         ),
+        (
+            name: "Khon Kaen",
+            coordinates: (
+                lat: 16.433333333,
+                lon: 102.833333333,
+            ),
+        ),
+//         (
+//             name: "Din Daeng",
+//             coordinates: (
+//                 lat: 13.762666666,
+//                 lon: 100.555277777,
+//             ),
+//         ),
+//         (
+//             name: "Wang Thonglang",
+//             coordinates: (
+//                 lat: 13.764222222,
+//                 lon: 100.605611111,
+//             ),
+//         ),
+        (
+            name: "Nakhon Si Thammarat",
+            coordinates: (
+                lat: 8.43333,
+                lon: 99.96667,
+            ),
+        ),
+//         (
+//             name: "Bang Bon",
+//             coordinates: (
+//                 lat: 13.663888888,
+//                 lon: 100.408888888,
+//             ),
+//         ),
+//         (
+//             name: "Bangkok Noi",
+//             coordinates: (
+//                 lat: 13.762777777,
+//                 lon: 100.478055555,
+//             ),
+//         ),
+//         (
+//             name: "Taling Chan",
+//             coordinates: (
+//                 lat: 13.776944444,
+//                 lon: 100.456666666,
+//             ),
+//         ),
+//         (
+//             name: "Thon Buri",
+//             coordinates: (
+//                 lat: 13.725,
+//                 lon: 100.485833333,
+//             ),
+//         ),
+//         (
+//             name: "Lak Si",
+//             coordinates: (
+//                 lat: 13.8875,
+//                 lon: 100.578888888,
+//             ),
+//         ),
+//         (
+//             name: "Khan Na Yao",
+//             coordinates: (
+//                 lat: 13.825833333,
+//                 lon: 100.679444444,
+//             ),
+//         ),
+//         (
+//             name: "Saphan Sung",
+//             coordinates: (
+//                 lat: 13.77,
+//                 lon: 100.684722222,
+//             ),
+//         ),
+//         (
+//             name: "Khlong Toei",
+//             coordinates: (
+//                 lat: 13.708055555,
+//                 lon: 100.583888888,
+//             ),
+//         ),
+//         (
+//             name: "Bang Phlat",
+//             coordinates: (
+//                 lat: 13.793888888,
+//                 lon: 100.505,
+//             ),
+//         ),
+//         (
+//             name: "Bang Na",
+//             coordinates: (
+//                 lat: 13.667222222,
+//                 lon: 100.641944444,
+//             ),
+//         ),
+//         (
+//             name: "Phra Khanong",
+//             coordinates: (
+//                 lat: 13.702222222,
+//                 lon: 100.601666666,
+//             ),
+//         ),
+        (
+            name: "Nakhon Sawan",
+            coordinates: (
+                lat: 15.70472,
+                lon: 100.13717,
+            ),
+        ),
+//         (
+//             name: "Huai Khwang",
+//             coordinates: (
+//                 lat: 13.776666666,
+//                 lon: 100.579444444,
+//             ),
+//         ),
+//         (
+//             name: "Dusit",
+//             coordinates: (
+//                 lat: 13.776944444,
+//                 lon: 100.520555555,
+//             ),
+//         ),
+//         (
+//             name: "Bang Kho Laem",
+//             coordinates: (
+//                 lat: 13.693333333,
+//                 lon: 100.5025,
+//             ),
+//         ),
+//         (
+//             name: "Watthana",
+//             coordinates: (
+//                 lat: 13.742222222,
+//                 lon: 100.585833333,
+//             ),
+//         ),
+    ],
+)

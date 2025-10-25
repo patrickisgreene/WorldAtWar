@@ -1,0 +1,15 @@
+(
+    name: "Puerto Rico",
+    code: "PR",
+    population: 3194034,
+    capital: 0,
+    cities: [
+        (
+            name: "San Juan",
+            coordinates: (
+                lat: 18.47,
+                lon: -66.12,
+            ),
+        ),
+    ],
+)

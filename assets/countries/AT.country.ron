@@ -1,0 +1,288 @@
+(
+    name: "Austria",
+    code: "AT",
+    population: 8917205,
+    capital: 0,
+    cities: [
+        (
+            name: "Vienna",
+            coordinates: (
+                lat: 48.208333333,
+                lon: 16.3725,
+            ),
+        ),
+        (
+            name: "Graz",
+            coordinates: (
+                lat: 47.070833333,
+                lon: 15.438611111,
+            ),
+        ),
+//         (
+//             name: "Donaustadt",
+//             coordinates: (
+//                 lat: 48.2181,
+//                 lon: 16.4831,
+//             ),
+//         ),
+//         (
+//             name: "Favoriten",
+//             coordinates: (
+//                 lat: 48.1578,
+//                 lon: 16.3592,
+//             ),
+//         ),
+        (
+            name: "Linz",
+            coordinates: (
+                lat: 48.30639,
+                lon: 14.28611,
+            ),
+        ),
+//         (
+//             name: "Floridsdorf",
+//             coordinates: (
+//                 lat: 48.283333,
+//                 lon: 16.412222,
+//             ),
+//         ),
+        (
+            name: "Salzburg",
+            coordinates: (
+                lat: 47.80067,
+                lon: 13.04532,
+            ),
+        ),
+        (
+            name: "Innsbruck",
+            coordinates: (
+                lat: 47.26266,
+                lon: 11.39454,
+            ),
+        ),
+//         (
+//             name: "Innsbruck",
+//             coordinates: (
+//                 lat: 47.268333333,
+//                 lon: 11.393333333,
+//             ),
+//         ),
+//         (
+//             name: "Liesing",
+//             coordinates: (
+//                 lat: 48.137777777,
+//                 lon: 16.284444444,
+//             ),
+//         ),
+//         (
+//             name: "Simmering",
+//             coordinates: (
+//                 lat: 48.17,
+//                 lon: 16.45,
+//             ),
+//         ),
+//         (
+//             name: "Leopoldstadt",
+//             coordinates: (
+//                 lat: 48.21667,
+//                 lon: 16.4,
+//             ),
+//         ),
+//         (
+//             name: "Ottakring",
+//             coordinates: (
+//                 lat: 48.2131,
+//                 lon: 16.3261,
+//             ),
+//         ),
+//         (
+//             name: "Ottakring",
+//             coordinates: (
+//                 lat: 48.2125,
+//                 lon: 16.3106,
+//             ),
+//         ),
+//         (
+//             name: "Meidling",
+//             coordinates: (
+//                 lat: 48.17192,
+//                 lon: 16.32586,
+//             ),
+//         ),
+//         (
+//             name: "Simmering",
+//             coordinates: (
+//                 lat: 48.18333,
+//                 lon: 16.43333,
+//             ),
+//         ),
+//         (
+//             name: "Klagenfurt am Wörthersee",
+//             coordinates: (
+//                 lat: 46.616666666,
+//                 lon: 14.3,
+//             ),
+//         ),
+//         (
+//             name: "Landstraße",
+//             coordinates: (
+//                 lat: 48.19811,
+//                 lon: 16.39482,
+//             ),
+//         ),
+//         (
+//             name: "Hütteldorf",
+//             coordinates: (
+//                 lat: 48.2017,
+//                 lon: 16.2581,
+//             ),
+//         ),
+//         (
+//             name: "Penzing",
+//             coordinates: (
+//                 lat: 48.1989,
+//                 lon: 16.3111,
+//             ),
+//         ),
+//         (
+//             name: "Meidling",
+//             coordinates: (
+//                 lat: 48.1806,
+//                 lon: 16.3281,
+//             ),
+//         ),
+//         (
+//             name: "Brigittenau",
+//             coordinates: (
+//                 lat: 48.236667,
+//                 lon: 16.369444,
+//             ),
+//         ),
+//         (
+//             name: "Rudolfsheim-Fünfhaus",
+//             coordinates: (
+//                 lat: 48.200833333,
+//                 lon: 16.32,
+//             ),
+//         ),
+//         (
+//             name: "Sievering",
+//             coordinates: (
+//                 lat: 48.2522,
+//                 lon: 16.3208,
+//             ),
+//         ),
+//         (
+//             name: "Döbling",
+//             coordinates: (
+//                 lat: 48.2664,
+//                 lon: 16.3228,
+//             ),
+//         ),
+//         (
+//             name: "Wels",
+//             coordinates: (
+//                 lat: 48.15,
+//                 lon: 14.016666666,
+//             ),
+//         ),
+        (
+            name: "Villach",
+            coordinates: (
+                lat: 46.616666666,
+                lon: 13.833333333,
+            ),
+        ),
+//         (
+//             name: "Wels",
+//             coordinates: (
+//                 lat: 48.1744,
+//                 lon: 14.0218,
+//             ),
+//         ),
+//         (
+//             name: "Villach",
+//             coordinates: (
+//                 lat: 46.610277777,
+//                 lon: 13.855833333,
+//             ),
+//         ),
+//         (
+//             name: "Hernals",
+//             coordinates: (
+//                 lat: 48.2217,
+//                 lon: 16.3214,
+//             ),
+//         ),
+//         (
+//             name: "Hernals",
+//             coordinates: (
+//                 lat: 48.2325,
+//                 lon: 16.2794,
+//             ),
+//         ),
+//         (
+//             name: "St. Pölten",
+//             coordinates: (
+//                 lat: 48.2,
+//                 lon: 15.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Hietzing",
+//             coordinates: (
+//                 lat: 48.17547,
+//                 lon: 16.29101,
+//             ),
+//         ),
+//         (
+//             name: "Margareten",
+//             coordinates: (
+//                 lat: 48.1872,
+//                 lon: 16.3531,
+//             ),
+//         ),
+//         (
+//             name: "Hietzing",
+//             coordinates: (
+//                 lat: 48.1856,
+//                 lon: 16.2986,
+//             ),
+//         ),
+//         (
+//             name: "Währing",
+//             coordinates: (
+//                 lat: 48.2331,
+//                 lon: 16.3147,
+//             ),
+//         ),
+        (
+            name: "Dornbirn",
+            coordinates: (
+                lat: 47.416666666,
+                lon: 9.75,
+            ),
+        ),
+//         (
+//             name: "Dornbirn",
+//             coordinates: (
+//                 lat: 47.41427,
+//                 lon: 9.74195,
+//             ),
+//         ),
+//         (
+//             name: "Wiener Neustadt",
+//             coordinates: (
+//                 lat: 47.816666666,
+//                 lon: 16.25,
+//             ),
+//         ),
+//         (
+//             name: "Alsergrund",
+//             coordinates: (
+//                 lat: 48.22387,
+//                 lon: 16.35641,
+//             ),
+//         ),
+    ],
+)

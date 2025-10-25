@@ -1,0 +1,358 @@
+(
+    name: "Niger",
+    code: "NE",
+    population: 24206636,
+    capital: 0,
+    cities: [
+        (
+            name: "Niamey",
+            coordinates: (
+                lat: 13.515,
+                lon: 2.1175,
+            ),
+        ),
+        (
+            name: "Tahoua Department",
+            coordinates: (
+                lat: 14.812594444,
+                lon: 5.382838888,
+            ),
+        ),
+        (
+            name: "Zinder",
+            coordinates: (
+                lat: 13.8,
+                lon: 8.983333333,
+            ),
+        ),
+//         (
+//             name: "Maradi",
+//             coordinates: (
+//                 lat: 13.5,
+//                 lon: 7.1,
+//             ),
+//         ),
+        (
+            name: "Tanout",
+            coordinates: (
+                lat: 14.97089,
+                lon: 8.88786,
+            ),
+        ),
+//         (
+//             name: "Aguié",
+//             coordinates: (
+//                 lat: 13.5022,
+//                 lon: 7.777,
+//             ),
+//         ),
+//         (
+//             name: "Dargol",
+//             coordinates: (
+//                 lat: 13.9174,
+//                 lon: 1.2431,
+//             ),
+//         ),
+//         (
+//             name: "Illéla",
+//             coordinates: (
+//                 lat: 14.46,
+//                 lon: 5.24,
+//             ),
+//         ),
+//         (
+//             name: "Bangui",
+//             coordinates: (
+//                 lat: 13.67833333,
+//                 lon: 6.19527778,
+//             ),
+//         ),
+//         (
+//             name: "Kornaka",
+//             coordinates: (
+//                 lat: 14.0998,
+//                 lon: 6.9012,
+//             ),
+//         ),
+        (
+            name: "Magaria",
+            coordinates: (
+                lat: 12.998055555,
+                lon: 8.909722222,
+            ),
+        ),
+//         (
+//             name: "Madaoua",
+//             coordinates: (
+//                 lat: 14.072777777,
+//                 lon: 5.96,
+//             ),
+//         ),
+//         (
+//             name: "Tibiri",
+//             coordinates: (
+//                 lat: 13.566111111,
+//                 lon: 7.051111111,
+//             ),
+//         ),
+//         (
+//             name: "Doguérawa",
+//             coordinates: (
+//                 lat: 13.96361111,
+//                 lon: 5.59083333,
+//             ),
+//         ),
+//         (
+//             name: "Tahoua",
+//             coordinates: (
+//                 lat: 14.890277777,
+//                 lon: 5.264166666,
+//             ),
+//         ),
+//         (
+//             name: "Badaguichiri",
+//             coordinates: (
+//                 lat: 14.52083333,
+//                 lon: 5.37388889,
+//             ),
+//         ),
+//         (
+//             name: "Malbaza",
+//             coordinates: (
+//                 lat: 13.92706,
+//                 lon: 5.52032,
+//             ),
+//         ),
+//         (
+//             name: "Bambeye",
+//             coordinates: (
+//                 lat: 14.71694444,
+//                 lon: 5.08861111,
+//             ),
+//         ),
+//         (
+//             name: "Tondikiwindi",
+//             coordinates: (
+//                 lat: 14.46055556,
+//                 lon: 2.03138889,
+//             ),
+//         ),
+//         (
+//             name: "Tamaské",
+//             coordinates: (
+//                 lat: 14.82277778,
+//                 lon: 5.64972222,
+//             ),
+//         ),
+//         (
+//             name: "Kalfou",
+//             coordinates: (
+//                 lat: 14.86,
+//                 lon: 5.52583333,
+//             ),
+//         ),
+        (
+            name: "Agadez",
+            coordinates: (
+                lat: 16.972222222,
+                lon: 7.990833333,
+            ),
+        ),
+        (
+            name: "Tondikandia",
+            coordinates: (
+                lat: 13.89888889,
+                lon: 3.07361111,
+            ),
+        ),
+        (
+            name: "Guéchémé",
+            coordinates: (
+                lat: 12.90805556,
+                lon: 3.87305556,
+            ),
+        ),
+//         (
+//             name: "Chadakori",
+//             coordinates: (
+//                 lat: 13.67583333,
+//                 lon: 6.98888889,
+//             ),
+//         ),
+//         (
+//             name: "Gazaoua",
+//             coordinates: (
+//                 lat: 13.52583333,
+//                 lon: 7.91388889,
+//             ),
+//         ),
+//         (
+//             name: "Simiri",
+//             coordinates: (
+//                 lat: 14.14194444,
+//                 lon: 2.13388889,
+//             ),
+//         ),
+//         (
+//             name: "Bouza",
+//             coordinates: (
+//                 lat: 14.42277778,
+//                 lon: 6.04277778,
+//             ),
+//         ),
+        (
+            name: "Goudoumaria",
+            coordinates: (
+                lat: 13.711111111,
+                lon: 11.190277777,
+            ),
+        ),
+//         (
+//             name: "Saé Saboua",
+//             coordinates: (
+//                 lat: 13.57861111,
+//                 lon: 7.36305556,
+//             ),
+//         ),
+//         (
+//             name: "Ourno",
+//             coordinates: (
+//                 lat: 14.29888889,
+//                 lon: 6.45027778,
+//             ),
+//         ),
+//         (
+//             name: "Guidan Roumdji",
+//             coordinates: (
+//                 lat: 13.6608,
+//                 lon: 6.6958,
+//             ),
+//         ),
+//         (
+//             name: "Guidan Sori",
+//             coordinates: (
+//                 lat: 13.53805556,
+//                 lon: 6.87777778,
+//             ),
+//         ),
+//         (
+//             name: "Gothèye",
+//             coordinates: (
+//                 lat: 13.8543,
+//                 lon: 1.5669,
+//             ),
+//         ),
+//         (
+//             name: "Tchadoua",
+//             coordinates: (
+//                 lat: 13.54805556,
+//                 lon: 7.44916667,
+//             ),
+//         ),
+//         (
+//             name: "Filingué",
+//             coordinates: (
+//                 lat: 14.3521,
+//                 lon: 3.3239,
+//             ),
+//         ),
+//         (
+//             name: "Mayahi",
+//             coordinates: (
+//                 lat: 13.952777777,
+//                 lon: 7.671944444,
+//             ),
+//         ),
+        (
+            name: "Tamou",
+            coordinates: (
+                lat: 12.755555555,
+                lon: 2.176944444,
+            ),
+        ),
+//         (
+//             name: "Ibohamane",
+//             coordinates: (
+//                 lat: 14.79694444,
+//                 lon: 5.93055556,
+//             ),
+//         ),
+//         (
+//             name: "Karma",
+//             coordinates: (
+//                 lat: 13.671666666,
+//                 lon: 1.815,
+//             ),
+//         ),
+//         (
+//             name: "Djiratawa",
+//             coordinates: (
+//                 lat: 13.40944444,
+//                 lon: 7.13888889,
+//             ),
+//         ),
+        (
+            name: "Bankilaré",
+            coordinates: (
+                lat: 14.58166667,
+                lon: 0.72416667,
+            ),
+        ),
+//         (
+//             name: "Gabi",
+//             coordinates: (
+//                 lat: 13.23527778,
+//                 lon: 7.06833333,
+//             ),
+//         ),
+//         (
+//             name: "Loga",
+//             coordinates: (
+//                 lat: 13.6131,
+//                 lon: 3.2356,
+//             ),
+//         ),
+//         (
+//             name: "Mirriah",
+//             coordinates: (
+//                 lat: 13.7122,
+//                 lon: 9.1595,
+//             ),
+//         ),
+        (
+            name: "Tchintabaraden",
+            coordinates: (
+                lat: 15.89888889,
+                lon: 5.80333333,
+            ),
+        ),
+        (
+            name: "Maïné-Soroa",
+            coordinates: (
+                lat: 13.51778,
+                lon: 12.02667,
+            ),
+        ),
+        (
+            name: "Arlit",
+            coordinates: (
+                lat: 18.733333333,
+                lon: 7.383333333,
+            ),
+        ),
+        (
+            name: "Dan-Kassari",
+            coordinates: (
+                lat: 13.7225,
+                lon: 4.38305556,
+            ),
+        ),
+//         (
+//             name: "Tajaé",
+//             coordinates: (
+//                 lat: 14.21138889,
+//                 lon: 5.26722222,
+//             ),
+//         ),
+    ],
+)

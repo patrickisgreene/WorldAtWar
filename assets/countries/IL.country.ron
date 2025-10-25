@@ -1,0 +1,316 @@
+(
+    name: "Israel",
+    code: "IL",
+    population: 9216900,
+    capital: 0,
+    cities: [
+        (
+            name: "Jerusalem",
+            coordinates: (
+                lat: 31.76904,
+                lon: 35.21633,
+            ),
+        ),
+//         (
+//             name: "Tel Aviv",
+//             coordinates: (
+//                 lat: 32.08,
+//                 lon: 34.78,
+//             ),
+//         ),
+//         (
+//             name: "West Jerusalem",
+//             coordinates: (
+//                 lat: 31.7819,
+//                 lon: 35.2194,
+//             ),
+//         ),
+//         (
+//             name: "Rishon LeZion",
+//             coordinates: (
+//                 lat: 31.95,
+//                 lon: 34.8,
+//             ),
+//         ),
+//         (
+//             name: "Petah Tikva",
+//             coordinates: (
+//                 lat: 32.083333333,
+//                 lon: 34.883333333,
+//             ),
+//         ),
+//         (
+//             name: "Ashdod",
+//             coordinates: (
+//                 lat: 31.797777777,
+//                 lon: 34.650277777,
+//             ),
+//         ),
+//         (
+//             name: "Netanya",
+//             coordinates: (
+//                 lat: 32.33291,
+//                 lon: 34.85992,
+//             ),
+//         ),
+//         (
+//             name: "Beersheba",
+//             coordinates: (
+//                 lat: 31.252222222,
+//                 lon: 34.786666666,
+//             ),
+//         ),
+//         (
+//             name: "Holon",
+//             coordinates: (
+//                 lat: 32.016666666,
+//                 lon: 34.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Bnei Brak",
+//             coordinates: (
+//                 lat: 32.08074,
+//                 lon: 34.8338,
+//             ),
+//         ),
+//         (
+//             name: "Ramat Gan",
+//             coordinates: (
+//                 lat: 32.070007,
+//                 lon: 34.823541,
+//             ),
+//         ),
+//         (
+//             name: "Rehovot",
+//             coordinates: (
+//                 lat: 31.891388888,
+//                 lon: 34.807777777,
+//             ),
+//         ),
+//         (
+//             name: "Ashkelon",
+//             coordinates: (
+//                 lat: 31.665833333,
+//                 lon: 34.566388888,
+//             ),
+//         ),
+//         (
+//             name: "Bat Yam",
+//             coordinates: (
+//                 lat: 32.023055555,
+//                 lon: 34.750277777,
+//             ),
+//         ),
+//         (
+//             name: "Beit Shemesh",
+//             coordinates: (
+//                 lat: 31.751388888,
+//                 lon: 34.988611111,
+//             ),
+//         ),
+//         (
+//             name: "Kfar Saba",
+//             coordinates: (
+//                 lat: 32.185783333,
+//                 lon: 34.907683333,
+//             ),
+//         ),
+//         (
+//             name: "Hadera",
+//             coordinates: (
+//                 lat: 32.45,
+//                 lon: 34.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Herzliya",
+//             coordinates: (
+//                 lat: 32.155555555,
+//                 lon: 34.842222222,
+//             ),
+//         ),
+//         (
+//             name: "Nazareth",
+//             coordinates: (
+//                 lat: 32.702102777,
+//                 lon: 35.29785,
+//             ),
+//         ),
+//         (
+//             name: "Lod",
+//             coordinates: (
+//                 lat: 31.95,
+//                 lon: 34.9,
+//             ),
+//         ),
+//         (
+//             name: "Ramla",
+//             coordinates: (
+//                 lat: 31.9275,
+//                 lon: 34.8625,
+//             ),
+//         ),
+//         (
+//             name: "Ra\'anana",
+//             coordinates: (
+//                 lat: 32.183333333,
+//                 lon: 34.866666666,
+//             ),
+//         ),
+//         (
+//             name: "Jaffa",
+//             coordinates: (
+//                 lat: 32.052222222,
+//                 lon: 34.753055555,
+//             ),
+//         ),
+//         (
+//             name: "Rahat",
+//             coordinates: (
+//                 lat: 31.3925,
+//                 lon: 34.754444444,
+//             ),
+//         ),
+//         (
+//             name: "Kiryat Ata",
+//             coordinates: (
+//                 lat: 32.8,
+//                 lon: 35.1,
+//             ),
+//         ),
+//         (
+//             name: "Givatayim",
+//             coordinates: (
+//                 lat: 32.069722222,
+//                 lon: 34.811666666,
+//             ),
+//         ),
+//         (
+//             name: "Afula",
+//             coordinates: (
+//                 lat: 32.607777777,
+//                 lon: 35.289722222,
+//             ),
+//         ),
+//         (
+//             name: "Nahariya",
+//             coordinates: (
+//                 lat: 33.003611111,
+//                 lon: 35.0925,
+//             ),
+//         ),
+//         (
+//             name: "ramat gan",
+//             coordinates: (
+//                 lat: 32.15,
+//                 lon: 34.883333333,
+//             ),
+//         ),
+//         (
+//             name: "Rosh HaAyin",
+//             coordinates: (
+//                 lat: 32.083333333,
+//                 lon: 34.95,
+//             ),
+//         ),
+//         (
+//             name: "Umm al-Fahm",
+//             coordinates: (
+//                 lat: 32.515833333,
+//                 lon: 35.1525,
+//             ),
+//         ),
+//         (
+//             name: "Kiryat Gat",
+//             coordinates: (
+//                 lat: 31.60998,
+//                 lon: 34.76422,
+//             ),
+//         ),
+        (
+            name: "Eilat",
+            coordinates: (
+                lat: 29.55,
+                lon: 34.95,
+            ),
+        ),
+//         (
+//             name: "Kiryat Motzkin",
+//             coordinates: (
+//                 lat: 32.836944444,
+//                 lon: 35.0775,
+//             ),
+//         ),
+//         (
+//             name: "Ness Ziona",
+//             coordinates: (
+//                 lat: 31.933333333,
+//                 lon: 34.8,
+//             ),
+//         ),
+//         (
+//             name: "Acre",
+//             coordinates: (
+//                 lat: 32.92814,
+//                 lon: 35.07647,
+//             ),
+//         ),
+//         (
+//             name: "Ramat HaSharon",
+//             coordinates: (
+//                 lat: 32.146111111,
+//                 lon: 34.839444444,
+//             ),
+//         ),
+//         (
+//             name: "Yavne",
+//             coordinates: (
+//                 lat: 31.883333333,
+//                 lon: 34.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Kiryat Ono",
+//             coordinates: (
+//                 lat: 32.063611111,
+//                 lon: 34.855277777,
+//             ),
+//         ),
+//         (
+//             name: "Karmiel",
+//             coordinates: (
+//                 lat: 32.9,
+//                 lon: 35.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Tiberias",
+//             coordinates: (
+//                 lat: 32.789722222,
+//                 lon: 35.524722222,
+//             ),
+//         ),
+//         (
+//             name: "Taibe",
+//             coordinates: (
+//                 lat: 32.266666666,
+//                 lon: 35.0,
+//             ),
+//         ),
+//         (
+//             name: "Kiryat Yam",
+//             coordinates: (
+//                 lat: 32.833055555,
+//                 lon: 35.066388888,
+//             ),
+//         ),
+//         (
+//             name: "Nof HaGalil",
+//             coordinates: (
+//                 lat: 32.716666666,
+//                 lon: 35.333333333,
+//             ),
+//         ),
+    ],
+)

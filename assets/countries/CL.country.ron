@@ -1,0 +1,358 @@
+(
+    name: "Chile",
+    code: "CL",
+    population: 19116209,
+    capital: 0,
+    cities: [
+        (
+            name: "Santiago",
+            coordinates: (
+                lat: -33.4375,
+                lon: -70.65,
+            ),
+        ),
+//         (
+//             name: "Puente Alto",
+//             coordinates: (
+//                 lat: -33.616666666,
+//                 lon: -70.583333333,
+//             ),
+//         ),
+//         (
+//             name: "Puente Alto",
+//             coordinates: (
+//                 lat: -33.61169,
+//                 lon: -70.57577,
+//             ),
+//         ),
+//         (
+//             name: "Maipú",
+//             coordinates: (
+//                 lat: -33.516666666,
+//                 lon: -70.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Santiago commune",
+//             coordinates: (
+//                 lat: -33.45,
+//                 lon: -70.666666666,
+//             ),
+//         ),
+//         (
+//             name: "La Florida",
+//             coordinates: (
+//                 lat: -33.55,
+//                 lon: -70.566666666,
+//             ),
+//         ),
+        (
+            name: "Antofagasta",
+            coordinates: (
+                lat: -23.65094,
+                lon: -70.39752,
+            ),
+        ),
+//         (
+//             name: "Viña del Mar",
+//             coordinates: (
+//                 lat: -33.0245,
+//                 lon: -71.5518,
+//             ),
+//         ),
+//         (
+//             name: "San Bernardo",
+//             coordinates: (
+//                 lat: -33.6,
+//                 lon: -70.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Valparaíso",
+//             coordinates: (
+//                 lat: -33.036,
+//                 lon: -71.62963,
+//             ),
+//         ),
+        (
+            name: "Temuco",
+            coordinates: (
+                lat: -38.7399,
+                lon: -72.5901,
+            ),
+        ),
+//         (
+//             name: "San Bernardo",
+//             coordinates: (
+//                 lat: -33.59217,
+//                 lon: -70.6996,
+//             ),
+//         ),
+//         (
+//             name: "Rancagua",
+//             coordinates: (
+//                 lat: -34.1691,
+//                 lon: -70.74053,
+//             ),
+//         ),
+        (
+            name: "Concepción",
+            coordinates: (
+                lat: -36.826944444,
+                lon: -73.050277777,
+            ),
+        ),
+        (
+            name: "Talca",
+            coordinates: (
+                lat: -35.426944444,
+                lon: -71.665555555,
+            ),
+        ),
+        (
+            name: "Coquimbo",
+            coordinates: (
+                lat: -29.9532,
+                lon: -71.338,
+            ),
+        ),
+        (
+            name: "Arica",
+            coordinates: (
+                lat: -18.47552,
+                lon: -70.30058,
+            ),
+        ),
+//         (
+//             name: "La Pintana",
+//             coordinates: (
+//                 lat: -33.58331,
+//                 lon: -70.63419,
+//             ),
+//         ),
+//         (
+//             name: "La Serena",
+//             coordinates: (
+//                 lat: -29.9027,
+//                 lon: -71.252,
+//             ),
+//         ),
+        (
+            name: "Chillán",
+            coordinates: (
+                lat: -36.60664,
+                lon: -72.10344,
+            ),
+        ),
+        (
+            name: "Iquique",
+            coordinates: (
+                lat: -20.21326,
+                lon: -70.15027,
+            ),
+        ),
+//         (
+//             name: "La Pintana",
+//             coordinates: (
+//                 lat: -33.583333333,
+//                 lon: -70.616666666,
+//             ),
+//         ),
+        (
+            name: "Puerto Montt",
+            coordinates: (
+                lat: -41.4718,
+                lon: -72.9396,
+            ),
+        ),
+        (
+            name: "Calama",
+            coordinates: (
+                lat: -22.4624,
+                lon: -68.9272,
+            ),
+        ),
+        (
+            name: "Montevideo",
+            coordinates: (
+                lat: -27.3665,
+                lon: -70.3323,
+            ),
+        ),
+        (
+            name: "Valdivia",
+            coordinates: (
+                lat: -39.8142,
+                lon: -73.2459,
+            ),
+        ),
+//         (
+//             name: "Quilpué",
+//             coordinates: (
+//                 lat: -33.0498,
+//                 lon: -71.4415,
+//             ),
+//         ),
+//         (
+//             name: "Talcahuano",
+//             coordinates: (
+//                 lat: -36.7145,
+//                 lon: -73.1141,
+//             ),
+//         ),
+        (
+            name: "Osorno",
+            coordinates: (
+                lat: -40.566666666,
+                lon: -73.15,
+            ),
+        ),
+//         (
+//             name: "Estación Central",
+//             coordinates: (
+//                 lat: -33.451944,
+//                 lon: -70.678889,
+//             ),
+//         ),
+        (
+            name: "Los Ángeles",
+            coordinates: (
+                lat: -37.4707,
+                lon: -72.3517,
+            ),
+        ),
+//         (
+//             name: "Villa Alemana",
+//             coordinates: (
+//                 lat: -33.0428,
+//                 lon: -71.3744,
+//             ),
+//         ),
+//         (
+//             name: "San Pedro de la Paz",
+//             coordinates: (
+//                 lat: -36.84082,
+//                 lon: -73.10311,
+//             ),
+//         ),
+        (
+            name: "Punta Arenas",
+            coordinates: (
+                lat: -53.64148,
+                lon: -72.03848,
+            ),
+        ),
+//         (
+//             name: "Cerro Navia",
+//             coordinates: (
+//                 lat: -33.416666666,
+//                 lon: -70.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Ovalle",
+//             coordinates: (
+//                 lat: -30.6031,
+//                 lon: -71.203,
+//             ),
+//         ),
+        (
+            name: "Punta Arenas",
+            coordinates: (
+                lat: -53.1625,
+                lon: -70.908055555,
+            ),
+        ),
+//         (
+//             name: "La Granja",
+//             coordinates: (
+//                 lat: -33.543055555,
+//                 lon: -70.631944444,
+//             ),
+//         ),
+//         (
+//             name: "Coronel",
+//             coordinates: (
+//                 lat: -37.016666666,
+//                 lon: -73.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Alto Hospicio",
+//             coordinates: (
+//                 lat: -20.25,
+//                 lon: -70.116666666,
+//             ),
+//         ),
+//         (
+//             name: "San Miguel",
+//             coordinates: (
+//                 lat: -33.49907,
+//                 lon: -70.65171,
+//             ),
+//         ),
+//         (
+//             name: "Lo Prado",
+//             coordinates: (
+//                 lat: -33.4443,
+//                 lon: -70.72552,
+//             ),
+//         ),
+//         (
+//             name: "Curicó",
+//             coordinates: (
+//                 lat: -34.9854,
+//                 lon: -71.2394,
+//             ),
+//         ),
+//         (
+//             name: "Lampa",
+//             coordinates: (
+//                 lat: -33.283333333,
+//                 lon: -70.9,
+//             ),
+//         ),
+//         (
+//             name: "Lo Espejo",
+//             coordinates: (
+//                 lat: -33.533333333,
+//                 lon: -70.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Lo Prado",
+//             coordinates: (
+//                 lat: -33.433333333,
+//                 lon: -70.716666666,
+//             ),
+//         ),
+//         (
+//             name: "San Joaquín",
+//             coordinates: (
+//                 lat: -33.5,
+//                 lon: -70.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Coronel",
+//             coordinates: (
+//                 lat: -37.03386,
+//                 lon: -73.14019,
+//             ),
+//         ),
+//         (
+//             name: "La Reina",
+//             coordinates: (
+//                 lat: -33.45,
+//                 lon: -70.55,
+//             ),
+//         ),
+//         (
+//             name: "Hualpén",
+//             coordinates: (
+//                 lat: -36.783333333,
+//                 lon: -73.083333333,
+//             ),
+//         ),
+    ],
+)

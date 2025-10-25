@@ -1,0 +1,358 @@
+(
+    name: "Colombia",
+    code: "CO",
+    population: 50882884,
+    capital: 0,
+    cities: [
+        (
+            name: "Bogotá",
+            coordinates: (
+                lat: 4.60971,
+                lon: -74.08175,
+            ),
+        ),
+        (
+            name: "Medellín",
+            coordinates: (
+                lat: 6.250200154,
+                lon: -75.5675845,
+            ),
+        ),
+        (
+            name: "Cali",
+            coordinates: (
+                lat: 3.44,
+                lon: -76.519722222,
+            ),
+        ),
+//         (
+//             name: "Cali",
+//             coordinates: (
+//                 lat: 3.437222222,
+//                 lon: -76.5225,
+//             ),
+//         ),
+//         (
+//             name: "Medellín",
+//             coordinates: (
+//                 lat: 6.25,
+//                 lon: -75.58333,
+//             ),
+//         ),
+        (
+            name: "Barranquilla",
+            coordinates: (
+                lat: 10.983333333,
+                lon: -74.801944444,
+            ),
+        ),
+//         (
+//             name: "Barranquilla",
+//             coordinates: (
+//                 lat: 10.96854,
+//                 lon: -74.78132,
+//             ),
+//         ),
+        (
+            name: "Cartagena",
+            coordinates: (
+                lat: 10.39972,
+                lon: -75.51444,
+            ),
+        ),
+        (
+            name: "Cúcuta",
+            coordinates: (
+                lat: 7.9075,
+                lon: -72.504722222,
+            ),
+        ),
+//         (
+//             name: "Soacha",
+//             coordinates: (
+//                 lat: 4.578055555,
+//                 lon: -74.214444444,
+//             ),
+//         ),
+//         (
+//             name: "Cúcuta",
+//             coordinates: (
+//                 lat: 7.89391,
+//                 lon: -72.50782,
+//             ),
+//         ),
+//         (
+//             name: "Soledad",
+//             coordinates: (
+//                 lat: 10.909722222,
+//                 lon: -74.785833333,
+//             ),
+//         ),
+//         (
+//             name: "Villavicencio",
+//             coordinates: (
+//                 lat: 4.1425,
+//                 lon: -73.629444444,
+//             ),
+//         ),
+//         (
+//             name: "Soacha",
+//             coordinates: (
+//                 lat: 4.583333333,
+//                 lon: -74.25,
+//             ),
+//         ),
+        (
+            name: "Bucaramanga",
+            coordinates: (
+                lat: 7.118611111,
+                lon: -73.116111111,
+            ),
+        ),
+//         (
+//             name: "Pereira",
+//             coordinates: (
+//                 lat: 4.814277777,
+//                 lon: -75.694558333,
+//             ),
+//         ),
+//         (
+//             name: "Bucaramanga",
+//             coordinates: (
+//                 lat: 7.12539,
+//                 lon: -73.1198,
+//             ),
+//         ),
+//         (
+//             name: "Belllo",
+//             coordinates: (
+//                 lat: 6.331944444,
+//                 lon: -75.558055555,
+//             ),
+//         ),
+//         (
+//             name: "Ibagué",
+//             coordinates: (
+//                 lat: 4.437777777,
+//                 lon: -75.200555555,
+//             ),
+//         ),
+        (
+            name: "Valledupar",
+            coordinates: (
+                lat: 10.460277777,
+                lon: -73.259722222,
+            ),
+        ),
+//         (
+//             name: "Ibagué",
+//             coordinates: (
+//                 lat: 4.43889,
+//                 lon: -75.23222,
+//             ),
+//         ),
+//         (
+//             name: "Santa Marta",
+//             coordinates: (
+//                 lat: 11.236111111,
+//                 lon: -74.201666666,
+//             ),
+//         ),
+        (
+            name: "Montería",
+            coordinates: (
+                lat: 8.74798,
+                lon: -75.88143,
+            ),
+        ),
+//         (
+//             name: "Valledupar",
+//             coordinates: (
+//                 lat: 10.46314,
+//                 lon: -73.25322,
+//             ),
+//         ),
+//         (
+//             name: "Pereira",
+//             coordinates: (
+//                 lat: 4.813333333,
+//                 lon: -75.696111111,
+//             ),
+//         ),
+//         (
+//             name: "Manizales",
+//             coordinates: (
+//                 lat: 5.0675,
+//                 lon: -75.51,
+//             ),
+//         ),
+//         (
+//             name: "Manizales",
+//             coordinates: (
+//                 lat: 5.06889,
+//                 lon: -75.51738,
+//             ),
+//         ),
+//         (
+//             name: "Buenaventura",
+//             coordinates: (
+//                 lat: 3.877222222,
+//                 lon: -77.026666666,
+//             ),
+//         ),
+        (
+            name: "Pasto",
+            coordinates: (
+                lat: 1.21,
+                lon: -77.274722222,
+            ),
+        ),
+//         (
+//             name: "Montería",
+//             coordinates: (
+//                 lat: 8.76,
+//                 lon: -75.885555555,
+//             ),
+//         ),
+//         (
+//             name: "Bello",
+//             coordinates: (
+//                 lat: 6.33732,
+//                 lon: -75.55795,
+//             ),
+//         ),
+        (
+            name: "Neiva",
+            coordinates: (
+                lat: 2.9275,
+                lon: -75.2875,
+            ),
+        ),
+//         (
+//             name: "Palmira",
+//             coordinates: (
+//                 lat: 3.534722222,
+//                 lon: -76.295555555,
+//             ),
+//         ),
+//         (
+//             name: "Neiva",
+//             coordinates: (
+//                 lat: 2.927222222,
+//                 lon: -75.281944444,
+//             ),
+//         ),
+//         (
+//             name: "Soledad",
+//             coordinates: (
+//                 lat: 10.91843,
+//                 lon: -74.76459,
+//             ),
+//         ),
+//         (
+//             name: "Villavicencio",
+//             coordinates: (
+//                 lat: 4.142,
+//                 lon: -73.62664,
+//             ),
+//         ),
+//         (
+//             name: "Palmira",
+//             coordinates: (
+//                 lat: 3.539444444,
+//                 lon: -76.303611111,
+//             ),
+//         ),
+//         (
+//             name: "Armenia",
+//             coordinates: (
+//                 lat: 4.533888888,
+//                 lon: -75.681111111,
+//             ),
+//         ),
+//         (
+//             name: "Armenia",
+//             coordinates: (
+//                 lat: 4.538888888,
+//                 lon: -75.6725,
+//             ),
+//         ),
+        (
+            name: "Popayán",
+            coordinates: (
+                lat: 2.48062,
+                lon: -76.59109,
+            ),
+        ),
+        (
+            name: "Barrancabermeja",
+            coordinates: (
+                lat: 7.0675,
+                lon: -73.847222222,
+            ),
+        ),
+//         (
+//             name: "Itagüí",
+//             coordinates: (
+//                 lat: 6.1726,
+//                 lon: -75.6096,
+//             ),
+//         ),
+        (
+            name: "Sincelejo",
+            coordinates: (
+                lat: 9.299444444,
+                lon: -75.395833333,
+            ),
+        ),
+//         (
+//             name: "Itagui",
+//             coordinates: (
+//                 lat: 6.18461,
+//                 lon: -75.59913,
+//             ),
+//         ),
+//         (
+//             name: "Sincelejo",
+//             coordinates: (
+//                 lat: 9.30472,
+//                 lon: -75.39778,
+//             ),
+//         ),
+//         (
+//             name: "Floridablanca",
+//             coordinates: (
+//                 lat: 7.062222222,
+//                 lon: -73.086388888,
+//             ),
+//         ),
+//         (
+//             name: "Floridablanca",
+//             coordinates: (
+//                 lat: 7.069722222,
+//                 lon: -73.097777777,
+//             ),
+//         ),
+//         (
+//             name: "Buenaventura",
+//             coordinates: (
+//                 lat: 3.8801,
+//                 lon: -77.03116,
+//             ),
+//         ),
+//         (
+//             name: "Envigado",
+//             coordinates: (
+//                 lat: 6.171944444,
+//                 lon: -75.580277777,
+//             ),
+//         ),
+//         (
+//             name: "Tuluá",
+//             coordinates: (
+//                 lat: 4.08466,
+//                 lon: -76.19536,
+//             ),
+//         ),
+    ],
+)

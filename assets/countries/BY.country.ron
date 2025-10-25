@@ -1,0 +1,246 @@
+(
+    name: "Belarus",
+    code: "BY",
+    population: 9398861,
+    capital: 0,
+    cities: [
+        (
+            name: "Minsk",
+            coordinates: (
+                lat: 53.90019,
+                lon: 27.56653,
+            ),
+        ),
+        (
+            name: "Gomel",
+            coordinates: (
+                lat: 52.441666666,
+                lon: 30.983333333,
+            ),
+        ),
+//         (
+//             name: "Frunzyenski District",
+//             coordinates: (
+//                 lat: 53.90056,
+//                 lon: 27.495,
+//             ),
+//         ),
+        (
+            name: "Hrodna",
+            coordinates: (
+                lat: 53.666666666,
+                lon: 23.816666666,
+            ),
+        ),
+        (
+            name: "Vitebsk",
+            coordinates: (
+                lat: 55.183333333,
+                lon: 30.166666666,
+            ),
+        ),
+//         (
+//             name: "Mogilev",
+//             coordinates: (
+//                 lat: 53.90876,
+//                 lon: 30.34044,
+//             ),
+//         ),
+        (
+            name: "Brest",
+            coordinates: (
+                lat: 52.084722222,
+                lon: 23.656944444,
+            ),
+        ),
+//         (
+//             name: "Maskowski District",
+//             coordinates: (
+//                 lat: 53.8736,
+//                 lon: 27.4956,
+//             ),
+//         ),
+//         (
+//             name: "Pyershamayski District",
+//             coordinates: (
+//                 lat: 53.91944,
+//                 lon: 27.62222,
+//             ),
+//         ),
+//         (
+//             name: "Zavodski District",
+//             coordinates: (
+//                 lat: 53.86194,
+//                 lon: 27.66222,
+//             ),
+//         ),
+//         (
+//             name: "Lyeninski District",
+//             coordinates: (
+//                 lat: 53.85944,
+//                 lon: 27.58778,
+//             ),
+//         ),
+//         (
+//             name: "Babruysk",
+//             coordinates: (
+//                 lat: 53.15,
+//                 lon: 29.233333333,
+//             ),
+//         ),
+//         (
+//             name: "Baranavichy",
+//             coordinates: (
+//                 lat: 53.13492,
+//                 lon: 25.97059,
+//             ),
+//         ),
+//         (
+//             name: "Savyetski District",
+//             coordinates: (
+//                 lat: 53.91778,
+//                 lon: 27.59417,
+//             ),
+//         ),
+//         (
+//             name: "Kastrychnitski District",
+//             coordinates: (
+//                 lat: 53.85,
+//                 lon: 27.5333,
+//             ),
+//         ),
+//         (
+//             name: "Barysaw",
+//             coordinates: (
+//                 lat: 54.22429,
+//                 lon: 28.51198,
+//             ),
+//         ),
+        (
+            name: "Pinsk",
+            coordinates: (
+                lat: 52.12153,
+                lon: 26.06726,
+            ),
+        ),
+//         (
+//             name: "Tsentralny District",
+//             coordinates: (
+//                 lat: 53.9510456,
+//                 lon: 27.5101904,
+//             ),
+//         ),
+//         (
+//             name: "Mazyr",
+//             coordinates: (
+//                 lat: 52.05,
+//                 lon: 29.233333333,
+//             ),
+//         ),
+        (
+            name: "Lida",
+            coordinates: (
+                lat: 53.895555555,
+                lon: 25.295833333,
+            ),
+        ),
+//         (
+//             name: "Orsha",
+//             coordinates: (
+//                 lat: 54.509166666,
+//                 lon: 30.425833333,
+//             ),
+//         ),
+//         (
+//             name: "Partyzanski District",
+//             coordinates: (
+//                 lat: 53.88028,
+//                 lon: 27.67,
+//             ),
+//         ),
+        (
+            name: "Salihorsk",
+            coordinates: (
+                lat: 52.78416,
+                lon: 27.5425,
+            ),
+        ),
+        (
+            name: "Navapolack",
+            coordinates: (
+                lat: 55.533333333,
+                lon: 28.666666666,
+            ),
+        ),
+//         (
+//             name: "Maladzyechna",
+//             coordinates: (
+//                 lat: 54.313611111,
+//                 lon: 26.851666666,
+//             ),
+//         ),
+//         (
+//             name: "Polatsk",
+//             coordinates: (
+//                 lat: 55.483333333,
+//                 lon: 28.8,
+//             ),
+//         ),
+//         (
+//             name: "Zhlobin",
+//             coordinates: (
+//                 lat: 52.9,
+//                 lon: 30.033333333,
+//             ),
+//         ),
+//         (
+//             name: "Rechytsa",
+//             coordinates: (
+//                 lat: 52.3617,
+//                 lon: 30.3916,
+//             ),
+//         ),
+//         (
+//             name: "Žodzina",
+//             coordinates: (
+//                 lat: 54.0985,
+//                 lon: 28.3331,
+//             ),
+//         ),
+//         (
+//             name: "Svyetlahorsk",
+//             coordinates: (
+//                 lat: 52.633333333,
+//                 lon: 29.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Slutsk",
+//             coordinates: (
+//                 lat: 53.016666666,
+//                 lon: 27.55,
+//             ),
+//         ),
+//         (
+//             name: "Kobryn",
+//             coordinates: (
+//                 lat: 52.2125,
+//                 lon: 24.356666666,
+//             ),
+//         ),
+//         (
+//             name: "Slonim",
+//             coordinates: (
+//                 lat: 53.083333333,
+//                 lon: 25.316666666,
+//             ),
+//         ),
+//         (
+//             name: "Vawkavysk",
+//             coordinates: (
+//                 lat: 53.166666666,
+//                 lon: 24.466666666,
+//             ),
+//         ),
+    ],
+)

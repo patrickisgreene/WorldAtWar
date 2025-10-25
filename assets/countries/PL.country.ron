@@ -1,0 +1,358 @@
+(
+    name: "Poland",
+    code: "PL",
+    population: 37950802,
+    capital: 0,
+    cities: [
+        (
+            name: "Warsaw",
+            coordinates: (
+                lat: 52.23,
+                lon: 21.011111111,
+            ),
+        ),
+        (
+            name: "Kraków",
+            coordinates: (
+                lat: 50.061388888,
+                lon: 19.937222222,
+            ),
+        ),
+        (
+            name: "Tricity",
+            coordinates: (
+                lat: 54.433333333,
+                lon: 18.55,
+            ),
+        ),
+//         (
+//             name: "Wrocław",
+//             coordinates: (
+//                 lat: 51.11,
+//                 lon: 17.0325,
+//             ),
+//         ),
+        (
+            name: "Łódź",
+            coordinates: (
+                lat: 51.75,
+                lon: 19.466666666,
+            ),
+        ),
+        (
+            name: "Poznań",
+            coordinates: (
+                lat: 52.40692,
+                lon: 16.92993,
+            ),
+        ),
+//         (
+//             name: "Gdańsk",
+//             coordinates: (
+//                 lat: 54.35,
+//                 lon: 18.666666666,
+//             ),
+//         ),
+        (
+            name: "Szczecin",
+            coordinates: (
+                lat: 53.424722222,
+                lon: 14.555277777,
+            ),
+        ),
+        (
+            name: "Lublin",
+            coordinates: (
+                lat: 51.25,
+                lon: 22.566666666,
+            ),
+        ),
+        (
+            name: "Bydgoszcz",
+            coordinates: (
+                lat: 53.116666666,
+                lon: 18.0,
+            ),
+        ),
+        (
+            name: "Białystok",
+            coordinates: (
+                lat: 53.116666666,
+                lon: 23.166666666,
+            ),
+        ),
+//         (
+//             name: "Katowice",
+//             coordinates: (
+//                 lat: 50.25,
+//                 lon: 19.0,
+//             ),
+//         ),
+//         (
+//             name: "Gdynia",
+//             coordinates: (
+//                 lat: 54.5175,
+//                 lon: 18.54,
+//             ),
+//         ),
+//         (
+//             name: "Mokotów",
+//             coordinates: (
+//                 lat: 52.2,
+//                 lon: 21.016944444,
+//             ),
+//         ),
+//         (
+//             name: "Nowa Huta",
+//             coordinates: (
+//                 lat: 50.07299,
+//                 lon: 20.03739,
+//             ),
+//         ),
+//         (
+//             name: "Częstochowa",
+//             coordinates: (
+//                 lat: 50.80964,
+//                 lon: 19.12217,
+//             ),
+//         ),
+        (
+            name: "Radom",
+            coordinates: (
+                lat: 51.416666666,
+                lon: 21.15,
+            ),
+        ),
+//         (
+//             name: "Toruń",
+//             coordinates: (
+//                 lat: 53.016666666,
+//                 lon: 18.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Toruń",
+//             coordinates: (
+//                 lat: 53.01375,
+//                 lon: 18.59814,
+//             ),
+//         ),
+//         (
+//             name: "Rzeszów",
+//             coordinates: (
+//                 lat: 50.041111111,
+//                 lon: 21.998888888,
+//             ),
+//         ),
+//         (
+//             name: "Kielce",
+//             coordinates: (
+//                 lat: 50.8725,
+//                 lon: 20.631944444,
+//             ),
+//         ),
+//         (
+//             name: "Sosnowiec",
+//             coordinates: (
+//                 lat: 50.3,
+//                 lon: 19.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Praga-Południe",
+//             coordinates: (
+//                 lat: 52.24424,
+//                 lon: 21.08545,
+//             ),
+//         ),
+//         (
+//             name: "Gliwice",
+//             coordinates: (
+//                 lat: 50.294166666,
+//                 lon: 18.665833333,
+//             ),
+//         ),
+        (
+            name: "Olsztyn",
+            coordinates: (
+                lat: 53.78,
+                lon: 20.494166666,
+            ),
+        ),
+//         (
+//             name: "Bielsko-Biała",
+//             coordinates: (
+//                 lat: 49.8225,
+//                 lon: 19.044444444,
+//             ),
+//         ),
+//         (
+//             name: "Zabrze",
+//             coordinates: (
+//                 lat: 50.3,
+//                 lon: 18.783333333,
+//             ),
+//         ),
+//         (
+//             name: "Ursynów",
+//             coordinates: (
+//                 lat: 52.141666666,
+//                 lon: 21.033333333,
+//             ),
+//         ),
+//         (
+//             name: "Białołęka",
+//             coordinates: (
+//                 lat: 52.328888888,
+//                 lon: 21.007777777,
+//             ),
+//         ),
+//         (
+//             name: "Wola",
+//             coordinates: (
+//                 lat: 52.23477,
+//                 lon: 20.96004,
+//             ),
+//         ),
+//         (
+//             name: "Bytom",
+//             coordinates: (
+//                 lat: 50.347,
+//                 lon: 18.923,
+//             ),
+//         ),
+        (
+            name: "Zielona Góra",
+            coordinates: (
+                lat: 51.939722222,
+                lon: 15.505,
+            ),
+        ),
+//         (
+//             name: "Bielany",
+//             coordinates: (
+//                 lat: 52.288888888,
+//                 lon: 20.933888888,
+//             ),
+//         ),
+//         (
+//             name: "Rybnik",
+//             coordinates: (
+//                 lat: 50.083333333,
+//                 lon: 18.5,
+//             ),
+//         ),
+//         (
+//             name: "Ruda Śląska",
+//             coordinates: (
+//                 lat: 50.27006,
+//                 lon: 18.87424,
+//             ),
+//         ),
+//         (
+//             name: "Bemowo",
+//             coordinates: (
+//                 lat: 52.238611111,
+//                 lon: 20.913333333,
+//             ),
+//         ),
+//         (
+//             name: "Opole",
+//             coordinates: (
+//                 lat: 50.672222222,
+//                 lon: 17.925277777,
+//             ),
+//         ),
+//         (
+//             name: "Targówek",
+//             coordinates: (
+//                 lat: 52.282222222,
+//                 lon: 21.064166666,
+//             ),
+//         ),
+//         (
+//             name: "Tychy",
+//             coordinates: (
+//                 lat: 50.123611111,
+//                 lon: 18.986666666,
+//             ),
+//         ),
+        (
+            name: "Gorzów Wielkopolski",
+            coordinates: (
+                lat: 52.733333333,
+                lon: 15.25,
+            ),
+        ),
+//         (
+//             name: "Elbląg",
+//             coordinates: (
+//                 lat: 54.152222222,
+//                 lon: 19.408888888,
+//             ),
+//         ),
+//         (
+//             name: "Dąbrowa Górnicza",
+//             coordinates: (
+//                 lat: 50.333888888,
+//                 lon: 19.204722222,
+//             ),
+//         ),
+//         (
+//             name: "Płock",
+//             coordinates: (
+//                 lat: 52.55,
+//                 lon: 19.7,
+//             ),
+//         ),
+//         (
+//             name: "Tarnów",
+//             coordinates: (
+//                 lat: 50.0125,
+//                 lon: 20.988333333,
+//             ),
+//         ),
+        (
+            name: "Koszalin",
+            coordinates: (
+                lat: 54.190277777,
+                lon: 16.181666666,
+            ),
+        ),
+//         (
+//             name: "Włocławek",
+//             coordinates: (
+//                 lat: 52.65,
+//                 lon: 19.05,
+//             ),
+//         ),
+//         (
+//             name: "Wałbrzych",
+//             coordinates: (
+//                 lat: 50.766666666,
+//                 lon: 16.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Śródmieście",
+//             coordinates: (
+//                 lat: 52.233333333,
+//                 lon: 21.016666666,
+//             ),
+//         ),
+//         (
+//             name: "Chorzów",
+//             coordinates: (
+//                 lat: 50.3,
+//                 lon: 18.95,
+//             ),
+//         ),
+        (
+            name: "Kalisz",
+            coordinates: (
+                lat: 51.76109,
+                lon: 18.09102,
+            ),
+        ),
+    ],
+)

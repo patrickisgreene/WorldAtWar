@@ -1,0 +1,15 @@
+(
+    name: "Greenland",
+    code: "GL",
+    population: 56367,
+    capital: 0,
+    cities: [
+        (
+            name: "Nuuk",
+            coordinates: (
+                lat: 64.18,
+                lon: -51.75,
+            ),
+        ),
+    ],
+)

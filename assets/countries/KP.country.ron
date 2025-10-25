@@ -1,0 +1,190 @@
+(
+    name: "North Korea",
+    code: "KP",
+    population: 25778815,
+    capital: 0,
+    cities: [
+        (
+            name: "Pyongyang",
+            coordinates: (
+                lat: 39.016666666,
+                lon: 125.7475,
+            ),
+        ),
+        (
+            name: "Hamhung",
+            coordinates: (
+                lat: 39.965555555,
+                lon: 127.488611111,
+            ),
+        ),
+        (
+            name: "Chongjin",
+            coordinates: (
+                lat: 41.783333333,
+                lon: 129.783333333,
+            ),
+        ),
+//         (
+//             name: "Hamhŭng",
+//             coordinates: (
+//                 lat: 39.918333333,
+//                 lon: 127.536388888,
+//             ),
+//         ),
+//         (
+//             name: "Nampo",
+//             coordinates: (
+//                 lat: 38.733333333,
+//                 lon: 125.4,
+//             ),
+//         ),
+//         (
+//             name: "Wonsan",
+//             coordinates: (
+//                 lat: 39.1475,
+//                 lon: 127.446111111,
+//             ),
+//         ),
+//         (
+//             name: "Sinuiju",
+//             coordinates: (
+//                 lat: 40.1,
+//                 lon: 124.4,
+//             ),
+//         ),
+//         (
+//             name: "Tanchon",
+//             coordinates: (
+//                 lat: 40.458,
+//                 lon: 128.911,
+//             ),
+//         ),
+//         (
+//             name: "Mangyŏngdae",
+//             coordinates: (
+//                 lat: 38.99111111,
+//                 lon: 125.66,
+//             ),
+//         ),
+//         (
+//             name: "Kaechon",
+//             coordinates: (
+//                 lat: 39.698611111,
+//                 lon: 125.906111111,
+//             ),
+//         ),
+//         (
+//             name: "Sariwon",
+//             coordinates: (
+//                 lat: 38.503888888,
+//                 lon: 125.758888888,
+//             ),
+//         ),
+        (
+            name: "Kanggye",
+            coordinates: (
+                lat: 40.966666666,
+                lon: 126.6,
+            ),
+        ),
+//         (
+//             name: "Haeju",
+//             coordinates: (
+//                 lat: 38.033333333,
+//                 lon: 125.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Anju",
+//             coordinates: (
+//                 lat: 39.616666666,
+//                 lon: 125.666666666,
+//             ),
+//         ),
+//         (
+//             name: "Tokchon",
+//             coordinates: (
+//                 lat: 39.761,
+//                 lon: 126.312,
+//             ),
+//         ),
+//         (
+//             name: "Pyongsong",
+//             coordinates: (
+//                 lat: 39.25,
+//                 lon: 125.85,
+//             ),
+//         ),
+//         (
+//             name: "Rason",
+//             coordinates: (
+//                 lat: 42.344444444,
+//                 lon: 130.384444444,
+//             ),
+//         ),
+//         (
+//             name: "Kusong",
+//             coordinates: (
+//                 lat: 39.97919,
+//                 lon: 125.25206,
+//             ),
+//         ),
+        (
+            name: "Hyesan",
+            coordinates: (
+                lat: 41.4,
+                lon: 128.183333333,
+            ),
+        ),
+//         (
+//             name: "Chongju",
+//             coordinates: (
+//                 lat: 39.7157,
+//                 lon: 125.25523,
+//             ),
+//         ),
+//         (
+//             name: "Hoeryong",
+//             coordinates: (
+//                 lat: 42.433333333,
+//                 lon: 129.75,
+//             ),
+//         ),
+//         (
+//             name: "Sinpo",
+//             coordinates: (
+//                 lat: 40.083333333,
+//                 lon: 128.25,
+//             ),
+//         ),
+//         (
+//             name: "Songrim",
+//             coordinates: (
+//                 lat: 38.733333333,
+//                 lon: 125.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Munchon",
+//             coordinates: (
+//                 lat: 39.259,
+//                 lon: 127.356,
+//             ),
+//         ),
+//         (
+//             name: "Manpo",
+//             coordinates: (
+//                 lat: 41.157,
+//                 lon: 126.29,
+//             ),
+//         ),
+//         (
+//             name: "Hongwon",
+//             coordinates: (
+//                 lat: 40.025277777,
+//                 lon: 127.955833333,
+//             ),
+//         ),
+    ],
+)

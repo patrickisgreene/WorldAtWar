@@ -1,0 +1,127 @@
+(
+    name: "Somalia",
+    code: "SO",
+    population: 15893219,
+    capital: 0,
+    cities: [
+        (
+            name: "Mogadishu",
+            coordinates: (
+                lat: 2.039166666,
+                lon: 45.341944444,
+            ),
+        ),
+        (
+            name: "Bosaso",
+            coordinates: (
+                lat: 11.283333333,
+                lon: 49.183333333,
+            ),
+        ),
+//         (
+//             name: "Merca",
+//             coordinates: (
+//                 lat: 1.715556,
+//                 lon: 44.770278,
+//             ),
+//         ),
+        (
+            name: "Kismayo",
+            coordinates: (
+                lat: -0.360277777,
+                lon: 42.548888888,
+            ),
+        ),
+        (
+            name: "Baidoa",
+            coordinates: (
+                lat: 3.116666666,
+                lon: 43.65,
+            ),
+        ),
+        (
+            name: "Abudwak",
+            coordinates: (
+                lat: 6.233333333,
+                lon: 46.45,
+            ),
+        ),
+        (
+            name: "Borama",
+            coordinates: (
+                lat: 9.933055555,
+                lon: 43.181666666,
+            ),
+        ),
+        (
+            name: "Harardhere",
+            coordinates: (
+                lat: 4.654444444,
+                lon: 47.8575,
+            ),
+        ),
+//         (
+//             name: "Afgooye",
+//             coordinates: (
+//                 lat: 2.116666666,
+//                 lon: 45.116666666,
+//             ),
+//         ),
+        (
+            name: "Galkayo",
+            coordinates: (
+                lat: 6.769722222,
+                lon: 47.430833333,
+            ),
+        ),
+        (
+            name: "Las Anod",
+            coordinates: (
+                lat: 8.475555555,
+                lon: 47.358333333,
+            ),
+        ),
+        (
+            name: "Garowe",
+            coordinates: (
+                lat: 8.4,
+                lon: 48.483333333,
+            ),
+        ),
+        (
+            name: "Beledweyne",
+            coordinates: (
+                lat: 4.735972222,
+                lon: 45.203972222,
+            ),
+        ),
+        (
+            name: "Jowhar",
+            coordinates: (
+                lat: 2.783333333,
+                lon: 45.5,
+            ),
+        ),
+//         (
+//             name: "Jilib",
+//             coordinates: (
+//                 lat: 0.494166666,
+//                 lon: 42.774444444,
+//             ),
+//         ),
+//         (
+//             name: "Jamame",
+//             coordinates: (
+//                 lat: 0.066666666,
+//                 lon: 42.75,
+//             ),
+//         ),
+        (
+            name: "Bardhere",
+            coordinates: (
+                lat: 2.344722222,
+                lon: 42.276388888,
+            ),
+        ),
+    ],
+)

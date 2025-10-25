@@ -1,0 +1,64 @@
+(
+    name: "Rwanda",
+    code: "RW",
+    population: 12952209,
+    capital: 0,
+    cities: [
+        (
+            name: "Kigali",
+            coordinates: (
+                lat: -1.953611111,
+                lon: 30.060555555,
+            ),
+        ),
+//         (
+//             name: "Muhanga",
+//             coordinates: (
+//                 lat: -2.078333333,
+//                 lon: 29.758055555,
+//             ),
+//         ),
+//         (
+//             name: "Ruhengeri",
+//             coordinates: (
+//                 lat: -1.49984,
+//                 lon: 29.63497,
+//             ),
+//         ),
+//         (
+//             name: "Butare",
+//             coordinates: (
+//                 lat: -2.59667,
+//                 lon: 29.73944,
+//             ),
+//         ),
+//         (
+//             name: "Gisozi",
+//             coordinates: (
+//                 lat: -1.91778,
+//                 lon: 30.06129,
+//             ),
+//         ),
+//         (
+//             name: "Gisenyi",
+//             coordinates: (
+//                 lat: -1.70278,
+//                 lon: 29.25639,
+//             ),
+//         ),
+//         (
+//             name: "Shyorongi",
+//             coordinates: (
+//                 lat: -1.85439,
+//                 lon: 29.96238,
+//             ),
+//         ),
+//         (
+//             name: "Kabuga",
+//             coordinates: (
+//                 lat: -1.97649,
+//                 lon: 30.2247,
+//             ),
+//         ),
+    ],
+)

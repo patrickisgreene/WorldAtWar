@@ -1,0 +1,358 @@
+(
+    name: "Canada",
+    code: "CA",
+    population: 38005238,
+    capital: 5,
+    cities: [
+        (
+            name: "Toronto",
+            coordinates: (
+                lat: 43.670277777,
+                lon: -79.386666666,
+            ),
+        ),
+//         (
+//             name: "Metro Vancouver Regional District",
+//             coordinates: (
+//                 lat: 49.2494,
+//                 lon: -122.98,
+//             ),
+//         ),
+        (
+            name: "Montreal",
+            coordinates: (
+                lat: 45.50884,
+                lon: -73.58781,
+            ),
+        ),
+//         (
+//             name: "National Capital Region",
+//             coordinates: (
+//                 lat: 45.4208,
+//                 lon: -75.69,
+//             ),
+//         ),
+        (
+            name: "Calgary",
+            coordinates: (
+                lat: 51.05011,
+                lon: -114.08529,
+            ),
+        ),
+        (
+            name: "Ottawa",
+            coordinates: (
+                lat: 45.424722222,
+                lon: -75.695,
+            ),
+        ),
+        (
+            name: "Edmonton",
+            coordinates: (
+                lat: 53.533333333,
+                lon: -113.5,
+            ),
+        ),
+        (
+            name: "Winnipeg",
+            coordinates: (
+                lat: 49.895555555,
+                lon: -97.138611111,
+            ),
+        ),
+//         (
+//             name: "Mississauga",
+//             coordinates: (
+//                 lat: 43.6,
+//                 lon: -79.65,
+//             ),
+//         ),
+//         (
+//             name: "North York",
+//             coordinates: (
+//                 lat: 43.7797,
+//                 lon: -79.4156,
+//             ),
+//         ),
+        (
+            name: "Vancouver",
+            coordinates: (
+                lat: 49.260833333,
+                lon: -123.113888888,
+            ),
+        ),
+//         (
+//             name: "Brampton",
+//             coordinates: (
+//                 lat: 43.683333333,
+//                 lon: -79.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Scarborough",
+//             coordinates: (
+//                 lat: 43.7737,
+//                 lon: -79.2446,
+//             ),
+//         ),
+//         (
+//             name: "Hamilton",
+//             coordinates: (
+//                 lat: 43.256666666,
+//                 lon: -79.869166666,
+//             ),
+//         ),
+//         (
+//             name: "Surrey",
+//             coordinates: (
+//                 lat: 49.1833,
+//                 lon: -122.85,
+//             ),
+//         ),
+        (
+            name: "Quebec City",
+            coordinates: (
+                lat: 46.816111,
+                lon: -71.224167,
+            ),
+        ),
+        (
+            name: "Halifax",
+            coordinates: (
+                lat: 44.64269,
+                lon: -63.57688,
+            ),
+        ),
+//         (
+//             name: "Laval",
+//             coordinates: (
+//                 lat: 45.5833,
+//                 lon: -73.75,
+//             ),
+//         ),
+//         (
+//             name: "Halifax",
+//             coordinates: (
+//                 lat: 44.86685,
+//                 lon: -63.71541,
+//             ),
+//         ),
+        (
+            name: "London",
+            coordinates: (
+                lat: 42.9837,
+                lon: -81.2497,
+            ),
+        ),
+        (
+            name: "Capital Regional District",
+            coordinates: (
+                lat: 48.4293,
+                lon: -123.366,
+            ),
+        ),
+//         (
+//             name: "Etobicoke",
+//             coordinates: (
+//                 lat: 43.6161,
+//                 lon: -79.5125,
+//             ),
+//         ),
+//         (
+//             name: "Markham",
+//             coordinates: (
+//                 lat: 43.8833,
+//                 lon: -79.25,
+//             ),
+//         ),
+//         (
+//             name: "Vaughan",
+//             coordinates: (
+//                 lat: 43.833333333,
+//                 lon: -79.5,
+//             ),
+//         ),
+//         (
+//             name: "Fraser Valley Regional District",
+//             coordinates: (
+//                 lat: 49.5833,
+//                 lon: -121.833,
+//             ),
+//         ),
+//         (
+//             name: "Gatineau",
+//             coordinates: (
+//                 lat: 45.483333,
+//                 lon: -75.65,
+//             ),
+//         ),
+        (
+            name: "Saskatoon",
+            coordinates: (
+                lat: 52.133333333,
+                lon: -106.683333333,
+            ),
+        ),
+//         (
+//             name: "Kitchener",
+//             coordinates: (
+//                 lat: 43.45,
+//                 lon: -80.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Longueuil",
+//             coordinates: (
+//                 lat: 45.514083333,
+//                 lon: -73.438027777,
+//             ),
+//         ),
+//         (
+//             name: "Burnaby",
+//             coordinates: (
+//                 lat: 49.25,
+//                 lon: -122.949167,
+//             ),
+//         ),
+        (
+            name: "Windsor",
+            coordinates: (
+                lat: 42.31729,
+                lon: -83.03526,
+            ),
+        ),
+        (
+            name: "Regina",
+            coordinates: (
+                lat: 50.454722222,
+                lon: -104.606666666,
+            ),
+        ),
+//         (
+//             name: "West Island",
+//             coordinates: (
+//                 lat: 45.45,
+//                 lon: -73.75,
+//             ),
+//         ),
+//         (
+//             name: "Oakville",
+//             coordinates: (
+//                 lat: 43.45,
+//                 lon: -79.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Richmond",
+//             coordinates: (
+//                 lat: 49.166666666,
+//                 lon: -123.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Richmond Hill",
+//             coordinates: (
+//                 lat: 43.871388888,
+//                 lon: -79.437222222,
+//             ),
+//         ),
+//         (
+//             name: "Regional District of Central Okanagan",
+//             coordinates: (
+//                 lat: 49.888,
+//                 lon: -119.495,
+//             ),
+//         ),
+//         (
+//             name: "Burlington",
+//             coordinates: (
+//                 lat: 43.325,
+//                 lon: -79.8,
+//             ),
+//         ),
+//         (
+//             name: "Nepean",
+//             coordinates: (
+//                 lat: 45.3417,
+//                 lon: -75.7583,
+//             ),
+//         ),
+//         (
+//             name: "Oshawa",
+//             coordinates: (
+//                 lat: 43.9,
+//                 lon: -78.85,
+//             ),
+//         ),
+        (
+            name: "Sherbrooke",
+            coordinates: (
+                lat: 45.4,
+                lon: -71.9,
+            ),
+        ),
+        (
+            name: "Greater Sudbury",
+            coordinates: (
+                lat: 46.49,
+                lon: -81.01,
+            ),
+        ),
+        (
+            name: "Regional District of Nanaimo",
+            coordinates: (
+                lat: 49.25,
+                lon: -124.333,
+            ),
+        ),
+//         (
+//             name: "Lévis",
+//             coordinates: (
+//                 lat: 46.8,
+//                 lon: -71.1833,
+//             ),
+//         ),
+//         (
+//             name: "Abbotsford",
+//             coordinates: (
+//                 lat: 49.05798,
+//                 lon: -122.25257,
+//             ),
+//         ),
+//         (
+//             name: "Coquitlam",
+//             coordinates: (
+//                 lat: 49.283888888,
+//                 lon: -122.791944444,
+//             ),
+//         ),
+        (
+            name: "Saguenay",
+            coordinates: (
+                lat: 48.4167,
+                lon: -71.0667,
+            ),
+        ),
+//         (
+//             name: "Barrie",
+//             coordinates: (
+//                 lat: 44.39,
+//                 lon: -79.686,
+//             ),
+//         ),
+        (
+            name: "Kelowna",
+            coordinates: (
+                lat: 49.8801,
+                lon: -119.4436,
+            ),
+        ),
+//         (
+//             name: "Guelph",
+//             coordinates: (
+//                 lat: 43.55,
+//                 lon: -80.25,
+//             ),
+//         ),
+    ],
+)

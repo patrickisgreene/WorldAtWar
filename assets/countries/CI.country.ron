@@ -1,0 +1,358 @@
+(
+    name: "Ivory Coast",
+    code: "CI",
+    population: 26378275,
+    capital: 11,
+    cities: [
+        (
+            name: "Abidjan",
+            coordinates: (
+                lat: 5.336388888,
+                lon: -4.026666666,
+            ),
+        ),
+//         (
+//             name: "Abobo",
+//             coordinates: (
+//                 lat: 5.418888888,
+//                 lon: -4.020555555,
+//             ),
+//         ),
+        (
+            name: "Bouaké",
+            coordinates: (
+                lat: 7.68333,
+                lon: -5.03306,
+            ),
+        ),
+//         (
+//             name: "Cocody",
+//             coordinates: (
+//                 lat: 5.35,
+//                 lon: -3.966666666,
+//             ),
+//         ),
+//         (
+//             name: "Port-Bouët",
+//             coordinates: (
+//                 lat: 5.266666666,
+//                 lon: -3.9,
+//             ),
+//         ),
+        (
+            name: "Korhogo",
+            coordinates: (
+                lat: 9.457777777,
+                lon: -5.629444444,
+            ),
+        ),
+//         (
+//             name: "Daloa",
+//             coordinates: (
+//                 lat: 6.866666666,
+//                 lon: -6.45,
+//             ),
+//         ),
+//         (
+//             name: "Koumassi",
+//             coordinates: (
+//                 lat: 5.3,
+//                 lon: -3.95,
+//             ),
+//         ),
+//         (
+//             name: "San-Pédro",
+//             coordinates: (
+//                 lat: 4.733333333,
+//                 lon: -6.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Anyama",
+//             coordinates: (
+//                 lat: 5.494444444,
+//                 lon: -4.051666666,
+//             ),
+//         ),
+//         (
+//             name: "Adjamé",
+//             coordinates: (
+//                 lat: 5.35,
+//                 lon: -4.033333333,
+//             ),
+//         ),
+        (
+            name: "Yamoussoukro",
+            coordinates: (
+                lat: 6.816111111,
+                lon: -5.274166666,
+            ),
+        ),
+//         (
+//             name: "Divo",
+//             coordinates: (
+//                 lat: 5.837222222,
+//                 lon: -5.357222222,
+//             ),
+//         ),
+//         (
+//             name: "Gagnoa",
+//             coordinates: (
+//                 lat: 6.13333,
+//                 lon: -5.93333,
+//             ),
+//         ),
+//         (
+//             name: "Soubré",
+//             coordinates: (
+//                 lat: 5.783611111,
+//                 lon: -6.593888888,
+//             ),
+//         ),
+//         (
+//             name: "Tabou",
+//             coordinates: (
+//                 lat: 4.423055555,
+//                 lon: -7.352777777,
+//             ),
+//         ),
+//         (
+//             name: "Man",
+//             coordinates: (
+//                 lat: 7.4125,
+//                 lon: -7.553611111,
+//             ),
+//         ),
+//         (
+//             name: "Duékoué",
+//             coordinates: (
+//                 lat: 6.741944444,
+//                 lon: -7.349166666,
+//             ),
+//         ),
+//         (
+//             name: "Marcory",
+//             coordinates: (
+//                 lat: 5.3,
+//                 lon: -3.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Bouaflé",
+//             coordinates: (
+//                 lat: 6.990277777,
+//                 lon: -5.744166666,
+//             ),
+//         ),
+//         (
+//             name: "Bingerville",
+//             coordinates: (
+//                 lat: 5.35,
+//                 lon: -3.9,
+//             ),
+//         ),
+//         (
+//             name: "Guiglo",
+//             coordinates: (
+//                 lat: 6.543611111,
+//                 lon: -7.493333333,
+//             ),
+//         ),
+//         (
+//             name: "Lakota",
+//             coordinates: (
+//                 lat: 5.8475,
+//                 lon: -5.681944444,
+//             ),
+//         ),
+        (
+            name: "Abengourou",
+            coordinates: (
+                lat: 6.7297222,
+                lon: -3.4963889,
+            ),
+        ),
+//         (
+//             name: "Ferkessédougou",
+//             coordinates: (
+//                 lat: 9.592777777,
+//                 lon: -5.194444444,
+//             ),
+//         ),
+//         (
+//             name: "Adzopé",
+//             coordinates: (
+//                 lat: 6.103516666,
+//                 lon: -3.864813888,
+//             ),
+//         ),
+//         (
+//             name: "Méagui",
+//             coordinates: (
+//                 lat: 5.41188,
+//                 lon: -6.56032,
+//             ),
+//         ),
+        (
+            name: "Bondoukou",
+            coordinates: (
+                lat: 8.04,
+                lon: -2.8,
+            ),
+        ),
+//         (
+//             name: "Dabou",
+//             coordinates: (
+//                 lat: 5.325555555,
+//                 lon: -4.376666666,
+//             ),
+//         ),
+//         (
+//             name: "Sinfra",
+//             coordinates: (
+//                 lat: 6.62103,
+//                 lon: -5.91144,
+//             ),
+//         ),
+//         (
+//             name: "Agboville",
+//             coordinates: (
+//                 lat: 5.933333333,
+//                 lon: -4.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Vavoua",
+//             coordinates: (
+//                 lat: 7.381944444,
+//                 lon: -6.477777777,
+//             ),
+//         ),
+//         (
+//             name: "Danané",
+//             coordinates: (
+//                 lat: 7.26666667,
+//                 lon: -8.16666667,
+//             ),
+//         ),
+//         (
+//             name: "Grand-Béréby",
+//             coordinates: (
+//                 lat: 4.65,
+//                 lon: -6.933333333,
+//             ),
+//         ),
+//         (
+//             name: "Oumé",
+//             coordinates: (
+//                 lat: 6.383333333,
+//                 lon: -5.416666666,
+//             ),
+//         ),
+//         (
+//             name: "Issia",
+//             coordinates: (
+//                 lat: 6.492222222,
+//                 lon: -6.585555555,
+//             ),
+//         ),
+//         (
+//             name: "Grand-Bassam",
+//             coordinates: (
+//                 lat: 5.2,
+//                 lon: -3.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Bloléquin",
+//             coordinates: (
+//                 lat: 6.566666666,
+//                 lon: -8.0,
+//             ),
+//         ),
+//         (
+//             name: "Bonoua",
+//             coordinates: (
+//                 lat: 5.266666666,
+//                 lon: -3.6,
+//             ),
+//         ),
+//         (
+//             name: "Bonon",
+//             coordinates: (
+//                 lat: 6.933333333,
+//                 lon: -6.05,
+//             ),
+//         ),
+//         (
+//             name: "Assahara",
+//             coordinates: (
+//                 lat: 6.666666666,
+//                 lon: -4.5,
+//             ),
+//         ),
+//         (
+//             name: "Gabiadji",
+//             coordinates: (
+//                 lat: 5.0234,
+//                 lon: -6.56157,
+//             ),
+//         ),
+//         (
+//             name: "Grand-Zattry",
+//             coordinates: (
+//                 lat: 6.1181,
+//                 lon: -6.53991,
+//             ),
+//         ),
+//         (
+//             name: "Zouan-Hounien",
+//             coordinates: (
+//                 lat: 6.916666666,
+//                 lon: -8.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Séitifla",
+//             coordinates: (
+//                 lat: 7.583333333,
+//                 lon: -6.75,
+//             ),
+//         ),
+//         (
+//             name: "Dania",
+//             coordinates: (
+//                 lat: 7.15,
+//                 lon: -6.85,
+//             ),
+//         ),
+//         (
+//             name: "Treichville",
+//             coordinates: (
+//                 lat: 5.3,
+//                 lon: -4.0,
+//             ),
+//         ),
+//         (
+//             name: "Séguéla",
+//             coordinates: (
+//                 lat: 7.961111111,
+//                 lon: -6.673055555,
+//             ),
+//         ),
+//         (
+//             name: "Daoukro",
+//             coordinates: (
+//                 lat: 7.0591,
+//                 lon: -3.9631,
+//             ),
+//         ),
+//         (
+//             name: "Aboisso",
+//             coordinates: (
+//                 lat: 5.466666666,
+//                 lon: -3.2,
+//             ),
+//         ),
+    ],
+)

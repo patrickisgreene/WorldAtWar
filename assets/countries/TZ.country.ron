@@ -1,0 +1,358 @@
+(
+    name: "Tanzania",
+    code: "TZ",
+    population: 59734213,
+    capital: 10,
+    cities: [
+        (
+            name: "Dar es Salaam",
+            coordinates: (
+                lat: -6.816111111,
+                lon: 39.280277777,
+            ),
+        ),
+//         (
+//             name: "Zanzibar City",
+//             coordinates: (
+//                 lat: -6.166666666,
+//                 lon: 39.2,
+//             ),
+//         ),
+        (
+            name: "Mwanza",
+            coordinates: (
+                lat: -2.516666666,
+                lon: 32.9,
+            ),
+        ),
+        (
+            name: "Mbeya",
+            coordinates: (
+                lat: -8.9,
+                lon: 33.45,
+            ),
+        ),
+        (
+            name: "Arusha",
+            coordinates: (
+                lat: -3.366666666,
+                lon: 36.683333333,
+            ),
+        ),
+        (
+            name: "Geita",
+            coordinates: (
+                lat: -2.871388888,
+                lon: 32.229444444,
+            ),
+        ),
+        (
+            name: "Bariadi",
+            coordinates: (
+                lat: -2.8,
+                lon: 33.98333333,
+            ),
+        ),
+        (
+            name: "Kasulu",
+            coordinates: (
+                lat: -4.576666666,
+                lon: 30.1025,
+            ),
+        ),
+        (
+            name: "Tanga",
+            coordinates: (
+                lat: -5.066666666,
+                lon: 39.1,
+            ),
+        ),
+//         (
+//             name: "Tunduma",
+//             coordinates: (
+//                 lat: -9.3,
+//                 lon: 32.7667,
+//             ),
+//         ),
+        (
+            name: "Dodoma",
+            coordinates: (
+                lat: -6.1835,
+                lon: 35.746,
+            ),
+        ),
+        (
+            name: "Morogoro",
+            coordinates: (
+                lat: -6.824166666,
+                lon: 37.663333333,
+            ),
+        ),
+        (
+            name: "Ifakara",
+            coordinates: (
+                lat: -8.1,
+                lon: 36.68333333,
+            ),
+        ),
+        (
+            name: "Mpanda",
+            coordinates: (
+                lat: -6.343611111,
+                lon: 31.069444444,
+            ),
+        ),
+        (
+            name: "Iringa",
+            coordinates: (
+                lat: -7.77,
+                lon: 35.69,
+            ),
+        ),
+        (
+            name: "Bunda",
+            coordinates: (
+                lat: -2.05,
+                lon: 33.866666666,
+            ),
+        ),
+        (
+            name: "Singida",
+            coordinates: (
+                lat: -4.818611111,
+                lon: 34.750555555,
+            ),
+        ),
+        (
+            name: "Sumbawanga",
+            coordinates: (
+                lat: -7.966666666,
+                lon: 31.616666666,
+            ),
+        ),
+        (
+            name: "Bukoba",
+            coordinates: (
+                lat: -1.333333333,
+                lon: 31.816666666,
+            ),
+        ),
+//         (
+//             name: "Moshi",
+//             coordinates: (
+//                 lat: -3.334883333,
+//                 lon: 37.340380555,
+//             ),
+//         ),
+//         (
+//             name: "Kigoma",
+//             coordinates: (
+//                 lat: -4.883333333,
+//                 lon: 29.633333333,
+//             ),
+//         ),
+        (
+            name: "Tabora",
+            coordinates: (
+                lat: -5.016666666,
+                lon: 32.8,
+            ),
+        ),
+        (
+            name: "Nzega",
+            coordinates: (
+                lat: -4.216666666,
+                lon: 33.183333333,
+            ),
+        ),
+//         (
+//             name: "Makambako",
+//             coordinates: (
+//                 lat: -8.85,
+//                 lon: 34.83333333,
+//             ),
+//         ),
+//         (
+//             name: "Handeni",
+//             coordinates: (
+//                 lat: -5.4309393,
+//                 lon: 38.0120086,
+//             ),
+//         ),
+//         (
+//             name: "Katumba",
+//             coordinates: (
+//                 lat: -9.23333333,
+//                 lon: 33.61666667,
+//             ),
+//         ),
+//         (
+//             name: "Shinyanga",
+//             coordinates: (
+//                 lat: -3.66393,
+//                 lon: 33.42118,
+//             ),
+//         ),
+//         (
+//             name: "Musoma",
+//             coordinates: (
+//                 lat: -1.506944444,
+//                 lon: 33.804166666,
+//             ),
+//         ),
+        (
+            name: "Songea",
+            coordinates: (
+                lat: -10.683333333,
+                lon: 35.65,
+            ),
+        ),
+//         (
+//             name: "Mafinga",
+//             coordinates: (
+//                 lat: -8.30019,
+//                 lon: 35.29366,
+//             ),
+//         ),
+//         (
+//             name: "Ushirombo",
+//             coordinates: (
+//                 lat: -3.491944444,
+//                 lon: 31.963888888,
+//             ),
+//         ),
+        (
+            name: "Mtwara",
+            coordinates: (
+                lat: -10.273611111,
+                lon: 40.182777777,
+            ),
+        ),
+//         (
+//             name: "Njombe",
+//             coordinates: (
+//                 lat: -9.33333,
+//                 lon: 34.76667,
+//             ),
+//         ),
+//         (
+//             name: "Kilosa",
+//             coordinates: (
+//                 lat: -6.83,
+//                 lon: 36.9875,
+//             ),
+//         ),
+        (
+            name: "Masasi",
+            coordinates: (
+                lat: -10.716666666,
+                lon: 38.8,
+            ),
+        ),
+//         (
+//             name: "Vwawa",
+//             coordinates: (
+//                 lat: -9.119166666,
+//                 lon: 32.942777777,
+//             ),
+//         ),
+//         (
+//             name: "Bagamoyo",
+//             coordinates: (
+//                 lat: -6.433333333,
+//                 lon: 38.9,
+//             ),
+//         ),
+        (
+            name: "Kondoa",
+            coordinates: (
+                lat: -4.9,
+                lon: 35.783333333,
+            ),
+        ),
+//         (
+//             name: "Katoro",
+//             coordinates: (
+//                 lat: -3.020277777,
+//                 lon: 31.895833333,
+//             ),
+//         ),
+//         (
+//             name: "Mbinga",
+//             coordinates: (
+//                 lat: -10.94111111,
+//                 lon: 35.0,
+//             ),
+//         ),
+//         (
+//             name: "Buseresere",
+//             coordinates: (
+//                 lat: -3.023611111,
+//                 lon: 31.874722222,
+//             ),
+//         ),
+//         (
+//             name: "Chake-Chake",
+//             coordinates: (
+//                 lat: -5.245833333,
+//                 lon: 39.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Masumbwe",
+//             coordinates: (
+//                 lat: -3.633333333,
+//                 lon: 32.183333333,
+//             ),
+//         ),
+//         (
+//             name: "Merelani",
+//             coordinates: (
+//                 lat: -3.56182,
+//                 lon: 36.97895,
+//             ),
+//         ),
+//         (
+//             name: "Tukuyu",
+//             coordinates: (
+//                 lat: -9.258333333,
+//                 lon: 33.641666666,
+//             ),
+//         ),
+        (
+            name: "Tunduru",
+            coordinates: (
+                lat: -11.0667,
+                lon: 37.35,
+            ),
+        ),
+//         (
+//             name: "Kyela",
+//             coordinates: (
+//                 lat: -9.583333333,
+//                 lon: 33.85,
+//             ),
+//         ),
+        (
+            name: "Mbulu",
+            coordinates: (
+                lat: -3.85,
+                lon: 35.55,
+            ),
+        ),
+        (
+            name: "Ikwiriri",
+            coordinates: (
+                lat: -7.956111111,
+                lon: 38.971666666,
+            ),
+        ),
+//         (
+//             name: "Korogwe",
+//             coordinates: (
+//                 lat: -5.155833333,
+//                 lon: 38.450277777,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,358 @@
+(
+    name: "South Africa",
+    code: "ZA",
+    population: 59308690,
+    capital: 6,
+    cities: [
+//         (
+//             name: "Johannesburg",
+//             coordinates: (
+//                 lat: -26.204361111,
+//                 lon: 28.041638888,
+//             ),
+//         ),
+//         (
+//             name: "City of Cape Town",
+//             coordinates: (
+//                 lat: -34.0,
+//                 lon: 18.5,
+//             ),
+//         ),
+        (
+            name: "Cape Town",
+            coordinates: (
+                lat: -33.925277777,
+                lon: 18.423888888,
+            ),
+        ),
+//         (
+//             name: "Soweto",
+//             coordinates: (
+//                 lat: -26.267777777,
+//                 lon: 27.858611111,
+//             ),
+//         ),
+//         (
+//             name: "Soshanguve",
+//             coordinates: (
+//                 lat: -25.526944444,
+//                 lon: 28.108888888,
+//             ),
+//         ),
+        (
+            name: "Pietermaritzburg",
+            coordinates: (
+                lat: -29.61679,
+                lon: 30.39278,
+            ),
+        ),
+        (
+            name: "Pretoria",
+            coordinates: (
+                lat: -25.746388888,
+                lon: 28.188055555,
+            ),
+        ),
+//         (
+//             name: "Evaton",
+//             coordinates: (
+//                 lat: -26.5275,
+//                 lon: 27.846666666,
+//             ),
+//         ),
+//         (
+//             name: "Durban",
+//             coordinates: (
+//                 lat: -29.858333333,
+//                 lon: 31.025,
+//             ),
+//         ),
+        (
+            name: "East London",
+            coordinates: (
+                lat: -33.01529,
+                lon: 27.91162,
+            ),
+        ),
+//         (
+//             name: "Vereeniging",
+//             coordinates: (
+//                 lat: -26.673611111,
+//                 lon: 27.931944444,
+//             ),
+//         ),
+//         (
+//             name: "Thembisa",
+//             coordinates: (
+//                 lat: -26.0055,
+//                 lon: 28.2102,
+//             ),
+//         ),
+//         (
+//             name: "Boksburg",
+//             coordinates: (
+//                 lat: -26.216666666,
+//                 lon: 28.25,
+//             ),
+//         ),
+        (
+            name: "Welkom",
+            coordinates: (
+                lat: -27.983055555,
+                lon: 26.720833333,
+            ),
+        ),
+//         (
+//             name: "City of Matlosana",
+//             coordinates: (
+//                 lat: -26.8333,
+//                 lon: 26.5,
+//             ),
+//         ),
+        (
+            name: "Newcastle",
+            coordinates: (
+                lat: -27.746388888,
+                lon: 29.932777777,
+            ),
+        ),
+//         (
+//             name: "Krugersdorp",
+//             coordinates: (
+//                 lat: -26.101944444,
+//                 lon: 27.771944444,
+//             ),
+//         ),
+//         (
+//             name: "Rustenburg",
+//             coordinates: (
+//                 lat: -25.666666666,
+//                 lon: 27.233611111,
+//             ),
+//         ),
+//         (
+//             name: "Witbank",
+//             coordinates: (
+//                 lat: -25.876583333,
+//                 lon: 29.200972222,
+//             ),
+//         ),
+//         (
+//             name: "Randburg",
+//             coordinates: (
+//                 lat: -26.093611111,
+//                 lon: 28.006388888,
+//             ),
+//         ),
+//         (
+//             name: "Roodepoort",
+//             coordinates: (
+//                 lat: -26.1625,
+//                 lon: 27.8725,
+//             ),
+//         ),
+        (
+            name: "Gqeberha",
+            coordinates: (
+                lat: -33.958055555,
+                lon: 25.6,
+            ),
+        ),
+        (
+            name: "Botshabelo",
+            coordinates: (
+                lat: -29.233055555,
+                lon: 26.733055555,
+            ),
+        ),
+//         (
+//             name: "Brakpan",
+//             coordinates: (
+//                 lat: -26.235277777,
+//                 lon: 28.37,
+//             ),
+//         ),
+        (
+            name: "Polokwane",
+            coordinates: (
+                lat: -23.9,
+                lon: 29.45,
+            ),
+        ),
+//         (
+//             name: "Bloemfontein",
+//             coordinates: (
+//                 lat: -29.1,
+//                 lon: 26.216666666,
+//             ),
+//         ),
+        (
+            name: "Richards Bay",
+            coordinates: (
+                lat: -28.782777777,
+                lon: 32.0375,
+            ),
+        ),
+//         (
+//             name: "Centurion",
+//             coordinates: (
+//                 lat: -25.860277777,
+//                 lon: 28.189444444,
+//             ),
+//         ),
+//         (
+//             name: "Klerksdorp",
+//             coordinates: (
+//                 lat: -26.866666666,
+//                 lon: 26.666666666,
+//             ),
+//         ),
+//         (
+//             name: "Somerset West",
+//             coordinates: (
+//                 lat: -34.097222222,
+//                 lon: 18.863888888,
+//             ),
+//         ),
+        (
+            name: "Kimberley",
+            coordinates: (
+                lat: -28.73226,
+                lon: 24.76232,
+            ),
+        ),
+//         (
+//             name: "Sandton",
+//             coordinates: (
+//                 lat: -26.107,
+//                 lon: 28.051666666,
+//             ),
+//         ),
+//         (
+//             name: "Mdantsane",
+//             coordinates: (
+//                 lat: -32.95,
+//                 lon: 27.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Middelburg",
+//             coordinates: (
+//                 lat: -25.768055555,
+//                 lon: 29.454722222,
+//             ),
+//         ),
+//         (
+//             name: "Mpumalanga",
+//             coordinates: (
+//                 lat: -29.812777777,
+//                 lon: 30.636388888,
+//             ),
+//         ),
+//         (
+//             name: "Springs",
+//             coordinates: (
+//                 lat: -26.254722222,
+//                 lon: 28.442777777,
+//             ),
+//         ),
+//         (
+//             name: "Carletonville",
+//             coordinates: (
+//                 lat: -26.358055555,
+//                 lon: 27.398055555,
+//             ),
+//         ),
+//         (
+//             name: "Alexandra",
+//             coordinates: (
+//                 lat: -26.103833333,
+//                 lon: 28.096166666,
+//             ),
+//         ),
+//         (
+//             name: "KwaDukuza",
+//             coordinates: (
+//                 lat: -29.328055555,
+//                 lon: 31.289444444,
+//             ),
+//         ),
+//         (
+//             name: "Benoni",
+//             coordinates: (
+//                 lat: -26.188333333,
+//                 lon: 28.320555555,
+//             ),
+//         ),
+        (
+            name: "George",
+            coordinates: (
+                lat: -33.9667,
+                lon: 22.45,
+            ),
+        ),
+        (
+            name: "Vryheid",
+            coordinates: (
+                lat: -27.769444444,
+                lon: 30.791388888,
+            ),
+        ),
+//         (
+//             name: "Potchefstroom",
+//             coordinates: (
+//                 lat: -26.715,
+//                 lon: 27.103333333,
+//             ),
+//         ),
+//         (
+//             name: "Pinetown",
+//             coordinates: (
+//                 lat: -29.816666666,
+//                 lon: 30.85,
+//             ),
+//         ),
+//         (
+//             name: "Embalenhle",
+//             coordinates: (
+//                 lat: -26.5533426,
+//                 lon: 29.0792261,
+//             ),
+//         ),
+//         (
+//             name: "Nigel",
+//             coordinates: (
+//                 lat: -26.420277777,
+//                 lon: 28.468333333,
+//             ),
+//         ),
+//         (
+//             name: "Bhisho",
+//             coordinates: (
+//                 lat: -32.849444444,
+//                 lon: 27.438055555,
+//             ),
+//         ),
+//         (
+//             name: "Sasolburg",
+//             coordinates: (
+//                 lat: -26.814166666,
+//                 lon: 27.828611111,
+//             ),
+//         ),
+//         (
+//             name: "Randfontein",
+//             coordinates: (
+//                 lat: -26.179722222,
+//                 lon: 27.704166666,
+//             ),
+//         ),
+//         (
+//             name: "Virginia",
+//             coordinates: (
+//                 lat: -28.116666666,
+//                 lon: 26.9,
+//             ),
+//         ),
+    ],
+)

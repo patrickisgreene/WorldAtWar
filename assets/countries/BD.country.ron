@@ -1,0 +1,358 @@
+(
+    name: "Bangladesh",
+    code: "BD",
+    population: 164689383,
+    capital: 0,
+    cities: [
+        (
+            name: "Dhaka",
+            coordinates: (
+                lat: 23.728888888,
+                lon: 90.394444444,
+            ),
+        ),
+//         (
+//             name: "Gazipur Sadar Upazila",
+//             coordinates: (
+//                 lat: 24.02,
+//                 lon: 90.4,
+//             ),
+//         ),
+//         (
+//             name: "Chittagong",
+//             coordinates: (
+//                 lat: 22.335,
+//                 lon: 91.8325,
+//             ),
+//         ),
+//         (
+//             name: "Savar Upazila",
+//             coordinates: (
+//                 lat: 23.84858,
+//                 lon: 90.25002,
+//             ),
+//         ),
+//         (
+//             name: "Narayanganj Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.63,
+//                 lon: 90.48,
+//             ),
+//         ),
+//         (
+//             name: "Chuadanga",
+//             coordinates: (
+//                 lat: 23.6418,
+//                 lon: 88.8577,
+//             ),
+//         ),
+//         (
+//             name: "Keraniganj Upazila",
+//             coordinates: (
+//                 lat: 23.683333333,
+//                 lon: 90.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Mymensingh Sadar Upazila",
+//             coordinates: (
+//                 lat: 24.75,
+//                 lon: 90.4167,
+//             ),
+//         ),
+        (
+            name: "Sylhet Sadar Upazila",
+            coordinates: (
+                lat: 24.8917,
+                lon: 91.8833,
+            ),
+        ),
+//         (
+//             name: "Khulna",
+//             coordinates: (
+//                 lat: 22.816666666,
+//                 lon: 89.55,
+//             ),
+//         ),
+//         (
+//             name: "Rangpur Sadar Upazila",
+//             coordinates: (
+//                 lat: 25.75014,
+//                 lon: 89.23333,
+//             ),
+//         ),
+//         (
+//             name: "Sreepur Upazila",
+//             coordinates: (
+//                 lat: 24.2,
+//                 lon: 90.4667,
+//             ),
+//         ),
+//         (
+//             name: "Narsingdi Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.87,
+//                 lon: 90.71,
+//             ),
+//         ),
+//         (
+//             name: "Jashore Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.1681,
+//                 lon: 89.2042,
+//             ),
+//         ),
+//         (
+//             name: "Lakshmipur Sadar Upazila",
+//             coordinates: (
+//                 lat: 22.95,
+//                 lon: 90.825,
+//             ),
+//         ),
+//         (
+//             name: "Pabna Sadar Upazila",
+//             coordinates: (
+//                 lat: 24.005,
+//                 lon: 89.25,
+//             ),
+//         ),
+//         (
+//             name: "Rupganj Upazila",
+//             coordinates: (
+//                 lat: 23.83,
+//                 lon: 90.54,
+//             ),
+//         ),
+//         (
+//             name: "Brahmanbaria Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.9528,
+//                 lon: 91.1167,
+//             ),
+//         ),
+//         (
+//             name: "Cumilla Adarsha Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.4583,
+//                 lon: 91.1833,
+//             ),
+//         ),
+//         (
+//             name: "Jamalpur Sadar Upazila",
+//             coordinates: (
+//                 lat: 24.9167,
+//                 lon: 89.9583,
+//             ),
+//         ),
+        (
+            name: "Shibganj Upazila",
+            coordinates: (
+                lat: 24.6833,
+                lon: 88.1667,
+            ),
+        ),
+//         (
+//             name: "Bogura Sadar Upazila",
+//             coordinates: (
+//                 lat: 24.8417,
+//                 lon: 89.375,
+//             ),
+//         ),
+//         (
+//             name: "Thakurgaon Sadar Upazila",
+//             coordinates: (
+//                 lat: 26.08,
+//                 lon: 88.47,
+//             ),
+//         ),
+//         (
+//             name: "Barisal Sadar Upazila",
+//             coordinates: (
+//                 lat: 22.7,
+//                 lon: 90.3667,
+//             ),
+//         ),
+//         (
+//             name: "Noakhali Sadar Upazila",
+//             coordinates: (
+//                 lat: 22.8256,
+//                 lon: 91.1014,
+//             ),
+//         ),
+//         (
+//             name: "Fatikchhari Upazila",
+//             coordinates: (
+//                 lat: 22.75,
+//                 lon: 91.74,
+//             ),
+//         ),
+//         (
+//             name: "Feni Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.0167,
+//                 lon: 91.3917,
+//             ),
+//         ),
+//         (
+//             name: "Sirajganj Sadar Upazila",
+//             coordinates: (
+//                 lat: 24.4583,
+//                 lon: 89.7,
+//             ),
+//         ),
+//         (
+//             name: "Tangail Sadar Upazila",
+//             coordinates: (
+//                 lat: 24.25,
+//                 lon: 89.9167,
+//             ),
+//         ),
+//         (
+//             name: "Ullahpara Upazila",
+//             coordinates: (
+//                 lat: 24.3194,
+//                 lon: 89.5667,
+//             ),
+//         ),
+//         (
+//             name: "Bhaluka Upazila",
+//             coordinates: (
+//                 lat: 24.375,
+//                 lon: 90.378333333,
+//             ),
+//         ),
+//         (
+//             name: "Chapai Nawabganj Sadar Upazila",
+//             coordinates: (
+//                 lat: 24.6,
+//                 lon: 88.2667,
+//             ),
+//         ),
+//         (
+//             name: "Muradnagar Upazila",
+//             coordinates: (
+//                 lat: 23.6385,
+//                 lon: 90.9325,
+//             ),
+//         ),
+//         (
+//             name: "Chakaria Upazila",
+//             coordinates: (
+//                 lat: 21.7861,
+//                 lon: 92.0778,
+//             ),
+//         ),
+//         (
+//             name: "Faridpur Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.5958,
+//                 lon: 89.8306,
+//             ),
+//         ),
+//         (
+//             name: "Sherpur Sadar Upazila",
+//             coordinates: (
+//                 lat: 25.0,
+//                 lon: 90.0167,
+//             ),
+//         ),
+//         (
+//             name: "Kushtia Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.9,
+//                 lon: 89.1333,
+//             ),
+//         ),
+//         (
+//             name: "Sonargaon Upazila",
+//             coordinates: (
+//                 lat: 23.6583,
+//                 lon: 90.6083,
+//             ),
+//         ),
+//         (
+//             name: "Dinajpur Sadar Upazila",
+//             coordinates: (
+//                 lat: 25.63333,
+//                 lon: 88.65,
+//             ),
+//         ),
+//         (
+//             name: "Jhenaidah Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.5417,
+//                 lon: 89.1833,
+//             ),
+//         ),
+//         (
+//             name: "Gobindaganj Upazila",
+//             coordinates: (
+//                 lat: 25.1333,
+//                 lon: 89.3917,
+//             ),
+//         ),
+//         (
+//             name: "Bogura",
+//             coordinates: (
+//                 lat: 24.85,
+//                 lon: 89.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Mithapukur Upazila",
+//             coordinates: (
+//                 lat: 25.5417,
+//                 lon: 89.2833,
+//             ),
+//         ),
+//         (
+//             name: "Banshkhali Upazila",
+//             coordinates: (
+//                 lat: 22.03,
+//                 lon: 91.93,
+//             ),
+//         ),
+//         (
+//             name: "ইউন\u{9be}ইটেড পিপলস হ\u{9be}তিয\u{9bc}\u{9be}",
+//             coordinates: (
+//                 lat: 22.3667,
+//                 lon: 91.125,
+//             ),
+//         ),
+//         (
+//             name: "Chandpur Sadar Upazila",
+//             coordinates: (
+//                 lat: 23.2139,
+//                 lon: 90.6361,
+//             ),
+//         ),
+//         (
+//             name: "Nilphamari Sadar Upazila",
+//             coordinates: (
+//                 lat: 25.9417,
+//                 lon: 88.8444,
+//             ),
+//         ),
+//         (
+//             name: "Satkhira Sadar Upazila",
+//             coordinates: (
+//                 lat: 22.7167,
+//                 lon: 89.075,
+//             ),
+//         ),
+//         (
+//             name: "Dhamrai Upazila",
+//             coordinates: (
+//                 lat: 23.94,
+//                 lon: 90.15,
+//             ),
+//         ),
+//         (
+//             name: "Kishoreganj Sadar Upazila",
+//             coordinates: (
+//                 lat: 24.4333,
+//                 lon: 90.7833,
+//             ),
+//         ),
+    ],
+)

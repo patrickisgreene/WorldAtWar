@@ -1,0 +1,358 @@
+(
+    name: "Dominican Republic",
+    code: "DO",
+    population: 10847904,
+    capital: 0,
+    cities: [
+        (
+            name: "Santo Domingo",
+            coordinates: (
+                lat: 18.4625,
+                lon: -69.936111111,
+            ),
+        ),
+//         (
+//             name: "Santiago de los Caballeros",
+//             coordinates: (
+//                 lat: 19.45,
+//                 lon: -70.7,
+//             ),
+//         ),
+//         (
+//             name: "Santiago de los Caballeros",
+//             coordinates: (
+//                 lat: 19.4517,
+//                 lon: -70.69703,
+//             ),
+//         ),
+//         (
+//             name: "Santo Domingo Este",
+//             coordinates: (
+//                 lat: 18.485497222,
+//                 lon: -69.873405555,
+//             ),
+//         ),
+//         (
+//             name: "Santo Domingo Norte",
+//             coordinates: (
+//                 lat: 18.55,
+//                 lon: -69.9,
+//             ),
+//         ),
+//         (
+//             name: "Santo Domingo Oeste",
+//             coordinates: (
+//                 lat: 18.5,
+//                 lon: -70.0,
+//             ),
+//         ),
+//         (
+//             name: "Puerto Plata",
+//             coordinates: (
+//                 lat: 19.795833,
+//                 lon: -70.694444,
+//             ),
+//         ),
+//         (
+//             name: "La Vega",
+//             coordinates: (
+//                 lat: 19.224167,
+//                 lon: -70.528333,
+//             ),
+//         ),
+//         (
+//             name: "Los Alcarrizos",
+//             coordinates: (
+//                 lat: 18.516666666,
+//                 lon: -70.016666666,
+//             ),
+//         ),
+//         (
+//             name: "San Cristóbal",
+//             coordinates: (
+//                 lat: 18.416666666,
+//                 lon: -70.133333333,
+//             ),
+//         ),
+//         (
+//             name: "San Pedro de Macorís",
+//             coordinates: (
+//                 lat: 18.4539,
+//                 lon: -69.30864,
+//             ),
+//         ),
+//         (
+//             name: "San Pedro de Macorís",
+//             coordinates: (
+//                 lat: 18.457222,
+//                 lon: -69.306111,
+//             ),
+//         ),
+//         (
+//             name: "La Romana",
+//             coordinates: (
+//                 lat: 18.42733,
+//                 lon: -68.97285,
+//             ),
+//         ),
+//         (
+//             name: "San Francisco de Macorís",
+//             coordinates: (
+//                 lat: 19.3,
+//                 lon: -70.25,
+//             ),
+//         ),
+//         (
+//             name: "Bella Vista",
+//             coordinates: (
+//                 lat: 18.4554,
+//                 lon: -69.9454,
+//             ),
+//         ),
+//         (
+//             name: "San Juan de la Maguana",
+//             coordinates: (
+//                 lat: 18.81,
+//                 lon: -71.23,
+//             ),
+//         ),
+//         (
+//             name: "Higüey",
+//             coordinates: (
+//                 lat: 18.618055555,
+//                 lon: -68.711111111,
+//             ),
+//         ),
+//         (
+//             name: "Bonao",
+//             coordinates: (
+//                 lat: 18.93333333,
+//                 lon: -70.4,
+//             ),
+//         ),
+//         (
+//             name: "Puerto Plata",
+//             coordinates: (
+//                 lat: 19.79344,
+//                 lon: -70.6884,
+//             ),
+//         ),
+//         (
+//             name: "Baní",
+//             coordinates: (
+//                 lat: 18.29,
+//                 lon: -70.33,
+//             ),
+//         ),
+//         (
+//             name: "Boca Chica",
+//             coordinates: (
+//                 lat: 18.453888888,
+//                 lon: -69.606388888,
+//             ),
+//         ),
+//         (
+//             name: "La Romana",
+//             coordinates: (
+//                 lat: 18.43,
+//                 lon: -68.97,
+//             ),
+//         ),
+//         (
+//             name: "Punta Cana",
+//             coordinates: (
+//                 lat: 18.558611111,
+//                 lon: -68.369444444,
+//             ),
+//         ),
+//         (
+//             name: "Santa Cruz de Barahona",
+//             coordinates: (
+//                 lat: 18.2079,
+//                 lon: -71.0996,
+//             ),
+//         ),
+//         (
+//             name: "San Francisco de Macorís",
+//             coordinates: (
+//                 lat: 19.30099,
+//                 lon: -70.25259,
+//             ),
+//         ),
+//         (
+//             name: "Bajos de Haina",
+//             coordinates: (
+//                 lat: 18.42,
+//                 lon: -70.03,
+//             ),
+//         ),
+//         (
+//             name: "Salvaleón de Higüey",
+//             coordinates: (
+//                 lat: 18.61501,
+//                 lon: -68.70798,
+//             ),
+//         ),
+//         (
+//             name: "Samaná",
+//             coordinates: (
+//                 lat: 19.205278,
+//                 lon: -69.336389,
+//             ),
+//         ),
+//         (
+//             name: "Azua",
+//             coordinates: (
+//                 lat: 18.46,
+//                 lon: -70.74,
+//             ),
+//         ),
+//         (
+//             name: "Concepción de La Vega",
+//             coordinates: (
+//                 lat: 19.22287,
+//                 lon: -70.51194,
+//             ),
+//         ),
+//         (
+//             name: "Sabaneta",
+//             coordinates: (
+//                 lat: 19.48333333,
+//                 lon: -71.35,
+//             ),
+//         ),
+//         (
+//             name: "Santa Cruz del Seibo",
+//             coordinates: (
+//                 lat: 18.77,
+//                 lon: -69.04,
+//             ),
+//         ),
+//         (
+//             name: "Moca",
+//             coordinates: (
+//                 lat: 19.383333333,
+//                 lon: -70.516666666,
+//             ),
+//         ),
+//         (
+//             name: "Villa Hermosa",
+//             coordinates: (
+//                 lat: 18.58,
+//                 lon: -68.98,
+//             ),
+//         ),
+//         (
+//             name: "Villa Altagracia",
+//             coordinates: (
+//                 lat: 18.67,
+//                 lon: -70.17,
+//             ),
+//         ),
+//         (
+//             name: "Cotuí",
+//             coordinates: (
+//                 lat: 19.06,
+//                 lon: -70.15,
+//             ),
+//         ),
+//         (
+//             name: "Nagua",
+//             coordinates: (
+//                 lat: 19.38,
+//                 lon: -69.85,
+//             ),
+//         ),
+//         (
+//             name: "Barahona",
+//             coordinates: (
+//                 lat: 18.20854,
+//                 lon: -71.10077,
+//             ),
+//         ),
+//         (
+//             name: "Mao",
+//             coordinates: (
+//                 lat: 19.56666667,
+//                 lon: -71.08333333,
+//             ),
+//         ),
+//         (
+//             name: "Pedro Brand",
+//             coordinates: (
+//                 lat: 18.566666666,
+//                 lon: -70.091111111,
+//             ),
+//         ),
+//         (
+//             name: "Bonao",
+//             coordinates: (
+//                 lat: 18.94154,
+//                 lon: -70.41111,
+//             ),
+//         ),
+//         (
+//             name: "Santo Domingo",
+//             coordinates: (
+//                 lat: 18.80588,
+//                 lon: -71.22991,
+//             ),
+//         ),
+//         (
+//             name: "Hato Mayor del Rey",
+//             coordinates: (
+//                 lat: 18.767,
+//                 lon: -69.267,
+//             ),
+//         ),
+//         (
+//             name: "Sosúa",
+//             coordinates: (
+//                 lat: 19.749444,
+//                 lon: -70.517222,
+//             ),
+//         ),
+//         (
+//             name: "Bajos de Haina",
+//             coordinates: (
+//                 lat: 18.415277777,
+//                 lon: -70.033055555,
+//             ),
+//         ),
+//         (
+//             name: "Baní",
+//             coordinates: (
+//                 lat: 18.27964,
+//                 lon: -70.33185,
+//             ),
+//         ),
+//         (
+//             name: "Esperanza",
+//             coordinates: (
+//                 lat: 19.58,
+//                 lon: -70.99,
+//             ),
+//         ),
+//         (
+//             name: "Constanza",
+//             coordinates: (
+//                 lat: 18.91,
+//                 lon: -70.75,
+//             ),
+//         ),
+//         (
+//             name: "Jarabacoa",
+//             coordinates: (
+//                 lat: 19.119722222,
+//                 lon: -70.638333333,
+//             ),
+//         ),
+//         (
+//             name: "San José de Ocoa",
+//             coordinates: (
+//                 lat: 18.55,
+//                 lon: -70.5,
+//             ),
+//         ),
+    ],
+)

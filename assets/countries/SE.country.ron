@@ -1,0 +1,267 @@
+(
+    name: "Sweden",
+    code: "SE",
+    population: 10353442,
+    capital: 0,
+    cities: [
+        (
+            name: "Stockholm",
+            coordinates: (
+                lat: 59.32478,
+                lon: 18.06427,
+            ),
+        ),
+//         (
+//             name: "Stockholm",
+//             coordinates: (
+//                 lat: 59.329444444,
+//                 lon: 18.068611111,
+//             ),
+//         ),
+        (
+            name: "Malmö",
+            coordinates: (
+                lat: 55.583333333,
+                lon: 13.0,
+            ),
+        ),
+//         (
+//             name: "Uppsala",
+//             coordinates: (
+//                 lat: 59.849760548,
+//                 lon: 17.638946597,
+//             ),
+//         ),
+//         (
+//             name: "Västerås",
+//             coordinates: (
+//                 lat: 59.61731938,
+//                 lon: 16.542157497,
+//             ),
+//         ),
+//         (
+//             name: "Örebro",
+//             coordinates: (
+//                 lat: 59.266926001,
+//                 lon: 15.196522467,
+//             ),
+//         ),
+        (
+            name: "Linköping",
+            coordinates: (
+                lat: 58.409418037,
+                lon: 15.625656134,
+            ),
+        ),
+//         (
+//             name: "Helsingborg",
+//             coordinates: (
+//                 lat: 56.042411686,
+//                 lon: 12.720996359,
+//             ),
+//         ),
+//         (
+//             name: "Enskede-Årsta-Vantör city district",
+//             coordinates: (
+//                 lat: 59.2819,
+//                 lon: 18.0875,
+//             ),
+//         ),
+        (
+            name: "Jönköping",
+            coordinates: (
+                lat: 57.78145,
+                lon: 14.15618,
+            ),
+        ),
+//         (
+//             name: "Norrköping",
+//             coordinates: (
+//                 lat: 58.579331104,
+//                 lon: 16.149318388,
+//             ),
+//         ),
+        (
+            name: "Umeå",
+            coordinates: (
+                lat: 63.828453583,
+                lon: 20.270566462,
+            ),
+        ),
+        (
+            name: "Gävle",
+            coordinates: (
+                lat: 60.674833333,
+                lon: 17.144388888,
+            ),
+        ),
+//         (
+//             name: "Bromma city district",
+//             coordinates: (
+//                 lat: 59.33888889,
+//                 lon: 17.93888889,
+//             ),
+//         ),
+//         (
+//             name: "Södertälje",
+//             coordinates: (
+//                 lat: 59.194387184,
+//                 lon: 17.598995849,
+//             ),
+//         ),
+//         (
+//             name: "Hässelby-Vällingby city district",
+//             coordinates: (
+//                 lat: 59.3625,
+//                 lon: 17.87222222,
+//             ),
+//         ),
+//         (
+//             name: "Borås",
+//             coordinates: (
+//                 lat: 57.71710358,
+//                 lon: 12.945725992,
+//             ),
+//         ),
+//         (
+//             name: "Haninge",
+//             coordinates: (
+//                 lat: 59.16775,
+//                 lon: 18.14478,
+//             ),
+//         ),
+        (
+            name: "Växjö",
+            coordinates: (
+                lat: 56.889029924,
+                lon: 14.802795326,
+            ),
+        ),
+//         (
+//             name: "Halmstad",
+//             coordinates: (
+//                 lat: 56.673972222,
+//                 lon: 12.857277777,
+//             ),
+//         ),
+//         (
+//             name: "Eskilstuna",
+//             coordinates: (
+//                 lat: 59.377305555,
+//                 lon: 16.512694444,
+//             ),
+//         ),
+        (
+            name: "Karlstad",
+            coordinates: (
+                lat: 59.387470608,
+                lon: 13.509980287,
+            ),
+        ),
+//         (
+//             name: "Solna",
+//             coordinates: (
+//                 lat: 59.36004,
+//                 lon: 18.00086,
+//             ),
+//         ),
+//         (
+//             name: "Gothenburg",
+//             coordinates: (
+//                 lat: 57.70716,
+//                 lon: 11.96679,
+//             ),
+//         ),
+        (
+            name: "Region Gotland",
+            coordinates: (
+                lat: 57.5,
+                lon: 18.5,
+            ),
+        ),
+//         (
+//             name: "Vasastaden",
+//             coordinates: (
+//                 lat: 59.35,
+//                 lon: 18.03333,
+//             ),
+//         ),
+        (
+            name: "Östersund",
+            coordinates: (
+                lat: 63.179175,
+                lon: 14.636006388,
+            ),
+        ),
+//         (
+//             name: "Trollhättan",
+//             coordinates: (
+//                 lat: 58.28365,
+//                 lon: 12.28864,
+//             ),
+//         ),
+        (
+            name: "Luleå",
+            coordinates: (
+                lat: 65.583820878,
+                lon: 22.191498303,
+            ),
+        ),
+//         (
+//             name: "Lidingö",
+//             coordinates: (
+//                 lat: 59.36303,
+//                 lon: 18.15096,
+//             ),
+//         ),
+//         (
+//             name: "Skarpnäck city district",
+//             coordinates: (
+//                 lat: 59.29,
+//                 lon: 18.11475,
+//             ),
+//         ),
+//         (
+//             name: "Lidingö",
+//             coordinates: (
+//                 lat: 59.364154584,
+//                 lon: 18.131046738,
+//             ),
+//         ),
+        (
+            name: "Borlänge",
+            coordinates: (
+                lat: 60.488304583,
+                lon: 15.427331865,
+            ),
+        ),
+        (
+            name: "Kalmar",
+            coordinates: (
+                lat: 56.664286111,
+                lon: 16.365633333,
+            ),
+        ),
+        (
+            name: "Kristianstad",
+            coordinates: (
+                lat: 56.020638039,
+                lon: 14.12565229,
+            ),
+        ),
+//         (
+//             name: "Skövde",
+//             coordinates: (
+//                 lat: 58.399486825,
+//                 lon: 13.853770678,
+//             ),
+//         ),
+//         (
+//             name: "Vänersborg",
+//             coordinates: (
+//                 lat: 58.383333333,
+//                 lon: 12.316666666,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,155 @@
+(
+    name: "Hong Kong",
+    code: "HK",
+    population: 7500700,
+    capital: 0,
+    cities: [
+        (
+            name: "City of Victoria",
+            coordinates: (
+                lat: 22.267,
+                lon: 114.188,
+            ),
+        ),
+//         (
+//             name: "Hong Kong",
+//             coordinates: (
+//                 lat: 22.278333333,
+//                 lon: 114.158611111,
+//             ),
+//         ),
+//         (
+//             name: "Kowloon",
+//             coordinates: (
+//                 lat: 22.316666666,
+//                 lon: 114.183333333,
+//             ),
+//         ),
+//         (
+//             name: "Yuen Long",
+//             coordinates: (
+//                 lat: 22.444444444,
+//                 lon: 114.025833333,
+//             ),
+//         ),
+//         (
+//             name: "Tuen Mun",
+//             coordinates: (
+//                 lat: 22.3916,
+//                 lon: 113.971,
+//             ),
+//         ),
+//         (
+//             name: "Sham Shui Po",
+//             coordinates: (
+//                 lat: 22.33023,
+//                 lon: 114.15945,
+//             ),
+//         ),
+//         (
+//             name: "Kowloon City District",
+//             coordinates: (
+//                 lat: 22.3282,
+//                 lon: 114.192,
+//             ),
+//         ),
+//         (
+//             name: "Kwai Chung",
+//             coordinates: (
+//                 lat: 22.36828,
+//                 lon: 114.13877,
+//             ),
+//         ),
+//         (
+//             name: "Tsuen Wan",
+//             coordinates: (
+//                 lat: 22.3686,
+//                 lon: 114.113,
+//             ),
+//         ),
+//         (
+//             name: "Tai Po District",
+//             coordinates: (
+//                 lat: 22.4508,
+//                 lon: 114.164,
+//             ),
+//         ),
+//         (
+//             name: "Tin Shui Wai",
+//             coordinates: (
+//                 lat: 22.4603,
+//                 lon: 114.003,
+//             ),
+//         ),
+//         (
+//             name: "Tai Po",
+//             coordinates: (
+//                 lat: 22.445,
+//                 lon: 114.17,
+//             ),
+//         ),
+//         (
+//             name: "Fanling",
+//             coordinates: (
+//                 lat: 22.4918,
+//                 lon: 114.142,
+//             ),
+//         ),
+//         (
+//             name: "Yuen Long Town",
+//             coordinates: (
+//                 lat: 22.4445,
+//                 lon: 114.026,
+//             ),
+//         ),
+//         (
+//             name: "Yuen Long Kau Hui",
+//             coordinates: (
+//                 lat: 22.45,
+//                 lon: 114.033,
+//             ),
+//         ),
+//         (
+//             name: "Wan Chai",
+//             coordinates: (
+//                 lat: 22.281388888,
+//                 lon: 114.1725,
+//             ),
+//         ),
+//         (
+//             name: "Aberdeen",
+//             coordinates: (
+//                 lat: 22.2478,
+//                 lon: 114.152,
+//             ),
+//         ),
+//         (
+//             name: "Sha Tin Wai",
+//             coordinates: (
+//                 lat: 22.3779,
+//                 lon: 114.198,
+//             ),
+//         ),
+//         (
+//             name: "Pok Fu Lam",
+//             coordinates: (
+//                 lat: 22.26,
+//                 lon: 114.138,
+//             ),
+//         ),
+//         (
+//             name: "Sau Mau Ping",
+//             coordinates: (
+//                 lat: 22.319372,
+//                 lon: 114.234597,
+//             ),
+//         ),
+//         (
+//             name: "Tiu Keng Leng",
+//             coordinates: (
+//                 lat: 22.29853,
+//                 lon: 114.25115,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,50 @@
+(
+    name: "Kuwait",
+    code: "KW",
+    population: 4270563,
+    capital: 0,
+    cities: [
+        (
+            name: "Kuwait City",
+            coordinates: (
+                lat: 29.375,
+                lon: 47.98,
+            ),
+        ),
+//         (
+//             name: "Hawally",
+//             coordinates: (
+//                 lat: 29.33333333,
+//                 lon: 48.03333333,
+//             ),
+//         ),
+//         (
+//             name: "Salmiya",
+//             coordinates: (
+//                 lat: 29.333333333,
+//                 lon: 48.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Fahaheel District",
+//             coordinates: (
+//                 lat: 29.0825,
+//                 lon: 48.130277777,
+//             ),
+//         ),
+//         (
+//             name: "Riqqah District",
+//             coordinates: (
+//                 lat: 29.148888888,
+//                 lon: 48.105694444,
+//             ),
+//         ),
+//         (
+//             name: "Salwa",
+//             coordinates: (
+//                 lat: 29.3,
+//                 lon: 48.08333333,
+//             ),
+//         ),
+    ],
+)

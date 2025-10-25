@@ -1,0 +1,358 @@
+(
+    name: "Russia",
+    code: "RU",
+    population: 144104080,
+    capital: 0,
+    cities: [
+        (
+            name: "Moscow",
+            coordinates: (
+                lat: 55.750555555,
+                lon: 37.6175,
+            ),
+        ),
+        (
+            name: "Saint Petersburg",
+            coordinates: (
+                lat: 59.95,
+                lon: 30.316666666,
+            ),
+        ),
+        (
+            name: "Novosibirsk",
+            coordinates: (
+                lat: 55.033333333,
+                lon: 82.916666666,
+            ),
+        ),
+        (
+            name: "Yekaterinburg",
+            coordinates: (
+                lat: 56.835555555,
+                lon: 60.612777777,
+            ),
+        ),
+        (
+            name: "Kazan",
+            coordinates: (
+                lat: 55.790833333,
+                lon: 49.114444444,
+            ),
+        ),
+//         (
+//             name: "Kazan Urban Okrug",
+//             coordinates: (
+//                 lat: 55.75,
+//                 lon: 49.133333333,
+//             ),
+//         ),
+        (
+            name: "Nizhny Novgorod",
+            coordinates: (
+                lat: 56.326944444,
+                lon: 44.0075,
+            ),
+        ),
+//         (
+//             name: "Chelyabinsk Urban Okrug",
+//             coordinates: (
+//                 lat: 55.165555555,
+//                 lon: 61.416666666,
+//             ),
+//         ),
+        (
+            name: "Chelyabinsk",
+            coordinates: (
+                lat: 55.15,
+                lon: 61.4,
+            ),
+        ),
+        (
+            name: "Krasnodar",
+            coordinates: (
+                lat: 45.033333333,
+                lon: 38.983333333,
+            ),
+        ),
+        (
+            name: "Samara",
+            coordinates: (
+                lat: 53.183333333,
+                lon: 50.116666666,
+            ),
+        ),
+        (
+            name: "Ufa",
+            coordinates: (
+                lat: 54.726111111,
+                lon: 55.9475,
+            ),
+        ),
+        (
+            name: "Rostov-on-Don",
+            coordinates: (
+                lat: 47.2225,
+                lon: 39.71,
+            ),
+        ),
+        (
+            name: "Omsk",
+            coordinates: (
+                lat: 54.966666666,
+                lon: 73.383333333,
+            ),
+        ),
+        (
+            name: "Krasnoyarsk",
+            coordinates: (
+                lat: 56.008888888,
+                lon: 92.871944444,
+            ),
+        ),
+        (
+            name: "Voronezh",
+            coordinates: (
+                lat: 51.671666666,
+                lon: 39.210555555,
+            ),
+        ),
+        (
+            name: "Perm",
+            coordinates: (
+                lat: 58.013888888,
+                lon: 56.248888888,
+            ),
+        ),
+        (
+            name: "Volgograd",
+            coordinates: (
+                lat: 48.708611111,
+                lon: 44.514722222,
+            ),
+        ),
+        (
+            name: "Tyumen",
+            coordinates: (
+                lat: 57.15,
+                lon: 65.533333333,
+            ),
+        ),
+        (
+            name: "Saratov",
+            coordinates: (
+                lat: 51.53,
+                lon: 46.035,
+            ),
+        ),
+//         (
+//             name: "Makhachkala Urban Okrug",
+//             coordinates: (
+//                 lat: 43.0,
+//                 lon: 47.416666666,
+//             ),
+//         ),
+//         (
+//             name: "Primorsky District",
+//             coordinates: (
+//                 lat: 60.024054,
+//                 lon: 30.143223,
+//             ),
+//         ),
+//         (
+//             name: "Barnaul Urban District",
+//             coordinates: (
+//                 lat: 53.34694444,
+//                 lon: 83.77694444,
+//             ),
+//         ),
+//         (
+//             name: "Tolyatti",
+//             coordinates: (
+//                 lat: 53.516666666,
+//                 lon: 49.416666666,
+//             ),
+//         ),
+        (
+            name: "Makhachkala",
+            coordinates: (
+                lat: 42.9825,
+                lon: 47.505,
+            ),
+        ),
+        (
+            name: "Barnaul",
+            coordinates: (
+                lat: 53.356666666,
+                lon: 83.787222222,
+            ),
+        ),
+        (
+            name: "Izhevsk",
+            coordinates: (
+                lat: 56.85,
+                lon: 53.216666666,
+            ),
+        ),
+        (
+            name: "Khabarovsk",
+            coordinates: (
+                lat: 48.483333333,
+                lon: 135.066666666,
+            ),
+        ),
+        (
+            name: "Ulyanovsk",
+            coordinates: (
+                lat: 54.316666666,
+                lon: 48.366666666,
+            ),
+        ),
+        (
+            name: "Irkutsk",
+            coordinates: (
+                lat: 52.289166666,
+                lon: 104.28,
+            ),
+        ),
+        (
+            name: "Vladivostok",
+            coordinates: (
+                lat: 43.115,
+                lon: 131.885277777,
+            ),
+        ),
+        (
+            name: "Yaroslavl",
+            coordinates: (
+                lat: 57.626388888,
+                lon: 39.893333333,
+            ),
+        ),
+        (
+            name: "Resort Town of Sochi",
+            coordinates: (
+                lat: 43.58527779,
+                lon: 39.72027779,
+            ),
+        ),
+        (
+            name: "Naberezhnye Chelny",
+            coordinates: (
+                lat: 55.714852,
+                lon: 52.3696525,
+            ),
+        ),
+//         (
+//             name: "Nevsky District",
+//             coordinates: (
+//                 lat: 59.870588,
+//                 lon: 30.4643351,
+//             ),
+//         ),
+//         (
+//             name: "Naberezhnye Chelny Urban Okrug",
+//             coordinates: (
+//                 lat: 55.74197,
+//                 lon: 52.39933,
+//             ),
+//         ),
+        (
+            name: "Tomsk",
+            coordinates: (
+                lat: 56.488611111,
+                lon: 84.952222222,
+            ),
+        ),
+        (
+            name: "Kemerovo",
+            coordinates: (
+                lat: 55.333333333,
+                lon: 86.066666666,
+            ),
+        ),
+//         (
+//             name: "Vyborgsky District",
+//             coordinates: (
+//                 lat: 60.0563,
+//                 lon: 30.2621,
+//             ),
+//         ),
+//         (
+//             name: "Kalininsky District",
+//             coordinates: (
+//                 lat: 60.00464,
+//                 lon: 30.39314,
+//             ),
+//         ),
+        (
+            name: "Orenburg",
+            coordinates: (
+                lat: 51.766666666,
+                lon: 55.1,
+            ),
+        ),
+//         (
+//             name: "Balashikha",
+//             coordinates: (
+//                 lat: 55.8,
+//                 lon: 37.95,
+//             ),
+//         ),
+        (
+            name: "Novokuznetsk",
+            coordinates: (
+                lat: 53.75,
+                lon: 87.116666666,
+            ),
+        ),
+        (
+            name: "Ryazan",
+            coordinates: (
+                lat: 54.63,
+                lon: 39.7425,
+            ),
+        ),
+        (
+            name: "Cheboksary",
+            coordinates: (
+                lat: 56.133333333,
+                lon: 47.25,
+            ),
+        ),
+        (
+            name: "Kaliningrad",
+            coordinates: (
+                lat: 54.716666666,
+                lon: 20.5,
+            ),
+        ),
+        (
+            name: "Penza",
+            coordinates: (
+                lat: 53.2,
+                lon: 45.0,
+            ),
+        ),
+        (
+            name: "Lipetsk",
+            coordinates: (
+                lat: 52.616666666,
+                lon: 39.6,
+            ),
+        ),
+//         (
+//             name: "Prikubansky Okrug",
+//             coordinates: (
+//                 lat: 45.074,
+//                 lon: 39.002,
+//             ),
+//         ),
+//         (
+//             name: "Kaliningrad Urban Okrug",
+//             coordinates: (
+//                 lat: 54.716666666,
+//                 lon: 20.416666666,
+//             ),
+//         ),
+    ],
+)

@@ -103,7 +103,7 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     return R * c
 
 
-def find_nearby_cities(cities: List[Dict], max_distance: float = 50.0) -> List[List[int]]:
+def find_nearby_cities(cities: List[Dict], max_distance: float = 20.0) -> List[List[int]]:
     """
     Find groups of cities that are within max_distance miles of each other.
     Returns a list of city index groups.

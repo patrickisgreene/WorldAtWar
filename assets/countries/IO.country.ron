@@ -1,0 +1,15 @@
+(
+    name: "British Indian Ocean Territory",
+    code: "IO",
+    population: 3000,
+    capital: 0,
+    cities: [
+        (
+            name: "Diego Garcia",
+            coordinates: (
+                lat: -7.3,
+                lon: 72.4,
+            ),
+        ),
+    ],
+)

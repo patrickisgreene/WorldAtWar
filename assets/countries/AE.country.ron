@@ -1,0 +1,113 @@
+(
+    name: "United Arab Emirates",
+    code: "AE",
+    population: 9890400,
+    capital: 1,
+    cities: [
+        (
+            name: "Dubai",
+            coordinates: (
+                lat: 25.269722222,
+                lon: 55.309444444,
+            ),
+        ),
+        (
+            name: "Abu Dhabi",
+            coordinates: (
+                lat: 24.451111111,
+                lon: 54.396944444,
+            ),
+        ),
+//         (
+//             name: "Sharjah",
+//             coordinates: (
+//                 lat: 25.3375,
+//                 lon: 55.411944444,
+//             ),
+//         ),
+        (
+            name: "Al Ain",
+            coordinates: (
+                lat: 24.2075,
+                lon: 55.744722222,
+            ),
+        ),
+//         (
+//             name: "Ajman",
+//             coordinates: (
+//                 lat: 25.399444444,
+//                 lon: 55.479722222,
+//             ),
+//         ),
+//         (
+//             name: "Deira",
+//             coordinates: (
+//                 lat: 25.266666666,
+//                 lon: 55.316666666,
+//             ),
+//         ),
+//         (
+//             name: "Dubai Marina",
+//             coordinates: (
+//                 lat: 25.08135,
+//                 lon: 55.144075,
+//             ),
+//         ),
+//         (
+//             name: "Warisan",
+//             coordinates: (
+//                 lat: 25.162686111,
+//                 lon: 55.422591666,
+//             ),
+//         ),
+//         (
+//             name: "Al Karama",
+//             coordinates: (
+//                 lat: 25.241819444,
+//                 lon: 55.301061111,
+//             ),
+//         ),
+//         (
+//             name: "Mirdif",
+//             coordinates: (
+//                 lat: 25.224038888,
+//                 lon: 55.422761111,
+//             ),
+//         ),
+//         (
+//             name: "Al Warqaa",
+//             coordinates: (
+//                 lat: 25.191819444,
+//                 lon: 55.408169444,
+//             ),
+//         ),
+        (
+            name: "Kalba",
+            coordinates: (
+                lat: 25.0513,
+                lon: 56.35422,
+            ),
+        ),
+//         (
+//             name: "Tarif Kalba",
+//             coordinates: (
+//                 lat: 25.068611111,
+//                 lon: 56.334444444,
+//             ),
+//         ),
+//         (
+//             name: "Dibba Al-Fujairah",
+//             coordinates: (
+//                 lat: 25.616667,
+//                 lon: 56.266667,
+//             ),
+//         ),
+//         (
+//             name: "Al Satwa",
+//             coordinates: (
+//                 lat: 25.219069444,
+//                 lon: 55.272561111,
+//             ),
+//         ),
+    ],
+)

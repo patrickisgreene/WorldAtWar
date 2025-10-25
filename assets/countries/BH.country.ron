@@ -1,0 +1,50 @@
+(
+    name: "Bahrain",
+    code: "BH",
+    population: 1701583,
+    capital: 0,
+    cities: [
+        (
+            name: "Manama",
+            coordinates: (
+                lat: 26.225,
+                lon: 50.5775,
+            ),
+        ),
+//         (
+//             name: "Riffa",
+//             coordinates: (
+//                 lat: 26.13,
+//                 lon: 50.555,
+//             ),
+//         ),
+//         (
+//             name: "Al-Muharraq",
+//             coordinates: (
+//                 lat: 26.25,
+//                 lon: 50.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Dar Kulaib",
+//             coordinates: (
+//                 lat: 26.0679,
+//                 lon: 50.505,
+//             ),
+//         ),
+//         (
+//             name: "Isa Town",
+//             coordinates: (
+//                 lat: 26.17361,
+//                 lon: 50.54778,
+//             ),
+//         ),
+//         (
+//             name: "Hamad Town",
+//             coordinates: (
+//                 lat: 26.112777777,
+//                 lon: 50.513888888,
+//             ),
+//         ),
+    ],
+)

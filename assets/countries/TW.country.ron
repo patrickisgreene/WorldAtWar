@@ -1,0 +1,358 @@
+(
+    name: "Taiwan",
+    code: "TW",
+    population: 23503349,
+    capital: 3,
+    cities: [
+//         (
+//             name: "New Taipei",
+//             coordinates: (
+//                 lat: 25.0125,
+//                 lon: 121.465,
+//             ),
+//         ),
+//         (
+//             name: "Taichung",
+//             coordinates: (
+//                 lat: 24.143888888,
+//                 lon: 120.679444444,
+//             ),
+//         ),
+//         (
+//             name: "Kaohsiung",
+//             coordinates: (
+//                 lat: 22.615,
+//                 lon: 120.2975,
+//             ),
+//         ),
+        (
+            name: "Taipei",
+            coordinates: (
+                lat: 25.05306,
+                lon: 121.52639,
+            ),
+        ),
+//         (
+//             name: "Taoyuan",
+//             coordinates: (
+//                 lat: 24.895,
+//                 lon: 121.24611,
+//             ),
+//         ),
+//         (
+//             name: "Tainan",
+//             coordinates: (
+//                 lat: 22.983333333,
+//                 lon: 120.183333333,
+//             ),
+//         ),
+//         (
+//             name: "Banqiao District",
+//             coordinates: (
+//                 lat: 25.01111111,
+//                 lon: 121.44583333,
+//             ),
+//         ),
+//         (
+//             name: "Taoyuan District",
+//             coordinates: (
+//                 lat: 24.99368,
+//                 lon: 121.29696,
+//             ),
+//         ),
+//         (
+//             name: "Hsinchu City",
+//             coordinates: (
+//                 lat: 24.804722222,
+//                 lon: 120.971388888,
+//             ),
+//         ),
+//         (
+//             name: "Zhongli District",
+//             coordinates: (
+//                 lat: 24.956944444,
+//                 lon: 121.223611111,
+//             ),
+//         ),
+//         (
+//             name: "Xinzhuang District",
+//             coordinates: (
+//                 lat: 25.033333333,
+//                 lon: 121.45,
+//             ),
+//         ),
+//         (
+//             name: "Zhonghe District",
+//             coordinates: (
+//                 lat: 24.997222222,
+//                 lon: 121.504166666,
+//             ),
+//         ),
+//         (
+//             name: "Sanchong District",
+//             coordinates: (
+//                 lat: 25.0613433,
+//                 lon: 121.4943695,
+//             ),
+//         ),
+//         (
+//             name: "Keelung",
+//             coordinates: (
+//                 lat: 25.12825,
+//                 lon: 121.7419,
+//             ),
+//         ),
+//         (
+//             name: "Fongshan District",
+//             coordinates: (
+//                 lat: 22.633333333,
+//                 lon: 120.35,
+//             ),
+//         ),
+//         (
+//             name: "Xindian District",
+//             coordinates: (
+//                 lat: 24.95,
+//                 lon: 121.53333333,
+//             ),
+//         ),
+//         (
+//             name: "Da\'an District",
+//             coordinates: (
+//                 lat: 25.03333,
+//                 lon: 121.53333,
+//             ),
+//         ),
+//         (
+//             name: "Neihu District",
+//             coordinates: (
+//                 lat: 25.08333,
+//                 lon: 121.58333,
+//             ),
+//         ),
+//         (
+//             name: "Shilin District",
+//             coordinates: (
+//                 lat: 25.0833,
+//                 lon: 121.517,
+//             ),
+//         ),
+//         (
+//             name: "Chiayi City",
+//             coordinates: (
+//                 lat: 23.47722,
+//                 lon: 120.44527,
+//             ),
+//         ),
+//         (
+//             name: "Wenshan District",
+//             coordinates: (
+//                 lat: 24.989722222,
+//                 lon: 121.572222222,
+//             ),
+//         ),
+//         (
+//             name: "Beitou District",
+//             coordinates: (
+//                 lat: 25.1167,
+//                 lon: 121.5,
+//             ),
+//         ),
+//         (
+//             name: "Tucheng District",
+//             coordinates: (
+//                 lat: 24.9667,
+//                 lon: 121.433,
+//             ),
+//         ),
+//         (
+//             name: "Xitun District",
+//             coordinates: (
+//                 lat: 24.1829,
+//                 lon: 120.626,
+//             ),
+//         ),
+//         (
+//             name: "Yongkang District",
+//             coordinates: (
+//                 lat: 23.016666666,
+//                 lon: 120.25,
+//             ),
+//         ),
+//         (
+//             name: "Pingzhen District",
+//             coordinates: (
+//                 lat: 24.943888888,
+//                 lon: 121.216111111,
+//             ),
+//         ),
+//         (
+//             name: "Changhua City",
+//             coordinates: (
+//                 lat: 24.066666666,
+//                 lon: 120.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Zhubei City",
+//             coordinates: (
+//                 lat: 24.83333,
+//                 lon: 121.0,
+//             ),
+//         ),
+//         (
+//             name: "Zhongshan District",
+//             coordinates: (
+//                 lat: 25.06667,
+//                 lon: 121.53333,
+//             ),
+//         ),
+//         (
+//             name: "Yonghe District",
+//             coordinates: (
+//                 lat: 25.0075,
+//                 lon: 121.516388888,
+//             ),
+//         ),
+//         (
+//             name: "Bade District",
+//             coordinates: (
+//                 lat: 24.92981,
+//                 lon: 121.28372,
+//             ),
+//         ),
+//         (
+//             name: "Xizhi District",
+//             coordinates: (
+//                 lat: 25.066666666,
+//                 lon: 121.666666666,
+//             ),
+//         ),
+//         (
+//             name: "Xinyi District",
+//             coordinates: (
+//                 lat: 25.0287521,
+//                 lon: 121.5548064,
+//             ),
+//         ),
+//         (
+//             name: "Annan District",
+//             coordinates: (
+//                 lat: 23.047302777,
+//                 lon: 120.184680555,
+//             ),
+//         ),
+//         (
+//             name: "Luzhou District",
+//             coordinates: (
+//                 lat: 25.083333333,
+//                 lon: 121.466666666,
+//             ),
+//         ),
+//         (
+//             name: "Taiping District",
+//             coordinates: (
+//                 lat: 24.1188,
+//                 lon: 120.763,
+//             ),
+//         ),
+//         (
+//             name: "Tamsui District",
+//             coordinates: (
+//                 lat: 25.166666666,
+//                 lon: 121.433333333,
+//             ),
+//         ),
+//         (
+//             name: "Nanzih District",
+//             coordinates: (
+//                 lat: 22.7268,
+//                 lon: 120.2975,
+//             ),
+//         ),
+//         (
+//             name: "Songshan District",
+//             coordinates: (
+//                 lat: 25.0592,
+//                 lon: 121.559,
+//             ),
+//         ),
+//         (
+//             name: "Pingtung City",
+//             coordinates: (
+//                 lat: 22.67135,
+//                 lon: 120.48814,
+//             ),
+//         ),
+//         (
+//             name: "Eastern District",
+//             coordinates: (
+//                 lat: 22.9857,
+//                 lon: 120.226,
+//             ),
+//         ),
+//         (
+//             name: "Guishan District",
+//             coordinates: (
+//                 lat: 24.995005555,
+//                 lon: 121.338094444,
+//             ),
+//         ),
+//         (
+//             name: "Yangmei District",
+//             coordinates: (
+//                 lat: 24.9167,
+//                 lon: 121.15,
+//             ),
+//         ),
+//         (
+//             name: "Shulin District",
+//             coordinates: (
+//                 lat: 24.99,
+//                 lon: 121.41,
+//             ),
+//         ),
+//         (
+//             name: "Wanhua District",
+//             coordinates: (
+//                 lat: 25.0333,
+//                 lon: 121.483,
+//             ),
+//         ),
+//         (
+//             name: "Luzhu District",
+//             coordinates: (
+//                 lat: 25.033333333,
+//                 lon: 121.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Fengyuan District",
+//             coordinates: (
+//                 lat: 24.25,
+//                 lon: 120.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Siaogang District",
+//             coordinates: (
+//                 lat: 22.5544,
+//                 lon: 120.36,
+//             ),
+//         ),
+//         (
+//             name: "Zhongzheng District",
+//             coordinates: (
+//                 lat: 25.031666666,
+//                 lon: 121.516388888,
+//             ),
+//         ),
+//         (
+//             name: "Linkou District",
+//             coordinates: (
+//                 lat: 25.101666666,
+//                 lon: 121.363055555,
+//             ),
+//         ),
+    ],
+)

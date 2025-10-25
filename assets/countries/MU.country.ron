@@ -1,0 +1,43 @@
+(
+    name: "Mauritius",
+    code: "MU",
+    population: 1265740,
+    capital: 0,
+    cities: [
+        (
+            name: "Port Louis",
+            coordinates: (
+                lat: -20.161944444,
+                lon: 57.498888888,
+            ),
+        ),
+//         (
+//             name: "Vacoas",
+//             coordinates: (
+//                 lat: -20.29806,
+//                 lon: 57.47833,
+//             ),
+//         ),
+//         (
+//             name: "Beau Bassin-Rose Hill",
+//             coordinates: (
+//                 lat: -20.233333333,
+//                 lon: 57.466666666,
+//             ),
+//         ),
+//         (
+//             name: "Quatre Bornes",
+//             coordinates: (
+//                 lat: -20.25,
+//                 lon: 57.466666666,
+//             ),
+//         ),
+//         (
+//             name: "Curepipe",
+//             coordinates: (
+//                 lat: -20.316666666,
+//                 lon: 57.516666666,
+//             ),
+//         ),
+    ],
+)

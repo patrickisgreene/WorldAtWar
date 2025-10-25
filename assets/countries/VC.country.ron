@@ -1,0 +1,15 @@
+(
+    name: "Saint Vincent and the Grenadines",
+    code: "VC",
+    population: 110947,
+    capital: 0,
+    cities: [
+        (
+            name: "Kingstown",
+            coordinates: (
+                lat: 13.13,
+                lon: -61.22,
+            ),
+        ),
+    ],
+)

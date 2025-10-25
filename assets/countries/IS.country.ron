@@ -1,0 +1,29 @@
+(
+    name: "Iceland",
+    code: "IS",
+    population: 366425,
+    capital: 0,
+    cities: [
+        (
+            name: "Reykjavik",
+            coordinates: (
+                lat: 64.15,
+                lon: -21.95,
+            ),
+        ),
+//         (
+//             name: "Reykjavík",
+//             coordinates: (
+//                 lat: 64.1475,
+//                 lon: -21.935,
+//             ),
+//         ),
+//         (
+//             name: "Reykjavíkurborg",
+//             coordinates: (
+//                 lat: 64.15,
+//                 lon: -21.93333333,
+//             ),
+//         ),
+    ],
+)

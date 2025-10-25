@@ -1,0 +1,64 @@
+(
+    name: "Sierra Leone",
+    code: "SL",
+    population: 7976985,
+    capital: 0,
+    cities: [
+        (
+            name: "Freetown",
+            coordinates: (
+                lat: 8.487222222,
+                lon: -13.235555555,
+            ),
+        ),
+        (
+            name: "Bo",
+            coordinates: (
+                lat: 7.956388888,
+                lon: -11.74,
+            ),
+        ),
+//         (
+//             name: "Waterloo",
+//             coordinates: (
+//                 lat: 8.338333333,
+//                 lon: -13.071944444,
+//             ),
+//         ),
+//         (
+//             name: "Kenema",
+//             coordinates: (
+//                 lat: 7.883333333,
+//                 lon: -11.183333333,
+//             ),
+//         ),
+//         (
+//             name: "Makeni",
+//             coordinates: (
+//                 lat: 8.881666666,
+//                 lon: -12.044166666,
+//             ),
+//         ),
+        (
+            name: "Koidu",
+            coordinates: (
+                lat: 8.643888888,
+                lon: -10.971666666,
+            ),
+        ),
+//         (
+//             name: "Port Loko",
+//             coordinates: (
+//                 lat: 8.766666666,
+//                 lon: -12.783333333,
+//             ),
+//         ),
+//         (
+//             name: "Njala",
+//             coordinates: (
+//                 lat: 8.233333333,
+//                 lon: -12.016666666,
+//             ),
+//         ),
+    ],
+)

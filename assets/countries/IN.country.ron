@@ -1,0 +1,365 @@
+(
+    name: "India",
+    code: "IN",
+    population: 1380004385,
+    capital: 0,
+    cities: [
+        (
+            name: "New Delhi",
+            coordinates: (
+                lat: 28.6,
+                lon: 77.2,
+            ),
+        ),
+//         (
+//             name: "Delhi",
+//             coordinates: (
+//                 lat: 28.666666666,
+//                 lon: 77.216666666,
+//             ),
+//         ),
+        (
+            name: "Mumbai",
+            coordinates: (
+                lat: 19.075833333,
+                lon: 72.8775,
+            ),
+        ),
+        (
+            name: "Bengaluru",
+            coordinates: (
+                lat: 12.97194,
+                lon: 77.59369,
+            ),
+        ),
+        (
+            name: "Hyderabad",
+            coordinates: (
+                lat: 17.361666666,
+                lon: 78.474722222,
+            ),
+        ),
+        (
+            name: "Ahmedabad",
+            coordinates: (
+                lat: 23.021944444,
+                lon: 72.579722222,
+            ),
+        ),
+        (
+            name: "Chennai",
+            coordinates: (
+                lat: 13.0825,
+                lon: 80.275,
+            ),
+        ),
+        (
+            name: "Pune",
+            coordinates: (
+                lat: 18.519574,
+                lon: 73.855287,
+            ),
+        ),
+        (
+            name: "Surat",
+            coordinates: (
+                lat: 21.205,
+                lon: 72.84,
+            ),
+        ),
+        (
+            name: "Kolkata",
+            coordinates: (
+                lat: 22.5675,
+                lon: 88.37,
+            ),
+        ),
+        (
+            name: "Lucknow",
+            coordinates: (
+                lat: 26.847,
+                lon: 80.947,
+            ),
+        ),
+        (
+            name: "Jaipur",
+            coordinates: (
+                lat: 26.915,
+                lon: 75.82,
+            ),
+        ),
+//         (
+//             name: "Kanpur",
+//             coordinates: (
+//                 lat: 26.4725,
+//                 lon: 80.331111111,
+//             ),
+//         ),
+        (
+            name: "Nagpur",
+            coordinates: (
+                lat: 21.149722222,
+                lon: 79.080555555,
+            ),
+        ),
+//         (
+//             name: "Ghaziabad",
+//             coordinates: (
+//                 lat: 28.666666666,
+//                 lon: 77.416666666,
+//             ),
+//         ),
+        (
+            name: "Vadodara",
+            coordinates: (
+                lat: 22.3,
+                lon: 73.2,
+            ),
+        ),
+        (
+            name: "Rajkot",
+            coordinates: (
+                lat: 22.296908333,
+                lon: 70.798363888,
+            ),
+        ),
+        (
+            name: "Visakhapatnam",
+            coordinates: (
+                lat: 17.733333333,
+                lon: 83.316666666,
+            ),
+        ),
+        (
+            name: "Indore",
+            coordinates: (
+                lat: 22.718611111,
+                lon: 75.855,
+            ),
+        ),
+        (
+            name: "Davanagere",
+            coordinates: (
+                lat: 14.4647,
+                lon: 75.9233,
+            ),
+        ),
+//         (
+//             name: "Thane",
+//             coordinates: (
+//                 lat: 19.18,
+//                 lon: 72.963333333,
+//             ),
+//         ),
+        (
+            name: "Bhopal",
+            coordinates: (
+                lat: 23.25,
+                lon: 77.416666666,
+            ),
+        ),
+//         (
+//             name: "Pimpri-Chinchwad",
+//             coordinates: (
+//                 lat: 18.627777777,
+//                 lon: 73.813055555,
+//             ),
+//         ),
+        (
+            name: "Patna",
+            coordinates: (
+                lat: 25.61,
+                lon: 85.141388888,
+            ),
+        ),
+        (
+            name: "Ludhiana",
+            coordinates: (
+                lat: 30.908333333,
+                lon: 75.848611111,
+            ),
+        ),
+        (
+            name: "Agra",
+            coordinates: (
+                lat: 27.18,
+                lon: 78.02,
+            ),
+        ),
+        (
+            name: "Madurai",
+            coordinates: (
+                lat: 9.919,
+                lon: 78.11953,
+            ),
+        ),
+        (
+            name: "Jamshedpur",
+            coordinates: (
+                lat: 22.80278,
+                lon: 86.18545,
+            ),
+        ),
+        (
+            name: "Nashik",
+            coordinates: (
+                lat: 20.0,
+                lon: 73.783333333,
+            ),
+        ),
+//         (
+//             name: "Faridabad",
+//             coordinates: (
+//                 lat: 28.416666666,
+//                 lon: 77.3,
+//             ),
+//         ),
+//         (
+//             name: "Najafgarh",
+//             coordinates: (
+//                 lat: 28.6125,
+//                 lon: 76.984722222,
+//             ),
+//         ),
+//         (
+//             name: "Navsari",
+//             coordinates: (
+//                 lat: 20.950555555,
+//                 lon: 72.923055555,
+//             ),
+//         ),
+//         (
+//             name: "Meerut",
+//             coordinates: (
+//                 lat: 28.98,
+//                 lon: 77.706388888,
+//             ),
+//         ),
+//         (
+//             name: "Pimpri",
+//             coordinates: (
+//                 lat: 18.61862222,
+//                 lon: 73.80373056,
+//             ),
+//         ),
+        (
+            name: "Jabalpur",
+            coordinates: (
+                lat: 23.166666666,
+                lon: 79.933333333,
+            ),
+        ),
+//         (
+//             name: "Kalyan",
+//             coordinates: (
+//                 lat: 19.25,
+//                 lon: 73.15,
+//             ),
+//         ),
+//         (
+//             name: "Dombivli",
+//             coordinates: (
+//                 lat: 19.218433,
+//                 lon: 73.086718,
+//             ),
+//         ),
+//         (
+//             name: "Vasai-Virar",
+//             coordinates: (
+//                 lat: 19.47,
+//                 lon: 72.8,
+//             ),
+//         ),
+        (
+            name: "Nabarangpur",
+            coordinates: (
+                lat: 19.233333333,
+                lon: 82.55,
+            ),
+        ),
+        (
+            name: "Varanasi",
+            coordinates: (
+                lat: 25.318888888,
+                lon: 83.012777777,
+            ),
+        ),
+        (
+            name: "Dhanbad",
+            coordinates: (
+                lat: 23.79278,
+                lon: 86.435,
+            ),
+        ),
+        (
+            name: "Srinagar",
+            coordinates: (
+                lat: 34.091111111,
+                lon: 74.806111111,
+            ),
+        ),
+        (
+            name: "Aurangabad",
+            coordinates: (
+                lat: 19.88,
+                lon: 75.32,
+            ),
+        ),
+        (
+            name: "Amritsar",
+            coordinates: (
+                lat: 31.62234,
+                lon: 74.87534,
+            ),
+        ),
+//         (
+//             name: "Navi Mumbai",
+//             coordinates: (
+//                 lat: 19.03,
+//                 lon: 73.01,
+//             ),
+//         ),
+        (
+            name: "Guwahati",
+            coordinates: (
+                lat: 26.1805876,
+                lon: 91.750238,
+            ),
+        ),
+//         (
+//             name: "Howrah",
+//             coordinates: (
+//                 lat: 22.58,
+//                 lon: 88.329444444,
+//             ),
+//         ),
+        (
+            name: "Ranchi",
+            coordinates: (
+                lat: 23.355555555,
+                lon: 85.334722222,
+            ),
+        ),
+        (
+            name: "Prayagraj",
+            coordinates: (
+                lat: 25.45,
+                lon: 81.85,
+            ),
+        ),
+        (
+            name: "Gwalior",
+            coordinates: (
+                lat: 26.2125,
+                lon: 78.1775,
+            ),
+        ),
+        (
+            name: "Jodhpur",
+            coordinates: (
+                lat: 26.26841,
+                lon: 73.00594,
+            ),
+        ),
+    ],
+)

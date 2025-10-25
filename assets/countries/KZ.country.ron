@@ -1,0 +1,309 @@
+(
+    name: "Kazakhstan",
+    code: "KZ",
+    population: 18754440,
+    capital: 1,
+    cities: [
+        (
+            name: "Almaty",
+            coordinates: (
+                lat: 43.24,
+                lon: 76.915,
+            ),
+        ),
+        (
+            name: "Astana",
+            coordinates: (
+                lat: 51.1801,
+                lon: 71.44598,
+            ),
+        ),
+        (
+            name: "Shymkent",
+            coordinates: (
+                lat: 42.3,
+                lon: 69.6,
+            ),
+        ),
+        (
+            name: "Aktobe",
+            coordinates: (
+                lat: 50.283611111,
+                lon: 57.229722222,
+            ),
+        ),
+        (
+            name: "Karaganda",
+            coordinates: (
+                lat: 49.8,
+                lon: 73.116666666,
+            ),
+        ),
+        (
+            name: "Taraz",
+            coordinates: (
+                lat: 42.883333333,
+                lon: 71.366666666,
+            ),
+        ),
+        (
+            name: "Semey",
+            coordinates: (
+                lat: 50.411111111,
+                lon: 80.2275,
+            ),
+        ),
+        (
+            name: "Oskemen",
+            coordinates: (
+                lat: 49.95,
+                lon: 82.616666666,
+            ),
+        ),
+        (
+            name: "Pavlodar",
+            coordinates: (
+                lat: 52.315555555,
+                lon: 76.956388888,
+            ),
+        ),
+//         (
+//             name: "Auezov district",
+//             coordinates: (
+//                 lat: 43.25,
+//                 lon: 76.95,
+//             ),
+//         ),
+//         (
+//             name: "Temirtau",
+//             coordinates: (
+//                 lat: 50.05494,
+//                 lon: 72.96464,
+//             ),
+//         ),
+        (
+            name: "Atyrau",
+            coordinates: (
+                lat: 47.116666666,
+                lon: 51.883333333,
+            ),
+        ),
+        (
+            name: "Kyzylorda",
+            coordinates: (
+                lat: 44.8479,
+                lon: 65.49989,
+            ),
+        ),
+        (
+            name: "Aktau",
+            coordinates: (
+                lat: 43.6525,
+                lon: 51.1575,
+            ),
+        ),
+        (
+            name: "Kostanay",
+            coordinates: (
+                lat: 53.21435,
+                lon: 63.62463,
+            ),
+        ),
+        (
+            name: "Oral",
+            coordinates: (
+                lat: 51.2225,
+                lon: 51.3725,
+            ),
+        ),
+        (
+            name: "Petropavl",
+            coordinates: (
+                lat: 54.862222222,
+                lon: 69.140833333,
+            ),
+        ),
+        (
+            name: "Kokshetau",
+            coordinates: (
+                lat: 53.28245,
+                lon: 69.396919444,
+            ),
+        ),
+        (
+            name: "Turkistan",
+            coordinates: (
+                lat: 43.301944444,
+                lon: 68.269166666,
+            ),
+        ),
+        (
+            name: "Taldyqorğan",
+            coordinates: (
+                lat: 45.016666666,
+                lon: 78.366666666,
+            ),
+        ),
+        (
+            name: "Ekibastuz",
+            coordinates: (
+                lat: 51.729777777,
+                lon: 75.326583333,
+            ),
+        ),
+        (
+            name: "Zhanaozen",
+            coordinates: (
+                lat: 43.338888888,
+                lon: 52.855555555,
+            ),
+        ),
+//         (
+//             name: "Rudny",
+//             coordinates: (
+//                 lat: 52.966666666,
+//                 lon: 63.116666666,
+//             ),
+//         ),
+        (
+            name: "Jezkazgan",
+            coordinates: (
+                lat: 47.783333333,
+                lon: 67.7,
+            ),
+        ),
+//         (
+//             name: "Kentau",
+//             coordinates: (
+//                 lat: 43.516944444,
+//                 lon: 68.504444444,
+//             ),
+//         ),
+//         (
+//             name: "Arys",
+//             coordinates: (
+//                 lat: 42.42965,
+//                 lon: 68.80463,
+//             ),
+//         ),
+        (
+            name: "Balkhash",
+            coordinates: (
+                lat: 46.85,
+                lon: 75.0,
+            ),
+        ),
+//         (
+//             name: "Satpayev",
+//             coordinates: (
+//                 lat: 47.9,
+//                 lon: 67.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Aksu",
+//             coordinates: (
+//                 lat: 52.033333333,
+//                 lon: 76.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Qonayev",
+//             coordinates: (
+//                 lat: 43.883333333,
+//                 lon: 77.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Kaskelen",
+//             coordinates: (
+//                 lat: 43.198333333,
+//                 lon: 76.631111111,
+//             ),
+//         ),
+        (
+            name: "Kulsary",
+            coordinates: (
+                lat: 46.963055555,
+                lon: 54.013333333,
+            ),
+        ),
+        (
+            name: "Zharkent",
+            coordinates: (
+                lat: 44.166666666,
+                lon: 80.006666666,
+            ),
+        ),
+//         (
+//             name: "Karabulak",
+//             coordinates: (
+//                 lat: 42.526944444,
+//                 lon: 69.773055555,
+//             ),
+//         ),
+//         (
+//             name: "Ridder",
+//             coordinates: (
+//                 lat: 50.344166666,
+//                 lon: 83.512777777,
+//             ),
+//         ),
+//         (
+//             name: "Talgar",
+//             coordinates: (
+//                 lat: 43.303611111,
+//                 lon: 77.240833333,
+//             ),
+//         ),
+        (
+            name: "Stepnogorsk",
+            coordinates: (
+                lat: 52.346944444,
+                lon: 71.881666666,
+            ),
+        ),
+//         (
+//             name: "Shchuchinsk",
+//             coordinates: (
+//                 lat: 52.933333333,
+//                 lon: 70.2,
+//             ),
+//         ),
+        (
+            name: "Shu",
+            coordinates: (
+                lat: 43.598333333,
+                lon: 73.761388888,
+            ),
+        ),
+        (
+            name: "Ayteke Bi",
+            coordinates: (
+                lat: 45.853611111,
+                lon: 62.156111111,
+            ),
+        ),
+        (
+            name: "Ayagoz",
+            coordinates: (
+                lat: 47.96447,
+                lon: 80.43437,
+            ),
+        ),
+//         (
+//             name: "Saran",
+//             coordinates: (
+//                 lat: 49.802777777,
+//                 lon: 72.827777777,
+//             ),
+//         ),
+        (
+            name: "Beyneu",
+            coordinates: (
+                lat: 45.316666666,
+                lon: 55.2,
+            ),
+        ),
+    ],
+)

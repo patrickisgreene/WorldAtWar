@@ -1,0 +1,358 @@
+(
+    name: "Spain",
+    code: "ES",
+    population: 47351567,
+    capital: 0,
+    cities: [
+        (
+            name: "Madrid",
+            coordinates: (
+                lat: 40.416944444,
+                lon: -3.703333333,
+            ),
+        ),
+//         (
+//             name: "Madrid city",
+//             coordinates: (
+//                 lat: 40.4165,
+//                 lon: -3.70256,
+//             ),
+//         ),
+        (
+            name: "Barcelona",
+            coordinates: (
+                lat: 41.3825,
+                lon: 2.176944444,
+            ),
+        ),
+//         (
+//             name: "City of Valencia",
+//             coordinates: (
+//                 lat: 39.45612,
+//                 lon: -0.35457,
+//             ),
+//         ),
+        (
+            name: "Valencia",
+            coordinates: (
+                lat: 39.47,
+                lon: -0.376388888,
+            ),
+        ),
+        (
+            name: "Seville",
+            coordinates: (
+                lat: 37.388611111,
+                lon: -5.995555555,
+            ),
+        ),
+        (
+            name: "Zaragoza",
+            coordinates: (
+                lat: 41.65,
+                lon: -0.883333333,
+            ),
+        ),
+//         (
+//             name: "Zaragoza City",
+//             coordinates: (
+//                 lat: 41.65645655,
+//                 lon: -0.87928652,
+//             ),
+//         ),
+        (
+            name: "Málaga",
+            coordinates: (
+                lat: 36.716666666,
+                lon: -4.416666666,
+            ),
+        ),
+//         (
+//             name: "Málaga City",
+//             coordinates: (
+//                 lat: 36.72016,
+//                 lon: -4.42034,
+//             ),
+//         ),
+        (
+            name: "Murcia",
+            coordinates: (
+                lat: 37.986111111,
+                lon: -1.130277777,
+            ),
+        ),
+//         (
+//             name: "Murcia City",
+//             coordinates: (
+//                 lat: 37.98704,
+//                 lon: -1.13004,
+//             ),
+//         ),
+        (
+            name: "Palma",
+            coordinates: (
+                lat: 39.56951,
+                lon: 2.64745,
+            ),
+        ),
+        (
+            name: "Las Palmas de Gran Canaria",
+            coordinates: (
+                lat: 28.127222222,
+                lon: -15.431388888,
+            ),
+        ),
+//         (
+//             name: "Las Palmas de Gran Canaria",
+//             coordinates: (
+//                 lat: 28.099722222,
+//                 lon: -15.413333333,
+//             ),
+//         ),
+//         (
+//             name: "Alicante",
+//             coordinates: (
+//                 lat: 38.35323,
+//                 lon: -0.48134,
+//             ),
+//         ),
+//         (
+//             name: "Lucentum",
+//             coordinates: (
+//                 lat: 38.36444444,
+//                 lon: -0.43833333,
+//             ),
+//         ),
+        (
+            name: "Bilbao",
+            coordinates: (
+                lat: 43.263055555,
+                lon: -2.935,
+            ),
+        ),
+//         (
+//             name: "Bilbao City",
+//             coordinates: (
+//                 lat: 43.26271,
+//                 lon: -2.92528,
+//             ),
+//         ),
+        (
+            name: "Córdoba",
+            coordinates: (
+                lat: 37.89155,
+                lon: -4.77275,
+            ),
+        ),
+//         (
+//             name: "Córdoba",
+//             coordinates: (
+//                 lat: 37.89,
+//                 lon: -4.78,
+//             ),
+//         ),
+        (
+            name: "Valladolid",
+            coordinates: (
+                lat: 41.651980555,
+                lon: -4.728561111,
+            ),
+        ),
+//         (
+//             name: "Valladolid city",
+//             coordinates: (
+//                 lat: 41.65541,
+//                 lon: -4.72353,
+//             ),
+//         ),
+        (
+            name: "Vigo",
+            coordinates: (
+                lat: 42.235833333,
+                lon: -8.726666666,
+            ),
+        ),
+//         (
+//             name: "Vigo City",
+//             coordinates: (
+//                 lat: 42.23282,
+//                 lon: -8.72264,
+//             ),
+//         ),
+//         (
+//             name: "L\'Hospitalet de Llobregat",
+//             coordinates: (
+//                 lat: 41.35967,
+//                 lon: 2.10028,
+//             ),
+//         ),
+//         (
+//             name: "L\'Hospitalet de Llobregat",
+//             coordinates: (
+//                 lat: 41.358888888,
+//                 lon: 2.099166666,
+//             ),
+//         ),
+//         (
+//             name: "Eixample",
+//             coordinates: (
+//                 lat: 41.38896,
+//                 lon: 2.16179,
+//             ),
+//         ),
+        (
+            name: "Gijón",
+            coordinates: (
+                lat: 43.52931,
+                lon: -5.67732,
+            ),
+        ),
+//         (
+//             name: "Carabanchel",
+//             coordinates: (
+//                 lat: 40.383669444,
+//                 lon: -3.727988888,
+//             ),
+//         ),
+//         (
+//             name: "Vitoria-Gasteiz",
+//             coordinates: (
+//                 lat: 42.846666666,
+//                 lon: -2.673055555,
+//             ),
+//         ),
+//         (
+//             name: "Gijón City",
+//             coordinates: (
+//                 lat: 43.545032,
+//                 lon: -5.662104,
+//             ),
+//         ),
+        (
+            name: "A Coruña",
+            coordinates: (
+                lat: 43.37135,
+                lon: -8.396,
+            ),
+        ),
+//         (
+//             name: "A Coruña",
+//             coordinates: (
+//                 lat: 43.37126,
+//                 lon: -8.4188,
+//             ),
+//         ),
+//         (
+//             name: "Vitoria-Gasteiz City",
+//             coordinates: (
+//                 lat: 42.84998,
+//                 lon: -2.67268,
+//             ),
+//         ),
+//         (
+//             name: "Fuencarral-El Pardo",
+//             coordinates: (
+//                 lat: 40.478611111,
+//                 lon: -3.709722222,
+//             ),
+//         ),
+//         (
+//             name: "Elche",
+//             coordinates: (
+//                 lat: 38.26905,
+//                 lon: -0.70797,
+//             ),
+//         ),
+//         (
+//             name: "Latina",
+//             coordinates: (
+//                 lat: 40.38897,
+//                 lon: -3.74569,
+//             ),
+//         ),
+//         (
+//             name: "Puente de Vallecas",
+//             coordinates: (
+//                 lat: 40.398204,
+//                 lon: -3.669059,
+//             ),
+//         ),
+//         (
+//             name: "Sant Martí",
+//             coordinates: (
+//                 lat: 41.417863888,
+//                 lon: 2.198680555,
+//             ),
+//         ),
+//         (
+//             name: "Elche City",
+//             coordinates: (
+//                 lat: 38.26218,
+//                 lon: -0.70107,
+//             ),
+//         ),
+//         (
+//             name: "Granada city",
+//             coordinates: (
+//                 lat: 37.18817,
+//                 lon: -3.60667,
+//             ),
+//         ),
+        (
+            name: "Granada",
+            coordinates: (
+                lat: 37.175,
+                lon: -3.6,
+            ),
+        ),
+//         (
+//             name: "Terrassa",
+//             coordinates: (
+//                 lat: 41.561111111,
+//                 lon: 2.008055555,
+//             ),
+//         ),
+//         (
+//             name: "Badalona",
+//             coordinates: (
+//                 lat: 41.433333333,
+//                 lon: 2.233333333,
+//             ),
+//         ),
+//         (
+//             name: "Terrassa",
+//             coordinates: (
+//                 lat: 41.56667,
+//                 lon: 2.01667,
+//             ),
+//         ),
+//         (
+//             name: "Sabadell",
+//             coordinates: (
+//                 lat: 41.548333333,
+//                 lon: 2.1075,
+//             ),
+//         ),
+//         (
+//             name: "Oviedo",
+//             coordinates: (
+//                 lat: 43.3625,
+//                 lon: -5.850277777,
+//             ),
+//         ),
+//         (
+//             name: "Ciudad Lineal",
+//             coordinates: (
+//                 lat: 40.45,
+//                 lon: -3.65,
+//             ),
+//         ),
+//         (
+//             name: "Cartagena",
+//             coordinates: (
+//                 lat: 37.601944444,
+//                 lon: -0.984166666,
+//             ),
+//         ),
+    ],
+)

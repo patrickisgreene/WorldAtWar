@@ -1,0 +1,36 @@
+(
+    name: "Guinea-Bissau",
+    code: "GW",
+    population: 1967998,
+    capital: 0,
+    cities: [
+        (
+            name: "Bissau",
+            coordinates: (
+                lat: 11.859166666,
+                lon: -15.595555555,
+            ),
+        ),
+        (
+            name: "Farim",
+            coordinates: (
+                lat: 12.483333,
+                lon: -15.216667,
+            ),
+        ),
+        (
+            name: "Gabu",
+            coordinates: (
+                lat: 12.283333333,
+                lon: -14.216666666,
+            ),
+        ),
+//         (
+//             name: "Quinhamel",
+//             coordinates: (
+//                 lat: 11.88694,
+//                 lon: -15.85556,
+//             ),
+//         ),
+    ],
+)

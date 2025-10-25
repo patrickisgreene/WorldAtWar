@@ -1,0 +1,358 @@
+(
+    name: "Malaysia",
+    code: "MY",
+    population: 32365998,
+    capital: 0,
+    cities: [
+        (
+            name: "Kuala Lumpur",
+            coordinates: (
+                lat: 3.147777777,
+                lon: 101.695277777,
+            ),
+        ),
+//         (
+//             name: "Klang",
+//             coordinates: (
+//                 lat: 3.033333333,
+//                 lon: 101.45,
+//             ),
+//         ),
+        (
+            name: "Ipoh",
+            coordinates: (
+                lat: 4.6,
+                lon: 101.07,
+            ),
+        ),
+//         (
+//             name: "Kampung Baru Subang",
+//             coordinates: (
+//                 lat: 3.15,
+//                 lon: 101.53333,
+//             ),
+//         ),
+//         (
+//             name: "Johor Bahru",
+//             coordinates: (
+//                 lat: 1.455555555,
+//                 lon: 103.761111111,
+//             ),
+//         ),
+//         (
+//             name: "George Town",
+//             coordinates: (
+//                 lat: 5.4145,
+//                 lon: 100.3292,
+//             ),
+//         ),
+//         (
+//             name: "Shah Alam",
+//             coordinates: (
+//                 lat: 3.083333333,
+//                 lon: 101.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Subang Jaya",
+//             coordinates: (
+//                 lat: 3.064444444,
+//                 lon: 101.593611111,
+//             ),
+//         ),
+//         (
+//             name: "Petaling Jaya",
+//             coordinates: (
+//                 lat: 3.10726,
+//                 lon: 101.60671,
+//             ),
+//         ),
+//         (
+//             name: "Kuantan",
+//             coordinates: (
+//                 lat: 3.816666666,
+//                 lon: 103.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Mukim Plentong",
+//             coordinates: (
+//                 lat: 1.53333333,
+//                 lon: 103.81666667,
+//             ),
+//         ),
+//         (
+//             name: "Bandar Baru Selayang",
+//             coordinates: (
+//                 lat: 3.27,
+//                 lon: 101.65,
+//             ),
+//         ),
+        (
+            name: "Kota Bharu",
+            coordinates: (
+                lat: 6.133333333,
+                lon: 102.25,
+            ),
+        ),
+//         (
+//             name: "Malacca",
+//             coordinates: (
+//                 lat: 2.188888888,
+//                 lon: 102.251111111,
+//             ),
+//         ),
+//         (
+//             name: "Seremban",
+//             coordinates: (
+//                 lat: 2.729722222,
+//                 lon: 101.938055555,
+//             ),
+//         ),
+        (
+            name: "Sandakan",
+            coordinates: (
+                lat: 5.83878,
+                lon: 118.11729,
+            ),
+        ),
+//         (
+//             name: "Setapak",
+//             coordinates: (
+//                 lat: 3.20361111,
+//                 lon: 101.72444444,
+//             ),
+//         ),
+        (
+            name: "Kuching",
+            coordinates: (
+                lat: 1.5575,
+                lon: 110.343888888,
+            ),
+        ),
+//         (
+//             name: "Pasir Gudang",
+//             coordinates: (
+//                 lat: 1.462,
+//                 lon: 103.9053,
+//             ),
+//         ),
+//         (
+//             name: "Kajang",
+//             coordinates: (
+//                 lat: 2.99306,
+//                 lon: 101.789,
+//             ),
+//         ),
+//         (
+//             name: "Kapar",
+//             coordinates: (
+//                 lat: 3.133333333,
+//                 lon: 101.383333333,
+//             ),
+//         ),
+//         (
+//             name: "Chukai",
+//             coordinates: (
+//                 lat: 4.23,
+//                 lon: 103.45,
+//             ),
+//         ),
+        (
+            name: "Kuala Terengganu",
+            coordinates: (
+                lat: 5.330277777,
+                lon: 103.140833333,
+            ),
+        ),
+        (
+            name: "Miri",
+            coordinates: (
+                lat: 4.414722222,
+                lon: 114.008888888,
+            ),
+        ),
+//         (
+//             name: "Pasir Mas",
+//             coordinates: (
+//                 lat: 6.033333333,
+//                 lon: 102.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Sungai Petani",
+//             coordinates: (
+//                 lat: 5.646944444,
+//                 lon: 100.487777777,
+//             ),
+//         ),
+//         (
+//             name: "Sungai Buloh",
+//             coordinates: (
+//                 lat: 3.2,
+//                 lon: 101.583333333,
+//             ),
+//         ),
+//         (
+//             name: "Taiping",
+//             coordinates: (
+//                 lat: 4.85,
+//                 lon: 100.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Alor Setar",
+//             coordinates: (
+//                 lat: 6.116666666,
+//                 lon: 100.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Bukit Mertajam",
+//             coordinates: (
+//                 lat: 5.365277777,
+//                 lon: 100.460555555,
+//             ),
+//         ),
+        (
+            name: "Lahad Datu",
+            coordinates: (
+                lat: 5.02298,
+                lon: 118.32897,
+            ),
+        ),
+        (
+            name: "Sibu",
+            coordinates: (
+                lat: 2.3,
+                lon: 111.816666666,
+            ),
+        ),
+//         (
+//             name: "Kluang",
+//             coordinates: (
+//                 lat: 2.03046,
+//                 lon: 103.31689,
+//             ),
+//         ),
+//         (
+//             name: "Skudai",
+//             coordinates: (
+//                 lat: 1.53333333,
+//                 lon: 103.66666667,
+//             ),
+//         ),
+//         (
+//             name: "Temerloh",
+//             coordinates: (
+//                 lat: 3.66667,
+//                 lon: 102.25,
+//             ),
+//         ),
+//         (
+//             name: "Kulim",
+//             coordinates: (
+//                 lat: 5.36,
+//                 lon: 100.549722222,
+//             ),
+//         ),
+//         (
+//             name: "Kampung Pasir Gudang Baru",
+//             coordinates: (
+//                 lat: 1.4725,
+//                 lon: 103.878055555,
+//             ),
+//         ),
+//         (
+//             name: "Masai",
+//             coordinates: (
+//                 lat: 1.4897134,
+//                 lon: 103.8843105,
+//             ),
+//         ),
+//         (
+//             name: "Kampung Sungai Ara",
+//             coordinates: (
+//                 lat: 5.326944444,
+//                 lon: 100.273611111,
+//             ),
+//         ),
+//         (
+//             name: "Batu Pahat",
+//             coordinates: (
+//                 lat: 1.85,
+//                 lon: 102.93,
+//             ),
+//         ),
+//         (
+//             name: "Tasek Gelugor",
+//             coordinates: (
+//                 lat: 5.48333,
+//                 lon: 100.5,
+//             ),
+//         ),
+//         (
+//             name: "Bayan Lepas",
+//             coordinates: (
+//                 lat: 5.29992,
+//                 lon: 100.26052,
+//             ),
+//         ),
+//         (
+//             name: "Seri Kembangan",
+//             coordinates: (
+//                 lat: 3.033333333,
+//                 lon: 101.716666666,
+//             ),
+//         ),
+//         (
+//             name: "Muar",
+//             coordinates: (
+//                 lat: 2.05,
+//                 lon: 102.56,
+//             ),
+//         ),
+        (
+            name: "Bintulu",
+            coordinates: (
+                lat: 3.17,
+                lon: 113.03,
+            ),
+        ),
+        (
+            name: "Tawau",
+            coordinates: (
+                lat: 4.24482,
+                lon: 117.89115,
+            ),
+        ),
+//         (
+//             name: "Maran",
+//             coordinates: (
+//                 lat: 3.58333333,
+//                 lon: 102.76666667,
+//             ),
+//         ),
+//         (
+//             name: "Putrajaya",
+//             coordinates: (
+//                 lat: 2.93,
+//                 lon: 101.69,
+//             ),
+//         ),
+//         (
+//             name: "Butterworth",
+//             coordinates: (
+//                 lat: 5.394166666,
+//                 lon: 100.366388888,
+//             ),
+//         ),
+//         (
+//             name: "Kuala Krai",
+//             coordinates: (
+//                 lat: 5.533333333,
+//                 lon: 102.2,
+//             ),
+//         ),
+    ],
+)

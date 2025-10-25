@@ -1,0 +1,127 @@
+(
+    name: "Guinea",
+    code: "GN",
+    population: 13132792,
+    capital: 1,
+    cities: [
+//         (
+//             name: "Camayenne",
+//             coordinates: (
+//                 lat: 9.535,
+//                 lon: -13.687777777,
+//             ),
+//         ),
+        (
+            name: "Conakry",
+            coordinates: (
+                lat: 9.509166666,
+                lon: -13.712222222,
+            ),
+        ),
+        (
+            name: "Nzérékoré",
+            coordinates: (
+                lat: 7.752222222,
+                lon: -8.821666666,
+            ),
+        ),
+        (
+            name: "Guéckédougou",
+            coordinates: (
+                lat: 8.566666666,
+                lon: -10.133333333,
+            ),
+        ),
+//         (
+//             name: "Manéah",
+//             coordinates: (
+//                 lat: 9.73333333,
+//                 lon: -13.41666667,
+//             ),
+//         ),
+        (
+            name: "Kankan",
+            coordinates: (
+                lat: 10.383333333,
+                lon: -9.3,
+            ),
+        ),
+        (
+            name: "Siguiri",
+            coordinates: (
+                lat: 11.418888888,
+                lon: -9.164444444,
+            ),
+        ),
+//         (
+//             name: "Dubréka",
+//             coordinates: (
+//                 lat: 9.789722222,
+//                 lon: -13.498888888,
+//             ),
+//         ),
+//         (
+//             name: "Kindia",
+//             coordinates: (
+//                 lat: 10.049722222,
+//                 lon: -12.854166666,
+//             ),
+//         ),
+//         (
+//             name: "Kissidougou",
+//             coordinates: (
+//                 lat: 9.183333333,
+//                 lon: -10.1,
+//             ),
+//         ),
+        (
+            name: "Kamsar",
+            coordinates: (
+                lat: 10.65,
+                lon: -14.616666666,
+            ),
+        ),
+        (
+            name: "Labé",
+            coordinates: (
+                lat: 11.316666666,
+                lon: -12.283333333,
+            ),
+        ),
+        (
+            name: "Mamou",
+            coordinates: (
+                lat: 10.383333333,
+                lon: -12.083333333,
+            ),
+        ),
+//         (
+//             name: "Coyah",
+//             coordinates: (
+//                 lat: 9.7,
+//                 lon: -13.383333333,
+//             ),
+//         ),
+        (
+            name: "Faranah",
+            coordinates: (
+                lat: 10.033333333,
+                lon: -10.733333333,
+            ),
+        ),
+//         (
+//             name: "Fria",
+//             coordinates: (
+//                 lat: 10.36676,
+//                 lon: -13.58253,
+//             ),
+//         ),
+//         (
+//             name: "Macenta",
+//             coordinates: (
+//                 lat: 8.55,
+//                 lon: -9.466666666,
+//             ),
+//         ),
+    ],
+)

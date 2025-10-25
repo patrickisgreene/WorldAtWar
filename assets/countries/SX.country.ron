@@ -1,0 +1,15 @@
+(
+    name: "Sint Maarten",
+    code: "SX",
+    population: 40812,
+    capital: 0,
+    cities: [
+        (
+            name: "Philipsburg",
+            coordinates: (
+                lat: 18.02,
+                lon: -63.03,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,22 @@
+(
+    name: "Malta",
+    code: "MT",
+    population: 525285,
+    capital: 0,
+    cities: [
+        (
+            name: "Valletta",
+            coordinates: (
+                lat: 35.88,
+                lon: 14.5,
+            ),
+        ),
+//         (
+//             name: "Qormi",
+//             coordinates: (
+//                 lat: 35.879444444,
+//                 lon: 14.472222222,
+//             ),
+//         ),
+    ],
+)

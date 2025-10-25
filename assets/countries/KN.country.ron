@@ -1,0 +1,15 @@
+(
+    name: "Saint Kitts and Nevis",
+    code: "KN",
+    population: 53192,
+    capital: 0,
+    cities: [
+        (
+            name: "Basseterre",
+            coordinates: (
+                lat: 17.3,
+                lon: -62.72,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,50 @@
+(
+    name: "Gambia",
+    code: "GM",
+    population: 2416664,
+    capital: 0,
+    cities: [
+        (
+            name: "Banjul",
+            coordinates: (
+                lat: 13.45,
+                lon: -16.57,
+            ),
+        ),
+//         (
+//             name: "Serekunda",
+//             coordinates: (
+//                 lat: 13.445,
+//                 lon: -16.675,
+//             ),
+//         ),
+//         (
+//             name: "Kerewan",
+//             coordinates: (
+//                 lat: 13.5,
+//                 lon: -16.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Brikama",
+//             coordinates: (
+//                 lat: 13.266666666,
+//                 lon: -16.65,
+//             ),
+//         ),
+//         (
+//             name: "Sukuta",
+//             coordinates: (
+//                 lat: 13.41444444,
+//                 lon: -16.70722222,
+//             ),
+//         ),
+//         (
+//             name: "Bakau",
+//             coordinates: (
+//                 lat: 13.479722222,
+//                 lon: -16.673611111,
+//             ),
+//         ),
+    ],
+)

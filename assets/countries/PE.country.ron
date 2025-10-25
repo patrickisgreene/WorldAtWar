@@ -1,0 +1,358 @@
+(
+    name: "Peru",
+    code: "PE",
+    population: 32971846,
+    capital: 0,
+    cities: [
+        (
+            name: "Lima",
+            coordinates: (
+                lat: -12.04318,
+                lon: -77.02824,
+            ),
+        ),
+        (
+            name: "Trujillo",
+            coordinates: (
+                lat: -8.111944444,
+                lon: -79.028888888,
+            ),
+        ),
+        (
+            name: "Arequipa",
+            coordinates: (
+                lat: -16.398888888,
+                lon: -71.536944444,
+            ),
+        ),
+        (
+            name: "Chiclayo",
+            coordinates: (
+                lat: -6.77008,
+                lon: -79.85495,
+            ),
+        ),
+//         (
+//             name: "Callao",
+//             coordinates: (
+//                 lat: -12.052222222,
+//                 lon: -77.139166666,
+//             ),
+//         ),
+        (
+            name: "Piura",
+            coordinates: (
+                lat: -5.200833333,
+                lon: -80.625277777,
+            ),
+        ),
+        (
+            name: "Huancayo",
+            coordinates: (
+                lat: -12.066666666,
+                lon: -75.216666666,
+            ),
+        ),
+        (
+            name: "Cusco",
+            coordinates: (
+                lat: -13.53188,
+                lon: -71.96701,
+            ),
+        ),
+        (
+            name: "Chimbote",
+            coordinates: (
+                lat: -9.07508,
+                lon: -78.59373,
+            ),
+        ),
+        (
+            name: "Iquitos",
+            coordinates: (
+                lat: -3.733333333,
+                lon: -73.25,
+            ),
+        ),
+        (
+            name: "Pucallpa",
+            coordinates: (
+                lat: -8.383333333,
+                lon: -74.55,
+            ),
+        ),
+        (
+            name: "Juliaca",
+            coordinates: (
+                lat: -15.5,
+                lon: -70.13333,
+            ),
+        ),
+        (
+            name: "Tacna",
+            coordinates: (
+                lat: -18.01465,
+                lon: -70.25362,
+            ),
+        ),
+        (
+            name: "Ica",
+            coordinates: (
+                lat: -14.066666666,
+                lon: -75.733333333,
+            ),
+        ),
+        (
+            name: "Tarapoto",
+            coordinates: (
+                lat: -6.483333333,
+                lon: -76.366666666,
+            ),
+        ),
+        (
+            name: "Ayacucho",
+            coordinates: (
+                lat: -13.163055555,
+                lon: -74.224444444,
+            ),
+        ),
+        (
+            name: "Cajamarca",
+            coordinates: (
+                lat: -7.16378,
+                lon: -78.50027,
+            ),
+        ),
+//         (
+//             name: "Huacho",
+//             coordinates: (
+//                 lat: -11.10667,
+//                 lon: -77.605,
+//             ),
+//         ),
+        (
+            name: "Huánuco",
+            coordinates: (
+                lat: -9.929444444,
+                lon: -76.239722222,
+            ),
+        ),
+//         (
+//             name: "Sullana",
+//             coordinates: (
+//                 lat: -4.903888888,
+//                 lon: -80.685277777,
+//             ),
+//         ),
+//         (
+//             name: "Huaycan",
+//             coordinates: (
+//                 lat: -12.013888888,
+//                 lon: -76.825,
+//             ),
+//         ),
+//         (
+//             name: "Puno",
+//             coordinates: (
+//                 lat: -15.84003,
+//                 lon: -70.02198,
+//             ),
+//         ),
+        (
+            name: "Huaraz",
+            coordinates: (
+                lat: -9.533333333,
+                lon: -77.533333333,
+            ),
+        ),
+//         (
+//             name: "Talara",
+//             coordinates: (
+//                 lat: -4.583333333,
+//                 lon: -81.266666666,
+//             ),
+//         ),
+        (
+            name: "Tumbes",
+            coordinates: (
+                lat: -3.570833333,
+                lon: -80.459722222,
+            ),
+        ),
+//         (
+//             name: "Chosica",
+//             coordinates: (
+//                 lat: -11.94306,
+//                 lon: -76.70944,
+//             ),
+//         ),
+        (
+            name: "Puerto Maldonado",
+            coordinates: (
+                lat: -12.6,
+                lon: -69.183333333,
+            ),
+        ),
+//         (
+//             name: "Paita",
+//             coordinates: (
+//                 lat: -5.08917,
+//                 lon: -81.11444,
+//             ),
+//         ),
+//         (
+//             name: "Huaral",
+//             coordinates: (
+//                 lat: -11.50076008,
+//                 lon: -77.20906067,
+//             ),
+//         ),
+//         (
+//             name: "San Juan",
+//             coordinates: (
+//                 lat: -3.783185,
+//                 lon: -73.304282,
+//             ),
+//         ),
+//         (
+//             name: "Ciudad Satelite",
+//             coordinates: (
+//                 lat: -16.43085,
+//                 lon: -71.52921,
+//             ),
+//         ),
+//         (
+//             name: "Chilca",
+//             coordinates: (
+//                 lat: -12.08628,
+//                 lon: -75.20827,
+//             ),
+//         ),
+//         (
+//             name: "Selva Alegre",
+//             coordinates: (
+//                 lat: -16.37057,
+//                 lon: -71.52724,
+//             ),
+//         ),
+        (
+            name: "Abancay",
+            coordinates: (
+                lat: -13.633333333,
+                lon: -72.883333333,
+            ),
+        ),
+        (
+            name: "Moquegua",
+            coordinates: (
+                lat: -17.2,
+                lon: -70.933333,
+            ),
+        ),
+//         (
+//             name: "Chulucanas",
+//             coordinates: (
+//                 lat: -5.109166666,
+//                 lon: -80.1625,
+//             ),
+//         ),
+//         (
+//             name: "San Isidro",
+//             coordinates: (
+//                 lat: -12.11667,
+//                 lon: -77.05,
+//             ),
+//         ),
+//         (
+//             name: "San Fernando",
+//             coordinates: (
+//                 lat: -8.398312,
+//                 lon: -74.536843,
+//             ),
+//         ),
+//         (
+//             name: "Ilo",
+//             coordinates: (
+//                 lat: -17.648611111,
+//                 lon: -71.330555555,
+//             ),
+//         ),
+        (
+            name: "Moyobamba",
+            coordinates: (
+                lat: -6.033333333,
+                lon: -76.966666666,
+            ),
+        ),
+//         (
+//             name: "Santiago",
+//             coordinates: (
+//                 lat: -13.52728,
+//                 lon: -71.9843,
+//             ),
+//         ),
+//         (
+//             name: "Chincha Alta",
+//             coordinates: (
+//                 lat: -13.45,
+//                 lon: -76.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Yurimaguas",
+//             coordinates: (
+//                 lat: -5.9,
+//                 lon: -76.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Pisco",
+//             coordinates: (
+//                 lat: -13.71029,
+//                 lon: -76.20538,
+//             ),
+//         ),
+//         (
+//             name: "Wanchaq",
+//             coordinates: (
+//                 lat: -13.52493,
+//                 lon: -71.96531,
+//             ),
+//         ),
+        (
+            name: "Cerro de Pasco",
+            coordinates: (
+                lat: -10.66577,
+                lon: -76.25309,
+            ),
+        ),
+//         (
+//             name: "Barranca",
+//             coordinates: (
+//                 lat: -10.753888888,
+//                 lon: -77.760994444,
+//             ),
+//         ),
+//         (
+//             name: "Lambayeque",
+//             coordinates: (
+//                 lat: -6.7,
+//                 lon: -79.9,
+//             ),
+//         ),
+        (
+            name: "Sicuani",
+            coordinates: (
+                lat: -14.26944,
+                lon: -71.22611,
+            ),
+        ),
+//         (
+//             name: "Catacaos",
+//             coordinates: (
+//                 lat: -5.265277777,
+//                 lon: -80.675,
+//             ),
+//         ),
+    ],
+)

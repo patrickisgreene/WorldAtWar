@@ -1,0 +1,15 @@
+(
+    name: "Suriname",
+    code: "SR",
+    population: 586634,
+    capital: 0,
+    cities: [
+        (
+            name: "Paramaribo",
+            coordinates: (
+                lat: 5.866666666,
+                lon: -55.166666666,
+            ),
+        ),
+    ],
+)

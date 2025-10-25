@@ -1,0 +1,197 @@
+(
+    name: "Nepal",
+    code: "NP",
+    population: 29136808,
+    capital: 0,
+    cities: [
+        (
+            name: "Kathmandu",
+            coordinates: (
+                lat: 27.72,
+                lon: 85.32,
+            ),
+        ),
+//         (
+//             name: "Lalitpur",
+//             coordinates: (
+//                 lat: 27.6833,
+//                 lon: 85.3333,
+//             ),
+//         ),
+//         (
+//             name: "Bharatpur",
+//             coordinates: (
+//                 lat: 27.683333333,
+//                 lon: 84.433333333,
+//             ),
+//         ),
+//         (
+//             name: "Pokhara",
+//             coordinates: (
+//                 lat: 28.209722222,
+//                 lon: 83.985277777,
+//             ),
+//         ),
+//         (
+//             name: "Birgunj",
+//             coordinates: (
+//                 lat: 27.0,
+//                 lon: 84.866666666,
+//             ),
+//         ),
+        (
+            name: "Biratnagar",
+            coordinates: (
+                lat: 26.483333333,
+                lon: 87.283333333,
+            ),
+        ),
+//         (
+//             name: "Butwal",
+//             coordinates: (
+//                 lat: 27.7,
+//                 lon: 83.45,
+//             ),
+//         ),
+//         (
+//             name: "Dharan",
+//             coordinates: (
+//                 lat: 26.816666666,
+//                 lon: 87.266666666,
+//             ),
+//         ),
+        (
+            name: "Ghorahi",
+            coordinates: (
+                lat: 28.04324,
+                lon: 82.48625,
+            ),
+        ),
+//         (
+//             name: "Bhimdatta",
+//             coordinates: (
+//                 lat: 28.916666666,
+//                 lon: 80.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Lahan",
+//             coordinates: (
+//                 lat: 26.716666666,
+//                 lon: 86.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Triyuga",
+//             coordinates: (
+//                 lat: 26.7919,
+//                 lon: 86.699,
+//             ),
+//         ),
+//         (
+//             name: "Dhangadhi",
+//             coordinates: (
+//                 lat: 28.70159,
+//                 lon: 80.58991,
+//             ),
+//         ),
+//         (
+//             name: "Janakpurdham",
+//             coordinates: (
+//                 lat: 26.712222222,
+//                 lon: 85.921666666,
+//             ),
+//         ),
+//         (
+//             name: "Hetauda",
+//             coordinates: (
+//                 lat: 27.416666666,
+//                 lon: 85.033333333,
+//             ),
+//         ),
+//         (
+//             name: "Madhyapur Thimi",
+//             coordinates: (
+//                 lat: 27.680555555,
+//                 lon: 85.3875,
+//             ),
+//         ),
+//         (
+//             name: "Bhaktapur",
+//             coordinates: (
+//                 lat: 27.672222222,
+//                 lon: 85.427777777,
+//             ),
+//         ),
+//         (
+//             name: "Itahari",
+//             coordinates: (
+//                 lat: 26.666666666,
+//                 lon: 87.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Nepalgunj",
+//             coordinates: (
+//                 lat: 28.05,
+//                 lon: 81.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Banepa",
+//             coordinates: (
+//                 lat: 27.633333333,
+//                 lon: 85.516666666,
+//             ),
+//         ),
+//         (
+//             name: "Kirtipur",
+//             coordinates: (
+//                 lat: 27.666666666,
+//                 lon: 85.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Siddharthanagar",
+//             coordinates: (
+//                 lat: 27.5,
+//                 lon: 83.45,
+//             ),
+//         ),
+//         (
+//             name: "Tikapur",
+//             coordinates: (
+//                 lat: 28.52819,
+//                 lon: 81.11828,
+//             ),
+//         ),
+//         (
+//             name: "Gulariya",
+//             coordinates: (
+//                 lat: 28.2058,
+//                 lon: 81.34532,
+//             ),
+//         ),
+//         (
+//             name: "Tulsipur",
+//             coordinates: (
+//                 lat: 28.127777777,
+//                 lon: 82.295555555,
+//             ),
+//         ),
+//         (
+//             name: "Birendranagar",
+//             coordinates: (
+//                 lat: 28.6,
+//                 lon: 81.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Kalaiya",
+//             coordinates: (
+//                 lat: 27.033333333,
+//                 lon: 85.0,
+//             ),
+//         ),
+    ],
+)

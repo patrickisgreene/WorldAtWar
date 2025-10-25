@@ -1,0 +1,358 @@
+(
+    name: "Guatemala",
+    code: "GT",
+    population: 16858333,
+    capital: 0,
+    cities: [
+        (
+            name: "Guatemala City",
+            coordinates: (
+                lat: 14.61382,
+                lon: -90.5409,
+            ),
+        ),
+//         (
+//             name: "Mixco",
+//             coordinates: (
+//                 lat: 14.633805555,
+//                 lon: -90.614583333,
+//             ),
+//         ),
+//         (
+//             name: "Villa Nueva",
+//             coordinates: (
+//                 lat: 14.5314,
+//                 lon: -90.5964,
+//             ),
+//         ),
+//         (
+//             name: "Mixco",
+//             coordinates: (
+//                 lat: 14.633333333,
+//                 lon: -90.6,
+//             ),
+//         ),
+//         (
+//             name: "San Juan Sacatepéquez",
+//             coordinates: (
+//                 lat: 14.718888888,
+//                 lon: -90.644166666,
+//             ),
+//         ),
+//         (
+//             name: "San Pedro Carchá",
+//             coordinates: (
+//                 lat: 15.476801,
+//                 lon: -90.312037,
+//             ),
+//         ),
+//         (
+//             name: "Cobán",
+//             coordinates: (
+//                 lat: 15.483333333,
+//                 lon: -90.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Quetzaltenango",
+//             coordinates: (
+//                 lat: 14.833333333,
+//                 lon: -91.516666666,
+//             ),
+//         ),
+//         (
+//             name: "Jalapa",
+//             coordinates: (
+//                 lat: 14.637861111,
+//                 lon: -89.990416666,
+//             ),
+//         ),
+//         (
+//             name: "Quetzaltenango",
+//             coordinates: (
+//                 lat: 14.83472,
+//                 lon: -91.51806,
+//             ),
+//         ),
+//         (
+//             name: "Escuintla",
+//             coordinates: (
+//                 lat: 14.297777777,
+//                 lon: -90.786944444,
+//             ),
+//         ),
+//         (
+//             name: "Villa Canales",
+//             coordinates: (
+//                 lat: 14.481638888,
+//                 lon: -90.534,
+//             ),
+//         ),
+//         (
+//             name: "Jutiapa",
+//             coordinates: (
+//                 lat: 14.291666666,
+//                 lon: -89.895833333,
+//             ),
+//         ),
+//         (
+//             name: "Jalapa",
+//             coordinates: (
+//                 lat: 14.633333333,
+//                 lon: -89.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Escuintla",
+//             coordinates: (
+//                 lat: 14.3,
+//                 lon: -90.783333333,
+//             ),
+//         ),
+//         (
+//             name: "Villa Canales",
+//             coordinates: (
+//                 lat: 14.483333333,
+//                 lon: -90.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Amatitlán",
+//             coordinates: (
+//                 lat: 14.4741,
+//                 lon: -90.6247,
+//             ),
+//         ),
+//         (
+//             name: "Chichicastenango",
+//             coordinates: (
+//                 lat: 14.944214,
+//                 lon: -91.110531,
+//             ),
+//         ),
+//         (
+//             name: "San Miguel Petapa",
+//             coordinates: (
+//                 lat: 14.4962,
+//                 lon: -90.5525,
+//             ),
+//         ),
+//         (
+//             name: "Chichicastenango",
+//             coordinates: (
+//                 lat: 14.94333,
+//                 lon: -91.11116,
+//             ),
+//         ),
+//         (
+//             name: "Momostenango",
+//             coordinates: (
+//                 lat: 15.044444444,
+//                 lon: -91.408333333,
+//             ),
+//         ),
+//         (
+//             name: "Huehuetenango",
+//             coordinates: (
+//                 lat: 15.31403,
+//                 lon: -91.38761,
+//             ),
+//         ),
+//         (
+//             name: "Petapa",
+//             coordinates: (
+//                 lat: 14.5,
+//                 lon: -90.566666666,
+//             ),
+//         ),
+//         (
+//             name: "Santa Cruz Barillas",
+//             coordinates: (
+//                 lat: 15.804456,
+//                 lon: -91.315506,
+//             ),
+//         ),
+//         (
+//             name: "Santa Lucía Cotzumalguapa",
+//             coordinates: (
+//                 lat: 14.33333333,
+//                 lon: -91.01666667,
+//             ),
+//         ),
+//         (
+//             name: "Chinautla",
+//             coordinates: (
+//                 lat: 14.702916666,
+//                 lon: -90.500027777,
+//             ),
+//         ),
+//         (
+//             name: "Coatepeque",
+//             coordinates: (
+//                 lat: 14.7,
+//                 lon: -91.866666666,
+//             ),
+//         ),
+//         (
+//             name: "Totonicapán",
+//             coordinates: (
+//                 lat: 14.910833333,
+//                 lon: -91.360555555,
+//             ),
+//         ),
+//         (
+//             name: "Chimaltenango",
+//             coordinates: (
+//                 lat: 14.662222222,
+//                 lon: -90.820833333,
+//             ),
+//         ),
+//         (
+//             name: "Tecpán Guatemala",
+//             coordinates: (
+//                 lat: 14.7667,
+//                 lon: -91.0,
+//             ),
+//         ),
+//         (
+//             name: "Santa Lucía Cotzumalguapa",
+//             coordinates: (
+//                 lat: 14.333333333,
+//                 lon: -91.016666666,
+//             ),
+//         ),
+//         (
+//             name: "Pochuta",
+//             coordinates: (
+//                 lat: 14.55,
+//                 lon: -91.083333,
+//             ),
+//         ),
+//         (
+//             name: "Chiquimula",
+//             coordinates: (
+//                 lat: 14.783333333,
+//                 lon: -89.533333333,
+//             ),
+//         ),
+        (
+            name: "Puerto Barrios",
+            coordinates: (
+                lat: 15.73,
+                lon: -88.6,
+            ),
+        ),
+//         (
+//             name: "Retalhuleu",
+//             coordinates: (
+//                 lat: 14.533333333,
+//                 lon: -91.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Ixcán",
+//             coordinates: (
+//                 lat: 15.988055555,
+//                 lon: -90.781666666,
+//             ),
+//         ),
+//         (
+//             name: "Malacatán",
+//             coordinates: (
+//                 lat: 14.9121,
+//                 lon: -92.0606,
+//             ),
+//         ),
+//         (
+//             name: "Joyabaj",
+//             coordinates: (
+//                 lat: 14.995,
+//                 lon: -90.8075,
+//             ),
+//         ),
+//         (
+//             name: "Morales",
+//             coordinates: (
+//                 lat: 15.4725,
+//                 lon: -88.841388888,
+//             ),
+//         ),
+//         (
+//             name: "Chinautla",
+//             coordinates: (
+//                 lat: 14.7,
+//                 lon: -90.5,
+//             ),
+//         ),
+//         (
+//             name: "Totonicapán",
+//             coordinates: (
+//                 lat: 14.916666666,
+//                 lon: -91.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Puerto Barrios",
+//             coordinates: (
+//                 lat: 15.71754,
+//                 lon: -88.58517,
+//             ),
+//         ),
+//         (
+//             name: "Sololá",
+//             coordinates: (
+//                 lat: 14.766666666,
+//                 lon: -91.183333333,
+//             ),
+//         ),
+        (
+            name: "Sayaxché",
+            coordinates: (
+                lat: 16.516666666,
+                lon: -90.183333333,
+            ),
+        ),
+//         (
+//             name: "Santa Cruz del Quiché",
+//             coordinates: (
+//                 lat: 15.05,
+//                 lon: -91.25,
+//             ),
+//         ),
+//         (
+//             name: "Senahú",
+//             coordinates: (
+//                 lat: 15.416388888,
+//                 lon: -89.820277777,
+//             ),
+//         ),
+//         (
+//             name: "Chimaltenango",
+//             coordinates: (
+//                 lat: 14.66111,
+//                 lon: -90.81944,
+//             ),
+//         ),
+//         (
+//             name: "San Martín Jilotepeque",
+//             coordinates: (
+//                 lat: 14.783046,
+//                 lon: -90.794213,
+//             ),
+//         ),
+//         (
+//             name: "Chiantla",
+//             coordinates: (
+//                 lat: 15.3566902,
+//                 lon: -91.456761,
+//             ),
+//         ),
+//         (
+//             name: "Nahualá",
+//             coordinates: (
+//                 lat: 14.8429,
+//                 lon: -91.316963,
+//             ),
+//         ),
+    ],
+)

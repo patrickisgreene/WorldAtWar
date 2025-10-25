@@ -1,0 +1,358 @@
+(
+    name: "Netherlands",
+    code: "NL",
+    population: 16655799,
+    capital: 1,
+    cities: [
+//         (
+//             name: "Randstad",
+//             coordinates: (
+//                 lat: 52.190833,
+//                 lon: 4.655556,
+//             ),
+//         ),
+        (
+            name: "Amsterdam",
+            coordinates: (
+                lat: 52.37403,
+                lon: 4.88969,
+            ),
+        ),
+//         (
+//             name: "Amsterdam",
+//             coordinates: (
+//                 lat: 52.366666666,
+//                 lon: 4.883333333,
+//             ),
+//         ),
+//         (
+//             name: "Rotterdam",
+//             coordinates: (
+//                 lat: 51.9225,
+//                 lon: 4.47917,
+//             ),
+//         ),
+//         (
+//             name: "The Hague",
+//             coordinates: (
+//                 lat: 52.08,
+//                 lon: 4.31,
+//             ),
+//         ),
+//         (
+//             name: "Utrecht",
+//             coordinates: (
+//                 lat: 52.090833333,
+//                 lon: 5.121666666,
+//             ),
+//         ),
+//         (
+//             name: "Utrecht",
+//             coordinates: (
+//                 lat: 52.09083,
+//                 lon: 5.12222,
+//             ),
+//         ),
+//         (
+//             name: "Eindhoven",
+//             coordinates: (
+//                 lat: 51.434444444,
+//                 lon: 5.484166666,
+//             ),
+//         ),
+//         (
+//             name: "Groningen",
+//             coordinates: (
+//                 lat: 53.21917,
+//                 lon: 6.56667,
+//             ),
+//         ),
+//         (
+//             name: "Groningen",
+//             coordinates: (
+//                 lat: 53.2167,
+//                 lon: 6.5667,
+//             ),
+//         ),
+//         (
+//             name: "Tilburg",
+//             coordinates: (
+//                 lat: 51.5575,
+//                 lon: 5.090555555,
+//             ),
+//         ),
+//         (
+//             name: "Almere",
+//             coordinates: (
+//                 lat: 52.375833333,
+//                 lon: 5.225555555,
+//             ),
+//         ),
+//         (
+//             name: "Tilburg",
+//             coordinates: (
+//                 lat: 51.5572,
+//                 lon: 5.0911,
+//             ),
+//         ),
+//         (
+//             name: "Breda",
+//             coordinates: (
+//                 lat: 51.588888888,
+//                 lon: 4.775833333,
+//             ),
+//         ),
+//         (
+//             name: "Breda",
+//             coordinates: (
+//                 lat: 51.5875,
+//                 lon: 4.775,
+//             ),
+//         ),
+//         (
+//             name: "Nijmegen",
+//             coordinates: (
+//                 lat: 51.8475,
+//                 lon: 5.8625,
+//             ),
+//         ),
+//         (
+//             name: "Almere Stad",
+//             coordinates: (
+//                 lat: 52.3767,
+//                 lon: 5.2161,
+//             ),
+//         ),
+//         (
+//             name: "Apeldoorn",
+//             coordinates: (
+//                 lat: 52.2167,
+//                 lon: 5.95,
+//             ),
+//         ),
+//         (
+//             name: "Arnhem",
+//             coordinates: (
+//                 lat: 51.983333333,
+//                 lon: 5.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Haarlem",
+//             coordinates: (
+//                 lat: 52.380277777,
+//                 lon: 4.640555555,
+//             ),
+//         ),
+//         (
+//             name: "Enschede",
+//             coordinates: (
+//                 lat: 52.2225,
+//                 lon: 6.8925,
+//             ),
+//         ),
+//         (
+//             name: "\'s-Hertogenbosch",
+//             coordinates: (
+//                 lat: 51.7,
+//                 lon: 5.316666666,
+//             ),
+//         ),
+//         (
+//             name: "Nijmegen",
+//             coordinates: (
+//                 lat: 51.8425,
+//                 lon: 5.85278,
+//             ),
+//         ),
+//         (
+//             name: "Haarlemmermeer",
+//             coordinates: (
+//                 lat: 52.3008,
+//                 lon: 4.6653,
+//             ),
+//         ),
+//         (
+//             name: "Amersfoort",
+//             coordinates: (
+//                 lat: 52.15,
+//                 lon: 5.38,
+//             ),
+//         ),
+//         (
+//             name: "Zaanstad",
+//             coordinates: (
+//                 lat: 52.4697,
+//                 lon: 4.7767,
+//             ),
+//         ),
+//         (
+//             name: "\'s-Hertogenbosch",
+//             coordinates: (
+//                 lat: 51.6892,
+//                 lon: 5.3031,
+//             ),
+//         ),
+//         (
+//             name: "Zaanstad",
+//             coordinates: (
+//                 lat: 52.45313,
+//                 lon: 4.81356,
+//             ),
+//         ),
+//         (
+//             name: "Amersfoort",
+//             coordinates: (
+//                 lat: 52.155,
+//                 lon: 5.3875,
+//             ),
+//         ),
+//         (
+//             name: "Apeldoorn",
+//             coordinates: (
+//                 lat: 52.21,
+//                 lon: 5.97,
+//             ),
+//         ),
+//         (
+//             name: "Hoofddorp",
+//             coordinates: (
+//                 lat: 52.3,
+//                 lon: 4.666666666,
+//             ),
+//         ),
+//         (
+//             name: "Escamp",
+//             coordinates: (
+//                 lat: 52.04555556,
+//                 lon: 4.26694444,
+//             ),
+//         ),
+//         (
+//             name: "Zwolle",
+//             coordinates: (
+//                 lat: 52.516666666,
+//                 lon: 6.1,
+//             ),
+//         ),
+//         (
+//             name: "Zwolle",
+//             coordinates: (
+//                 lat: 52.5125,
+//                 lon: 6.09444,
+//             ),
+//         ),
+//         (
+//             name: "Zoetermeer",
+//             coordinates: (
+//                 lat: 52.061111111,
+//                 lon: 4.493333333,
+//             ),
+//         ),
+//         (
+//             name: "Leeuwarden",
+//             coordinates: (
+//                 lat: 53.18602,
+//                 lon: 5.81111,
+//             ),
+//         ),
+//         (
+//             name: "Leiden",
+//             coordinates: (
+//                 lat: 52.16,
+//                 lon: 4.49,
+//             ),
+//         ),
+//         (
+//             name: "Dordrecht",
+//             coordinates: (
+//                 lat: 51.795833333,
+//                 lon: 4.678333333,
+//             ),
+//         ),
+//         (
+//             name: "Maastricht",
+//             coordinates: (
+//                 lat: 50.866666666,
+//                 lon: 5.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Ede",
+//             coordinates: (
+//                 lat: 52.05,
+//                 lon: 5.666666666,
+//             ),
+//         ),
+//         (
+//             name: "Westland",
+//             coordinates: (
+//                 lat: 52.0,
+//                 lon: 4.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Alphen aan den Rijn",
+//             coordinates: (
+//                 lat: 52.133333333,
+//                 lon: 4.65,
+//             ),
+//         ),
+//         (
+//             name: "Alkmaar",
+//             coordinates: (
+//                 lat: 52.6289,
+//                 lon: 4.74403,
+//             ),
+//         ),
+//         (
+//             name: "Delft",
+//             coordinates: (
+//                 lat: 52.011666666,
+//                 lon: 4.359166666,
+//             ),
+//         ),
+//         (
+//             name: "Emmen",
+//             coordinates: (
+//                 lat: 52.783333333,
+//                 lon: 6.9,
+//             ),
+//         ),
+//         (
+//             name: "Venlo",
+//             coordinates: (
+//                 lat: 51.366666666,
+//                 lon: 6.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Deventer",
+//             coordinates: (
+//                 lat: 52.25,
+//                 lon: 6.2,
+//             ),
+//         ),
+//         (
+//             name: "Deventer",
+//             coordinates: (
+//                 lat: 52.251111111,
+//                 lon: 6.16,
+//             ),
+//         ),
+//         (
+//             name: "Alkmaar",
+//             coordinates: (
+//                 lat: 52.63167,
+//                 lon: 4.74861,
+//             ),
+//         ),
+//         (
+//             name: "Amstelveen",
+//             coordinates: (
+//                 lat: 52.301944444,
+//                 lon: 4.858055555,
+//             ),
+//         ),
+    ],
+)

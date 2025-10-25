@@ -1,0 +1,267 @@
+(
+    name: "Ecuador",
+    code: "EC",
+    population: 17643060,
+    capital: 1,
+    cities: [
+//         (
+//             name: "Guayaquil",
+//             coordinates: (
+//                 lat: -2.19,
+//                 lon: -79.8875,
+//             ),
+//         ),
+        (
+            name: "Quito",
+            coordinates: (
+                lat: -0.22,
+                lon: -78.5125,
+            ),
+        ),
+        (
+            name: "Tumebamba",
+            coordinates: (
+                lat: -2.906388888,
+                lon: -78.997527777,
+            ),
+        ),
+//         (
+//             name: "Santo Domingo",
+//             coordinates: (
+//                 lat: -0.254166666,
+//                 lon: -79.171944444,
+//             ),
+//         ),
+//         (
+//             name: "Durán",
+//             coordinates: (
+//                 lat: -2.173333333,
+//                 lon: -79.831111111,
+//             ),
+//         ),
+        (
+            name: "Machala",
+            coordinates: (
+                lat: -3.266666666,
+                lon: -79.966666666,
+            ),
+        ),
+//         (
+//             name: "Manta",
+//             coordinates: (
+//                 lat: -0.950022222,
+//                 lon: -80.7162,
+//             ),
+//         ),
+//         (
+//             name: "Portoviejo",
+//             coordinates: (
+//                 lat: -1.05764,
+//                 lon: -80.45145,
+//             ),
+//         ),
+        (
+            name: "Loja",
+            coordinates: (
+                lat: -3.990555555,
+                lon: -79.205,
+            ),
+        ),
+//         (
+//             name: "Quevedo",
+//             coordinates: (
+//                 lat: -1.033333333,
+//                 lon: -79.45,
+//             ),
+//         ),
+//         (
+//             name: "Ambato",
+//             coordinates: (
+//                 lat: -1.242222222,
+//                 lon: -78.628888888,
+//             ),
+//         ),
+//         (
+//             name: "Riobamba",
+//             coordinates: (
+//                 lat: -1.673055555,
+//                 lon: -78.648333333,
+//             ),
+//         ),
+//         (
+//             name: "Daule",
+//             coordinates: (
+//                 lat: -1.86666667,
+//                 lon: -79.98333333,
+//             ),
+//         ),
+//         (
+//             name: "Milagro",
+//             coordinates: (
+//                 lat: -2.134722222,
+//                 lon: -79.587222222,
+//             ),
+//         ),
+//         (
+//             name: "Ibarra",
+//             coordinates: (
+//                 lat: 0.362778,
+//                 lon: -78.13,
+//             ),
+//         ),
+        (
+            name: "Esmeraldas",
+            coordinates: (
+                lat: 0.95,
+                lon: -79.666666666,
+            ),
+        ),
+//         (
+//             name: "La Libertad",
+//             coordinates: (
+//                 lat: -2.23333333,
+//                 lon: -80.9,
+//             ),
+//         ),
+//         (
+//             name: "Babahoyo",
+//             coordinates: (
+//                 lat: -1.816666666,
+//                 lon: -79.516666666,
+//             ),
+//         ),
+//         (
+//             name: "Sangolquí",
+//             coordinates: (
+//                 lat: -0.334444,
+//                 lon: -78.4475,
+//             ),
+//         ),
+//         (
+//             name: "Latacunga",
+//             coordinates: (
+//                 lat: -0.933333333,
+//                 lon: -78.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Samborondón",
+//             coordinates: (
+//                 lat: -1.96071,
+//                 lon: -79.72566,
+//             ),
+//         ),
+//         (
+//             name: "Monte Cristi",
+//             coordinates: (
+//                 lat: -1.05,
+//                 lon: -80.66666667,
+//             ),
+//         ),
+//         (
+//             name: "Pasaje",
+//             coordinates: (
+//                 lat: -3.3269,
+//                 lon: -79.8049,
+//             ),
+//         ),
+//         (
+//             name: "Santa Rosa",
+//             coordinates: (
+//                 lat: -3.45222222,
+//                 lon: -79.96166667,
+//             ),
+//         ),
+//         (
+//             name: "Tulcán",
+//             coordinates: (
+//                 lat: 0.811666666,
+//                 lon: -77.718611111,
+//             ),
+//         ),
+//         (
+//             name: "Huaquillas",
+//             coordinates: (
+//                 lat: -3.47523,
+//                 lon: -80.23084,
+//             ),
+//         ),
+        (
+            name: "Nueva Loja",
+            coordinates: (
+                lat: 0.086,
+                lon: -76.89528,
+            ),
+        ),
+//         (
+//             name: "Chone",
+//             coordinates: (
+//                 lat: -0.68333333,
+//                 lon: -80.1,
+//             ),
+//         ),
+//         (
+//             name: "Santa Elena",
+//             coordinates: (
+//                 lat: -2.2267,
+//                 lon: -80.8583,
+//             ),
+//         ),
+//         (
+//             name: "Coca",
+//             coordinates: (
+//                 lat: -0.4625,
+//                 lon: -76.984166666,
+//             ),
+//         ),
+//         (
+//             name: "General Villamil",
+//             coordinates: (
+//                 lat: -2.63,
+//                 lon: -80.39,
+//             ),
+//         ),
+//         (
+//             name: "Buena Fe",
+//             coordinates: (
+//                 lat: -0.893194444,
+//                 lon: -79.490722222,
+//             ),
+//         ),
+//         (
+//             name: "Jipijapa",
+//             coordinates: (
+//                 lat: -1.348611111,
+//                 lon: -80.578611111,
+//             ),
+//         ),
+//         (
+//             name: "Cayambe",
+//             coordinates: (
+//                 lat: 0.043888888,
+//                 lon: -78.156111111,
+//             ),
+//         ),
+//         (
+//             name: "Velasco Ibarra",
+//             coordinates: (
+//                 lat: -1.043888888,
+//                 lon: -79.638333333,
+//             ),
+//         ),
+//         (
+//             name: "Otavalo",
+//             coordinates: (
+//                 lat: 0.23457,
+//                 lon: -78.26248,
+//             ),
+//         ),
+//         (
+//             name: "Ventanas",
+//             coordinates: (
+//                 lat: -1.45,
+//                 lon: -79.47,
+//             ),
+//         ),
+    ],
+)

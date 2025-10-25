@@ -1,0 +1,351 @@
+(
+    name: "Cameroon",
+    code: "CM",
+    population: 26545864,
+    capital: 1,
+    cities: [
+        (
+            name: "Douala",
+            coordinates: (
+                lat: 4.05,
+                lon: 9.7,
+            ),
+        ),
+        (
+            name: "Yaoundé",
+            coordinates: (
+                lat: 3.86667,
+                lon: 11.51667,
+            ),
+        ),
+        (
+            name: "Garoua",
+            coordinates: (
+                lat: 9.3,
+                lon: 13.4,
+            ),
+        ),
+//         (
+//             name: "Bafoussam",
+//             coordinates: (
+//                 lat: 5.466666666,
+//                 lon: 10.416666666,
+//             ),
+//         ),
+//         (
+//             name: "Bamenda",
+//             coordinates: (
+//                 lat: 5.961388888,
+//                 lon: 10.151666666,
+//             ),
+//         ),
+        (
+            name: "Maroua",
+            coordinates: (
+                lat: 10.590946,
+                lon: 14.315925,
+            ),
+        ),
+        (
+            name: "Ngaoundéré",
+            coordinates: (
+                lat: 7.321388888,
+                lon: 13.583888888,
+            ),
+        ),
+//         (
+//             name: "Kumba",
+//             coordinates: (
+//                 lat: 4.633333333,
+//                 lon: 9.45,
+//             ),
+//         ),
+//         (
+//             name: "Nkongsamba",
+//             coordinates: (
+//                 lat: 4.95,
+//                 lon: 9.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Bibemi",
+//             coordinates: (
+//                 lat: 9.31667,
+//                 lon: 13.8833,
+//             ),
+//         ),
+//         (
+//             name: "Buea",
+//             coordinates: (
+//                 lat: 4.166666666,
+//                 lon: 9.233333333,
+//             ),
+//         ),
+//         (
+//             name: "Foumban",
+//             coordinates: (
+//                 lat: 5.716666666,
+//                 lon: 10.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Kumbo",
+//             coordinates: (
+//                 lat: 6.2,
+//                 lon: 10.66,
+//             ),
+//         ),
+        (
+            name: "Kousséri",
+            coordinates: (
+                lat: 12.083333333,
+                lon: 15.033333333,
+            ),
+        ),
+//         (
+//             name: "Bogo",
+//             coordinates: (
+//                 lat: 10.733611111,
+//                 lon: 14.609166666,
+//             ),
+//         ),
+        (
+            name: "Bertoua",
+            coordinates: (
+                lat: 4.583333333,
+                lon: 13.683333333,
+            ),
+        ),
+//         (
+//             name: "Limbe",
+//             coordinates: (
+//                 lat: 4.016666666,
+//                 lon: 9.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Mbalmayo",
+//             coordinates: (
+//                 lat: 3.51667,
+//                 lon: 11.5,
+//             ),
+//         ),
+//         (
+//             name: "Guider",
+//             coordinates: (
+//                 lat: 9.934166666,
+//                 lon: 13.948611111,
+//             ),
+//         ),
+        (
+            name: "Sangmélima",
+            coordinates: (
+                lat: 2.93,
+                lon: 11.98,
+            ),
+        ),
+//         (
+//             name: "Tiko",
+//             coordinates: (
+//                 lat: 4.07861,
+//                 lon: 9.36806,
+//             ),
+//         ),
+//         (
+//             name: "Ebolowa",
+//             coordinates: (
+//                 lat: 2.916666666,
+//                 lon: 11.15,
+//             ),
+//         ),
+//         (
+//             name: "Melong",
+//             coordinates: (
+//                 lat: 5.12111,
+//                 lon: 9.95278,
+//             ),
+//         ),
+//         (
+//             name: "Pitoa",
+//             coordinates: (
+//                 lat: 9.38333,
+//                 lon: 13.5333,
+//             ),
+//         ),
+//         (
+//             name: "Dschang",
+//             coordinates: (
+//                 lat: 5.45,
+//                 lon: 10.05,
+//             ),
+//         ),
+//         (
+//             name: "Foumbot",
+//             coordinates: (
+//                 lat: 5.5,
+//                 lon: 10.6333,
+//             ),
+//         ),
+//         (
+//             name: "Edéa",
+//             coordinates: (
+//                 lat: 3.8,
+//                 lon: 10.133333333,
+//             ),
+//         ),
+        (
+            name: "Tibati",
+            coordinates: (
+                lat: 6.46504,
+                lon: 12.62843,
+            ),
+        ),
+//         (
+//             name: "Bafia",
+//             coordinates: (
+//                 lat: 4.7425,
+//                 lon: 11.224722222,
+//             ),
+//         ),
+//         (
+//             name: "Mutengene",
+//             coordinates: (
+//                 lat: 4.09944,
+//                 lon: 9.30806,
+//             ),
+//         ),
+//         (
+//             name: "Mora",
+//             coordinates: (
+//                 lat: 11.0425,
+//                 lon: 14.14472222,
+//             ),
+//         ),
+        (
+            name: "Kribi",
+            coordinates: (
+                lat: 2.95,
+                lon: 9.916666666,
+            ),
+        ),
+        (
+            name: "Meiganga",
+            coordinates: (
+                lat: 6.51667,
+                lon: 14.3,
+            ),
+        ),
+        (
+            name: "Yagoua",
+            coordinates: (
+                lat: 10.342777777,
+                lon: 15.240555555,
+            ),
+        ),
+//         (
+//             name: "Mbouda",
+//             coordinates: (
+//                 lat: 5.62,
+//                 lon: 10.25,
+//             ),
+//         ),
+        (
+            name: "Banyo",
+            coordinates: (
+                lat: 6.75,
+                lon: 11.81667,
+            ),
+        ),
+//         (
+//             name: "Loum",
+//             coordinates: (
+//                 lat: 4.7,
+//                 lon: 9.73,
+//             ),
+//         ),
+//         (
+//             name: "Garoua-Boulaï",
+//             coordinates: (
+//                 lat: 5.88333,
+//                 lon: 14.55,
+//             ),
+//         ),
+//         (
+//             name: "Obala",
+//             coordinates: (
+//                 lat: 4.16667,
+//                 lon: 11.53333,
+//             ),
+//         ),
+//         (
+//             name: "Mbanga",
+//             coordinates: (
+//                 lat: 4.509167,
+//                 lon: 9.568056,
+//             ),
+//         ),
+//         (
+//             name: "Muyuka",
+//             coordinates: (
+//                 lat: 4.289722222,
+//                 lon: 9.410277777,
+//             ),
+//         ),
+//         (
+//             name: "Fundong",
+//             coordinates: (
+//                 lat: 6.25,
+//                 lon: 10.2667,
+//             ),
+//         ),
+//         (
+//             name: "Fontem",
+//             coordinates: (
+//                 lat: 5.44333,
+//                 lon: 9.91889,
+//             ),
+//         ),
+//         (
+//             name: "Wum",
+//             coordinates: (
+//                 lat: 6.38333,
+//                 lon: 10.0667,
+//             ),
+//         ),
+//         (
+//             name: "Manjo",
+//             coordinates: (
+//                 lat: 4.85,
+//                 lon: 9.81667,
+//             ),
+//         ),
+//         (
+//             name: "Bokito",
+//             coordinates: (
+//                 lat: 4.56667,
+//                 lon: 11.11667,
+//             ),
+//         ),
+//         (
+//             name: "Ngaoundal",
+//             coordinates: (
+//                 lat: 6.5,
+//                 lon: 13.26667,
+//             ),
+//         ),
+//         (
+//             name: "Mokolo",
+//             coordinates: (
+//                 lat: 10.74027778,
+//                 lon: 13.80277778,
+//             ),
+//         ),
+//         (
+//             name: "Ndop",
+//             coordinates: (
+//                 lat: 6.0,
+//                 lon: 10.4167,
+//             ),
+//         ),
+    ],
+)

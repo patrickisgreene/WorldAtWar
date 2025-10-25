@@ -1,0 +1,358 @@
+(
+    name: "Myanmar",
+    code: "MM",
+    population: 54409794,
+    capital: 2,
+    cities: [
+        (
+            name: "Yangon",
+            coordinates: (
+                lat: 16.795,
+                lon: 96.16,
+            ),
+        ),
+        (
+            name: "Mandalay",
+            coordinates: (
+                lat: 21.983055555,
+                lon: 96.084444444,
+            ),
+        ),
+        (
+            name: "Naypyidaw",
+            coordinates: (
+                lat: 19.7475,
+                lon: 96.115,
+            ),
+        ),
+        (
+            name: "Hpa-an Township",
+            coordinates: (
+                lat: 16.88333333,
+                lon: 97.63333333,
+            ),
+        ),
+//         (
+//             name: "Hpa-An",
+//             coordinates: (
+//                 lat: 16.890555555,
+//                 lon: 97.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Hlaingthaya Township",
+//             coordinates: (
+//                 lat: 16.85,
+//                 lon: 96.066666666,
+//             ),
+//         ),
+//         (
+//             name: "Kyaukpadaung",
+//             coordinates: (
+//                 lat: 20.833333333,
+//                 lon: 95.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Mawlamyine",
+//             coordinates: (
+//                 lat: 16.484722222,
+//                 lon: 97.625833333,
+//             ),
+//         ),
+//         (
+//             name: "Pathein",
+//             coordinates: (
+//                 lat: 16.766666666,
+//                 lon: 94.733333333,
+//             ),
+//         ),
+//         (
+//             name: "Hlaingbwe Township",
+//             coordinates: (
+//                 lat: 17.19579,
+//                 lon: 97.92441,
+//             ),
+//         ),
+//         (
+//             name: "Bago",
+//             coordinates: (
+//                 lat: 17.343333333,
+//                 lon: 96.498055555,
+//             ),
+//         ),
+//         (
+//             name: "Myaungmya Township",
+//             coordinates: (
+//                 lat: 16.583333333,
+//                 lon: 94.9,
+//             ),
+//         ),
+//         (
+//             name: "North Okkalapa Township",
+//             coordinates: (
+//                 lat: 16.92382,
+//                 lon: 96.17444,
+//             ),
+//         ),
+//         (
+//             name: "South Dagon Township",
+//             coordinates: (
+//                 lat: 16.85,
+//                 lon: 96.233333333,
+//             ),
+//         ),
+//         (
+//             name: "Pyawbwe Township",
+//             coordinates: (
+//                 lat: 20.583333333,
+//                 lon: 96.066666666,
+//             ),
+//         ),
+        (
+            name: "Kanbalu Township",
+            coordinates: (
+                lat: 23.2,
+                lon: 95.5,
+            ),
+        ),
+//         (
+//             name: "Pantanaw Township",
+//             coordinates: (
+//                 lat: 16.98055556,
+//                 lon: 95.46861111,
+//             ),
+//         ),
+        (
+            name: "Taunggyi",
+            coordinates: (
+                lat: 20.780555555,
+                lon: 97.037222222,
+            ),
+        ),
+//         (
+//             name: "Kyauktaga Township",
+//             coordinates: (
+//                 lat: 18.18333333,
+//                 lon: 96.35,
+//             ),
+//         ),
+//         (
+//             name: "City of Pyin Oo Lwin",
+//             coordinates: (
+//                 lat: 22.028055555,
+//                 lon: 96.470555555,
+//             ),
+//         ),
+//         (
+//             name: "Meiktila",
+//             coordinates: (
+//                 lat: 20.8775,
+//                 lon: 95.858333333,
+//             ),
+//         ),
+        (
+            name: "Kalay",
+            coordinates: (
+                lat: 23.19,
+                lon: 94.063888888,
+            ),
+        ),
+//         (
+//             name: "Insein Township",
+//             coordinates: (
+//                 lat: 16.892777777,
+//                 lon: 96.098055555,
+//             ),
+//         ),
+//         (
+//             name: "Taungtha Township",
+//             coordinates: (
+//                 lat: 21.2667,
+//                 lon: 95.45,
+//             ),
+//         ),
+        (
+            name: "Myitkyina",
+            coordinates: (
+                lat: 25.386666666,
+                lon: 97.393611111,
+            ),
+        ),
+//         (
+//             name: "Taikkyi",
+//             coordinates: (
+//                 lat: 17.43491,
+//                 lon: 95.91153,
+//             ),
+//         ),
+//         (
+//             name: "Shwepyitha Township",
+//             coordinates: (
+//                 lat: 16.969444444,
+//                 lon: 96.078055555,
+//             ),
+//         ),
+        (
+            name: "Myitkyina Township",
+            coordinates: (
+                lat: 26.25,
+                lon: 97.5,
+            ),
+        ),
+        (
+            name: "Myeik",
+            coordinates: (
+                lat: 12.439444444,
+                lon: 98.600277777,
+            ),
+        ),
+//         (
+//             name: "Thaketa Township",
+//             coordinates: (
+//                 lat: 16.794444444,
+//                 lon: 96.201666666,
+//             ),
+//         ),
+//         (
+//             name: "Dedaye Township",
+//             coordinates: (
+//                 lat: 16.40361111,
+//                 lon: 95.88277778,
+//             ),
+//         ),
+//         (
+//             name: "Twante Township",
+//             coordinates: (
+//                 lat: 16.733333333,
+//                 lon: 95.966666666,
+//             ),
+//         ),
+        (
+            name: "Kyauktaw",
+            coordinates: (
+                lat: 20.85,
+                lon: 92.96666667,
+            ),
+        ),
+//         (
+//             name: "Ingapu Township",
+//             coordinates: (
+//                 lat: 17.85381,
+//                 lon: 95.14544,
+//             ),
+//         ),
+//         (
+//             name: "Daik-U",
+//             coordinates: (
+//                 lat: 17.76782,
+//                 lon: 96.57624,
+//             ),
+//         ),
+//         (
+//             name: "Monywa",
+//             coordinates: (
+//                 lat: 22.10856,
+//                 lon: 95.13583,
+//             ),
+//         ),
+        (
+            name: "Mohnyin Township",
+            coordinates: (
+                lat: 24.783333333,
+                lon: 96.366666666,
+            ),
+        ),
+//         (
+//             name: "Thazi Township",
+//             coordinates: (
+//                 lat: 21.833333333,
+//                 lon: 95.65,
+//             ),
+//         ),
+//         (
+//             name: "Wetlet Township",
+//             coordinates: (
+//                 lat: 22.3667,
+//                 lon: 95.7833,
+//             ),
+//         ),
+//         (
+//             name: "Waw Township",
+//             coordinates: (
+//                 lat: 17.50406,
+//                 lon: 96.7465,
+//             ),
+//         ),
+//         (
+//             name: "Einme Township",
+//             coordinates: (
+//                 lat: 16.88944444,
+//                 lon: 95.17416667,
+//             ),
+//         ),
+//         (
+//             name: "Minbya",
+//             coordinates: (
+//                 lat: 20.36666667,
+//                 lon: 93.26666667,
+//             ),
+//         ),
+//         (
+//             name: "Chanmyathazi Township",
+//             coordinates: (
+//                 lat: 21.933333333,
+//                 lon: 96.083333333,
+//             ),
+//         ),
+        (
+            name: "Myawaddy",
+            coordinates: (
+                lat: 16.687777777,
+                lon: 98.508333333,
+            ),
+        ),
+//         (
+//             name: "Yegyi Township",
+//             coordinates: (
+//                 lat: 17.344564,
+//                 lon: 95.120672,
+//             ),
+//         ),
+        (
+            name: "Mogok Township",
+            coordinates: (
+                lat: 22.916666666,
+                lon: 96.5,
+            ),
+        ),
+//         (
+//             name: "Aungmyethazan Township",
+//             coordinates: (
+//                 lat: 21.98333333,
+//                 lon: 96.08333333,
+//             ),
+//         ),
+//         (
+//             name: "Danubyu Township",
+//             coordinates: (
+//                 lat: 17.366666666,
+//                 lon: 95.45,
+//             ),
+//         ),
+//         (
+//             name: "Thanlyin Township",
+//             coordinates: (
+//                 lat: 16.79558,
+//                 lon: 96.32907,
+//             ),
+//         ),
+//         (
+//             name: "Hmawbi",
+//             coordinates: (
+//                 lat: 17.1,
+//                 lon: 96.05,
+//             ),
+//         ),
+    ],
+)

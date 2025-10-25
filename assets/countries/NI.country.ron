@@ -1,0 +1,309 @@
+(
+    name: "Nicaragua",
+    code: "NI",
+    population: 6624554,
+    capital: 0,
+    cities: [
+        (
+            name: "Managua",
+            coordinates: (
+                lat: 12.156383333,
+                lon: -86.272986111,
+            ),
+        ),
+//         (
+//             name: "Managua",
+//             coordinates: (
+//                 lat: 12.156383333,
+//                 lon: -86.272986111,
+//             ),
+//         ),
+//         (
+//             name: "León",
+//             coordinates: (
+//                 lat: 12.434825,
+//                 lon: -86.878833333,
+//             ),
+//         ),
+//         (
+//             name: "Matagalpa",
+//             coordinates: (
+//                 lat: 12.928361111,
+//                 lon: -85.918447222,
+//             ),
+//         ),
+//         (
+//             name: "Tipitapa",
+//             coordinates: (
+//                 lat: 12.196211111,
+//                 lon: -86.096375,
+//             ),
+//         ),
+//         (
+//             name: "León",
+//             coordinates: (
+//                 lat: 12.434825,
+//                 lon: -86.878833333,
+//             ),
+//         ),
+//         (
+//             name: "Masaya",
+//             coordinates: (
+//                 lat: 11.973616666,
+//                 lon: -86.096058333,
+//             ),
+//         ),
+//         (
+//             name: "Chinandega",
+//             coordinates: (
+//                 lat: 12.631052777,
+//                 lon: -87.134738888,
+//             ),
+//         ),
+//         (
+//             name: "Masaya",
+//             coordinates: (
+//                 lat: 11.973616666,
+//                 lon: -86.096058333,
+//             ),
+//         ),
+//         (
+//             name: "Matagalpa",
+//             coordinates: (
+//                 lat: 12.928361111,
+//                 lon: -85.918447222,
+//             ),
+//         ),
+//         (
+//             name: "Estelí",
+//             coordinates: (
+//                 lat: 13.093091666,
+//                 lon: -86.355447222,
+//             ),
+//         ),
+//         (
+//             name: "Granada",
+//             coordinates: (
+//                 lat: 11.93035,
+//                 lon: -85.953591666,
+//             ),
+//         ),
+//         (
+//             name: "Jinotega",
+//             coordinates: (
+//                 lat: 13.091008333,
+//                 lon: -86.002361111,
+//             ),
+//         ),
+        (
+            name: "Nueva Guinea",
+            coordinates: (
+                lat: 11.687116666,
+                lon: -84.456361111,
+            ),
+        ),
+//         (
+//             name: "El Viejo",
+//             coordinates: (
+//                 lat: 12.6632,
+//                 lon: -87.170263888,
+//             ),
+//         ),
+//         (
+//             name: "Ciudad Sandino",
+//             coordinates: (
+//                 lat: 12.164891666,
+//                 lon: -86.355741666,
+//             ),
+//         ),
+        (
+            name: "Puerto Cabezas",
+            coordinates: (
+                lat: 14.029413888,
+                lon: -83.383125,
+            ),
+        ),
+//         (
+//             name: "Siuna",
+//             coordinates: (
+//                 lat: 13.7341,
+//                 lon: -84.77895,
+//             ),
+//         ),
+//         (
+//             name: "Mateare",
+//             coordinates: (
+//                 lat: 12.235280555,
+//                 lon: -86.429444444,
+//             ),
+//         ),
+//         (
+//             name: "Bluefields",
+//             coordinates: (
+//                 lat: 12.013125,
+//                 lon: -83.764911111,
+//             ),
+//         ),
+//         (
+//             name: "Diriamba",
+//             coordinates: (
+//                 lat: 11.856113888,
+//                 lon: -86.240308333,
+//             ),
+//         ),
+//         (
+//             name: "Wiwilí de Jinotega",
+//             coordinates: (
+//                 lat: 13.620005555,
+//                 lon: -85.818183333,
+//             ),
+//         ),
+//         (
+//             name: "Tuma-La Dalia",
+//             coordinates: (
+//                 lat: 13.136955555,
+//                 lon: -85.734011111,
+//             ),
+//         ),
+//         (
+//             name: "Jinotega",
+//             coordinates: (
+//                 lat: 13.09103,
+//                 lon: -86.00234,
+//             ),
+//         ),
+//         (
+//             name: "Jalapa",
+//             coordinates: (
+//                 lat: 13.921997222,
+//                 lon: -86.125347222,
+//             ),
+//         ),
+//         (
+//             name: "El Viejo",
+//             coordinates: (
+//                 lat: 12.6632,
+//                 lon: -87.170263888,
+//             ),
+//         ),
+//         (
+//             name: "Nueva Guinea",
+//             coordinates: (
+//                 lat: 11.68758,
+//                 lon: -84.45616,
+//             ),
+//         ),
+//         (
+//             name: "Rama",
+//             coordinates: (
+//                 lat: 12.158963888,
+//                 lon: -84.219702777,
+//             ),
+//         ),
+//         (
+//             name: "Juigalpa",
+//             coordinates: (
+//                 lat: 12.108566666,
+//                 lon: -85.368941666,
+//             ),
+//         ),
+//         (
+//             name: "Tipitapa",
+//             coordinates: (
+//                 lat: 12.196211111,
+//                 lon: -86.096375,
+//             ),
+//         ),
+//         (
+//             name: "Boaco",
+//             coordinates: (
+//                 lat: 12.471772222,
+//                 lon: -85.659819444,
+//             ),
+//         ),
+//         (
+//             name: "Mulukukú",
+//             coordinates: (
+//                 lat: 13.171980555,
+//                 lon: -84.960344444,
+//             ),
+//         ),
+        (
+            name: "Waspam",
+            coordinates: (
+                lat: 14.740691666,
+                lon: -83.972622222,
+            ),
+        ),
+//         (
+//             name: "Chichigalpa",
+//             coordinates: (
+//                 lat: 12.572016666,
+//                 lon: -87.026266666,
+//             ),
+//         ),
+//         (
+//             name: "Bluefields",
+//             coordinates: (
+//                 lat: 12.01292,
+//                 lon: -83.76449,
+//             ),
+//         ),
+//         (
+//             name: "El Cua",
+//             coordinates: (
+//                 lat: 13.368125,
+//                 lon: -85.672830555,
+//             ),
+//         ),
+//         (
+//             name: "San Rafael del Sur",
+//             coordinates: (
+//                 lat: 11.84645,
+//                 lon: -86.438866666,
+//             ),
+//         ),
+//         (
+//             name: "Jinotepe",
+//             coordinates: (
+//                 lat: 11.847816666,
+//                 lon: -86.19925,
+//             ),
+//         ),
+//         (
+//             name: "San José de Bocay",
+//             coordinates: (
+//                 lat: 13.542488888,
+//                 lon: -85.540172222,
+//             ),
+//         ),
+//         (
+//             name: "Matiguás",
+//             coordinates: (
+//                 lat: 12.836911111,
+//                 lon: -85.461608333,
+//             ),
+//         ),
+//         (
+//             name: "Rivas",
+//             coordinates: (
+//                 lat: 11.438908333,
+//                 lon: -85.828741666,
+//             ),
+//         ),
+//         (
+//             name: "Ciudad Darío",
+//             coordinates: (
+//                 lat: 12.731922222,
+//                 lon: -86.124391666,
+//             ),
+//         ),
+//         (
+//             name: "Somoto",
+//             coordinates: (
+//                 lat: 13.483680555,
+//                 lon: -86.582625,
+//             ),
+//         ),
+    ],
+)

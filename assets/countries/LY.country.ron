@@ -1,0 +1,204 @@
+(
+    name: "Libya",
+    code: "LY",
+    population: 6871287,
+    capital: 0,
+    cities: [
+        (
+            name: "Tripoli",
+            coordinates: (
+                lat: 32.88743,
+                lon: 13.18733,
+            ),
+        ),
+        (
+            name: "Benghazi",
+            coordinates: (
+                lat: 32.116666666,
+                lon: 20.066666666,
+            ),
+        ),
+        (
+            name: "Ajdabiya",
+            coordinates: (
+                lat: 30.755555555,
+                lon: 20.225277777,
+            ),
+        ),
+        (
+            name: "Misrata",
+            coordinates: (
+                lat: 32.377777777,
+                lon: 15.090138888,
+            ),
+        ),
+//         (
+//             name: "Al Khums",
+//             coordinates: (
+//                 lat: 32.649722222,
+//                 lon: 14.264444444,
+//             ),
+//         ),
+//         (
+//             name: "Zawiya",
+//             coordinates: (
+//                 lat: 32.754444444,
+//                 lon: 12.729722222,
+//             ),
+//         ),
+//         (
+//             name: "Gharyan",
+//             coordinates: (
+//                 lat: 32.166944444,
+//                 lon: 13.016666666,
+//             ),
+//         ),
+//         (
+//             name: "Janzur",
+//             coordinates: (
+//                 lat: 32.8172,
+//                 lon: 13.0111,
+//             ),
+//         ),
+        (
+            name: "Sabha",
+            coordinates: (
+                lat: 27.033333333,
+                lon: 14.433333333,
+            ),
+        ),
+        (
+            name: "Tobruk",
+            coordinates: (
+                lat: 32.083333333,
+                lon: 23.95,
+            ),
+        ),
+        (
+            name: "Sirte",
+            coordinates: (
+                lat: 31.2,
+                lon: 16.6,
+            ),
+        ),
+        (
+            name: "Al Bayda",
+            coordinates: (
+                lat: 32.762777777,
+                lon: 21.755,
+            ),
+        ),
+//         (
+//             name: "Derna",
+//             coordinates: (
+//                 lat: 32.763611111,
+//                 lon: 22.636111111,
+//             ),
+//         ),
+//         (
+//             name: "Sabratha",
+//             coordinates: (
+//                 lat: 32.805401758,
+//                 lon: 12.485187948,
+//             ),
+//         ),
+//         (
+//             name: "Jimayl",
+//             coordinates: (
+//                 lat: 32.8528,
+//                 lon: 12.0611,
+//             ),
+//         ),
+//         (
+//             name: "Surman",
+//             coordinates: (
+//                 lat: 32.756666666,
+//                 lon: 12.571666666,
+//             ),
+//         ),
+//         (
+//             name: "Qasr bin Ghashir",
+//             coordinates: (
+//                 lat: 32.685277777,
+//                 lon: 13.175555555,
+//             ),
+//         ),
+//         (
+//             name: "Zuwara",
+//             coordinates: (
+//                 lat: 32.933333333,
+//                 lon: 12.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Yafran",
+//             coordinates: (
+//                 lat: 32.062777777,
+//                 lon: 12.526666666,
+//             ),
+//         ),
+//         (
+//             name: "Al Qubbah",
+//             coordinates: (
+//                 lat: 32.766666666,
+//                 lon: 22.25,
+//             ),
+//         ),
+        (
+            name: "Campament of Al Marj",
+            coordinates: (
+                lat: 32.486666666,
+                lon: 20.833888888,
+            ),
+        ),
+//         (
+//             name: "Tarhuna",
+//             coordinates: (
+//                 lat: 32.433888888,
+//                 lon: 13.634444444,
+//             ),
+//         ),
+        (
+            name: "Bani Walid",
+            coordinates: (
+                lat: 31.74554,
+                lon: 13.98354,
+            ),
+        ),
+//         (
+//             name: "Gasr Akhyar",
+//             coordinates: (
+//                 lat: 32.74506,
+//                 lon: 13.71467,
+//             ),
+//         ),
+//         (
+//             name: "Tajura",
+//             coordinates: (
+//                 lat: 32.881944444,
+//                 lon: 13.34,
+//             ),
+//         ),
+        (
+            name: "Murzuk",
+            coordinates: (
+                lat: 25.913611111,
+                lon: 13.933611111,
+            ),
+        ),
+        (
+            name: "El Tag",
+            coordinates: (
+                lat: 24.2094,
+                lon: 23.3281,
+            ),
+        ),
+//         (
+//             name: "Al Jawf",
+//             coordinates: (
+//                 lat: 24.216666666,
+//                 lon: 23.3,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,43 @@
+(
+    name: "Republic of the Congo",
+    code: "CG",
+    population: 5657000,
+    capital: 0,
+    cities: [
+        (
+            name: "Brazzaville",
+            coordinates: (
+                lat: -4.269444444,
+                lon: 15.271111111,
+            ),
+        ),
+        (
+            name: "Pointe-Noire",
+            coordinates: (
+                lat: -4.77609,
+                lon: 11.86352,
+            ),
+        ),
+        (
+            name: "Dolisie",
+            coordinates: (
+                lat: -4.19834,
+                lon: 12.66664,
+            ),
+        ),
+//         (
+//             name: "Nkayi",
+//             coordinates: (
+//                 lat: -4.18396,
+//                 lon: 13.2859,
+//             ),
+//         ),
+//         (
+//             name: "Kayes",
+//             coordinates: (
+//                 lat: -4.20493,
+//                 lon: 13.28608,
+//             ),
+//         ),
+    ],
+)

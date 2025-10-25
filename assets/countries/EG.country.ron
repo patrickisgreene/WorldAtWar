@@ -1,0 +1,358 @@
+(
+    name: "Egypt",
+    code: "EG",
+    population: 102334403,
+    capital: 0,
+    cities: [
+        (
+            name: "Cairo",
+            coordinates: (
+                lat: 30.044444444,
+                lon: 31.235833333,
+            ),
+        ),
+//         (
+//             name: "Giza",
+//             coordinates: (
+//                 lat: 29.987,
+//                 lon: 31.2118,
+//             ),
+//         ),
+//         (
+//             name: "New Cairo",
+//             coordinates: (
+//                 lat: 30.03,
+//                 lon: 31.47,
+//             ),
+//         ),
+//         (
+//             name: "Boulaq Ad Dakrour",
+//             coordinates: (
+//                 lat: 30.03976,
+//                 lon: 31.18943,
+//             ),
+//         ),
+//         (
+//             name: "Shobra Elkhema",
+//             coordinates: (
+//                 lat: 30.128611111,
+//                 lon: 31.242222222,
+//             ),
+//         ),
+//         (
+//             name: "Nasr City",
+//             coordinates: (
+//                 lat: 30.06667,
+//                 lon: 31.3,
+//             ),
+//         ),
+//         (
+//             name: "Al Haram",
+//             coordinates: (
+//                 lat: 29.4075,
+//                 lon: 31.17278,
+//             ),
+//         ),
+//         (
+//             name: "Imbaba",
+//             coordinates: (
+//                 lat: 30.085833333,
+//                 lon: 31.209444444,
+//             ),
+//         ),
+//         (
+//             name: "Mansoura",
+//             coordinates: (
+//                 lat: 31.03637,
+//                 lon: 31.38069,
+//             ),
+//         ),
+//         (
+//             name: "Helwan",
+//             coordinates: (
+//                 lat: 29.8493,
+//                 lon: 31.3327,
+//             ),
+//         ),
+//         (
+//             name: "Tanta",
+//             coordinates: (
+//                 lat: 30.783333333,
+//                 lon: 31.0,
+//             ),
+//         ),
+//         (
+//             name: "El Mahalla El Kubra",
+//             coordinates: (
+//                 lat: 30.966666666,
+//                 lon: 31.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Dar El Salam",
+//             coordinates: (
+//                 lat: 29.98952,
+//                 lon: 31.25405,
+//             ),
+//         ),
+//         (
+//             name: "Al Basatin",
+//             coordinates: (
+//                 lat: 29.98294,
+//                 lon: 31.28259,
+//             ),
+//         ),
+//         (
+//             name: "Port Said",
+//             coordinates: (
+//                 lat: 31.2625,
+//                 lon: 32.306111111,
+//             ),
+//         ),
+//         (
+//             name: "Faiyum",
+//             coordinates: (
+//                 lat: 29.3,
+//                 lon: 30.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Suez",
+//             coordinates: (
+//                 lat: 29.966666666,
+//                 lon: 32.533333333,
+//             ),
+//         ),
+//         (
+//             name: "10th of Ramadan City",
+//             coordinates: (
+//                 lat: 30.302222222,
+//                 lon: 31.745555555,
+//             ),
+//         ),
+//         (
+//             name: "Ismailia",
+//             coordinates: (
+//                 lat: 30.583333333,
+//                 lon: 32.266666666,
+//             ),
+//         ),
+        (
+            name: "Asyut",
+            coordinates: (
+                lat: 27.186944444,
+                lon: 31.171388888,
+            ),
+        ),
+//         (
+//             name: "Banha",
+//             coordinates: (
+//                 lat: 30.566666666,
+//                 lon: 31.5,
+//             ),
+//         ),
+//         (
+//             name: "6th of October City",
+//             coordinates: (
+//                 lat: 29.936111111,
+//                 lon: 30.926944444,
+//             ),
+//         ),
+        (
+            name: "Aswan",
+            coordinates: (
+                lat: 24.088919444,
+                lon: 32.899730555,
+            ),
+        ),
+//         (
+//             name: "El Zawya El Hamraa",
+//             coordinates: (
+//                 lat: 30.09368,
+//                 lon: 31.26968,
+//             ),
+//         ),
+//         (
+//             name: "Hadayek El Kobba",
+//             coordinates: (
+//                 lat: 30.0967,
+//                 lon: 31.3103,
+//             ),
+//         ),
+//         (
+//             name: "Minya",
+//             coordinates: (
+//                 lat: 28.083333333,
+//                 lon: 30.75,
+//             ),
+//         ),
+//         (
+//             name: "Massarah",
+//             coordinates: (
+//                 lat: 29.9,
+//                 lon: 31.3,
+//             ),
+//         ),
+//         (
+//             name: "Shibin Al Kawm",
+//             coordinates: (
+//                 lat: 30.55,
+//                 lon: 31.0,
+//             ),
+//         ),
+//         (
+//             name: "Damanhur",
+//             coordinates: (
+//                 lat: 31.05,
+//                 lon: 30.466666666,
+//             ),
+//         ),
+//         (
+//             name: "Al Mokattam",
+//             coordinates: (
+//                 lat: 30.01258,
+//                 lon: 31.29795,
+//             ),
+//         ),
+        (
+            name: "Hurghada",
+            coordinates: (
+                lat: 27.257777777,
+                lon: 33.811666666,
+            ),
+        ),
+//         (
+//             name: "Mallawi",
+//             coordinates: (
+//                 lat: 27.730555555,
+//                 lon: 30.8425,
+//             ),
+//         ),
+//         (
+//             name: "Menouf",
+//             coordinates: (
+//                 lat: 30.466666666,
+//                 lon: 30.933333333,
+//             ),
+//         ),
+//         (
+//             name: "Damietta",
+//             coordinates: (
+//                 lat: 31.416666666,
+//                 lon: 31.821388888,
+//             ),
+//         ),
+        (
+            name: "Luxor",
+            coordinates: (
+                lat: 25.696666666,
+                lon: 32.644444444,
+            ),
+        ),
+//         (
+//             name: "Qena",
+//             coordinates: (
+//                 lat: 26.166666666,
+//                 lon: 32.716666666,
+//             ),
+//         ),
+        (
+            name: "Sohag",
+            coordinates: (
+                lat: 26.560555555,
+                lon: 31.691666666,
+            ),
+        ),
+//         (
+//             name: "Beni Suef",
+//             coordinates: (
+//                 lat: 29.066666666,
+//                 lon: 31.083333333,
+//             ),
+//         ),
+        (
+            name: "Arish",
+            coordinates: (
+                lat: 31.133333333,
+                lon: 33.8,
+            ),
+        ),
+//         (
+//             name: "Matarieh",
+//             coordinates: (
+//                 lat: 31.18287,
+//                 lon: 32.03108,
+//             ),
+//         ),
+//         (
+//             name: "Benha",
+//             coordinates: (
+//                 lat: 30.462777777,
+//                 lon: 31.179722222,
+//             ),
+//         ),
+//         (
+//             name: "Qalyub",
+//             coordinates: (
+//                 lat: 30.199722222,
+//                 lon: 31.205277777,
+//             ),
+//         ),
+//         (
+//             name: "Al Ḩawāmidīyah",
+//             coordinates: (
+//                 lat: 29.9,
+//                 lon: 31.25,
+//             ),
+//         ),
+//         (
+//             name: "Abu Kabir",
+//             coordinates: (
+//                 lat: 30.71666667,
+//                 lon: 31.66666667,
+//             ),
+//         ),
+//         (
+//             name: "Kafr el-Sheikh",
+//             coordinates: (
+//                 lat: 31.1,
+//                 lon: 30.95,
+//             ),
+//         ),
+//         (
+//             name: "Heliopolis",
+//             coordinates: (
+//                 lat: 30.133333333,
+//                 lon: 31.3,
+//             ),
+//         ),
+//         (
+//             name: "Desouk",
+//             coordinates: (
+//                 lat: 31.1325,
+//                 lon: 30.647777777,
+//             ),
+//         ),
+//         (
+//             name: "Belbis",
+//             coordinates: (
+//                 lat: 30.416666666,
+//                 lon: 31.566666666,
+//             ),
+//         ),
+//         (
+//             name: "Belqas",
+//             coordinates: (
+//                 lat: 31.21452,
+//                 lon: 31.35798,
+//             ),
+//         ),
+//         (
+//             name: "Mit Ghamr",
+//             coordinates: (
+//                 lat: 30.719166666,
+//                 lon: 31.262777777,
+//             ),
+//         ),
+    ],
+)

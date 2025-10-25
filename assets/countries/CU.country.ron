@@ -1,0 +1,358 @@
+(
+    name: "Cuba",
+    code: "CU",
+    population: 11326616,
+    capital: 0,
+    cities: [
+        (
+            name: "Havana",
+            coordinates: (
+                lat: 23.136666666,
+                lon: -82.358888888,
+            ),
+        ),
+        (
+            name: "Santiago de Cuba",
+            coordinates: (
+                lat: 20.021666666,
+                lon: -75.829444444,
+            ),
+        ),
+//         (
+//             name: "Holguín",
+//             coordinates: (
+//                 lat: 20.887222222,
+//                 lon: -76.263055555,
+//             ),
+//         ),
+//         (
+//             name: "Camagüey",
+//             coordinates: (
+//                 lat: 21.378611111,
+//                 lon: -77.918611111,
+//             ),
+//         ),
+//         (
+//             name: "Guantánamo",
+//             coordinates: (
+//                 lat: 20.144444444,
+//                 lon: -75.209166666,
+//             ),
+//         ),
+//         (
+//             name: "Santa Clara",
+//             coordinates: (
+//                 lat: 22.40711,
+//                 lon: -79.96581,
+//             ),
+//         ),
+//         (
+//             name: "Santa Clara",
+//             coordinates: (
+//                 lat: 22.406666666,
+//                 lon: -79.953055555,
+//             ),
+//         ),
+//         (
+//             name: "Bayamo",
+//             coordinates: (
+//                 lat: 20.381666666,
+//                 lon: -76.642777777,
+//             ),
+//         ),
+//         (
+//             name: "Guantánamo",
+//             coordinates: (
+//                 lat: 20.138333,
+//                 lon: -75.206111,
+//             ),
+//         ),
+//         (
+//             name: "Diez de Octubre",
+//             coordinates: (
+//                 lat: 23.088055555,
+//                 lon: -82.359722222,
+//             ),
+//         ),
+//         (
+//             name: "Arroyo Naranjo",
+//             coordinates: (
+//                 lat: 23.03811,
+//                 lon: -82.37703,
+//             ),
+//         ),
+//         (
+//             name: "Arroyo Naranjo",
+//             coordinates: (
+//                 lat: 23.043611111,
+//                 lon: -82.332777777,
+//             ),
+//         ),
+//         (
+//             name: "Las Tunas",
+//             coordinates: (
+//                 lat: 20.966666666,
+//                 lon: -76.95,
+//             ),
+//         ),
+//         (
+//             name: "Bayamo",
+//             coordinates: (
+//                 lat: 20.37368,
+//                 lon: -76.64272,
+//             ),
+//         ),
+        (
+            name: "Pinar del Río",
+            coordinates: (
+                lat: 22.412222222,
+                lon: -83.671944444,
+            ),
+        ),
+//         (
+//             name: "Pinar del Río",
+//             coordinates: (
+//                 lat: 22.416666666,
+//                 lon: -83.696666666,
+//             ),
+//         ),
+//         (
+//             name: "Cienfuegos",
+//             coordinates: (
+//                 lat: 22.145555555,
+//                 lon: -80.436388888,
+//             ),
+//         ),
+//         (
+//             name: "Matanzas",
+//             coordinates: (
+//                 lat: 23.049444,
+//                 lon: -81.573611,
+//             ),
+//         ),
+//         (
+//             name: "Manzanillo",
+//             coordinates: (
+//                 lat: 20.339722222,
+//                 lon: -77.108611111,
+//             ),
+//         ),
+//         (
+//             name: "Matanzas",
+//             coordinates: (
+//                 lat: 23.041111111,
+//                 lon: -81.5775,
+//             ),
+//         ),
+//         (
+//             name: "Ciego de Ávila",
+//             coordinates: (
+//                 lat: 21.848055555,
+//                 lon: -78.763055555,
+//             ),
+//         ),
+//         (
+//             name: "Sancti Spíritus",
+//             coordinates: (
+//                 lat: 21.933888888,
+//                 lon: -79.443888888,
+//             ),
+//         ),
+//         (
+//             name: "Centro Habana",
+//             coordinates: (
+//                 lat: 23.13798,
+//                 lon: -82.36184,
+//             ),
+//         ),
+//         (
+//             name: "Manzanillo",
+//             coordinates: (
+//                 lat: 20.34173,
+//                 lon: -77.12126,
+//             ),
+//         ),
+//         (
+//             name: "Sancti Spíritus",
+//             coordinates: (
+//                 lat: 21.929722222,
+//                 lon: -79.4425,
+//             ),
+//         ),
+//         (
+//             name: "Guanabacoa",
+//             coordinates: (
+//                 lat: 23.12518,
+//                 lon: -82.30067,
+//             ),
+//         ),
+//         (
+//             name: "Vedado",
+//             coordinates: (
+//                 lat: 23.131111111,
+//                 lon: -82.394166666,
+//             ),
+//         ),
+//         (
+//             name: "Contramaestre",
+//             coordinates: (
+//                 lat: 20.3,
+//                 lon: -76.250555555,
+//             ),
+//         ),
+//         (
+//             name: "Palma Soriano",
+//             coordinates: (
+//                 lat: 20.2113,
+//                 lon: -75.99362,
+//             ),
+//         ),
+//         (
+//             name: "Cárdenas",
+//             coordinates: (
+//                 lat: 23.036666666,
+//                 lon: -81.205833333,
+//             ),
+//         ),
+//         (
+//             name: "Consolación del Sur",
+//             coordinates: (
+//                 lat: 22.508333333,
+//                 lon: -83.517222222,
+//             ),
+//         ),
+//         (
+//             name: "Cárdenas",
+//             coordinates: (
+//                 lat: 23.042777777,
+//                 lon: -81.203611111,
+//             ),
+//         ),
+        (
+            name: "Municipio Especial Isla de la Juventud",
+            coordinates: (
+                lat: 21.75,
+                lon: -82.883333333,
+            ),
+        ),
+//         (
+//             name: "San José de las Lajas",
+//             coordinates: (
+//                 lat: 22.967777777,
+//                 lon: -82.155833333,
+//             ),
+//         ),
+//         (
+//             name: "Baracoa",
+//             coordinates: (
+//                 lat: 20.344444,
+//                 lon: -74.495556,
+//             ),
+//         ),
+//         (
+//             name: "Puerto Padre",
+//             coordinates: (
+//                 lat: 21.19517,
+//                 lon: -76.60358,
+//             ),
+//         ),
+//         (
+//             name: "Moa",
+//             coordinates: (
+//                 lat: 20.655555555,
+//                 lon: -74.941666666,
+//             ),
+//         ),
+//         (
+//             name: "Florida",
+//             coordinates: (
+//                 lat: 21.529444444,
+//                 lon: -78.222777777,
+//             ),
+//         ),
+//         (
+//             name: "Placetas",
+//             coordinates: (
+//                 lat: 22.315833333,
+//                 lon: -79.655555555,
+//             ),
+//         ),
+//         (
+//             name: "Consolación del Sur",
+//             coordinates: (
+//                 lat: 22.504166666,
+//                 lon: -83.514444444,
+//             ),
+//         ),
+//         (
+//             name: "Güines",
+//             coordinates: (
+//                 lat: 22.837222222,
+//                 lon: -82.026388888,
+//             ),
+//         ),
+//         (
+//             name: "Artemisa",
+//             coordinates: (
+//                 lat: 22.81366,
+//                 lon: -82.75814,
+//             ),
+//         ),
+//         (
+//             name: "Municipio de San Luis",
+//             coordinates: (
+//                 lat: 20.18809,
+//                 lon: -75.85031,
+//             ),
+//         ),
+//         (
+//             name: "Güines",
+//             coordinates: (
+//                 lat: 22.8475,
+//                 lon: -82.023611111,
+//             ),
+//         ),
+//         (
+//             name: "Morón",
+//             coordinates: (
+//                 lat: 22.107777777,
+//                 lon: -78.626666666,
+//             ),
+//         ),
+//         (
+//             name: "Colón",
+//             coordinates: (
+//                 lat: 22.720555555,
+//                 lon: -80.905,
+//             ),
+//         ),
+//         (
+//             name: "Florida",
+//             coordinates: (
+//                 lat: 21.52536,
+//                 lon: -78.22579,
+//             ),
+//         ),
+//         (
+//             name: "Sagua la Grande",
+//             coordinates: (
+//                 lat: 22.806666666,
+//                 lon: -80.075555555,
+//             ),
+//         ),
+//         (
+//             name: "Manicaragua",
+//             coordinates: (
+//                 lat: 22.15,
+//                 lon: -79.976388888,
+//             ),
+//         ),
+//         (
+//             name: "Trinidad",
+//             coordinates: (
+//                 lat: 21.80224,
+//                 lon: -79.98467,
+//             ),
+//         ),
+    ],
+)

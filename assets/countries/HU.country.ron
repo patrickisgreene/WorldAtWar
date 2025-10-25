@@ -1,0 +1,330 @@
+(
+    name: "Hungary",
+    code: "HU",
+    population: 9749763,
+    capital: 0,
+    cities: [
+        (
+            name: "Budapest",
+            coordinates: (
+                lat: 47.498333333,
+                lon: 19.040833333,
+            ),
+        ),
+        (
+            name: "Debrecen",
+            coordinates: (
+                lat: 47.53,
+                lon: 21.639166666,
+            ),
+        ),
+//         (
+//             name: "Szeged",
+//             coordinates: (
+//                 lat: 46.25,
+//                 lon: 20.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District XI",
+//             coordinates: (
+//                 lat: 47.475,
+//                 lon: 19.04,
+//             ),
+//         ),
+//         (
+//             name: "Miskolc",
+//             coordinates: (
+//                 lat: 48.10327,
+//                 lon: 20.77806,
+//             ),
+//         ),
+//         (
+//             name: "Pécs",
+//             coordinates: (
+//                 lat: 46.070833333,
+//                 lon: 18.233055555,
+//             ),
+//         ),
+//         (
+//             name: "Győr",
+//             coordinates: (
+//                 lat: 47.68333,
+//                 lon: 17.63512,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District III",
+//             coordinates: (
+//                 lat: 47.54157,
+//                 lon: 19.04501,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District XIII",
+//             coordinates: (
+//                 lat: 47.5364,
+//                 lon: 19.0719,
+//             ),
+//         ),
+//         (
+//             name: "Zugló",
+//             coordinates: (
+//                 lat: 47.5125,
+//                 lon: 19.10833333,
+//             ),
+//         ),
+//         (
+//             name: "Nyíregyháza",
+//             coordinates: (
+//                 lat: 47.95539,
+//                 lon: 21.71671,
+//             ),
+//         ),
+//         (
+//             name: "Kecskemét",
+//             coordinates: (
+//                 lat: 46.9075,
+//                 lon: 19.691666666,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District XVIII",
+//             coordinates: (
+//                 lat: 47.43333333,
+//                 lon: 19.16666667,
+//             ),
+//         ),
+//         (
+//             name: "Székesfehérvár",
+//             coordinates: (
+//                 lat: 47.18995,
+//                 lon: 18.41034,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District IV",
+//             coordinates: (
+//                 lat: 47.566666666,
+//                 lon: 19.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District II",
+//             coordinates: (
+//                 lat: 47.51984,
+//                 lon: 19.02218,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District XVII",
+//             coordinates: (
+//                 lat: 47.48027778,
+//                 lon: 19.26666667,
+//             ),
+//         ),
+//         (
+//             name: "Szombathely",
+//             coordinates: (
+//                 lat: 47.23088,
+//                 lon: 16.62155,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District XV",
+//             coordinates: (
+//                 lat: 47.5589,
+//                 lon: 19.1193,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District X",
+//             coordinates: (
+//                 lat: 47.481214,
+//                 lon: 19.130303,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District XVI",
+//             coordinates: (
+//                 lat: 47.5183,
+//                 lon: 19.1714,
+//             ),
+//         ),
+//         (
+//             name: "Érd",
+//             coordinates: (
+//                 lat: 47.378333333,
+//                 lon: 18.921944444,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District VIII",
+//             coordinates: (
+//                 lat: 47.48919,
+//                 lon: 19.07012,
+//             ),
+//         ),
+//         (
+//             name: "Csepel",
+//             coordinates: (
+//                 lat: 47.416666666,
+//                 lon: 19.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Szolnok",
+//             coordinates: (
+//                 lat: 47.174722222,
+//                 lon: 20.176388888,
+//             ),
+//         ),
+//         (
+//             name: "Tatabánya",
+//             coordinates: (
+//                 lat: 47.58616,
+//                 lon: 18.39485,
+//             ),
+//         ),
+//         (
+//             name: "Angyalföld",
+//             coordinates: (
+//                 lat: 47.5425,
+//                 lon: 19.0786,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District XX",
+//             coordinates: (
+//                 lat: 47.43333333,
+//                 lon: 19.1,
+//             ),
+//         ),
+//         (
+//             name: "Kispest",
+//             coordinates: (
+//                 lat: 47.4522,
+//                 lon: 19.1478,
+//             ),
+//         ),
+//         (
+//             name: "Sopron",
+//             coordinates: (
+//                 lat: 47.68501,
+//                 lon: 16.59049,
+//             ),
+//         ),
+//         (
+//             name: "Pestszentlőrinc",
+//             coordinates: (
+//                 lat: 47.42977,
+//                 lon: 19.21592,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District IX",
+//             coordinates: (
+//                 lat: 47.466666666,
+//                 lon: 19.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Kaposvár",
+//             coordinates: (
+//                 lat: 46.366666666,
+//                 lon: 17.783333333,
+//             ),
+//         ),
+//         (
+//             name: "19th district of Budapest",
+//             coordinates: (
+//                 lat: 47.45,
+//                 lon: 19.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District XXII",
+//             coordinates: (
+//                 lat: 47.425,
+//                 lon: 19.03166667,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District XII",
+//             coordinates: (
+//                 lat: 47.5,
+//                 lon: 19.0,
+//             ),
+//         ),
+//         (
+//             name: "Veszprém",
+//             coordinates: (
+//                 lat: 47.1,
+//                 lon: 17.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Zalaegerszeg",
+//             coordinates: (
+//                 lat: 46.839166666,
+//                 lon: 16.851111111,
+//             ),
+//         ),
+//         (
+//             name: "Békéscsaba",
+//             coordinates: (
+//                 lat: 46.683333333,
+//                 lon: 21.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Budapest District VII",
+//             coordinates: (
+//                 lat: 47.50207,
+//                 lon: 19.07218,
+//             ),
+//         ),
+//         (
+//             name: "Eger",
+//             coordinates: (
+//                 lat: 47.898888888,
+//                 lon: 20.374722222,
+//             ),
+//         ),
+//         (
+//             name: "Dunakeszi",
+//             coordinates: (
+//                 lat: 47.629722222,
+//                 lon: 19.138055555,
+//             ),
+//         ),
+//         (
+//             name: "Nagykanizsa",
+//             coordinates: (
+//                 lat: 46.455833333,
+//                 lon: 16.9975,
+//             ),
+//         ),
+//         (
+//             name: "Hódmezővásárhely",
+//             coordinates: (
+//                 lat: 46.430277777,
+//                 lon: 20.318888888,
+//             ),
+//         ),
+//         (
+//             name: "Dunaújváros",
+//             coordinates: (
+//                 lat: 46.983333333,
+//                 lon: 18.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Szigetszentmiklós",
+//             coordinates: (
+//                 lat: 47.345277777,
+//                 lon: 19.048333333,
+//             ),
+//         ),
+    ],
+)

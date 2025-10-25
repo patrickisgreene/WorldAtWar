@@ -1,0 +1,197 @@
+(
+    name: "Afghanistan",
+    code: "AF",
+    population: 40218234,
+    capital: 0,
+    cities: [
+        (
+            name: "Kabul",
+            coordinates: (
+                lat: 34.532777777,
+                lon: 69.165833333,
+            ),
+        ),
+        (
+            name: "Kandahar",
+            coordinates: (
+                lat: 31.61332,
+                lon: 65.71013,
+            ),
+        ),
+        (
+            name: "Herat",
+            coordinates: (
+                lat: 34.34817,
+                lon: 62.19967,
+            ),
+        ),
+        (
+            name: "Mazar-i-Sharif",
+            coordinates: (
+                lat: 36.7,
+                lon: 67.116666666,
+            ),
+        ),
+        (
+            name: "Kunduz",
+            coordinates: (
+                lat: 36.728888888,
+                lon: 68.856944444,
+            ),
+        ),
+        (
+            name: "Jalalabad",
+            coordinates: (
+                lat: 34.430277777,
+                lon: 70.452777777,
+            ),
+        ),
+//         (
+//             name: "Taloqan",
+//             coordinates: (
+//                 lat: 36.73605,
+//                 lon: 69.53451,
+//             ),
+//         ),
+        (
+            name: "Lashkar Gah",
+            coordinates: (
+                lat: 31.593819444,
+                lon: 64.371611111,
+            ),
+        ),
+        (
+            name: "Sheberghan",
+            coordinates: (
+                lat: 36.665,
+                lon: 65.752,
+            ),
+        ),
+        (
+            name: "Khost",
+            coordinates: (
+                lat: 33.333333333,
+                lon: 69.916666666,
+            ),
+        ),
+//         (
+//             name: "Ghazni",
+//             coordinates: (
+//                 lat: 33.549166666,
+//                 lon: 68.423333333,
+//             ),
+//         ),
+//         (
+//             name: "Pul-e Khomri",
+//             coordinates: (
+//                 lat: 35.95,
+//                 lon: 68.7,
+//             ),
+//         ),
+        (
+            name: "Bamyan",
+            coordinates: (
+                lat: 34.816666666,
+                lon: 67.816666666,
+            ),
+        ),
+        (
+            name: "Maymana",
+            coordinates: (
+                lat: 35.933333333,
+                lon: 64.75,
+            ),
+        ),
+//         (
+//             name: "Baghlan",
+//             coordinates: (
+//                 lat: 36.132777777,
+//                 lon: 68.7,
+//             ),
+//         ),
+//         (
+//             name: "Balkh",
+//             coordinates: (
+//                 lat: 36.758055555,
+//                 lon: 66.898888888,
+//             ),
+//         ),
+//         (
+//             name: "Gardez",
+//             coordinates: (
+//                 lat: 33.593055555,
+//                 lon: 69.229722222,
+//             ),
+//         ),
+        (
+            name: "Tarinkot",
+            coordinates: (
+                lat: 32.624167,
+                lon: 65.876667,
+            ),
+        ),
+//         (
+//             name: "Charikar",
+//             coordinates: (
+//                 lat: 35.016666666,
+//                 lon: 69.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Yakawlang",
+//             coordinates: (
+//                 lat: 34.7333,
+//                 lon: 66.9667,
+//             ),
+//         ),
+//         (
+//             name: "Arghandab District",
+//             coordinates: (
+//                 lat: 31.654722222,
+//                 lon: 65.649444444,
+//             ),
+//         ),
+        (
+            name: "Farah",
+            coordinates: (
+                lat: 32.343611111,
+                lon: 62.119444444,
+            ),
+        ),
+//         (
+//             name: "Sar-e Pol",
+//             coordinates: (
+//                 lat: 36.221388888,
+//                 lon: 65.927777777,
+//             ),
+//         ),
+        (
+            name: "Zaranj",
+            coordinates: (
+                lat: 30.96,
+                lon: 61.86,
+            ),
+        ),
+//         (
+//             name: "Paghman",
+//             coordinates: (
+//                 lat: 34.58333333,
+//                 lon: 68.95,
+//             ),
+//         ),
+        (
+            name: "Fayzabad",
+            coordinates: (
+                lat: 37.121944444,
+                lon: 70.583333333,
+            ),
+        ),
+//         (
+//             name: "Girishk",
+//             coordinates: (
+//                 lat: 31.81666667,
+//                 lon: 64.56666667,
+//             ),
+//         ),
+    ],
+)

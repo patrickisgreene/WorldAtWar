@@ -1,0 +1,358 @@
+(
+    name: "Indonesia",
+    code: "ID",
+    population: 273523621,
+    capital: 0,
+    cities: [
+        (
+            name: "Jakarta",
+            coordinates: (
+                lat: -6.2,
+                lon: 106.83333,
+            ),
+        ),
+        (
+            name: "Surabaya",
+            coordinates: (
+                lat: -7.246283611,
+                lon: 112.737767222,
+            ),
+        ),
+//         (
+//             name: "Bekasi",
+//             coordinates: (
+//                 lat: -6.233333333,
+//                 lon: 107.0,
+//             ),
+//         ),
+//         (
+//             name: "Tangerang",
+//             coordinates: (
+//                 lat: -6.170277777,
+//                 lon: 106.640277777,
+//             ),
+//         ),
+        (
+            name: "Medan",
+            coordinates: (
+                lat: 3.58333,
+                lon: 98.66667,
+            ),
+        ),
+//         (
+//             name: "Depok",
+//             coordinates: (
+//                 lat: -6.405031,
+//                 lon: 106.8173077,
+//             ),
+//         ),
+//         (
+//             name: "South Tangerang",
+//             coordinates: (
+//                 lat: -6.288888888,
+//                 lon: 106.718055555,
+//             ),
+//         ),
+        (
+            name: "Semarang",
+            coordinates: (
+                lat: -6.99,
+                lon: 110.4225,
+            ),
+        ),
+        (
+            name: "Palembang",
+            coordinates: (
+                lat: -2.983333333,
+                lon: 104.764444444,
+            ),
+        ),
+        (
+            name: "Makassar",
+            coordinates: (
+                lat: -5.14861,
+                lon: 119.43194,
+            ),
+        ),
+//         (
+//             name: "Makassar",
+//             coordinates: (
+//                 lat: -5.133055555,
+//                 lon: 119.413611111,
+//             ),
+//         ),
+        (
+            name: "Batam",
+            coordinates: (
+                lat: 1.13,
+                lon: 104.053055555,
+            ),
+        ),
+        (
+            name: "Bandar Lampung",
+            coordinates: (
+                lat: -5.429444444,
+                lon: 105.2625,
+            ),
+        ),
+        (
+            name: "Pekanbaru",
+            coordinates: (
+                lat: 0.533333333,
+                lon: 101.45,
+            ),
+        ),
+//         (
+//             name: "Bogor",
+//             coordinates: (
+//                 lat: -6.597802777,
+//                 lon: 106.799263333,
+//             ),
+//         ),
+        (
+            name: "Padang",
+            coordinates: (
+                lat: -0.955556,
+                lon: 100.360556,
+            ),
+        ),
+        (
+            name: "Malang",
+            coordinates: (
+                lat: -7.96893041,
+                lon: 112.632727716,
+            ),
+        ),
+        (
+            name: "Samarinda",
+            coordinates: (
+                lat: -0.502222222,
+                lon: 117.153611111,
+            ),
+        ),
+        (
+            name: "Pontianak",
+            coordinates: (
+                lat: -0.020555555,
+                lon: 109.341388888,
+            ),
+        ),
+        (
+            name: "Tasikmalaya",
+            coordinates: (
+                lat: -7.3258023,
+                lon: 108.2201805,
+            ),
+        ),
+        (
+            name: "Denpasar",
+            coordinates: (
+                lat: -8.671666666,
+                lon: 115.233888888,
+            ),
+        ),
+        (
+            name: "Banjarmasin",
+            coordinates: (
+                lat: -3.314429472,
+                lon: 114.592253736,
+            ),
+        ),
+//         (
+//             name: "Serang",
+//             coordinates: (
+//                 lat: -6.12,
+//                 lon: 106.150277777,
+//             ),
+//         ),
+        (
+            name: "Jambi",
+            coordinates: (
+                lat: -1.59,
+                lon: 103.61,
+            ),
+        ),
+//         (
+//             name: "Balikpapan",
+//             coordinates: (
+//                 lat: -1.148888888,
+//                 lon: 116.903055555,
+//             ),
+//         ),
+//         (
+//             name: "Cimahi",
+//             coordinates: (
+//                 lat: -6.872222222,
+//                 lon: 107.5425,
+//             ),
+//         ),
+//         (
+//             name: "Cimahi",
+//             coordinates: (
+//                 lat: -6.8800382,
+//                 lon: 107.5385202,
+//             ),
+//         ),
+//         (
+//             name: "Surakarta",
+//             coordinates: (
+//                 lat: -7.566666666,
+//                 lon: 110.816666666,
+//             ),
+//         ),
+        (
+            name: "Kupang",
+            coordinates: (
+                lat: -10.163333333,
+                lon: 123.577777777,
+            ),
+        ),
+        (
+            name: "Manado",
+            coordinates: (
+                lat: 1.48218,
+                lon: 124.84892,
+            ),
+        ),
+        (
+            name: "Mataram",
+            coordinates: (
+                lat: -8.583333333,
+                lon: 116.116666666,
+            ),
+        ),
+//         (
+//             name: "Yogyakarta",
+//             coordinates: (
+//                 lat: -7.800456766,
+//                 lon: 110.391280229,
+//             ),
+//         ),
+        (
+            name: "Jayapura",
+            coordinates: (
+                lat: -2.533333333,
+                lon: 140.716666666,
+            ),
+        ),
+//         (
+//             name: "Cilegon",
+//             coordinates: (
+//                 lat: -6.016666666,
+//                 lon: 106.016666666,
+//             ),
+//         ),
+        (
+            name: "Ambon",
+            coordinates: (
+                lat: -3.696666666,
+                lon: 128.178333333,
+            ),
+        ),
+//         (
+//             name: "Cibinong",
+//             coordinates: (
+//                 lat: -6.481666666,
+//                 lon: 106.854166666,
+//             ),
+//         ),
+        (
+            name: "Bengkulu",
+            coordinates: (
+                lat: -3.795555555,
+                lon: 102.259166666,
+            ),
+        ),
+        (
+            name: "Palu",
+            coordinates: (
+                lat: -0.895,
+                lon: 119.859444444,
+            ),
+        ),
+//         (
+//             name: "Cirebon",
+//             coordinates: (
+//                 lat: -6.7396903,
+//                 lon: 108.5529678,
+//             ),
+//         ),
+        (
+            name: "Kendari",
+            coordinates: (
+                lat: -3.9675,
+                lon: 122.594722222,
+            ),
+        ),
+//         (
+//             name: "Sukabumi",
+//             coordinates: (
+//                 lat: -6.9320004,
+//                 lon: 106.9185638,
+//             ),
+//         ),
+//         (
+//             name: "Percut",
+//             coordinates: (
+//                 lat: 3.6253,
+//                 lon: 98.864,
+//             ),
+//         ),
+//         (
+//             name: "Pekalongan",
+//             coordinates: (
+//                 lat: -6.888333333,
+//                 lon: 109.675277777,
+//             ),
+//         ),
+        (
+            name: "Sorong",
+            coordinates: (
+                lat: -0.87956,
+                lon: 131.26104,
+            ),
+        ),
+//         (
+//             name: "Cileungsir",
+//             coordinates: (
+//                 lat: -6.394722222,
+//                 lon: 106.959166666,
+//             ),
+//         ),
+        (
+            name: "Mamuju",
+            coordinates: (
+                lat: -2.678611111,
+                lon: 118.893333333,
+            ),
+        ),
+//         (
+//             name: "Pematangsiantar",
+//             coordinates: (
+//                 lat: 2.96,
+//                 lon: 99.06,
+//             ),
+//         ),
+//         (
+//             name: "Tegal",
+//             coordinates: (
+//                 lat: -6.8675,
+//                 lon: 109.1375,
+//             ),
+//         ),
+//         (
+//             name: "Binjai",
+//             coordinates: (
+//                 lat: 3.6,
+//                 lon: 98.485277777,
+//             ),
+//         ),
+        (
+            name: "Dumai",
+            coordinates: (
+                lat: 1.666666666,
+                lon: 101.45,
+            ),
+        ),
+    ],
+)

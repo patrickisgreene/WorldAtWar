@@ -1,0 +1,57 @@
+(
+    name: "Gabon",
+    code: "GA",
+    population: 2225728,
+    capital: 0,
+    cities: [
+        (
+            name: "Libreville",
+            coordinates: (
+                lat: 0.3901,
+                lon: 9.4544,
+            ),
+        ),
+        (
+            name: "Port-Gentil",
+            coordinates: (
+                lat: -0.716666666,
+                lon: 8.783333333,
+            ),
+        ),
+        (
+            name: "Franceville",
+            coordinates: (
+                lat: -1.633333333,
+                lon: 13.583333333,
+            ),
+        ),
+//         (
+//             name: "Owendo",
+//             coordinates: (
+//                 lat: 0.283333333,
+//                 lon: 9.5,
+//             ),
+//         ),
+        (
+            name: "Oyem",
+            coordinates: (
+                lat: 1.599972222,
+                lon: 11.573583333,
+            ),
+        ),
+//         (
+//             name: "Moanda",
+//             coordinates: (
+//                 lat: -1.566666666,
+//                 lon: 13.2,
+//             ),
+//         ),
+//         (
+//             name: "Ntoum",
+//             coordinates: (
+//                 lat: 0.390555555,
+//                 lon: 9.760833333,
+//             ),
+//         ),
+    ],
+)

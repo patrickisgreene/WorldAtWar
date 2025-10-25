@@ -1,0 +1,15 @@
+(
+    name: "American Samoa",
+    code: "AS",
+    population: 55197,
+    capital: 0,
+    cities: [
+        (
+            name: "Pago Pago",
+            coordinates: (
+                lat: -14.27,
+                lon: -170.7,
+            ),
+        ),
+    ],
+)

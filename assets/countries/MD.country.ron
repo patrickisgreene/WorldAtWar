@@ -1,0 +1,78 @@
+(
+    name: "Moldova",
+    code: "MD",
+    population: 2617820,
+    capital: 0,
+    cities: [
+        (
+            name: "Chișinău",
+            coordinates: (
+                lat: 47.01,
+                lon: 28.9,
+            ),
+        ),
+//         (
+//             name: "Sectorul Botanica",
+//             coordinates: (
+//                 lat: 46.98258333,
+//                 lon: 28.86230556,
+//             ),
+//         ),
+//         (
+//             name: "Tiraspol",
+//             coordinates: (
+//                 lat: 46.85,
+//                 lon: 29.63333333,
+//             ),
+//         ),
+//         (
+//             name: "Sectorul Rîșcani",
+//             coordinates: (
+//                 lat: 47.04444444,
+//                 lon: 28.85333333,
+//             ),
+//         ),
+//         (
+//             name: "Sectorul Ciocana",
+//             coordinates: (
+//                 lat: 47.03611111,
+//                 lon: 28.88972222,
+//             ),
+//         ),
+//         (
+//             name: "Sectorul Buiucani",
+//             coordinates: (
+//                 lat: 47.03772222,
+//                 lon: 28.81322222,
+//             ),
+//         ),
+        (
+            name: "Bălți",
+            coordinates: (
+                lat: 47.761666666,
+                lon: 27.928888888,
+            ),
+        ),
+//         (
+//             name: "Sectorul Centru",
+//             coordinates: (
+//                 lat: 47.01777778,
+//                 lon: 28.84138889,
+//             ),
+//         ),
+//         (
+//             name: "Bender",
+//             coordinates: (
+//                 lat: 46.833333333,
+//                 lon: 29.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Rîbnița",
+//             coordinates: (
+//                 lat: 47.76638889,
+//                 lon: 29.00055556,
+//             ),
+//         ),
+    ],
+)

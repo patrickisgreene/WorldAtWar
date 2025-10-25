@@ -1,0 +1,358 @@
+(
+    name: "Greece",
+    code: "GR",
+    population: 10715549,
+    capital: 0,
+    cities: [
+        (
+            name: "Athens",
+            coordinates: (
+                lat: 37.98376,
+                lon: 23.72784,
+            ),
+        ),
+        (
+            name: "Thessaloniki",
+            coordinates: (
+                lat: 40.640277777,
+                lon: 22.935555555,
+            ),
+        ),
+        (
+            name: "Patras",
+            coordinates: (
+                lat: 38.25,
+                lon: 21.733333333,
+            ),
+        ),
+//         (
+//             name: "Piraeus",
+//             coordinates: (
+//                 lat: 37.943,
+//                 lon: 23.646944444,
+//             ),
+//         ),
+//         (
+//             name: "Larissa",
+//             coordinates: (
+//                 lat: 39.638493,
+//                 lon: 22.413061,
+//             ),
+//         ),
+        (
+            name: "Heraklion",
+            coordinates: (
+                lat: 35.340277777,
+                lon: 25.134444444,
+            ),
+        ),
+//         (
+//             name: "Peristeri",
+//             coordinates: (
+//                 lat: 38.016666666,
+//                 lon: 23.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Xanthi Regional Unit",
+//             coordinates: (
+//                 lat: 41.16667,
+//                 lon: 24.83333,
+//             ),
+//         ),
+//         (
+//             name: "Acharnes",
+//             coordinates: (
+//                 lat: 38.0925,
+//                 lon: 23.7425,
+//             ),
+//         ),
+//         (
+//             name: "Kallithea",
+//             coordinates: (
+//                 lat: 37.95,
+//                 lon: 23.7,
+//             ),
+//         ),
+//         (
+//             name: "Kalamaria",
+//             coordinates: (
+//                 lat: 40.583333,
+//                 lon: 22.95,
+//             ),
+//         ),
+//         (
+//             name: "Glyfada",
+//             coordinates: (
+//                 lat: 37.88,
+//                 lon: 23.753333333,
+//             ),
+//         ),
+//         (
+//             name: "Nikaia",
+//             coordinates: (
+//                 lat: 37.966666666,
+//                 lon: 23.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Volos",
+//             coordinates: (
+//                 lat: 39.361111111,
+//                 lon: 22.9425,
+//             ),
+//         ),
+//         (
+//             name: "Ilion",
+//             coordinates: (
+//                 lat: 38.03333,
+//                 lon: 23.7,
+//             ),
+//         ),
+//         (
+//             name: "Evosmos",
+//             coordinates: (
+//                 lat: 40.66888889,
+//                 lon: 22.90833333,
+//             ),
+//         ),
+//         (
+//             name: "Chalandri",
+//             coordinates: (
+//                 lat: 38.01666667,
+//                 lon: 23.8,
+//             ),
+//         ),
+//         (
+//             name: "Ilioupoli",
+//             coordinates: (
+//                 lat: 37.93154,
+//                 lon: 23.755133,
+//             ),
+//         ),
+//         (
+//             name: "Keratsini",
+//             coordinates: (
+//                 lat: 37.96666667,
+//                 lon: 23.61666667,
+//             ),
+//         ),
+//         (
+//             name: "Nea Smyrni",
+//             coordinates: (
+//                 lat: 37.94333333,
+//                 lon: 23.71055556,
+//             ),
+//         ),
+//         (
+//             name: "Agios Dimitrios",
+//             coordinates: (
+//                 lat: 37.93333333,
+//                 lon: 23.73333333,
+//             ),
+//         ),
+//         (
+//             name: "Zografou",
+//             coordinates: (
+//                 lat: 37.97574,
+//                 lon: 23.76911,
+//             ),
+//         ),
+//         (
+//             name: "Egaleo",
+//             coordinates: (
+//                 lat: 37.98333,
+//                 lon: 23.68333,
+//             ),
+//         ),
+//         (
+//             name: "Ioannina",
+//             coordinates: (
+//                 lat: 39.66341,
+//                 lon: 20.85187,
+//             ),
+//         ),
+//         (
+//             name: "Palaio Faliro",
+//             coordinates: (
+//                 lat: 37.93201389,
+//                 lon: 23.70025556,
+//             ),
+//         ),
+//         (
+//             name: "Nea Ionia",
+//             coordinates: (
+//                 lat: 38.03333333,
+//                 lon: 23.75,
+//             ),
+//         ),
+//         (
+//             name: "Chalkida",
+//             coordinates: (
+//                 lat: 38.4625,
+//                 lon: 23.595,
+//             ),
+//         ),
+//         (
+//             name: "Agia Paraskevi",
+//             coordinates: (
+//                 lat: 38.00527778,
+//                 lon: 23.82083333,
+//             ),
+//         ),
+//         (
+//             name: "Trikala",
+//             coordinates: (
+//                 lat: 39.555,
+//                 lon: 21.768333333,
+//             ),
+//         ),
+//         (
+//             name: "Korydallos",
+//             coordinates: (
+//                 lat: 37.97694444,
+//                 lon: 23.65027778,
+//             ),
+//         ),
+//         (
+//             name: "Petroupoli",
+//             coordinates: (
+//                 lat: 38.03333333,
+//                 lon: 23.68333333,
+//             ),
+//         ),
+//         (
+//             name: "Alexandroupolis",
+//             coordinates: (
+//                 lat: 40.85,
+//                 lon: 25.866666666,
+//             ),
+//         ),
+//         (
+//             name: "Katerini",
+//             coordinates: (
+//                 lat: 40.26956,
+//                 lon: 22.50608,
+//             ),
+//         ),
+//         (
+//             name: "Vyronas",
+//             coordinates: (
+//                 lat: 37.96105,
+//                 lon: 23.753,
+//             ),
+//         ),
+//         (
+//             name: "Xanthi",
+//             coordinates: (
+//                 lat: 41.133333333,
+//                 lon: 24.883333333,
+//             ),
+//         ),
+//         (
+//             name: "Serres",
+//             coordinates: (
+//                 lat: 41.083333333,
+//                 lon: 23.55,
+//             ),
+//         ),
+//         (
+//             name: "Galatsi",
+//             coordinates: (
+//                 lat: 38.01666667,
+//                 lon: 23.75,
+//             ),
+//         ),
+        (
+            name: "Kalamata",
+            coordinates: (
+                lat: 37.037777777,
+                lon: 22.111111111,
+            ),
+        ),
+        (
+            name: "Rhodes",
+            coordinates: (
+                lat: 36.433333333,
+                lon: 28.216666666,
+            ),
+        ),
+        (
+            name: "Chania",
+            coordinates: (
+                lat: 35.516666666,
+                lon: 24.016666666,
+            ),
+        ),
+//         (
+//             name: "Kavala",
+//             coordinates: (
+//                 lat: 40.93959,
+//                 lon: 24.40687,
+//             ),
+//         ),
+//         (
+//             name: "Komotini",
+//             coordinates: (
+//                 lat: 41.116666666,
+//                 lon: 25.4,
+//             ),
+//         ),
+//         (
+//             name: "Agrinio",
+//             coordinates: (
+//                 lat: 38.62139,
+//                 lon: 21.40778,
+//             ),
+//         ),
+//         (
+//             name: "Irakleio",
+//             coordinates: (
+//                 lat: 38.05282,
+//                 lon: 23.76523,
+//             ),
+//         ),
+//         (
+//             name: "Kifisia",
+//             coordinates: (
+//                 lat: 38.08333333,
+//                 lon: 23.81666667,
+//             ),
+//         ),
+//         (
+//             name: "Lamia",
+//             coordinates: (
+//                 lat: 38.897222222,
+//                 lon: 22.431111111,
+//             ),
+//         ),
+//         (
+//             name: "Chaidari",
+//             coordinates: (
+//                 lat: 38.016666666,
+//                 lon: 23.65,
+//             ),
+//         ),
+//         (
+//             name: "Stavroupoli",
+//             coordinates: (
+//                 lat: 40.66944,
+//                 lon: 22.93806,
+//             ),
+//         ),
+//         (
+//             name: "Drama",
+//             coordinates: (
+//                 lat: 41.151388888,
+//                 lon: 24.139166666,
+//             ),
+//         ),
+//         (
+//             name: "Alimos",
+//             coordinates: (
+//                 lat: 37.91033,
+//                 lon: 23.72361,
+//             ),
+//         ),
+    ],
+)

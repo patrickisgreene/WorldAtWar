@@ -1,0 +1,57 @@
+(
+    name: "Jamaica",
+    code: "JM",
+    population: 2961161,
+    capital: 0,
+    cities: [
+        (
+            name: "Kingston",
+            coordinates: (
+                lat: 17.971388888,
+                lon: -76.793055555,
+            ),
+        ),
+//         (
+//             name: "New Kingston",
+//             coordinates: (
+//                 lat: 18.00747,
+//                 lon: -76.78319,
+//             ),
+//         ),
+//         (
+//             name: "Portmore",
+//             coordinates: (
+//                 lat: 17.966666666,
+//                 lon: -76.866666666,
+//             ),
+//         ),
+//         (
+//             name: "Spanish Town",
+//             coordinates: (
+//                 lat: 17.996111111,
+//                 lon: -76.954722222,
+//             ),
+//         ),
+//         (
+//             name: "Montego Bay",
+//             coordinates: (
+//                 lat: 18.466666666,
+//                 lon: -77.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Mandeville",
+//             coordinates: (
+//                 lat: 18.041666666,
+//                 lon: -77.507222222,
+//             ),
+//         ),
+//         (
+//             name: "May Pen",
+//             coordinates: (
+//                 lat: 17.95,
+//                 lon: -77.25,
+//             ),
+//         ),
+    ],
+)

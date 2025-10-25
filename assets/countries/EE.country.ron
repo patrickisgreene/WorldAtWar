@@ -1,0 +1,36 @@
+(
+    name: "Estonia",
+    code: "EE",
+    population: 1331057,
+    capital: 0,
+    cities: [
+        (
+            name: "Tallinn",
+            coordinates: (
+                lat: 59.437222222,
+                lon: 24.745,
+            ),
+        ),
+        (
+            name: "Tartu",
+            coordinates: (
+                lat: 58.38,
+                lon: 26.7225,
+            ),
+        ),
+        (
+            name: "Narva",
+            coordinates: (
+                lat: 59.379166666,
+                lon: 28.200555555,
+            ),
+        ),
+        (
+            name: "Pärnu",
+            coordinates: (
+                lat: 58.384444444,
+                lon: 24.498888888,
+            ),
+        ),
+    ],
+)

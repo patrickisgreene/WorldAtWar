@@ -1,0 +1,358 @@
+(
+    name: "Turkey",
+    code: "TR",
+    population: 84339067,
+    capital: 1,
+    cities: [
+        (
+            name: "Istanbul",
+            coordinates: (
+                lat: 41.01,
+                lon: 28.960277777,
+            ),
+        ),
+        (
+            name: "Ankara",
+            coordinates: (
+                lat: 39.93576,
+                lon: 32.83869,
+            ),
+        ),
+        (
+            name: "İzmir",
+            coordinates: (
+                lat: 38.41273,
+                lon: 27.13838,
+            ),
+        ),
+//         (
+//             name: "Bursa",
+//             coordinates: (
+//                 lat: 40.191330555,
+//                 lon: 29.080538888,
+//             ),
+//         ),
+        (
+            name: "Antalya",
+            coordinates: (
+                lat: 36.90812,
+                lon: 30.69556,
+            ),
+        ),
+//         (
+//             name: "Konya Province",
+//             coordinates: (
+//                 lat: 38.16667,
+//                 lon: 32.5,
+//             ),
+//         ),
+        (
+            name: "Konya",
+            coordinates: (
+                lat: 37.872769444,
+                lon: 32.492138888,
+            ),
+        ),
+        (
+            name: "Şanlıurfa",
+            coordinates: (
+                lat: 37.158333333,
+                lon: 38.791666666,
+            ),
+        ),
+//         (
+//             name: "Kocaeli Province",
+//             coordinates: (
+//                 lat: 40.91667,
+//                 lon: 29.91667,
+//             ),
+//         ),
+        (
+            name: "Adana",
+            coordinates: (
+                lat: 37.00262,
+                lon: 35.31346,
+            ),
+        ),
+        (
+            name: "Diyarbakır",
+            coordinates: (
+                lat: 37.910833333,
+                lon: 40.236666666,
+            ),
+        ),
+        (
+            name: "Gaziantep",
+            coordinates: (
+                lat: 37.062777777,
+                lon: 37.379166666,
+            ),
+        ),
+        (
+            name: "Kayseri",
+            coordinates: (
+                lat: 38.7225,
+                lon: 35.4875,
+            ),
+        ),
+        (
+            name: "Samsun",
+            coordinates: (
+                lat: 41.286666666,
+                lon: 36.33,
+            ),
+        ),
+        (
+            name: "Balıkesir",
+            coordinates: (
+                lat: 39.651111111,
+                lon: 27.884166666,
+            ),
+        ),
+        (
+            name: "Van",
+            coordinates: (
+                lat: 38.501944444,
+                lon: 43.416666666,
+            ),
+        ),
+//         (
+//             name: "Mersin",
+//             coordinates: (
+//                 lat: 36.8,
+//                 lon: 34.616666666,
+//             ),
+//         ),
+        (
+            name: "Denizli",
+            coordinates: (
+                lat: 37.783333333,
+                lon: 29.096388888,
+            ),
+        ),
+//         (
+//             name: "Esenyurt",
+//             coordinates: (
+//                 lat: 41.04,
+//                 lon: 28.66161,
+//             ),
+//         ),
+//         (
+//             name: "Şahinbey district",
+//             coordinates: (
+//                 lat: 37.03741,
+//                 lon: 37.37822,
+//             ),
+//         ),
+//         (
+//             name: "Çankaya district",
+//             coordinates: (
+//                 lat: 39.9179,
+//                 lon: 32.86268,
+//             ),
+//         ),
+//         (
+//             name: "Keçiören district",
+//             coordinates: (
+//                 lat: 40.00132,
+//                 lon: 32.87238,
+//             ),
+//         ),
+        (
+            name: "Eskişehir",
+            coordinates: (
+                lat: 39.776666666,
+                lon: 30.520555555,
+            ),
+        ),
+//         (
+//             name: "Osmangazi",
+//             coordinates: (
+//                 lat: 40.24704,
+//                 lon: 29.01901,
+//             ),
+//         ),
+        (
+            name: "Trabzon",
+            coordinates: (
+                lat: 41.005,
+                lon: 39.7225,
+            ),
+        ),
+//         (
+//             name: "Seyhan district",
+//             coordinates: (
+//                 lat: 36.983055555,
+//                 lon: 35.332777777,
+//             ),
+//         ),
+//         (
+//             name: "Şehitkâmil district",
+//             coordinates: (
+//                 lat: 37.074722222,
+//                 lon: 37.3975,
+//             ),
+//         ),
+        (
+            name: "Erzurum",
+            coordinates: (
+                lat: 39.909722222,
+                lon: 41.275555555,
+            ),
+        ),
+//         (
+//             name: "Pendik",
+//             coordinates: (
+//                 lat: 40.94577,
+//                 lon: 29.33019,
+//             ),
+//         ),
+//         (
+//             name: "Bağcılar",
+//             coordinates: (
+//                 lat: 41.034444444,
+//                 lon: 28.856944444,
+//             ),
+//         ),
+//         (
+//             name: "Küçükçekmece",
+//             coordinates: (
+//                 lat: 41.04004,
+//                 lon: 28.77736,
+//             ),
+//         ),
+//         (
+//             name: "Yenimahalle district",
+//             coordinates: (
+//                 lat: 39.97787,
+//                 lon: 32.80147,
+//             ),
+//         ),
+//         (
+//             name: "Selçuklu district",
+//             coordinates: (
+//                 lat: 37.931111111,
+//                 lon: 32.499722222,
+//             ),
+//         ),
+//         (
+//             name: "Mamak district",
+//             coordinates: (
+//                 lat: 39.94044,
+//                 lon: 32.91012,
+//             ),
+//         ),
+//         (
+//             name: "Etimesgut district",
+//             coordinates: (
+//                 lat: 39.96335,
+//                 lon: 32.63744,
+//             ),
+//         ),
+//         (
+//             name: "Bahçelievler",
+//             coordinates: (
+//                 lat: 40.9975,
+//                 lon: 28.850555555,
+//             ),
+//         ),
+//         (
+//             name: "Ümraniye",
+//             coordinates: (
+//                 lat: 41.01643,
+//                 lon: 29.12476,
+//             ),
+//         ),
+//         (
+//             name: "Sincan district",
+//             coordinates: (
+//                 lat: 39.95943,
+//                 lon: 32.49567,
+//             ),
+//         ),
+//         (
+//             name: "Melikgazi district",
+//             coordinates: (
+//                 lat: 38.720277777,
+//                 lon: 35.500277777,
+//             ),
+//         ),
+//         (
+//             name: "Sultangazi",
+//             coordinates: (
+//                 lat: 41.11601,
+//                 lon: 28.87632,
+//             ),
+//         ),
+//         (
+//             name: "Maltepe",
+//             coordinates: (
+//                 lat: 40.9589,
+//                 lon: 29.17866,
+//             ),
+//         ),
+//         (
+//             name: "Üsküdar",
+//             coordinates: (
+//                 lat: 41.01666667,
+//                 lon: 29.01666667,
+//             ),
+//         ),
+//         (
+//             name: "Esenler",
+//             coordinates: (
+//                 lat: 41.0435,
+//                 lon: 28.87619,
+//             ),
+//         ),
+//         (
+//             name: "Gaziosmanpaşa",
+//             coordinates: (
+//                 lat: 41.07857,
+//                 lon: 28.89679,
+//             ),
+//         ),
+//         (
+//             name: "Kartal",
+//             coordinates: (
+//                 lat: 40.91197,
+//                 lon: 29.2119,
+//             ),
+//         ),
+//         (
+//             name: "Karabağlar district",
+//             coordinates: (
+//                 lat: 38.382,
+//                 lon: 27.132,
+//             ),
+//         ),
+//         (
+//             name: "Esenler",
+//             coordinates: (
+//                 lat: 41.07925,
+//                 lon: 28.85235,
+//             ),
+//         ),
+//         (
+//             name: "Kağıthane",
+//             coordinates: (
+//                 lat: 41.08319,
+//                 lon: 28.97826,
+//             ),
+//         ),
+//         (
+//             name: "Batman",
+//             coordinates: (
+//                 lat: 37.883333333,
+//                 lon: 41.133333333,
+//             ),
+//         ),
+//         (
+//             name: "Bornova district",
+//             coordinates: (
+//                 lat: 38.47921,
+//                 lon: 27.2399,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,358 @@
+(
+    name: "Vietnam",
+    code: "VN",
+    population: 97338583,
+    capital: 1,
+    cities: [
+        (
+            name: "Ho Chi Minh City",
+            coordinates: (
+                lat: 10.82302,
+                lon: 106.62965,
+            ),
+        ),
+        (
+            name: "Hanoi",
+            coordinates: (
+                lat: 21.0245,
+                lon: 105.84117,
+            ),
+        ),
+        (
+            name: "Huế",
+            coordinates: (
+                lat: 16.463888888,
+                lon: 107.586666666,
+            ),
+        ),
+//         (
+//             name: "Biên Hòa",
+//             coordinates: (
+//                 lat: 10.94469,
+//                 lon: 106.82432,
+//             ),
+//         ),
+//         (
+//             name: "Thủ Đức",
+//             coordinates: (
+//                 lat: 10.864906308,
+//                 lon: 106.724110667,
+//             ),
+//         ),
+//         (
+//             name: "Huế",
+//             coordinates: (
+//                 lat: 16.456111111,
+//                 lon: 107.576388888,
+//             ),
+//         ),
+//         (
+//             name: "Thuận An",
+//             coordinates: (
+//                 lat: 10.905,
+//                 lon: 106.699444444,
+//             ),
+//         ),
+//         (
+//             name: "Cholon",
+//             coordinates: (
+//                 lat: 10.7514918,
+//                 lon: 106.6604732,
+//             ),
+//         ),
+//         (
+//             name: "Thủ Đức district",
+//             coordinates: (
+//                 lat: 10.84863,
+//                 lon: 106.77209,
+//             ),
+//         ),
+        (
+            name: "Vinh",
+            coordinates: (
+                lat: 18.673333333,
+                lon: 105.692222222,
+            ),
+        ),
+//         (
+//             name: "Bắc Giang",
+//             coordinates: (
+//                 lat: 21.273055555,
+//                 lon: 106.194722222,
+//             ),
+//         ),
+        (
+            name: "Nha Trang",
+            coordinates: (
+                lat: 12.245,
+                lon: 109.191666666,
+            ),
+        ),
+//         (
+//             name: "Thủ Dầu Một",
+//             coordinates: (
+//                 lat: 10.980277777,
+//                 lon: 106.651944444,
+//             ),
+//         ),
+//         (
+//             name: "Vũng Tàu",
+//             coordinates: (
+//                 lat: 10.41391,
+//                 lon: 107.13087,
+//             ),
+//         ),
+//         (
+//             name: "Nam Định",
+//             coordinates: (
+//                 lat: 20.42,
+//                 lon: 106.168333333,
+//             ),
+//         ),
+        (
+            name: "Buôn Ma Thuột",
+            coordinates: (
+                lat: 12.666666666,
+                lon: 108.05,
+            ),
+        ),
+        (
+            name: "Cà Mau",
+            coordinates: (
+                lat: 9.183333333,
+                lon: 105.15,
+            ),
+        ),
+        (
+            name: "Nghi Sơn",
+            coordinates: (
+                lat: 19.417,
+                lon: 105.75,
+            ),
+        ),
+//         (
+//             name: "Thanh Xuân",
+//             coordinates: (
+//                 lat: 20.99675,
+//                 lon: 105.81555,
+//             ),
+//         ),
+//         (
+//             name: "Cầu Giấy",
+//             coordinates: (
+//                 lat: 21.02935,
+//                 lon: 105.79109,
+//             ),
+//         ),
+//         (
+//             name: "Nam Từ Liêm",
+//             coordinates: (
+//                 lat: 21.0364,
+//                 lon: 105.76324,
+//             ),
+//         ),
+        (
+            name: "Đà Lạt",
+            coordinates: (
+                lat: 11.94,
+                lon: 108.4375,
+            ),
+        ),
+//         (
+//             name: "Tuy Hòa",
+//             coordinates: (
+//                 lat: 13.09546,
+//                 lon: 109.32094,
+//             ),
+//         ),
+//         (
+//             name: "Ninh Hòa",
+//             coordinates: (
+//                 lat: 12.4916982,
+//                 lon: 109.1258535,
+//             ),
+//         ),
+//         (
+//             name: "Ba Đình District",
+//             coordinates: (
+//                 lat: 21.03527,
+//                 lon: 105.82837,
+//             ),
+//         ),
+//         (
+//             name: "Chi Linh City",
+//             coordinates: (
+//                 lat: 21.133,
+//                 lon: 106.383,
+//             ),
+//         ),
+        (
+            name: "Sa Đéc City",
+            coordinates: (
+                lat: 10.31052,
+                lon: 105.73968,
+            ),
+        ),
+//         (
+//             name: "Phan Thiết",
+//             coordinates: (
+//                 lat: 10.937,
+//                 lon: 108.15778,
+//             ),
+//         ),
+//         (
+//             name: "Vĩnh Long",
+//             coordinates: (
+//                 lat: 10.2537,
+//                 lon: 105.9723,
+//             ),
+//         ),
+//         (
+//             name: "Phúc Yên",
+//             coordinates: (
+//                 lat: 21.233333333,
+//                 lon: 105.7,
+//             ),
+//         ),
+//         (
+//             name: "Tan Chau",
+//             coordinates: (
+//                 lat: 10.8025,
+//                 lon: 105.246388888,
+//             ),
+//         ),
+//         (
+//             name: "Hà Đông",
+//             coordinates: (
+//                 lat: 20.95549,
+//                 lon: 105.75992,
+//             ),
+//         ),
+        (
+            name: "Sơn Trà",
+            coordinates: (
+                lat: 16.11082,
+                lon: 108.2641,
+            ),
+        ),
+//         (
+//             name: "Bình Thủy",
+//             coordinates: (
+//                 lat: 10.062777777,
+//                 lon: 105.729166666,
+//             ),
+//         ),
+//         (
+//             name: "Ngô Quyền",
+//             coordinates: (
+//                 lat: 20.85279,
+//                 lon: 106.70259,
+//             ),
+//         ),
+//         (
+//             name: "Trảng Bàng (thị xã)",
+//             coordinates: (
+//                 lat: 11.033,
+//                 lon: 106.367,
+//             ),
+//         ),
+//         (
+//             name: "Thị Xã Châu Đốc",
+//             coordinates: (
+//                 lat: 10.67875,
+//                 lon: 105.09029,
+//             ),
+//         ),
+//         (
+//             name: "La Gi",
+//             coordinates: (
+//                 lat: 10.66,
+//                 lon: 107.771944444,
+//             ),
+//         ),
+//         (
+//             name: "Tây Hồ",
+//             coordinates: (
+//                 lat: 21.06859,
+//                 lon: 105.81918,
+//             ),
+//         ),
+        (
+            name: "Đồng Hới",
+            coordinates: (
+                lat: 17.483333333,
+                lon: 106.6,
+            ),
+        ),
+//         (
+//             name: "Cẩm Phả",
+//             coordinates: (
+//                 lat: 21.01004,
+//                 lon: 107.27345,
+//             ),
+//         ),
+//         (
+//             name: "Đông Triều",
+//             coordinates: (
+//                 lat: 21.08444,
+//                 lon: 106.51028,
+//             ),
+//         ),
+//         (
+//             name: "Sơn Tây",
+//             coordinates: (
+//                 lat: 21.133333333,
+//                 lon: 105.5,
+//             ),
+//         ),
+//         (
+//             name: "Hòa Thành",
+//             coordinates: (
+//                 lat: 11.26706,
+//                 lon: 106.14486,
+//             ),
+//         ),
+//         (
+//             name: "Ward 1",
+//             coordinates: (
+//                 lat: 9.23833333,
+//                 lon: 105.4622222,
+//             ),
+//         ),
+//         (
+//             name: "Tịnh Biên",
+//             coordinates: (
+//                 lat: 10.583333333,
+//                 lon: 105.0,
+//             ),
+//         ),
+//         (
+//             name: "Nam Sách",
+//             coordinates: (
+//                 lat: 21.0128,
+//                 lon: 106.34218,
+//             ),
+//         ),
+//         (
+//             name: "Hoàn Kiếm",
+//             coordinates: (
+//                 lat: 21.02999,
+//                 lon: 105.85381,
+//             ),
+//         ),
+//         (
+//             name: "Cẩm Phả Mines",
+//             coordinates: (
+//                 lat: 21.016666666,
+//                 lon: 107.3,
+//             ),
+//         ),
+//         (
+//             name: "Tịnh Biên",
+//             coordinates: (
+//                 lat: 10.55019,
+//                 lon: 105.01573,
+//             ),
+//         ),
+    ],
+)

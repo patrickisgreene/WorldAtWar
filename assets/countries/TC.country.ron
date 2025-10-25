@@ -1,0 +1,15 @@
+(
+    name: "Turks and Caicos Islands",
+    code: "TC",
+    population: 38718,
+    capital: 0,
+    cities: [
+        (
+            name: "Cockburn Town",
+            coordinates: (
+                lat: 21.46,
+                lon: -71.14,
+            ),
+        ),
+    ],
+)

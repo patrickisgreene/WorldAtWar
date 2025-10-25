@@ -1,0 +1,190 @@
+(
+    name: "Denmark",
+    code: "DK",
+    population: 5831404,
+    capital: 0,
+    cities: [
+        (
+            name: "Copenhagen",
+            coordinates: (
+                lat: 55.676111111,
+                lon: 12.568888888,
+            ),
+        ),
+        (
+            name: "Aarhus",
+            coordinates: (
+                lat: 56.156388888,
+                lon: 10.209722222,
+            ),
+        ),
+//         (
+//             name: "Odense",
+//             coordinates: (
+//                 lat: 55.4,
+//                 lon: 10.383333333,
+//             ),
+//         ),
+//         (
+//             name: "Aalborg",
+//             coordinates: (
+//                 lat: 57.05,
+//                 lon: 9.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Frederiksberg",
+//             coordinates: (
+//                 lat: 55.67938,
+//                 lon: 12.53463,
+//             ),
+//         ),
+//         (
+//             name: "Gentofte",
+//             coordinates: (
+//                 lat: 55.7517,
+//                 lon: 12.5508,
+//             ),
+//         ),
+//         (
+//             name: "Esbjerg",
+//             coordinates: (
+//                 lat: 55.470833333,
+//                 lon: 8.451388888,
+//             ),
+//         ),
+//         (
+//             name: "Randers",
+//             coordinates: (
+//                 lat: 56.456944444,
+//                 lon: 10.039166666,
+//             ),
+//         ),
+//         (
+//             name: "Horsens",
+//             coordinates: (
+//                 lat: 55.861944444,
+//                 lon: 9.851944444,
+//             ),
+//         ),
+//         (
+//             name: "Kolding",
+//             coordinates: (
+//                 lat: 55.490833333,
+//                 lon: 9.472222222,
+//             ),
+//         ),
+//         (
+//             name: "Vejle",
+//             coordinates: (
+//                 lat: 55.708333333,
+//                 lon: 9.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Hvidovre",
+//             coordinates: (
+//                 lat: 55.6564,
+//                 lon: 12.4686,
+//             ),
+//         ),
+//         (
+//             name: "Avedøre",
+//             coordinates: (
+//                 lat: 55.6325,
+//                 lon: 12.4575,
+//             ),
+//         ),
+//         (
+//             name: "Roskilde",
+//             coordinates: (
+//                 lat: 55.641666666,
+//                 lon: 12.080833333,
+//             ),
+//         ),
+//         (
+//             name: "Herning",
+//             coordinates: (
+//                 lat: 56.136111111,
+//                 lon: 8.976666666,
+//             ),
+//         ),
+//         (
+//             name: "Silkeborg",
+//             coordinates: (
+//                 lat: 56.166666666,
+//                 lon: 9.55,
+//             ),
+//         ),
+//         (
+//             name: "Greve Landsby",
+//             coordinates: (
+//                 lat: 55.5964,
+//                 lon: 12.2478,
+//             ),
+//         ),
+//         (
+//             name: "Hørsholm",
+//             coordinates: (
+//                 lat: 55.878611111,
+//                 lon: 12.499166666,
+//             ),
+//         ),
+//         (
+//             name: "Helsingør",
+//             coordinates: (
+//                 lat: 56.03606,
+//                 lon: 12.6136,
+//             ),
+//         ),
+//         (
+//             name: "Valby",
+//             coordinates: (
+//                 lat: 55.66613,
+//                 lon: 12.51388,
+//             ),
+//         ),
+//         (
+//             name: "Næstved",
+//             coordinates: (
+//                 lat: 55.23333333,
+//                 lon: 11.76666667,
+//             ),
+//         ),
+//         (
+//             name: "Fredericia",
+//             coordinates: (
+//                 lat: 55.564444444,
+//                 lon: 9.759722222,
+//             ),
+//         ),
+//         (
+//             name: "Viborg",
+//             coordinates: (
+//                 lat: 56.45,
+//                 lon: 9.4,
+//             ),
+//         ),
+//         (
+//             name: "Rødovre",
+//             coordinates: (
+//                 lat: 55.6811,
+//                 lon: 12.4558,
+//             ),
+//         ),
+//         (
+//             name: "Ballerup",
+//             coordinates: (
+//                 lat: 55.73165,
+//                 lon: 12.36328,
+//             ),
+//         ),
+//         (
+//             name: "Charlottenlund",
+//             coordinates: (
+//                 lat: 55.751111111,
+//                 lon: 12.571944444,
+//             ),
+//         ),
+    ],
+)

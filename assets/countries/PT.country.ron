@@ -1,0 +1,358 @@
+(
+    name: "Portugal",
+    code: "PT",
+    population: 10305564,
+    capital: 0,
+    cities: [
+        (
+            name: "Lisbon",
+            coordinates: (
+                lat: 38.72509,
+                lon: -9.1498,
+            ),
+        ),
+//         (
+//             name: "Sintra",
+//             coordinates: (
+//                 lat: 38.797361111,
+//                 lon: -9.390416666,
+//             ),
+//         ),
+        (
+            name: "Vila Nova de Gaia",
+            coordinates: (
+                lat: 41.133333333,
+                lon: -8.616666666,
+            ),
+        ),
+//         (
+//             name: "Porto",
+//             coordinates: (
+//                 lat: 41.15556,
+//                 lon: -8.62672,
+//             ),
+//         ),
+//         (
+//             name: "Porto",
+//             coordinates: (
+//                 lat: 41.15556,
+//                 lon: -8.62672,
+//             ),
+//         ),
+//         (
+//             name: "Cascais",
+//             coordinates: (
+//                 lat: 38.74333,
+//                 lon: -9.46382,
+//             ),
+//         ),
+//         (
+//             name: "Loures",
+//             coordinates: (
+//                 lat: 38.833333333,
+//                 lon: -9.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Braga",
+//             coordinates: (
+//                 lat: 41.533333333,
+//                 lon: -8.416666666,
+//             ),
+//         ),
+//         (
+//             name: "Braga",
+//             coordinates: (
+//                 lat: 41.550277777,
+//                 lon: -8.42,
+//             ),
+//         ),
+//         (
+//             name: "Amadora",
+//             coordinates: (
+//                 lat: 38.75382,
+//                 lon: -9.23083,
+//             ),
+//         ),
+//         (
+//             name: "Almada",
+//             coordinates: (
+//                 lat: 38.68027778,
+//                 lon: -9.15833333,
+//             ),
+//         ),
+//         (
+//             name: "Matosinhos",
+//             coordinates: (
+//                 lat: 41.186666666,
+//                 lon: -8.684444444,
+//             ),
+//         ),
+//         (
+//             name: "Oeiras",
+//             coordinates: (
+//                 lat: 38.697044444,
+//                 lon: -9.301652777,
+//             ),
+//         ),
+//         (
+//             name: "Amadora",
+//             coordinates: (
+//                 lat: 38.75,
+//                 lon: -9.233333333,
+//             ),
+//         ),
+//         (
+//             name: "Seixal",
+//             coordinates: (
+//                 lat: 38.61173,
+//                 lon: -9.10371,
+//             ),
+//         ),
+//         (
+//             name: "Gondomar",
+//             coordinates: (
+//                 lat: 41.15,
+//                 lon: -8.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Guimarães",
+//             coordinates: (
+//                 lat: 41.445,
+//                 lon: -8.290833333,
+//             ),
+//         ),
+//         (
+//             name: "Odivelas",
+//             coordinates: (
+//                 lat: 38.8,
+//                 lon: -9.183333333,
+//             ),
+//         ),
+//         (
+//             name: "Coimbra",
+//             coordinates: (
+//                 lat: 40.21026,
+//                 lon: -8.42683,
+//             ),
+//         ),
+//         (
+//             name: "Vila Franca de Xira",
+//             coordinates: (
+//                 lat: 38.95,
+//                 lon: -8.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Santa Maria da Feira",
+//             coordinates: (
+//                 lat: 40.933333333,
+//                 lon: -8.533333333,
+//             ),
+//         ),
+//         (
+//             name: "Maia",
+//             coordinates: (
+//                 lat: 41.233333333,
+//                 lon: -8.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Vila Nova de Famalicão",
+//             coordinates: (
+//                 lat: 41.416666666,
+//                 lon: -8.516666666,
+//             ),
+//         ),
+//         (
+//             name: "Leiria",
+//             coordinates: (
+//                 lat: 39.743055555,
+//                 lon: -8.806944444,
+//             ),
+//         ),
+//         (
+//             name: "Setúbal",
+//             coordinates: (
+//                 lat: 38.524305555,
+//                 lon: -8.892611111,
+//             ),
+//         ),
+//         (
+//             name: "Barcelos",
+//             coordinates: (
+//                 lat: 41.533333333,
+//                 lon: -8.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Coimbra  (city)",
+//             coordinates: (
+//                 lat: 40.205555555,
+//                 lon: -8.419444444,
+//             ),
+//         ),
+        (
+            name: "Funchal",
+            coordinates: (
+                lat: 32.65,
+                lon: -16.916666666,
+            ),
+        ),
+//         (
+//             name: "Viseu",
+//             coordinates: (
+//                 lat: 40.6745,
+//                 lon: -7.91721,
+//             ),
+//         ),
+//         (
+//             name: "Cacém",
+//             coordinates: (
+//                 lat: 38.76698,
+//                 lon: -9.29793,
+//             ),
+//         ),
+//         (
+//             name: "Valongo",
+//             coordinates: (
+//                 lat: 41.183333333,
+//                 lon: -8.5,
+//             ),
+//         ),
+//         (
+//             name: "Viana do Castelo",
+//             coordinates: (
+//                 lat: 41.7,
+//                 lon: -8.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Paredes",
+//             coordinates: (
+//                 lat: 41.2,
+//                 lon: -8.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Vila do Conde",
+//             coordinates: (
+//                 lat: 41.35,
+//                 lon: -8.75,
+//             ),
+//         ),
+//         (
+//             name: "Torres Vedras",
+//             coordinates: (
+//                 lat: 39.083333333,
+//                 lon: -9.266666666,
+//             ),
+//         ),
+//         (
+//             name: "Barreiro",
+//             coordinates: (
+//                 lat: 38.6376,
+//                 lon: -9.05168,
+//             ),
+//         ),
+//         (
+//             name: "Aveiro",
+//             coordinates: (
+//                 lat: 40.638888888,
+//                 lon: -8.655277777,
+//             ),
+//         ),
+//         (
+//             name: "Queluz",
+//             coordinates: (
+//                 lat: 38.75657,
+//                 lon: -9.25451,
+//             ),
+//         ),
+//         (
+//             name: "Mafra",
+//             coordinates: (
+//                 lat: 38.933333333,
+//                 lon: -9.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Penafiel",
+//             coordinates: (
+//                 lat: 41.2,
+//                 lon: -8.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Santo Tirso",
+//             coordinates: (
+//                 lat: 41.3425,
+//                 lon: -8.4775,
+//             ),
+//         ),
+//         (
+//             name: "Portus Cale",
+//             coordinates: (
+//                 lat: 41.13333333,
+//                 lon: -8.61666667,
+//             ),
+//         ),
+        (
+            name: "Loulé",
+            coordinates: (
+                lat: 37.14399,
+                lon: -8.02345,
+            ),
+        ),
+        (
+            name: "Ponta Delgada",
+            coordinates: (
+                lat: 37.74,
+                lon: -25.67,
+            ),
+        ),
+//         (
+//             name: "Oliveira de Azeméis",
+//             coordinates: (
+//                 lat: 40.833333333,
+//                 lon: -8.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Loures",
+//             coordinates: (
+//                 lat: 38.83091,
+//                 lon: -9.16845,
+//             ),
+//         ),
+//         (
+//             name: "Moita",
+//             coordinates: (
+//                 lat: 38.65,
+//                 lon: -8.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Faro",
+//             coordinates: (
+//                 lat: 37.016111111,
+//                 lon: -7.935,
+//             ),
+//         ),
+//         (
+//             name: "Póvoa de Varzim",
+//             coordinates: (
+//                 lat: 41.39158,
+//                 lon: -8.75713,
+//             ),
+//         ),
+//         (
+//             name: "Palmela",
+//             coordinates: (
+//                 lat: 38.58423,
+//                 lon: -8.89996,
+//             ),
+//         ),
+    ],
+)

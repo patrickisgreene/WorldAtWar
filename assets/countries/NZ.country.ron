@@ -1,0 +1,155 @@
+(
+    name: "New Zealand",
+    code: "NZ",
+    population: 5084300,
+    capital: 2,
+    cities: [
+        (
+            name: "Auckland",
+            coordinates: (
+                lat: -36.849166666,
+                lon: 174.765277777,
+            ),
+        ),
+        (
+            name: "Christchurch",
+            coordinates: (
+                lat: -43.531111111,
+                lon: 172.636111111,
+            ),
+        ),
+        (
+            name: "Wellington",
+            coordinates: (
+                lat: -41.288888888,
+                lon: 174.777222222,
+            ),
+        ),
+        (
+            name: "Hamilton",
+            coordinates: (
+                lat: -37.783333333,
+                lon: 175.283333333,
+            ),
+        ),
+//         (
+//             name: "Tauranga",
+//             coordinates: (
+//                 lat: -37.685833333,
+//                 lon: 176.166666666,
+//             ),
+//         ),
+//         (
+//             name: "Lower Hutt",
+//             coordinates: (
+//                 lat: -41.216666666,
+//                 lon: 174.916666666,
+//             ),
+//         ),
+        (
+            name: "Dunedin",
+            coordinates: (
+                lat: -45.874166666,
+                lon: 170.503611111,
+            ),
+        ),
+        (
+            name: "Palmerston North",
+            coordinates: (
+                lat: -40.354911,
+                lon: 175.609511,
+            ),
+        ),
+        (
+            name: "Napier",
+            coordinates: (
+                lat: -39.4926,
+                lon: 176.91233,
+            ),
+        ),
+//         (
+//             name: "Porirua",
+//             coordinates: (
+//                 lat: -41.133333333,
+//                 lon: 174.85,
+//             ),
+//         ),
+//         (
+//             name: "Rotorua",
+//             coordinates: (
+//                 lat: -38.137777777,
+//                 lon: 176.251388888,
+//             ),
+//         ),
+        (
+            name: "New Plymouth",
+            coordinates: (
+                lat: -39.057777777,
+                lon: 174.074166666,
+            ),
+        ),
+//         (
+//             name: "Papatoetoe",
+//             coordinates: (
+//                 lat: -36.979769444,
+//                 lon: 174.851222222,
+//             ),
+//         ),
+        (
+            name: "Whangārei",
+            coordinates: (
+                lat: -35.725,
+                lon: 174.323611111,
+            ),
+        ),
+        (
+            name: "Nelson",
+            coordinates: (
+                lat: -41.293056,
+                lon: 173.238056,
+            ),
+        ),
+        (
+            name: "Invercargill",
+            coordinates: (
+                lat: -46.4,
+                lon: 168.35,
+            ),
+        ),
+//         (
+//             name: "Hastings",
+//             coordinates: (
+//                 lat: -39.65,
+//                 lon: 176.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Flat Bush",
+//             coordinates: (
+//                 lat: -36.9682,
+//                 lon: 174.89019,
+//             ),
+//         ),
+//         (
+//             name: "Upper Hutt",
+//             coordinates: (
+//                 lat: -41.133333333,
+//                 lon: 175.05,
+//             ),
+//         ),
+//         (
+//             name: "Whanganui",
+//             coordinates: (
+//                 lat: -39.9325,
+//                 lon: 175.051944444,
+//             ),
+//         ),
+//         (
+//             name: "Manurewa",
+//             coordinates: (
+//                 lat: -37.0235,
+//                 lon: 174.899,
+//             ),
+//         ),
+    ],
+)

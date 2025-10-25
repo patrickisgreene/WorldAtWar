@@ -1,0 +1,316 @@
+(
+    name: "Kenya",
+    code: "KE",
+    population: 53771300,
+    capital: 0,
+    cities: [
+        (
+            name: "Nairobi",
+            coordinates: (
+                lat: -1.286388888,
+                lon: 36.817222222,
+            ),
+        ),
+        (
+            name: "Mombasa",
+            coordinates: (
+                lat: -4.05,
+                lon: 39.666666666,
+            ),
+        ),
+//         (
+//             name: "Murang\'a",
+//             coordinates: (
+//                 lat: -0.720251,
+//                 lon: 37.159431,
+//             ),
+//         ),
+        (
+            name: "Kisumu",
+            coordinates: (
+                lat: -0.10221,
+                lon: 34.76171,
+            ),
+        ),
+//         (
+//             name: "Kikuyu",
+//             coordinates: (
+//                 lat: -1.25,
+//                 lon: 36.66666667,
+//             ),
+//         ),
+//         (
+//             name: "Nakuru",
+//             coordinates: (
+//                 lat: -0.283333333,
+//                 lon: 36.066666666,
+//             ),
+//         ),
+//         (
+//             name: "Eldoret",
+//             coordinates: (
+//                 lat: 0.516666666,
+//                 lon: 35.283333333,
+//             ),
+//         ),
+//         (
+//             name: "Thika",
+//             coordinates: (
+//                 lat: -1.05,
+//                 lon: 37.08333333,
+//             ),
+//         ),
+//         (
+//             name: "Nyali",
+//             coordinates: (
+//                 lat: -4.05,
+//                 lon: 39.695463,
+//             ),
+//         ),
+//         (
+//             name: "Lang\'ata",
+//             coordinates: (
+//                 lat: -1.36666667,
+//                 lon: 36.73333333,
+//             ),
+//         ),
+//         (
+//             name: "Limuru",
+//             coordinates: (
+//                 lat: -1.1136,
+//                 lon: 36.64205,
+//             ),
+//         ),
+//         (
+//             name: "Kiambu",
+//             coordinates: (
+//                 lat: -1.16694444,
+//                 lon: 36.82194444,
+//             ),
+//         ),
+        (
+            name: "Lamu old town",
+            coordinates: (
+                lat: -2.268611111,
+                lon: 40.900277777,
+            ),
+        ),
+//         (
+//             name: "Malindi",
+//             coordinates: (
+//                 lat: -3.219444444,
+//                 lon: 40.116666666,
+//             ),
+//         ),
+//         (
+//             name: "Machakos",
+//             coordinates: (
+//                 lat: -1.516666666,
+//                 lon: 37.266666666,
+//             ),
+//         ),
+//         (
+//             name: "Kisii",
+//             coordinates: (
+//                 lat: -0.68174,
+//                 lon: 34.76666,
+//             ),
+//         ),
+//         (
+//             name: "Ngong",
+//             coordinates: (
+//                 lat: -1.36666667,
+//                 lon: 36.63333333,
+//             ),
+//         ),
+//         (
+//             name: "Mumias",
+//             coordinates: (
+//                 lat: 0.333333333,
+//                 lon: 34.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Kakamega",
+//             coordinates: (
+//                 lat: 0.283333333,
+//                 lon: 34.75,
+//             ),
+//         ),
+        (
+            name: "Wajir",
+            coordinates: (
+                lat: 1.747222222,
+                lon: 40.057222222,
+            ),
+        ),
+        (
+            name: "Lodwar",
+            coordinates: (
+                lat: 3.116666666,
+                lon: 35.6,
+            ),
+        ),
+//         (
+//             name: "Athi River",
+//             coordinates: (
+//                 lat: -1.45,
+//                 lon: 36.98333333,
+//             ),
+//         ),
+//         (
+//             name: "Nyeri",
+//             coordinates: (
+//                 lat: -0.416666666,
+//                 lon: 36.95,
+//             ),
+//         ),
+//         (
+//             name: "Ruiru",
+//             coordinates: (
+//                 lat: -1.148888888,
+//                 lon: 36.956944444,
+//             ),
+//         ),
+//         (
+//             name: "Ukunda",
+//             coordinates: (
+//                 lat: -4.28333333,
+//                 lon: 39.56666667,
+//             ),
+//         ),
+//         (
+//             name: "Kilifi",
+//             coordinates: (
+//                 lat: -3.633333333,
+//                 lon: 39.85,
+//             ),
+//         ),
+//         (
+//             name: "Busia",
+//             coordinates: (
+//                 lat: 0.460833333,
+//                 lon: 34.110833333,
+//             ),
+//         ),
+        (
+            name: "Garissa",
+            coordinates: (
+                lat: -0.456944444,
+                lon: 39.658333333,
+            ),
+        ),
+//         (
+//             name: "Narok",
+//             coordinates: (
+//                 lat: -1.083333333,
+//                 lon: 35.866666666,
+//             ),
+//         ),
+//         (
+//             name: "Kitale",
+//             coordinates: (
+//                 lat: 1.016666666,
+//                 lon: 35.0,
+//             ),
+//         ),
+        (
+            name: "El Wak",
+            coordinates: (
+                lat: 2.81666667,
+                lon: 40.93333333,
+            ),
+        ),
+//         (
+//             name: "Gilgil",
+//             coordinates: (
+//                 lat: -0.8,
+//                 lon: 36.516666666,
+//             ),
+//         ),
+//         (
+//             name: "Kapenguria",
+//             coordinates: (
+//                 lat: 1.241019,
+//                 lon: 35.118137,
+//             ),
+//         ),
+//         (
+//             name: "Bungoma",
+//             coordinates: (
+//                 lat: 0.5666,
+//                 lon: 34.5666,
+//             ),
+//         ),
+        (
+            name: "Voi",
+            coordinates: (
+                lat: -3.383333333,
+                lon: 38.566666666,
+            ),
+        ),
+        (
+            name: "Habaswein",
+            coordinates: (
+                lat: 1.01,
+                lon: 39.49,
+            ),
+        ),
+//         (
+//             name: "Molo",
+//             coordinates: (
+//                 lat: -0.25,
+//                 lon: 35.73333333,
+//             ),
+//         ),
+//         (
+//             name: "Ol Kalou",
+//             coordinates: (
+//                 lat: -0.45,
+//                 lon: 36.63333333,
+//             ),
+//         ),
+//         (
+//             name: "Isiolo",
+//             coordinates: (
+//                 lat: 0.35,
+//                 lon: 37.583333333,
+//             ),
+//         ),
+        (
+            name: "Masalani",
+            coordinates: (
+                lat: -1.698,
+                lon: 40.122,
+            ),
+        ),
+//         (
+//             name: "Meru",
+//             coordinates: (
+//                 lat: 0.05,
+//                 lon: 37.65,
+//             ),
+//         ),
+//         (
+//             name: "Webuye",
+//             coordinates: (
+//                 lat: 0.61666667,
+//                 lon: 34.76666667,
+//             ),
+//         ),
+//         (
+//             name: "Embu",
+//             coordinates: (
+//                 lat: -0.533333333,
+//                 lon: 37.45,
+//             ),
+//         ),
+//         (
+//             name: "Lugulu",
+//             coordinates: (
+//                 lat: 0.39,
+//                 lon: 34.31,
+//             ),
+//         ),
+    ],
+)

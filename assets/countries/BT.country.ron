@@ -1,0 +1,15 @@
+(
+    name: "Bhutan",
+    code: "BT",
+    population: 771612,
+    capital: 0,
+    cities: [
+        (
+            name: "Thimphu",
+            coordinates: (
+                lat: 27.46609,
+                lon: 89.64191,
+            ),
+        ),
+    ],
+)

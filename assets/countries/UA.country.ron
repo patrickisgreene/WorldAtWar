@@ -1,0 +1,358 @@
+(
+    name: "Ukraine",
+    code: "UA",
+    population: 44134693,
+    capital: 0,
+    cities: [
+        (
+            name: "Kyiv",
+            coordinates: (
+                lat: 50.45,
+                lon: 30.523611111,
+            ),
+        ),
+        (
+            name: "Kharkiv",
+            coordinates: (
+                lat: 49.9925,
+                lon: 36.231111111,
+            ),
+        ),
+        (
+            name: "Odesa",
+            coordinates: (
+                lat: 46.48572,
+                lon: 30.74383,
+            ),
+        ),
+        (
+            name: "Dnipro",
+            coordinates: (
+                lat: 48.46664,
+                lon: 35.04066,
+            ),
+        ),
+        (
+            name: "Donetsk",
+            coordinates: (
+                lat: 48.015833333,
+                lon: 37.802777777,
+            ),
+        ),
+        (
+            name: "Lviv",
+            coordinates: (
+                lat: 49.8425,
+                lon: 24.032222222,
+            ),
+        ),
+//         (
+//             name: "Zaporizhzhia",
+//             coordinates: (
+//                 lat: 47.85,
+//                 lon: 35.1175,
+//             ),
+//         ),
+        (
+            name: "Kryvyi Rih",
+            coordinates: (
+                lat: 47.91,
+                lon: 33.39,
+            ),
+        ),
+//         (
+//             name: "Mykolaiv",
+//             coordinates: (
+//                 lat: 46.97625,
+//                 lon: 31.99296,
+//             ),
+//         ),
+        (
+            name: "Vinnytsia",
+            coordinates: (
+                lat: 49.216666666,
+                lon: 28.433333333,
+            ),
+        ),
+//         (
+//             name: "Desnianskyi District",
+//             coordinates: (
+//                 lat: 50.5355,
+//                 lon: 30.60875,
+//             ),
+//         ),
+//         (
+//             name: "Makiivka",
+//             coordinates: (
+//                 lat: 48.055555555,
+//                 lon: 37.961111111,
+//             ),
+//         ),
+//         (
+//             name: "Dnipro Raion",
+//             coordinates: (
+//                 lat: 50.456388888,
+//                 lon: 30.644388888,
+//             ),
+//         ),
+//         (
+//             name: "Obolon Raion",
+//             coordinates: (
+//                 lat: 50.531833333,
+//                 lon: 30.421,
+//             ),
+//         ),
+//         (
+//             name: "Sviatoshynskyi District",
+//             coordinates: (
+//                 lat: 50.468888888,
+//                 lon: 30.335,
+//             ),
+//         ),
+//         (
+//             name: "Solomianka Raion",
+//             coordinates: (
+//                 lat: 50.420583333,
+//                 lon: 30.457777777,
+//             ),
+//         ),
+        (
+            name: "Chernihiv",
+            coordinates: (
+                lat: 51.493888888,
+                lon: 31.294722222,
+            ),
+        ),
+//         (
+//             name: "Darnytskyi District",
+//             coordinates: (
+//                 lat: 50.41333,
+//                 lon: 30.69305,
+//             ),
+//         ),
+        (
+            name: "Poltava",
+            coordinates: (
+                lat: 49.589444444,
+                lon: 34.551388888,
+            ),
+        ),
+        (
+            name: "Kherson",
+            coordinates: (
+                lat: 46.63695,
+                lon: 32.61458,
+            ),
+        ),
+        (
+            name: "Khmelnytskyi",
+            coordinates: (
+                lat: 49.42,
+                lon: 27.0,
+            ),
+        ),
+        (
+            name: "Cherkasy",
+            coordinates: (
+                lat: 49.444444444,
+                lon: 32.059722222,
+            ),
+        ),
+        (
+            name: "Sumy",
+            coordinates: (
+                lat: 50.906666666,
+                lon: 34.799166666,
+            ),
+        ),
+        (
+            name: "Chernivtsi",
+            coordinates: (
+                lat: 48.290833333,
+                lon: 25.934444444,
+            ),
+        ),
+        (
+            name: "Zhytomyr",
+            coordinates: (
+                lat: 50.254444444,
+                lon: 28.657777777,
+            ),
+        ),
+//         (
+//             name: "Horlivka",
+//             coordinates: (
+//                 lat: 48.333611111,
+//                 lon: 38.0925,
+//             ),
+//         ),
+//         (
+//             name: "Holosiiv Raion",
+//             coordinates: (
+//                 lat: 50.327583333,
+//                 lon: 30.551166666,
+//             ),
+//         ),
+        (
+            name: "Mariupol",
+            coordinates: (
+                lat: 47.130555555,
+                lon: 37.563888888,
+            ),
+        ),
+        (
+            name: "Rivne",
+            coordinates: (
+                lat: 50.619722222,
+                lon: 26.251388888,
+            ),
+        ),
+        (
+            name: "Ivano-Frankivsk",
+            coordinates: (
+                lat: 48.922777777,
+                lon: 24.710555555,
+            ),
+        ),
+//         (
+//             name: "Shevchenko Raion",
+//             coordinates: (
+//                 lat: 50.462694444,
+//                 lon: 30.461972222,
+//             ),
+//         ),
+//         (
+//             name: "Kamyanske",
+//             coordinates: (
+//                 lat: 48.516666666,
+//                 lon: 34.613333333,
+//             ),
+//         ),
+        (
+            name: "Ternopil",
+            coordinates: (
+                lat: 49.566666666,
+                lon: 25.6,
+            ),
+        ),
+        (
+            name: "Kropyvnytskyi",
+            coordinates: (
+                lat: 48.510277777,
+                lon: 32.266666666,
+            ),
+        ),
+//         (
+//             name: "Lutsk",
+//             coordinates: (
+//                 lat: 50.747777777,
+//                 lon: 25.324444444,
+//             ),
+//         ),
+        (
+            name: "Kremenchuk",
+            coordinates: (
+                lat: 49.063055555,
+                lon: 33.403888888,
+            ),
+        ),
+//         (
+//             name: "Bila Tserkva",
+//             coordinates: (
+//                 lat: 49.795555555,
+//                 lon: 30.116666666,
+//             ),
+//         ),
+//         (
+//             name: "Podil Raion",
+//             coordinates: (
+//                 lat: 50.489472222,
+//                 lon: 30.452194444,
+//             ),
+//         ),
+//         (
+//             name: "Kyiv District",
+//             coordinates: (
+//                 lat: 50.04127,
+//                 lon: 36.29951,
+//             ),
+//         ),
+//         (
+//             name: "Desnianskyi raion",
+//             coordinates: (
+//                 lat: 51.49757779,
+//                 lon: 31.29263334,
+//             ),
+//         ),
+//         (
+//             name: "Novozavod Raion",
+//             coordinates: (
+//                 lat: 51.5,
+//                 lon: 31.3,
+//             ),
+//         ),
+//         (
+//             name: "Sobornyi District",
+//             coordinates: (
+//                 lat: 48.45,
+//                 lon: 35.0667,
+//             ),
+//         ),
+//         (
+//             name: "Kirovskyi District",
+//             coordinates: (
+//                 lat: 47.978,
+//                 lon: 37.702,
+//             ),
+//         ),
+//         (
+//             name: "Novokodatskyi Raion",
+//             coordinates: (
+//                 lat: 48.475,
+//                 lon: 34.945,
+//             ),
+//         ),
+//         (
+//             name: "Nyzhnodniprovskyi District",
+//             coordinates: (
+//                 lat: 48.5211,
+//                 lon: 34.9783,
+//             ),
+//         ),
+        (
+            name: "Melitopol",
+            coordinates: (
+                lat: 46.848888888,
+                lon: 35.3675,
+            ),
+        ),
+//         (
+//             name: "Kramatorsk",
+//             coordinates: (
+//                 lat: 48.739166666,
+//                 lon: 37.583888888,
+//             ),
+//         ),
+//         (
+//             name: "Shevchenkivskyi Raion",
+//             coordinates: (
+//                 lat: 48.409061111,
+//                 lon: 35.012866666,
+//             ),
+//         ),
+//         (
+//             name: "Nemyshlyanskyi District",
+//             coordinates: (
+//                 lat: 49.97308,
+//                 lon: 36.34071,
+//             ),
+//         ),
+//         (
+//             name: "Pecherskyi District",
+//             coordinates: (
+//                 lat: 50.428805555,
+//                 lon: 30.553111111,
+//             ),
+//         ),
+    ],
+)

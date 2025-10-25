@@ -1,0 +1,15 @@
+(
+    name: "Saint Martin",
+    code: "MF",
+    population: 38659,
+    capital: 0,
+    cities: [
+        (
+            name: "Marigot",
+            coordinates: (
+                lat: 18.07,
+                lon: -63.08,
+            ),
+        ),
+    ],
+)

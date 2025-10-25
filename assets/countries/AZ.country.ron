@@ -1,0 +1,190 @@
+(
+    name: "Azerbaijan",
+    code: "AZ",
+    population: 10110116,
+    capital: 0,
+    cities: [
+        (
+            name: "Baku",
+            coordinates: (
+                lat: 40.366655555,
+                lon: 49.835183333,
+            ),
+        ),
+//         (
+//             name: "Sumgait",
+//             coordinates: (
+//                 lat: 40.596111111,
+//                 lon: 49.67,
+//             ),
+//         ),
+        (
+            name: "Ganja",
+            coordinates: (
+                lat: 40.682777777,
+                lon: 46.360555555,
+            ),
+        ),
+//         (
+//             name: "Xətai raion",
+//             coordinates: (
+//                 lat: 40.383333333,
+//                 lon: 49.866666666,
+//             ),
+//         ),
+//         (
+//             name: "Nizami raion",
+//             coordinates: (
+//                 lat: 40.409722222,
+//                 lon: 49.919166666,
+//             ),
+//         ),
+        (
+            name: "Karki",
+            coordinates: (
+                lat: 39.785555555,
+                lon: 44.943611111,
+            ),
+        ),
+//         (
+//             name: "Garadagh region",
+//             coordinates: (
+//                 lat: 40.264444444,
+//                 lon: 49.6075,
+//             ),
+//         ),
+//         (
+//             name: "Mingachevir",
+//             coordinates: (
+//                 lat: 40.77,
+//                 lon: 47.048888888,
+//             ),
+//         ),
+//         (
+//             name: "Khyrdalan",
+//             coordinates: (
+//                 lat: 40.448611111,
+//                 lon: 49.756388888,
+//             ),
+//         ),
+//         (
+//             name: "Nakhchivan",
+//             coordinates: (
+//                 lat: 39.208888888,
+//                 lon: 45.412222222,
+//             ),
+//         ),
+//         (
+//             name: "Shirvan",
+//             coordinates: (
+//                 lat: 39.931944444,
+//                 lon: 48.920277777,
+//             ),
+//         ),
+//         (
+//             name: "Qaraçuxur",
+//             coordinates: (
+//                 lat: 40.396944444,
+//                 lon: 49.973333333,
+//             ),
+//         ),
+//         (
+//             name: "Hövsan",
+//             coordinates: (
+//                 lat: 40.375277777,
+//                 lon: 50.083888888,
+//             ),
+//         ),
+//         (
+//             name: "Bakikhanov",
+//             coordinates: (
+//                 lat: 40.421666666,
+//                 lon: 49.964444444,
+//             ),
+//         ),
+//         (
+//             name: "Shaki",
+//             coordinates: (
+//                 lat: 41.191944444,
+//                 lon: 47.170555555,
+//             ),
+//         ),
+//         (
+//             name: "Yevlakh",
+//             coordinates: (
+//                 lat: 40.617222222,
+//                 lon: 47.15,
+//             ),
+//         ),
+//         (
+//             name: "Binə",
+//             coordinates: (
+//                 lat: 40.45,
+//                 lon: 50.083333333,
+//             ),
+//         ),
+//         (
+//             name: "Khankendi",
+//             coordinates: (
+//                 lat: 39.815277777,
+//                 lon: 46.751944444,
+//             ),
+//         ),
+        (
+            name: "Lankaran",
+            coordinates: (
+                lat: 38.753611111,
+                lon: 48.851111111,
+            ),
+        ),
+//         (
+//             name: "Mammad Amin Rasulzade",
+//             coordinates: (
+//                 lat: 40.434444444,
+//                 lon: 49.833611111,
+//             ),
+//         ),
+//         (
+//             name: "Mashtagha",
+//             coordinates: (
+//                 lat: 40.528611111,
+//                 lon: 50.010277777,
+//             ),
+//         ),
+//         (
+//             name: "Jalilabad",
+//             coordinates: (
+//                 lat: 39.204166666,
+//                 lon: 48.495833333,
+//             ),
+//         ),
+//         (
+//             name: "Goychay",
+//             coordinates: (
+//                 lat: 40.655277777,
+//                 lon: 47.738888888,
+//             ),
+//         ),
+//         (
+//             name: "Bilajari",
+//             coordinates: (
+//                 lat: 40.431388888,
+//                 lon: 49.808055555,
+//             ),
+//         ),
+//         (
+//             name: "Aghjabadi",
+//             coordinates: (
+//                 lat: 40.048938888,
+//                 lon: 47.4502,
+//             ),
+//         ),
+//         (
+//             name: "Şəmkir",
+//             coordinates: (
+//                 lat: 40.856388888,
+//                 lon: 46.017222222,
+//             ),
+//         ),
+    ],
+)

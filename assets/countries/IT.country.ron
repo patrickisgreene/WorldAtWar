@@ -1,0 +1,358 @@
+(
+    name: "Italy",
+    code: "IT",
+    population: 59554023,
+    capital: 2,
+    cities: [
+//         (
+//             name: "Metropolitan City of Milan",
+//             coordinates: (
+//                 lat: 45.4642,
+//                 lon: 9.19034,
+//             ),
+//         ),
+//         (
+//             name: "Metropolitan City of Naples",
+//             coordinates: (
+//                 lat: 40.8333,
+//                 lon: 14.25,
+//             ),
+//         ),
+        (
+            name: "Rome",
+            coordinates: (
+                lat: 41.89193,
+                lon: 12.51133,
+            ),
+        ),
+//         (
+//             name: "Metropolitan City of Turin",
+//             coordinates: (
+//                 lat: 45.0667,
+//                 lon: 7.7,
+//             ),
+//         ),
+        (
+            name: "Milan",
+            coordinates: (
+                lat: 45.466944444,
+                lon: 9.19,
+            ),
+        ),
+//         (
+//             name: "Metropolitan City of Palermo",
+//             coordinates: (
+//                 lat: 38.11555556,
+//                 lon: 13.36138889,
+//             ),
+//         ),
+//         (
+//             name: "Metropolitan City of Bari",
+//             coordinates: (
+//                 lat: 41.1253,
+//                 lon: 16.8667,
+//             ),
+//         ),
+//         (
+//             name: "Metropolitan City of Catania",
+//             coordinates: (
+//                 lat: 37.51666667,
+//                 lon: 15.06666667,
+//             ),
+//         ),
+//         (
+//             name: "Metropolitan City of Bologna",
+//             coordinates: (
+//                 lat: 44.4939,
+//                 lon: 11.3428,
+//             ),
+//         ),
+//         (
+//             name: "Metropolitan City of Florence",
+//             coordinates: (
+//                 lat: 43.7714,
+//                 lon: 11.2542,
+//             ),
+//         ),
+        (
+            name: "Naples",
+            coordinates: (
+                lat: 40.835833333,
+                lon: 14.248611111,
+            ),
+        ),
+//         (
+//             name: "Metropolitan City of Venice",
+//             coordinates: (
+//                 lat: 45.4397,
+//                 lon: 12.3319,
+//             ),
+//         ),
+        (
+            name: "Turin",
+            coordinates: (
+                lat: 45.079166666,
+                lon: 7.676111111,
+            ),
+        ),
+        (
+            name: "Palermo",
+            coordinates: (
+                lat: 38.115658055,
+                lon: 13.361261944,
+            ),
+        ),
+//         (
+//             name: "Metropolitan City of Messina",
+//             coordinates: (
+//                 lat: 38.05,
+//                 lon: 14.86667,
+//             ),
+//         ),
+        (
+            name: "Genoa",
+            coordinates: (
+                lat: 44.41286,
+                lon: 8.95729,
+            ),
+        ),
+//         (
+//             name: "Genoa",
+//             coordinates: (
+//                 lat: 44.407186111,
+//                 lon: 8.933983333,
+//             ),
+//         ),
+//         (
+//             name: "Metropolitan City of Reggio Calabria",
+//             coordinates: (
+//                 lat: 38.31667,
+//                 lon: 16.08333,
+//             ),
+//         ),
+//         (
+//             name: "Bologna",
+//             coordinates: (
+//                 lat: 44.493888888,
+//                 lon: 11.342777777,
+//             ),
+//         ),
+//         (
+//             name: "Florence",
+//             coordinates: (
+//                 lat: 43.771388888,
+//                 lon: 11.254166666,
+//             ),
+//         ),
+        (
+            name: "Bari",
+            coordinates: (
+                lat: 41.125277777,
+                lon: 16.866666666,
+            ),
+        ),
+        (
+            name: "Catania",
+            coordinates: (
+                lat: 37.502669444,
+                lon: 15.087269444,
+            ),
+        ),
+//         (
+//             name: "Verona",
+//             coordinates: (
+//                 lat: 45.438611111,
+//                 lon: 10.992777777,
+//             ),
+//         ),
+//         (
+//             name: "Venice",
+//             coordinates: (
+//                 lat: 45.439722222,
+//                 lon: 12.331944444,
+//             ),
+//         ),
+//         (
+//             name: "Messina",
+//             coordinates: (
+//                 lat: 38.193611111,
+//                 lon: 15.554166666,
+//             ),
+//         ),
+//         (
+//             name: "Padua",
+//             coordinates: (
+//                 lat: 45.407777777,
+//                 lon: 11.873333333,
+//             ),
+//         ),
+//         (
+//             name: "Padova",
+//             coordinates: (
+//                 lat: 45.41519,
+//                 lon: 11.88181,
+//             ),
+//         ),
+        (
+            name: "Trieste",
+            coordinates: (
+                lat: 45.650277777,
+                lon: 13.770277777,
+            ),
+        ),
+//         (
+//             name: "Parma",
+//             coordinates: (
+//                 lat: 44.801472222,
+//                 lon: 10.328,
+//             ),
+//         ),
+//         (
+//             name: "Brescia",
+//             coordinates: (
+//                 lat: 45.538888888,
+//                 lon: 10.220280555,
+//             ),
+//         ),
+//         (
+//             name: "Prato",
+//             coordinates: (
+//                 lat: 43.880813888,
+//                 lon: 11.096561111,
+//             ),
+//         ),
+//         (
+//             name: "Taranto",
+//             coordinates: (
+//                 lat: 40.471111111,
+//                 lon: 17.243055555,
+//             ),
+//         ),
+//         (
+//             name: "Modena",
+//             coordinates: (
+//                 lat: 44.64582,
+//                 lon: 10.92572,
+//             ),
+//         ),
+//         (
+//             name: "Quarto Oggiaro",
+//             coordinates: (
+//                 lat: 45.51583333,
+//                 lon: 9.14027778,
+//             ),
+//         ),
+//         (
+//             name: "Reggio Calabria",
+//             coordinates: (
+//                 lat: 38.114438888,
+//                 lon: 15.65,
+//             ),
+//         ),
+//         (
+//             name: "Reggio Emilia",
+//             coordinates: (
+//                 lat: 44.7,
+//                 lon: 10.633333333,
+//             ),
+//         ),
+        (
+            name: "Perugia",
+            coordinates: (
+                lat: 43.1121,
+                lon: 12.3888,
+            ),
+        ),
+//         (
+//             name: "Ravenna",
+//             coordinates: (
+//                 lat: 44.416111111,
+//                 lon: 12.201666666,
+//             ),
+//         ),
+//         (
+//             name: "Livorno",
+//             coordinates: (
+//                 lat: 43.55,
+//                 lon: 10.316666666,
+//             ),
+//         ),
+//         (
+//             name: "Rimini",
+//             coordinates: (
+//                 lat: 44.059444444,
+//                 lon: 12.568333333,
+//             ),
+//         ),
+        (
+            name: "Cagliari",
+            coordinates: (
+                lat: 39.216666666,
+                lon: 9.116666666,
+            ),
+        ),
+        (
+            name: "Foggia",
+            coordinates: (
+                lat: 41.45845,
+                lon: 15.55188,
+            ),
+        ),
+//         (
+//             name: "Acilia",
+//             coordinates: (
+//                 lat: 41.783333333,
+//                 lon: 12.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Ferrara",
+//             coordinates: (
+//                 lat: 44.839166666,
+//                 lon: 11.6175,
+//             ),
+//         ),
+//         (
+//             name: "Latina",
+//             coordinates: (
+//                 lat: 41.467222222,
+//                 lon: 12.903611111,
+//             ),
+//         ),
+//         (
+//             name: "Salerno",
+//             coordinates: (
+//                 lat: 40.680555555,
+//                 lon: 14.759444444,
+//             ),
+//         ),
+//         (
+//             name: "Giugliano in Campania",
+//             coordinates: (
+//                 lat: 40.93188,
+//                 lon: 14.19557,
+//             ),
+//         ),
+//         (
+//             name: "Monza",
+//             coordinates: (
+//                 lat: 45.583611111,
+//                 lon: 9.273611111,
+//             ),
+//         ),
+//         (
+//             name: "Siracusa",
+//             coordinates: (
+//                 lat: 37.08515,
+//                 lon: 15.273,
+//             ),
+//         ),
+        (
+            name: "Sassari",
+            coordinates: (
+                lat: 40.726666666,
+                lon: 8.559166666,
+            ),
+        ),
+    ],
+)

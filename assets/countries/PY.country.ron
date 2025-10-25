@@ -1,0 +1,127 @@
+(
+    name: "Paraguay",
+    code: "PY",
+    population: 7132530,
+    capital: 0,
+    cities: [
+        (
+            name: "Asunción",
+            coordinates: (
+                lat: -25.28,
+                lon: -57.634444444,
+            ),
+        ),
+        (
+            name: "Ciudad del Este",
+            coordinates: (
+                lat: -25.516666666,
+                lon: -54.616666666,
+            ),
+        ),
+//         (
+//             name: "Luque",
+//             coordinates: (
+//                 lat: -25.27,
+//                 lon: -57.487222222,
+//             ),
+//         ),
+//         (
+//             name: "Capiatá",
+//             coordinates: (
+//                 lat: -25.35,
+//                 lon: -57.42,
+//             ),
+//         ),
+//         (
+//             name: "San Lorenzo",
+//             coordinates: (
+//                 lat: -25.343055555,
+//                 lon: -57.509444444,
+//             ),
+//         ),
+        (
+            name: "Pedro Juan Caballero",
+            coordinates: (
+                lat: -22.566666666,
+                lon: -55.716666666,
+            ),
+        ),
+//         (
+//             name: "Lambaré",
+//             coordinates: (
+//                 lat: -25.33,
+//                 lon: -57.64,
+//             ),
+//         ),
+//         (
+//             name: "Fernando de la Mora",
+//             coordinates: (
+//                 lat: -25.32,
+//                 lon: -57.54,
+//             ),
+//         ),
+        (
+            name: "Encarnación",
+            coordinates: (
+                lat: -27.333333333,
+                lon: -55.866666666,
+            ),
+        ),
+//         (
+//             name: "Presidente Franco District",
+//             coordinates: (
+//                 lat: -25.533333333,
+//                 lon: -54.616666666,
+//             ),
+//         ),
+//         (
+//             name: "San Antonio",
+//             coordinates: (
+//                 lat: -25.379722222,
+//                 lon: -57.609722222,
+//             ),
+//         ),
+//         (
+//             name: "Villa Elisa",
+//             coordinates: (
+//                 lat: -25.3676,
+//                 lon: -57.59274,
+//             ),
+//         ),
+//         (
+//             name: "Caacupé",
+//             coordinates: (
+//                 lat: -25.386111,
+//                 lon: -57.140833,
+//             ),
+//         ),
+//         (
+//             name: "Caaguazú District",
+//             coordinates: (
+//                 lat: -25.46,
+//                 lon: -56.02,
+//             ),
+//         ),
+//         (
+//             name: "Coronel Oviedo",
+//             coordinates: (
+//                 lat: -25.448144,
+//                 lon: -56.441076,
+//             ),
+//         ),
+        (
+            name: "Concepción",
+            coordinates: (
+                lat: -23.4025,
+                lon: -57.441388888,
+            ),
+        ),
+//         (
+//             name: "Villarrica",
+//             coordinates: (
+//                 lat: -25.74946,
+//                 lon: -56.43518,
+//             ),
+//         ),
+    ],
+)

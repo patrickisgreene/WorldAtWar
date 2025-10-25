@@ -1,0 +1,148 @@
+(
+    name: "Zimbabwe",
+    code: "ZW",
+    population: 14862927,
+    capital: 0,
+    cities: [
+        (
+            name: "Harare",
+            coordinates: (
+                lat: -17.829166666,
+                lon: 31.052222222,
+            ),
+        ),
+        (
+            name: "Masvingo",
+            coordinates: (
+                lat: -20.06373,
+                lon: 30.82766,
+            ),
+        ),
+        (
+            name: "Bulawayo",
+            coordinates: (
+                lat: -20.166666666,
+                lon: 28.566666666,
+            ),
+        ),
+//         (
+//             name: "Chitungwiza",
+//             coordinates: (
+//                 lat: -17.993888888,
+//                 lon: 31.048055555,
+//             ),
+//         ),
+        (
+            name: "Mutare",
+            coordinates: (
+                lat: -18.972777777,
+                lon: 32.669444444,
+            ),
+        ),
+        (
+            name: "Buhera",
+            coordinates: (
+                lat: -19.3325,
+                lon: 31.435,
+            ),
+        ),
+        (
+            name: "Lupane District",
+            coordinates: (
+                lat: -18.93611,
+                lon: 27.77083,
+            ),
+        ),
+//         (
+//             name: "Goromonzi",
+//             coordinates: (
+//                 lat: -17.8547,
+//                 lon: 31.3794,
+//             ),
+//         ),
+//         (
+//             name: "Epworth",
+//             coordinates: (
+//                 lat: -17.889444444,
+//                 lon: 31.161388888,
+//             ),
+//         ),
+//         (
+//             name: "Gweru",
+//             coordinates: (
+//                 lat: -19.458,
+//                 lon: 29.82,
+//             ),
+//         ),
+        (
+            name: "Centenary District",
+            coordinates: (
+                lat: -16.416666666,
+                lon: 31.166666666,
+            ),
+        ),
+//         (
+//             name: "Kadoma",
+//             coordinates: (
+//                 lat: -18.35,
+//                 lon: 29.916666666,
+//             ),
+//         ),
+//         (
+//             name: "Kwekwe",
+//             coordinates: (
+//                 lat: -18.916666666,
+//                 lon: 29.983333333,
+//             ),
+//         ),
+//         (
+//             name: "Chinhoyi",
+//             coordinates: (
+//                 lat: -17.35,
+//                 lon: 30.2,
+//             ),
+//         ),
+//         (
+//             name: "Marondera",
+//             coordinates: (
+//                 lat: -18.183333333,
+//                 lon: 31.55,
+//             ),
+//         ),
+//         (
+//             name: "Bindura",
+//             coordinates: (
+//                 lat: -17.3,
+//                 lon: 31.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Norton",
+//             coordinates: (
+//                 lat: -17.883333333,
+//                 lon: 30.7,
+//             ),
+//         ),
+//         (
+//             name: "Chegutu",
+//             coordinates: (
+//                 lat: -18.14,
+//                 lon: 30.15,
+//             ),
+//         ),
+        (
+            name: "Hwange",
+            coordinates: (
+                lat: -18.364722222,
+                lon: 26.5,
+            ),
+        ),
+        (
+            name: "Beitbridge",
+            coordinates: (
+                lat: -22.216666666,
+                lon: 30.0,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,15 @@
+(
+    name: "Palau",
+    code: "PW",
+    population: 18092,
+    capital: 0,
+    cities: [
+        (
+            name: "Ngerulmud",
+            coordinates: (
+                lat: 7.5,
+                lon: 134.62,
+            ),
+        ),
+    ],
+)

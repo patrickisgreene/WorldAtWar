@@ -1,0 +1,15 @@
+(
+    name: "Saint Pierre and Miquelon",
+    code: "PM",
+    population: 6069,
+    capital: 0,
+    cities: [
+        (
+            name: "Saint-Pierre",
+            coordinates: (
+                lat: 46.77,
+                lon: -56.18,
+            ),
+        ),
+    ],
+)

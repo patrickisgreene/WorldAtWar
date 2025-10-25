@@ -1,0 +1,15 @@
+(
+    name: "French Polynesia",
+    code: "PF",
+    population: 280904,
+    capital: 0,
+    cities: [
+        (
+            name: "Papeetē",
+            coordinates: (
+                lat: -17.53,
+                lon: -149.56,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,358 @@
+(
+    name: "Bulgaria",
+    code: "BG",
+    population: 6927288,
+    capital: 0,
+    cities: [
+        (
+            name: "Sofia",
+            coordinates: (
+                lat: 42.697886,
+                lon: 23.321726,
+            ),
+        ),
+        (
+            name: "Plovdiv",
+            coordinates: (
+                lat: 42.142086,
+                lon: 24.741454,
+            ),
+        ),
+//         (
+//             name: "Plovdiv",
+//             coordinates: (
+//                 lat: 42.143365,
+//                 lon: 24.751032,
+//             ),
+//         ),
+//         (
+//             name: "Varna",
+//             coordinates: (
+//                 lat: 43.2077,
+//                 lon: 27.918,
+//             ),
+//         ),
+//         (
+//             name: "Varna",
+//             coordinates: (
+//                 lat: 43.211375,
+//                 lon: 27.91108,
+//             ),
+//         ),
+//         (
+//             name: "Burgas",
+//             coordinates: (
+//                 lat: 42.493428,
+//                 lon: 27.472515,
+//             ),
+//         ),
+//         (
+//             name: "Burgas",
+//             coordinates: (
+//                 lat: 42.502965,
+//                 lon: 27.470179,
+//             ),
+//         ),
+//         (
+//             name: "Stara Zagora",
+//             coordinates: (
+//                 lat: 42.4333,
+//                 lon: 25.65,
+//             ),
+//         ),
+//         (
+//             name: "Ruse",
+//             coordinates: (
+//                 lat: 43.81666667,
+//                 lon: 26.01666667,
+//             ),
+//         ),
+//         (
+//             name: "Stara Zagora",
+//             coordinates: (
+//                 lat: 42.425668,
+//                 lon: 25.634595,
+//             ),
+//         ),
+//         (
+//             name: "Ruse",
+//             coordinates: (
+//                 lat: 43.844532,
+//                 lon: 25.953907,
+//             ),
+//         ),
+//         (
+//             name: "Sliven",
+//             coordinates: (
+//                 lat: 42.6833,
+//                 lon: 26.3333,
+//             ),
+//         ),
+//         (
+//             name: "Pleven",
+//             coordinates: (
+//                 lat: 43.416666666,
+//                 lon: 24.616666666,
+//             ),
+//         ),
+//         (
+//             name: "Sredets District",
+//             coordinates: (
+//                 lat: 42.69167,
+//                 lon: 23.34556,
+//             ),
+//         ),
+//         (
+//             name: "Pazardzhik",
+//             coordinates: (
+//                 lat: 42.18916667,
+//                 lon: 24.3325,
+//             ),
+//         ),
+//         (
+//             name: "Pleven",
+//             coordinates: (
+//                 lat: 43.413188,
+//                 lon: 24.616916,
+//             ),
+//         ),
+//         (
+//             name: "Pernik",
+//             coordinates: (
+//                 lat: 42.6,
+//                 lon: 23.033,
+//             ),
+//         ),
+//         (
+//             name: "Haskovo",
+//             coordinates: (
+//                 lat: 41.933,
+//                 lon: 25.567,
+//             ),
+//         ),
+//         (
+//             name: "Sliven",
+//             coordinates: (
+//                 lat: 42.678146,
+//                 lon: 26.325963,
+//             ),
+//         ),
+//         (
+//             name: "Shumen",
+//             coordinates: (
+//                 lat: 43.21666667,
+//                 lon: 26.98333333,
+//             ),
+//         ),
+//         (
+//             name: "Veliko Tarnovo",
+//             coordinates: (
+//                 lat: 43.0333,
+//                 lon: 25.6333,
+//             ),
+//         ),
+//         (
+//             name: "Dobrich",
+//             coordinates: (
+//                 lat: 43.562212,
+//                 lon: 27.83189,
+//             ),
+//         ),
+//         (
+//             name: "Dobrich",
+//             coordinates: (
+//                 lat: 43.567,
+//                 lon: 27.833,
+//             ),
+//         ),
+//         (
+//             name: "Blagoevgrad",
+//             coordinates: (
+//                 lat: 42.0227,
+//                 lon: 23.0975,
+//             ),
+//         ),
+//         (
+//             name: "Shumen",
+//             coordinates: (
+//                 lat: 43.274585,
+//                 lon: 26.93486,
+//             ),
+//         ),
+//         (
+//             name: "Kardzhali",
+//             coordinates: (
+//                 lat: 41.65,
+//                 lon: 25.367,
+//             ),
+//         ),
+//         (
+//             name: "Pernik",
+//             coordinates: (
+//                 lat: 42.599828,
+//                 lon: 23.030805,
+//             ),
+//         ),
+//         (
+//             name: "Kazanlak",
+//             coordinates: (
+//                 lat: 42.617,
+//                 lon: 25.4,
+//             ),
+//         ),
+//         (
+//             name: "Haskovo",
+//             coordinates: (
+//                 lat: 41.93465,
+//                 lon: 25.55556,
+//             ),
+//         ),
+//         (
+//             name: "Blagoevgrad",
+//             coordinates: (
+//                 lat: 42.011944444,
+//                 lon: 23.089722222,
+//             ),
+//         ),
+//         (
+//             name: "Veliko Tarnovo",
+//             coordinates: (
+//                 lat: 43.078652,
+//                 lon: 25.628291,
+//             ),
+//         ),
+//         (
+//             name: "Yambol",
+//             coordinates: (
+//                 lat: 42.482419,
+//                 lon: 26.503753,
+//             ),
+//         ),
+//         (
+//             name: "Yambol",
+//             coordinates: (
+//                 lat: 42.4833,
+//                 lon: 26.5,
+//             ),
+//         ),
+//         (
+//             name: "Vratsa",
+//             coordinates: (
+//                 lat: 43.28333,
+//                 lon: 23.6,
+//             ),
+//         ),
+//         (
+//             name: "Pazardzhik",
+//             coordinates: (
+//                 lat: 42.193477,
+//                 lon: 24.332755,
+//             ),
+//         ),
+//         (
+//             name: "Gabrovo",
+//             coordinates: (
+//                 lat: 42.88333333,
+//                 lon: 25.28333333,
+//             ),
+//         ),
+//         (
+//             name: "Vratsa",
+//             coordinates: (
+//                 lat: 43.212108,
+//                 lon: 23.544412,
+//             ),
+//         ),
+//         (
+//             name: "Targovishte",
+//             coordinates: (
+//                 lat: 43.25,
+//                 lon: 26.583,
+//             ),
+//         ),
+//         (
+//             name: "Kyustendil",
+//             coordinates: (
+//                 lat: 42.283,
+//                 lon: 22.683,
+//             ),
+//         ),
+//         (
+//             name: "Petrich",
+//             coordinates: (
+//                 lat: 41.4149,
+//                 lon: 23.2388,
+//             ),
+//         ),
+//         (
+//             name: "Asenovgrad",
+//             coordinates: (
+//                 lat: 42.008187,
+//                 lon: 24.877295,
+//             ),
+//         ),
+//         (
+//             name: "Karlovo",
+//             coordinates: (
+//                 lat: 42.643514,
+//                 lon: 24.807153,
+//             ),
+//         ),
+//         (
+//             name: "Vidin",
+//             coordinates: (
+//                 lat: 43.9861,
+//                 lon: 22.878,
+//             ),
+//         ),
+//         (
+//             name: "Gabrovo",
+//             coordinates: (
+//                 lat: 42.874242,
+//                 lon: 25.31784,
+//             ),
+//         ),
+//         (
+//             name: "Montana",
+//             coordinates: (
+//                 lat: 43.408622,
+//                 lon: 23.225661,
+//             ),
+//         ),
+//         (
+//             name: "Vladislav Varnenchik",
+//             coordinates: (
+//                 lat: 43.23757,
+//                 lon: 27.86116,
+//             ),
+//         ),
+//         (
+//             name: "Dimitrovgrad",
+//             coordinates: (
+//                 lat: 42.05,
+//                 lon: 25.6,
+//             ),
+//         ),
+//         (
+//             name: "Razgrad",
+//             coordinates: (
+//                 lat: 43.53333333,
+//                 lon: 26.5,
+//             ),
+//         ),
+//         (
+//             name: "Kardzhali",
+//             coordinates: (
+//                 lat: 41.644721,
+//                 lon: 25.374966,
+//             ),
+//         ),
+//         (
+//             name: "Kazanlak",
+//             coordinates: (
+//                 lat: 42.618748,
+//                 lon: 25.393238,
+//             ),
+//         ),
+    ],
+)

@@ -1,0 +1,316 @@
+(
+    name: "Senegal",
+    code: "SN",
+    population: 16743930,
+    capital: 0,
+    cities: [
+        (
+            name: "Dakar",
+            coordinates: (
+                lat: 14.6937,
+                lon: -17.44406,
+            ),
+        ),
+//         (
+//             name: "Pikine",
+//             coordinates: (
+//                 lat: 14.76457,
+//                 lon: -17.39071,
+//             ),
+//         ),
+        (
+            name: "Touba",
+            coordinates: (
+                lat: 14.866666666,
+                lon: -15.883333333,
+            ),
+        ),
+//         (
+//             name: "Guédiawaye",
+//             coordinates: (
+//                 lat: 14.77446,
+//                 lon: -17.40212,
+//             ),
+//         ),
+//         (
+//             name: "Yeumbeul Arrondissement",
+//             coordinates: (
+//                 lat: 14.776111111,
+//                 lon: -17.3575,
+//             ),
+//         ),
+//         (
+//             name: "Rufisque",
+//             coordinates: (
+//                 lat: 14.71542,
+//                 lon: -17.27334,
+//             ),
+//         ),
+//         (
+//             name: "M\'Bour",
+//             coordinates: (
+//                 lat: 14.42196,
+//                 lon: -16.96375,
+//             ),
+//         ),
+        (
+            name: "Saint-Louis",
+            coordinates: (
+                lat: 16.033333333,
+                lon: -16.5,
+            ),
+        ),
+        (
+            name: "Ziguinchor",
+            coordinates: (
+                lat: 12.56801,
+                lon: -16.27326,
+            ),
+        ),
+//         (
+//             name: "Grand Yoff",
+//             coordinates: (
+//                 lat: 14.73361,
+//                 lon: -17.44944,
+//             ),
+//         ),
+//         (
+//             name: "Kaolack",
+//             coordinates: (
+//                 lat: 14.15197,
+//                 lon: -16.07259,
+//             ),
+//         ),
+//         (
+//             name: "Parcelles Assainies",
+//             coordinates: (
+//                 lat: 14.757,
+//                 lon: -17.435,
+//             ),
+//         ),
+//         (
+//             name: "Gossas",
+//             coordinates: (
+//                 lat: 14.49176,
+//                 lon: -15.84674,
+//             ),
+//         ),
+//         (
+//             name: "Yoff",
+//             coordinates: (
+//                 lat: 14.75742,
+//                 lon: -17.46463,
+//             ),
+//         ),
+//         (
+//             name: "Louga",
+//             coordinates: (
+//                 lat: 15.616666666,
+//                 lon: -16.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Sangalkam",
+//             coordinates: (
+//                 lat: 14.776805555,
+//                 lon: -17.225555555,
+//             ),
+//         ),
+//         (
+//             name: "Mbacké",
+//             coordinates: (
+//                 lat: 14.790277777,
+//                 lon: -15.907777777,
+//             ),
+//         ),
+//         (
+//             name: "Ouakam",
+//             coordinates: (
+//                 lat: 14.72389,
+//                 lon: -17.48917,
+//             ),
+//         ),
+//         (
+//             name: "Hann Bel-Air",
+//             coordinates: (
+//                 lat: 14.71879,
+//                 lon: -17.43761,
+//             ),
+//         ),
+//         (
+//             name: "Rufisque Est",
+//             coordinates: (
+//                 lat: 14.7162,
+//                 lon: -17.27283,
+//             ),
+//         ),
+//         (
+//             name: "Rufisque Ouest",
+//             coordinates: (
+//                 lat: 14.7167,
+//                 lon: -17.2869,
+//             ),
+//         ),
+//         (
+//             name: "Médina",
+//             coordinates: (
+//                 lat: 14.68263,
+//                 lon: -17.44908,
+//             ),
+//         ),
+        (
+            name: "Tambacounda",
+            coordinates: (
+                lat: 13.768889,
+                lon: -13.667222,
+            ),
+        ),
+//         (
+//             name: "Biscuiterie",
+//             coordinates: (
+//                 lat: 14.71,
+//                 lon: -17.44972,
+//             ),
+//         ),
+        (
+            name: "Richard Toll",
+            coordinates: (
+                lat: 16.466111111,
+                lon: -15.693333333,
+            ),
+        ),
+//         (
+//             name: "Cambérène",
+//             coordinates: (
+//                 lat: 14.76594,
+//                 lon: -17.43017,
+//             ),
+//         ),
+//         (
+//             name: "Dougnane",
+//             coordinates: (
+//                 lat: 14.95856,
+//                 lon: -16.86999,
+//             ),
+//         ),
+//         (
+//             name: "Bargny",
+//             coordinates: (
+//                 lat: 14.694444444,
+//                 lon: -17.230555555,
+//             ),
+//         ),
+        (
+            name: "Kolda",
+            coordinates: (
+                lat: 12.895833333,
+                lon: -14.940833333,
+            ),
+        ),
+//         (
+//             name: "Joal-Fadiouth",
+//             coordinates: (
+//                 lat: 14.17309,
+//                 lon: -16.84929,
+//             ),
+//         ),
+//         (
+//             name: "Gueule Tapée-Fass-Colobane",
+//             coordinates: (
+//                 lat: 14.69011,
+//                 lon: -17.45401,
+//             ),
+//         ),
+//         (
+//             name: "Kaffrine",
+//             coordinates: (
+//                 lat: 14.103333333,
+//                 lon: -15.546111111,
+//             ),
+//         ),
+//         (
+//             name: "Pikine Ouest",
+//             coordinates: (
+//                 lat: 14.753027777,
+//                 lon: -17.399305555,
+//             ),
+//         ),
+//         (
+//             name: "Nguékhokh",
+//             coordinates: (
+//                 lat: 14.51255,
+//                 lon: -17.00447,
+//             ),
+//         ),
+//         (
+//             name: "Diamniadio",
+//             coordinates: (
+//                 lat: 14.72051,
+//                 lon: -17.1816,
+//             ),
+//         ),
+//         (
+//             name: "Grand Dakar",
+//             coordinates: (
+//                 lat: 14.71331,
+//                 lon: -17.45472,
+//             ),
+//         ),
+//         (
+//             name: "Patte d\'Oie",
+//             coordinates: (
+//                 lat: 14.74363,
+//                 lon: -17.43347,
+//             ),
+//         ),
+//         (
+//             name: "Dahra",
+//             coordinates: (
+//                 lat: 15.350833333,
+//                 lon: -15.478333333,
+//             ),
+//         ),
+        (
+            name: "Vélingara",
+            coordinates: (
+                lat: 13.15,
+                lon: -14.116666666,
+            ),
+        ),
+//         (
+//             name: "HLM",
+//             coordinates: (
+//                 lat: 14.71,
+//                 lon: -17.44528,
+//             ),
+//         ),
+//         (
+//             name: "Sébikotane",
+//             coordinates: (
+//                 lat: 14.74521,
+//                 lon: -17.13783,
+//             ),
+//         ),
+//         (
+//             name: "Saly",
+//             coordinates: (
+//                 lat: 14.44444,
+//                 lon: -17.01679,
+//             ),
+//         ),
+//         (
+//             name: "Sicap-Liberté",
+//             coordinates: (
+//                 lat: 14.72083,
+//                 lon: -17.45972,
+//             ),
+//         ),
+//         (
+//             name: "Mboro",
+//             coordinates: (
+//                 lat: 15.14051,
+//                 lon: -16.88682,
+//             ),
+//         ),
+    ],
+)

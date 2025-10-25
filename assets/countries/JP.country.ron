@@ -1,0 +1,358 @@
+(
+    name: "Japan",
+    code: "JP",
+    population: 125836021,
+    capital: 0,
+    cities: [
+        (
+            name: "Tokyo",
+            coordinates: (
+                lat: 35.689444444,
+                lon: 139.691666666,
+            ),
+        ),
+//         (
+//             name: "Yokohama",
+//             coordinates: (
+//                 lat: 35.450333333,
+//                 lon: 139.634222222,
+//             ),
+//         ),
+        (
+            name: "Osaka",
+            coordinates: (
+                lat: 34.69375,
+                lon: 135.502111111,
+            ),
+        ),
+        (
+            name: "Nagoya",
+            coordinates: (
+                lat: 35.181388888,
+                lon: 136.906388888,
+            ),
+        ),
+        (
+            name: "Sapporo",
+            coordinates: (
+                lat: 43.061944444,
+                lon: 141.354444444,
+            ),
+        ),
+        (
+            name: "Fukuoka",
+            coordinates: (
+                lat: 33.59,
+                lon: 130.401666666,
+            ),
+        ),
+//         (
+//             name: "Kawasaki",
+//             coordinates: (
+//                 lat: 35.530888888,
+//                 lon: 139.703,
+//             ),
+//         ),
+//         (
+//             name: "Kobe",
+//             coordinates: (
+//                 lat: 34.690166666,
+//                 lon: 135.195444444,
+//             ),
+//         ),
+//         (
+//             name: "Kyoto",
+//             coordinates: (
+//                 lat: 35.011611111,
+//                 lon: 135.768111111,
+//             ),
+//         ),
+//         (
+//             name: "Saitama",
+//             coordinates: (
+//                 lat: 35.861388888,
+//                 lon: 139.645555555,
+//             ),
+//         ),
+        (
+            name: "Hiroshima",
+            coordinates: (
+                lat: 34.391388888,
+                lon: 132.451944444,
+            ),
+        ),
+        (
+            name: "Sendai",
+            coordinates: (
+                lat: 38.268222222,
+                lon: 140.869416666,
+            ),
+        ),
+//         (
+//             name: "Chiba",
+//             coordinates: (
+//                 lat: 35.607277777,
+//                 lon: 140.106361111,
+//             ),
+//         ),
+//         (
+//             name: "Setagaya-ku",
+//             coordinates: (
+//                 lat: 35.646555555,
+//                 lon: 139.653222222,
+//             ),
+//         ),
+//         (
+//             name: "Kitakyushu",
+//             coordinates: (
+//                 lat: 33.883416666,
+//                 lon: 130.875194444,
+//             ),
+//         ),
+//         (
+//             name: "Sakai",
+//             coordinates: (
+//                 lat: 34.573333333,
+//                 lon: 135.483,
+//             ),
+//         ),
+        (
+            name: "Niigata",
+            coordinates: (
+                lat: 37.916194444,
+                lon: 139.036388888,
+            ),
+        ),
+        (
+            name: "Hamamatsu",
+            coordinates: (
+                lat: 34.710888888,
+                lon: 137.726194444,
+            ),
+        ),
+//         (
+//             name: "Nerima-ku",
+//             coordinates: (
+//                 lat: 35.735527777,
+//                 lon: 139.651694444,
+//             ),
+//         ),
+        (
+            name: "Kumamoto",
+            coordinates: (
+                lat: 32.803,
+                lon: 130.707861111,
+            ),
+        ),
+//         (
+//             name: "Ota",
+//             coordinates: (
+//                 lat: 35.561277777,
+//                 lon: 139.716027777,
+//             ),
+//         ),
+//         (
+//             name: "Sagamihara",
+//             coordinates: (
+//                 lat: 35.571416666,
+//                 lon: 139.373138888,
+//             ),
+//         ),
+//         (
+//             name: "Okayama",
+//             coordinates: (
+//                 lat: 34.655111111,
+//                 lon: 133.919583333,
+//             ),
+//         ),
+//         (
+//             name: "Edogawa-ku",
+//             coordinates: (
+//                 lat: 35.706638888,
+//                 lon: 139.868277777,
+//             ),
+//         ),
+//         (
+//             name: "Shizuoka",
+//             coordinates: (
+//                 lat: 34.975555555,
+//                 lon: 138.3825,
+//             ),
+//         ),
+//         (
+//             name: "Adachi-ku",
+//             coordinates: (
+//                 lat: 35.774944444,
+//                 lon: 139.804361111,
+//             ),
+//         ),
+//         (
+//             name: "Funabashi",
+//             coordinates: (
+//                 lat: 35.694555555,
+//                 lon: 139.982555555,
+//             ),
+//         ),
+//         (
+//             name: "Kawaguchi",
+//             coordinates: (
+//                 lat: 35.807583333,
+//                 lon: 139.724138888,
+//             ),
+//         ),
+        (
+            name: "Kagoshima",
+            coordinates: (
+                lat: 31.596805555,
+                lon: 130.557138888,
+            ),
+        ),
+//         (
+//             name: "Suginami-ku",
+//             coordinates: (
+//                 lat: 35.699444444,
+//                 lon: 139.636388888,
+//             ),
+//         ),
+//         (
+//             name: "Itabashi-ku",
+//             coordinates: (
+//                 lat: 35.751194444,
+//                 lon: 139.709277777,
+//             ),
+//         ),
+//         (
+//             name: "Hachioji",
+//             coordinates: (
+//                 lat: 35.666444444,
+//                 lon: 139.316,
+//             ),
+//         ),
+//         (
+//             name: "Himeji",
+//             coordinates: (
+//                 lat: 34.815166666,
+//                 lon: 134.685388888,
+//             ),
+//         ),
+//         (
+//             name: "Kōtō-ku",
+//             coordinates: (
+//                 lat: 35.672805555,
+//                 lon: 139.817277777,
+//             ),
+//         ),
+//         (
+//             name: "Utsunomiya",
+//             coordinates: (
+//                 lat: 36.555111111,
+//                 lon: 139.882555555,
+//             ),
+//         ),
+//         (
+//             name: "Matsuyama",
+//             coordinates: (
+//                 lat: 33.839166666,
+//                 lon: 132.765638888,
+//             ),
+//         ),
+//         (
+//             name: "Matsudo",
+//             coordinates: (
+//                 lat: 35.787638888,
+//                 lon: 139.903166666,
+//             ),
+//         ),
+//         (
+//             name: "Ichikawa",
+//             coordinates: (
+//                 lat: 35.721916666,
+//                 lon: 139.931055555,
+//             ),
+//         ),
+//         (
+//             name: "Higashiosaka",
+//             coordinates: (
+//                 lat: 34.679361111,
+//                 lon: 135.600888888,
+//             ),
+//         ),
+//         (
+//             name: "Nishinomiya",
+//             coordinates: (
+//                 lat: 34.737638888,
+//                 lon: 135.34175,
+//             ),
+//         ),
+//         (
+//             name: "Nishinomiya-hama",
+//             coordinates: (
+//                 lat: 34.71562,
+//                 lon: 135.33199,
+//             ),
+//         ),
+        (
+            name: "Oita",
+            coordinates: (
+                lat: 33.239555555,
+                lon: 131.609361111,
+            ),
+        ),
+//         (
+//             name: "Kurashiki",
+//             coordinates: (
+//                 lat: 34.585083333,
+//                 lon: 133.772111111,
+//             ),
+//         ),
+        (
+            name: "Kanazawa",
+            coordinates: (
+                lat: 36.561055555,
+                lon: 136.6565,
+            ),
+        ),
+//         (
+//             name: "Fukuyama",
+//             coordinates: (
+//                 lat: 34.485861111,
+//                 lon: 133.362305555,
+//             ),
+//         ),
+//         (
+//             name: "Amagasaki",
+//             coordinates: (
+//                 lat: 34.733833333,
+//                 lon: 135.406333333,
+//             ),
+//         ),
+//         (
+//             name: "Katsushika-ku",
+//             coordinates: (
+//                 lat: 35.743444444,
+//                 lon: 139.847166666,
+//             ),
+//         ),
+//         (
+//             name: "Fujisawa",
+//             coordinates: (
+//                 lat: 35.368055555,
+//                 lon: 139.458888888,
+//             ),
+//         ),
+//         (
+//             name: "Machida",
+//             coordinates: (
+//                 lat: 35.546666666,
+//                 lon: 139.438611111,
+//             ),
+//         ),
+//         (
+//             name: "Kashiwa",
+//             coordinates: (
+//                 lat: 35.867583333,
+//                 lon: 139.97575,
+//             ),
+//         ),
+    ],
+)

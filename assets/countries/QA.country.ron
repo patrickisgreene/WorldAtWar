@@ -1,0 +1,57 @@
+(
+    name: "Qatar",
+    code: "QA",
+    population: 2881060,
+    capital: 0,
+    cities: [
+        (
+            name: "Doha",
+            coordinates: (
+                lat: 25.286205555,
+                lon: 51.529436111,
+            ),
+        ),
+//         (
+//             name: "Ad-Dawhah",
+//             coordinates: (
+//                 lat: 25.2867,
+//                 lon: 51.5333,
+//             ),
+//         ),
+//         (
+//             name: "Ar Rayyan",
+//             coordinates: (
+//                 lat: 25.291944444,
+//                 lon: 51.424444444,
+//             ),
+//         ),
+//         (
+//             name: "Al Khor",
+//             coordinates: (
+//                 lat: 25.76667,
+//                 lon: 51.31667,
+//             ),
+//         ),
+//         (
+//             name: "Al Wakrah",
+//             coordinates: (
+//                 lat: 25.18,
+//                 lon: 51.61,
+//             ),
+//         ),
+//         (
+//             name: "Al Daayen",
+//             coordinates: (
+//                 lat: 25.35,
+//                 lon: 51.28,
+//             ),
+//         ),
+//         (
+//             name: "An Najmah",
+//             coordinates: (
+//                 lat: 25.266666666,
+//                 lon: 51.55,
+//             ),
+//         ),
+    ],
+)

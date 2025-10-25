@@ -1,0 +1,15 @@
+(
+    name: "Tuvalu",
+    code: "TV",
+    population: 11792,
+    capital: 0,
+    cities: [
+        (
+            name: "Funafuti",
+            coordinates: (
+                lat: -8.52,
+                lon: 179.22,
+            ),
+        ),
+    ],
+)

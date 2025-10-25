@@ -1,0 +1,22 @@
+(
+    name: "Slovenia",
+    code: "SI",
+    population: 2100126,
+    capital: 0,
+    cities: [
+        (
+            name: "Ljubljana",
+            coordinates: (
+                lat: 46.051388888,
+                lon: 14.506111111,
+            ),
+        ),
+        (
+            name: "Maribor",
+            coordinates: (
+                lat: 46.55,
+                lon: 15.633333333,
+            ),
+        ),
+    ],
+)

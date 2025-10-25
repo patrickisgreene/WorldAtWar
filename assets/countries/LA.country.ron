@@ -1,0 +1,57 @@
+(
+    name: "Laos",
+    code: "LA",
+    population: 7275556,
+    capital: 0,
+    cities: [
+        (
+            name: "Vientiane",
+            coordinates: (
+                lat: 17.98,
+                lon: 102.63,
+            ),
+        ),
+//         (
+//             name: "Vientiane",
+//             coordinates: (
+//                 lat: 18.14,
+//                 lon: 102.51,
+//             ),
+//         ),
+        (
+            name: "Udomsai",
+            coordinates: (
+                lat: 20.7,
+                lon: 101.816667,
+            ),
+        ),
+        (
+            name: "Savannakhet",
+            coordinates: (
+                lat: 16.55,
+                lon: 104.75,
+            ),
+        ),
+        (
+            name: "Pāksē",
+            coordinates: (
+                lat: 15.116666666,
+                lon: 105.783333333,
+            ),
+        ),
+        (
+            name: "Thakhèk",
+            coordinates: (
+                lat: 17.4,
+                lon: 104.8,
+            ),
+        ),
+        (
+            name: "Luang Prabang",
+            coordinates: (
+                lat: 19.89,
+                lon: 102.134722222,
+            ),
+        ),
+    ],
+)

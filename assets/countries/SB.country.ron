@@ -1,0 +1,15 @@
+(
+    name: "Solomon Islands",
+    code: "SB",
+    population: 686878,
+    capital: 0,
+    cities: [
+        (
+            name: "Honiara",
+            coordinates: (
+                lat: -9.433333,
+                lon: 159.95,
+            ),
+        ),
+    ],
+)

@@ -1,0 +1,43 @@
+(
+    name: "Cyprus",
+    code: "CY",
+    population: 1207361,
+    capital: 3,
+    cities: [
+//         (
+//             name: "Limassol",
+//             coordinates: (
+//                 lat: 34.674997,
+//                 lon: 33.044286,
+//             ),
+//         ),
+//         (
+//             name: "Larnaca",
+//             coordinates: (
+//                 lat: 34.916666666,
+//                 lon: 33.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Strovolos",
+//             coordinates: (
+//                 lat: 35.13671129,
+//                 lon: 33.34850576,
+//             ),
+//         ),
+        (
+            name: "Nicosia",
+            coordinates: (
+                lat: 35.1725,
+                lon: 33.365,
+            ),
+        ),
+//         (
+//             name: "Famagusta",
+//             coordinates: (
+//                 lat: 35.116666666,
+//                 lon: 33.95,
+//             ),
+//         ),
+    ],
+)

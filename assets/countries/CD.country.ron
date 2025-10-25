@@ -1,0 +1,358 @@
+(
+    name: "DR Congo",
+    code: "CD",
+    population: 108407721,
+    capital: 0,
+    cities: [
+        (
+            name: "Kinshasa",
+            coordinates: (
+                lat: -4.32758,
+                lon: 15.31357,
+            ),
+        ),
+        (
+            name: "Mbuji-Mayi",
+            coordinates: (
+                lat: -6.15,
+                lon: 23.6,
+            ),
+        ),
+        (
+            name: "Kananga",
+            coordinates: (
+                lat: -5.896111111,
+                lon: 22.416666666,
+            ),
+        ),
+        (
+            name: "Lubumbashi",
+            coordinates: (
+                lat: -11.664166666,
+                lon: 27.482777777,
+            ),
+        ),
+        (
+            name: "Kisangani",
+            coordinates: (
+                lat: 0.515277777,
+                lon: 25.191111111,
+            ),
+        ),
+        (
+            name: "Tshikapa",
+            coordinates: (
+                lat: -6.416666666,
+                lon: 20.8,
+            ),
+        ),
+        (
+            name: "Kolwezi",
+            coordinates: (
+                lat: -10.716666666,
+                lon: 25.466666666,
+            ),
+        ),
+        (
+            name: "Goma",
+            coordinates: (
+                lat: -1.679444444,
+                lon: 29.233611111,
+            ),
+        ),
+        (
+            name: "Bukavu",
+            coordinates: (
+                lat: -2.5,
+                lon: 28.866666666,
+            ),
+        ),
+        (
+            name: "Kabinda",
+            coordinates: (
+                lat: -6.13791,
+                lon: 24.48179,
+            ),
+        ),
+//         (
+//             name: "Masina",
+//             coordinates: (
+//                 lat: -4.363055555,
+//                 lon: 15.395,
+//             ),
+//         ),
+        (
+            name: "Mbandaka",
+            coordinates: (
+                lat: 0.048611111,
+                lon: 18.260277777,
+            ),
+        ),
+        (
+            name: "Likasi",
+            coordinates: (
+                lat: -10.983333333,
+                lon: 26.733333333,
+            ),
+        ),
+        (
+            name: "Uvira",
+            coordinates: (
+                lat: -3.4044,
+                lon: 29.1379,
+            ),
+        ),
+        (
+            name: "Kikwit",
+            coordinates: (
+                lat: -5.033333333,
+                lon: 18.816666666,
+            ),
+        ),
+        (
+            name: "Bunia",
+            coordinates: (
+                lat: 1.566666666,
+                lon: 30.25,
+            ),
+        ),
+        (
+            name: "Matadi",
+            coordinates: (
+                lat: -5.816666666,
+                lon: 13.483333333,
+            ),
+        ),
+//         (
+//             name: "Boma",
+//             coordinates: (
+//                 lat: -5.85,
+//                 lon: 13.05,
+//             ),
+//         ),
+        (
+            name: "Isiro",
+            coordinates: (
+                lat: 2.783333333,
+                lon: 27.616666666,
+            ),
+        ),
+        (
+            name: "Beni",
+            coordinates: (
+                lat: 0.5,
+                lon: 29.466666666,
+            ),
+        ),
+//         (
+//             name: "Gandajika",
+//             coordinates: (
+//                 lat: -6.75,
+//                 lon: 23.966666666,
+//             ),
+//         ),
+        (
+            name: "Bandundu",
+            coordinates: (
+                lat: -3.31667,
+                lon: 17.38333,
+            ),
+        ),
+        (
+            name: "Kamina",
+            coordinates: (
+                lat: -8.73508,
+                lon: 24.99798,
+            ),
+        ),
+        (
+            name: "Gemena",
+            coordinates: (
+                lat: 3.25,
+                lon: 19.766666666,
+            ),
+        ),
+//         (
+//             name: "Mwene-Ditu",
+//             coordinates: (
+//                 lat: -7.0,
+//                 lon: 23.45,
+//             ),
+//         ),
+        (
+            name: "Kindu",
+            coordinates: (
+                lat: -2.95,
+                lon: 25.916666666,
+            ),
+        ),
+//         (
+//             name: "Kipushi",
+//             coordinates: (
+//                 lat: -11.76,
+//                 lon: 27.25,
+//             ),
+//         ),
+//         (
+//             name: "Kinshasa (commune)",
+//             coordinates: (
+//                 lat: -4.32333333,
+//                 lon: 15.30805556,
+//             ),
+//         ),
+//         (
+//             name: "Butembo",
+//             coordinates: (
+//                 lat: 0.1251,
+//                 lon: 29.299,
+//             ),
+//         ),
+        (
+            name: "Aketi",
+            coordinates: (
+                lat: 2.74,
+                lon: 23.78,
+            ),
+        ),
+        (
+            name: "Kalemie",
+            coordinates: (
+                lat: -5.912777777,
+                lon: 29.190555555,
+            ),
+        ),
+        (
+            name: "Mbanza-Ngungu",
+            coordinates: (
+                lat: -5.25,
+                lon: 14.866666666,
+            ),
+        ),
+        (
+            name: "Ilebo",
+            coordinates: (
+                lat: -4.316666666,
+                lon: 20.6,
+            ),
+        ),
+        (
+            name: "Bukama",
+            coordinates: (
+                lat: -9.2,
+                lon: 25.83333333,
+            ),
+        ),
+        (
+            name: "Bumba",
+            coordinates: (
+                lat: 2.19,
+                lon: 22.46,
+            ),
+        ),
+        (
+            name: "Lodja",
+            coordinates: (
+                lat: -3.524166666,
+                lon: 23.596388888,
+            ),
+        ),
+//         (
+//             name: "Moanda",
+//             coordinates: (
+//                 lat: -5.93,
+//                 lon: 12.35,
+//             ),
+//         ),
+//         (
+//             name: "Katwa",
+//             coordinates: (
+//                 lat: 0.08928,
+//                 lon: 29.30858,
+//             ),
+//         ),
+        (
+            name: "Idiofa",
+            coordinates: (
+                lat: -4.959615,
+                lon: 19.598579,
+            ),
+        ),
+        (
+            name: "Kongolo",
+            coordinates: (
+                lat: -5.4,
+                lon: 27.0,
+            ),
+        ),
+//         (
+//             name: "Rutshuru",
+//             coordinates: (
+//                 lat: -1.183333,
+//                 lon: 29.45,
+//             ),
+//         ),
+//         (
+//             name: "Bulungu",
+//             coordinates: (
+//                 lat: -4.55,
+//                 lon: 18.58333333,
+//             ),
+//         ),
+        (
+            name: "Mweka",
+            coordinates: (
+                lat: -4.851944444,
+                lon: 21.559444444,
+            ),
+        ),
+//         (
+//             name: "Kabalo",
+//             coordinates: (
+//                 lat: -6.05,
+//                 lon: 26.91,
+//             ),
+//         ),
+        (
+            name: "Moba",
+            coordinates: (
+                lat: -7.042952777,
+                lon: 29.775816666,
+            ),
+        ),
+        (
+            name: "Kaniama",
+            coordinates: (
+                lat: -7.51666667,
+                lon: 24.18333333,
+            ),
+        ),
+//         (
+//             name: "Miabi",
+//             coordinates: (
+//                 lat: -6.2,
+//                 lon: 23.38333333,
+//             ),
+//         ),
+//         (
+//             name: "Kimpese",
+//             coordinates: (
+//                 lat: -5.55,
+//                 lon: 14.43,
+//             ),
+//         ),
+        (
+            name: "Lisala",
+            coordinates: (
+                lat: 2.14,
+                lon: 21.51,
+            ),
+        ),
+        (
+            name: "Basoko",
+            coordinates: (
+                lat: 1.233333333,
+                lon: 23.6,
+            ),
+        ),
+    ],
+)

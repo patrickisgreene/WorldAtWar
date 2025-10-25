@@ -1,0 +1,358 @@
+(
+    name: "Romania",
+    code: "RO",
+    population: 19286123,
+    capital: 0,
+    cities: [
+        (
+            name: "Bucharest",
+            coordinates: (
+                lat: 44.413361111,
+                lon: 26.097777777,
+            ),
+        ),
+//         (
+//             name: "Sector 3",
+//             coordinates: (
+//                 lat: 44.43527778,
+//                 lon: 26.10277778,
+//             ),
+//         ),
+//         (
+//             name: "Sector 6",
+//             coordinates: (
+//                 lat: 44.43527778,
+//                 lon: 26.10277778,
+//             ),
+//         ),
+//         (
+//             name: "Sector 2",
+//             coordinates: (
+//                 lat: 44.4528,
+//                 lon: 26.13321,
+//             ),
+//         ),
+        (
+            name: "Cluj-Napoca",
+            coordinates: (
+                lat: 46.76667,
+                lon: 23.6,
+            ),
+        ),
+        (
+            name: "Iași",
+            coordinates: (
+                lat: 47.16667,
+                lon: 27.6,
+            ),
+        ),
+//         (
+//             name: "Iași",
+//             coordinates: (
+//                 lat: 47.162222222,
+//                 lon: 27.588888888,
+//             ),
+//         ),
+        (
+            name: "Constanța",
+            coordinates: (
+                lat: 44.173333333,
+                lon: 28.638333333,
+            ),
+        ),
+//         (
+//             name: "Sector 4",
+//             coordinates: (
+//                 lat: 44.43527778,
+//                 lon: 26.10277778,
+//             ),
+//         ),
+//         (
+//             name: "Constanța",
+//             coordinates: (
+//                 lat: 44.18073,
+//                 lon: 28.63432,
+//             ),
+//         ),
+        (
+            name: "Timișoara",
+            coordinates: (
+                lat: 45.75372,
+                lon: 21.22571,
+            ),
+        ),
+//         (
+//             name: "Timișoara",
+//             coordinates: (
+//                 lat: 45.759722222,
+//                 lon: 21.23,
+//             ),
+//         ),
+//         (
+//             name: "Sector 5",
+//             coordinates: (
+//                 lat: 44.43527778,
+//                 lon: 26.10277778,
+//             ),
+//         ),
+        (
+            name: "Brașov",
+            coordinates: (
+                lat: 45.65053,
+                lon: 25.60913,
+            ),
+        ),
+//         (
+//             name: "Brașov",
+//             coordinates: (
+//                 lat: 45.64861,
+//                 lon: 25.60613,
+//             ),
+//         ),
+        (
+            name: "Craiova",
+            coordinates: (
+                lat: 44.333333333,
+                lon: 23.816666666,
+            ),
+        ),
+//         (
+//             name: "Craiova",
+//             coordinates: (
+//                 lat: 44.31667,
+//                 lon: 23.8,
+//             ),
+//         ),
+//         (
+//             name: "Sector 1",
+//             coordinates: (
+//                 lat: 44.43527778,
+//                 lon: 26.10277778,
+//             ),
+//         ),
+        (
+            name: "Galați",
+            coordinates: (
+                lat: 45.423333333,
+                lon: 28.0425,
+            ),
+        ),
+//         (
+//             name: "Galați",
+//             coordinates: (
+//                 lat: 45.45,
+//                 lon: 28.05,
+//             ),
+//         ),
+        (
+            name: "Oradea",
+            coordinates: (
+                lat: 47.072222222,
+                lon: 21.921111111,
+            ),
+        ),
+//         (
+//             name: "Oradea",
+//             coordinates: (
+//                 lat: 47.0458,
+//                 lon: 21.91833,
+//             ),
+//         ),
+//         (
+//             name: "Ploiești",
+//             coordinates: (
+//                 lat: 44.95,
+//                 lon: 26.01667,
+//             ),
+//         ),
+//         (
+//             name: "Ploiești",
+//             coordinates: (
+//                 lat: 44.941111111,
+//                 lon: 26.0225,
+//             ),
+//         ),
+//         (
+//             name: "Brăila",
+//             coordinates: (
+//                 lat: 45.269166666,
+//                 lon: 27.9575,
+//             ),
+//         ),
+//         (
+//             name: "Brăila",
+//             coordinates: (
+//                 lat: 45.27152,
+//                 lon: 27.97429,
+//             ),
+//         ),
+//         (
+//             name: "Arad",
+//             coordinates: (
+//                 lat: 46.166666666,
+//                 lon: 21.316666666,
+//             ),
+//         ),
+//         (
+//             name: "Arad",
+//             coordinates: (
+//                 lat: 46.18333,
+//                 lon: 21.31667,
+//             ),
+//         ),
+        (
+            name: "Pitești",
+            coordinates: (
+                lat: 44.866666666,
+                lon: 24.883333333,
+            ),
+        ),
+//         (
+//             name: "Pitești",
+//             coordinates: (
+//                 lat: 44.85,
+//                 lon: 24.86667,
+//             ),
+//         ),
+        (
+            name: "Bacău",
+            coordinates: (
+                lat: 46.583333333,
+                lon: 26.916666666,
+            ),
+        ),
+//         (
+//             name: "Bacău",
+//             coordinates: (
+//                 lat: 46.56718,
+//                 lon: 26.91384,
+//             ),
+//         ),
+//         (
+//             name: "Sibiu",
+//             coordinates: (
+//                 lat: 45.8,
+//                 lon: 24.15,
+//             ),
+//         ),
+//         (
+//             name: "Sibiu",
+//             coordinates: (
+//                 lat: 45.8,
+//                 lon: 24.15,
+//             ),
+//         ),
+//         (
+//             name: "Suceava",
+//             coordinates: (
+//                 lat: 47.651388888,
+//                 lon: 26.255555555,
+//             ),
+//         ),
+//         (
+//             name: "Târgu Mureș",
+//             coordinates: (
+//                 lat: 46.549722222,
+//                 lon: 24.559722222,
+//             ),
+//         ),
+        (
+            name: "Baia Mare",
+            coordinates: (
+                lat: 47.656666666,
+                lon: 23.571944444,
+            ),
+        ),
+//         (
+//             name: "Baia Mare",
+//             coordinates: (
+//                 lat: 47.65729,
+//                 lon: 23.56808,
+//             ),
+//         ),
+//         (
+//             name: "Buzău",
+//             coordinates: (
+//                 lat: 45.151666666,
+//                 lon: 26.816666666,
+//             ),
+//         ),
+//         (
+//             name: "Buzău",
+//             coordinates: (
+//                 lat: 45.15,
+//                 lon: 26.833333333,
+//             ),
+//         ),
+//         (
+//             name: "Râmnicu Vâlcea",
+//             coordinates: (
+//                 lat: 45.104722222,
+//                 lon: 24.375555555,
+//             ),
+//         ),
+//         (
+//             name: "Satu Mare",
+//             coordinates: (
+//                 lat: 47.79,
+//                 lon: 22.89,
+//             ),
+//         ),
+//         (
+//             name: "Botoșani",
+//             coordinates: (
+//                 lat: 47.748611111,
+//                 lon: 26.669444444,
+//             ),
+//         ),
+//         (
+//             name: "Botoșani",
+//             coordinates: (
+//                 lat: 47.75,
+//                 lon: 26.66667,
+//             ),
+//         ),
+//         (
+//             name: "Suceava",
+//             coordinates: (
+//                 lat: 47.63333,
+//                 lon: 26.25,
+//             ),
+//         ),
+//         (
+//             name: "Râmnicu Vâlcea",
+//             coordinates: (
+//                 lat: 45.1,
+//                 lon: 24.36667,
+//             ),
+//         ),
+        (
+            name: "Drobeta-Turnu Severin",
+            coordinates: (
+                lat: 44.636111111,
+                lon: 22.655555555,
+            ),
+        ),
+//         (
+//             name: "Piatra Neamț",
+//             coordinates: (
+//                 lat: 46.9275,
+//                 lon: 26.370833333,
+//             ),
+//         ),
+//         (
+//             name: "Bistrița",
+//             coordinates: (
+//                 lat: 47.133333333,
+//                 lon: 24.483333333,
+//             ),
+//         ),
+//         (
+//             name: "Piatra Neamț",
+//             coordinates: (
+//                 lat: 46.91667,
+//                 lon: 26.33333,
+//             ),
+//         ),
+    ],
+)

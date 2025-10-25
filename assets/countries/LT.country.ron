@@ -1,0 +1,64 @@
+(
+    name: "Lithuania",
+    code: "LT",
+    population: 2794700,
+    capital: 0,
+    cities: [
+        (
+            name: "Vilnius",
+            coordinates: (
+                lat: 54.687222222,
+                lon: 25.28,
+            ),
+        ),
+        (
+            name: "Kaunas",
+            coordinates: (
+                lat: 54.9,
+                lon: 23.933333333,
+            ),
+        ),
+        (
+            name: "Klaipėda",
+            coordinates: (
+                lat: 55.7125,
+                lon: 21.135,
+            ),
+        ),
+        (
+            name: "Šiauliai",
+            coordinates: (
+                lat: 55.928055555,
+                lon: 23.316666666,
+            ),
+        ),
+//         (
+//             name: "Panevėžys",
+//             coordinates: (
+//                 lat: 55.725,
+//                 lon: 24.363888888,
+//             ),
+//         ),
+//         (
+//             name: "Dainava",
+//             coordinates: (
+//                 lat: 54.92083333,
+//                 lon: 23.97333333,
+//             ),
+//         ),
+//         (
+//             name: "Alytus",
+//             coordinates: (
+//                 lat: 54.39574,
+//                 lon: 24.03885,
+//             ),
+//         ),
+//         (
+//             name: "Eiguliai",
+//             coordinates: (
+//                 lat: 54.93133,
+//                 lon: 23.93243,
+//             ),
+//         ),
+    ],
+)

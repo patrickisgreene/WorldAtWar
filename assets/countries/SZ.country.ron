@@ -1,0 +1,29 @@
+(
+    name: "Eswatini",
+    code: "SZ",
+    population: 1160164,
+    capital: 2,
+    cities: [
+        (
+            name: "Lobamba",
+            coordinates: (
+                lat: -26.46667,
+                lon: 31.2,
+            ),
+        ),
+//         (
+//             name: "Manzini",
+//             coordinates: (
+//                 lat: -26.483333333,
+//                 lon: 31.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Mbabane",
+//             coordinates: (
+//                 lat: -26.316666666,
+//                 lon: 31.133333333,
+//             ),
+//         ),
+    ],
+)

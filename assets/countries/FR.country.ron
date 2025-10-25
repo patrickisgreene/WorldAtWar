@@ -1,0 +1,358 @@
+(
+    name: "France",
+    code: "FR",
+    population: 67391582,
+    capital: 0,
+    cities: [
+        (
+            name: "Paris",
+            coordinates: (
+                lat: 48.856666666,
+                lon: 2.352222222,
+            ),
+        ),
+        (
+            name: "Marseille",
+            coordinates: (
+                lat: 43.296666666,
+                lon: 5.376388888,
+            ),
+        ),
+        (
+            name: "Lyon",
+            coordinates: (
+                lat: 45.7675,
+                lon: 4.835,
+            ),
+        ),
+        (
+            name: "Toulouse",
+            coordinates: (
+                lat: 43.604444444,
+                lon: 1.443333333,
+            ),
+        ),
+        (
+            name: "Nice",
+            coordinates: (
+                lat: 43.701944444,
+                lon: 7.268333333,
+            ),
+        ),
+        (
+            name: "Nantes",
+            coordinates: (
+                lat: 47.217222222,
+                lon: -1.553888888,
+            ),
+        ),
+        (
+            name: "Montpellier",
+            coordinates: (
+                lat: 43.610919444,
+                lon: 3.877230555,
+            ),
+        ),
+        (
+            name: "Strasbourg",
+            coordinates: (
+                lat: 48.573333333,
+                lon: 7.752222222,
+            ),
+        ),
+        (
+            name: "Bordeaux",
+            coordinates: (
+                lat: 44.837777777,
+                lon: -0.579444444,
+            ),
+        ),
+        (
+            name: "Lille",
+            coordinates: (
+                lat: 50.631944444,
+                lon: 3.0575,
+            ),
+        ),
+//         (
+//             name: "15th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.8412,
+//                 lon: 2.3003,
+//             ),
+//         ),
+        (
+            name: "Rennes",
+            coordinates: (
+                lat: 48.114166666,
+                lon: -1.680833333,
+            ),
+        ),
+//         (
+//             name: "Cergy-Pontoise",
+//             coordinates: (
+//                 lat: 49.0361,
+//                 lon: 2.06306,
+//             ),
+//         ),
+//         (
+//             name: "20th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.8646,
+//                 lon: 2.3984,
+//             ),
+//         ),
+//         (
+//             name: "18th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.8925,
+//                 lon: 2.3444,
+//             ),
+//         ),
+//         (
+//             name: "Toulon",
+//             coordinates: (
+//                 lat: 43.125,
+//                 lon: 5.930555555,
+//             ),
+//         ),
+        (
+            name: "Reims",
+            coordinates: (
+                lat: 49.265277777,
+                lon: 4.028611111,
+            ),
+        ),
+//         (
+//             name: "19th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.8817,
+//                 lon: 2.3822,
+//             ),
+//         ),
+//         (
+//             name: "13th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.8322,
+//                 lon: 2.3561,
+//             ),
+//         ),
+//         (
+//             name: "Saint-Étienne",
+//             coordinates: (
+//                 lat: 45.433888888,
+//                 lon: 4.389722222,
+//             ),
+//         ),
+        (
+            name: "Le Havre",
+            coordinates: (
+                lat: 49.494166666,
+                lon: 0.108055555,
+            ),
+        ),
+//         (
+//             name: "Villeurbanne",
+//             coordinates: (
+//                 lat: 45.766111111,
+//                 lon: 4.879444444,
+//             ),
+//         ),
+//         (
+//             name: "17th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.8835,
+//                 lon: 2.3219,
+//             ),
+//         ),
+        (
+            name: "Dijon",
+            coordinates: (
+                lat: 47.323055555,
+                lon: 5.041944444,
+            ),
+        ),
+//         (
+//             name: "16th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.8637,
+//                 lon: 2.2769,
+//             ),
+//         ),
+//         (
+//             name: "Angers",
+//             coordinates: (
+//                 lat: 47.472777777,
+//                 lon: -0.555555555,
+//             ),
+//         ),
+        (
+            name: "Grenoble",
+            coordinates: (
+                lat: 45.186944444,
+                lon: 5.726388888,
+            ),
+        ),
+        (
+            name: "Saint-Denis",
+            coordinates: (
+                lat: -20.878888888,
+                lon: 55.448055555,
+            ),
+        ),
+//         (
+//             name: "Nîmes",
+//             coordinates: (
+//                 lat: 43.838333333,
+//                 lon: 4.359722222,
+//             ),
+//         ),
+//         (
+//             name: "Aix-en-Provence",
+//             coordinates: (
+//                 lat: 43.527777777,
+//                 lon: 5.445555555,
+//             ),
+//         ),
+        (
+            name: "Clermont-Ferrand",
+            coordinates: (
+                lat: 45.779722222,
+                lon: 3.086944444,
+            ),
+        ),
+        (
+            name: "Le Mans",
+            coordinates: (
+                lat: 48.004166666,
+                lon: 0.196944444,
+            ),
+        ),
+        (
+            name: "Brest",
+            coordinates: (
+                lat: 48.39,
+                lon: -4.486944444,
+            ),
+        ),
+//         (
+//             name: "11th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.8574,
+//                 lon: 2.3795,
+//             ),
+//         ),
+//         (
+//             name: "12th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.8412,
+//                 lon: 2.3876,
+//             ),
+//         ),
+//         (
+//             name: "Tours",
+//             coordinates: (
+//                 lat: 47.392777777,
+//                 lon: 0.688333333,
+//             ),
+//         ),
+//         (
+//             name: "14th arrondissement of Paris",
+//             coordinates: (
+//                 lat: 48.833022222,
+//                 lon: 2.326888888,
+//             ),
+//         ),
+        (
+            name: "Amiens",
+            coordinates: (
+                lat: 49.891944444,
+                lon: 2.297777777,
+            ),
+        ),
+        (
+            name: "Annecy",
+            coordinates: (
+                lat: 45.899166666,
+                lon: 6.129444444,
+            ),
+        ),
+        (
+            name: "Limoges",
+            coordinates: (
+                lat: 45.834444444,
+                lon: 1.261666666,
+            ),
+        ),
+        (
+            name: "Metz",
+            coordinates: (
+                lat: 49.119722222,
+                lon: 6.176944444,
+            ),
+        ),
+        (
+            name: "Perpignan",
+            coordinates: (
+                lat: 42.6975,
+                lon: 2.894722222,
+            ),
+        ),
+//         (
+//             name: "Boulogne-Billancourt",
+//             coordinates: (
+//                 lat: 48.835277777,
+//                 lon: 2.241388888,
+//             ),
+//         ),
+//         (
+//             name: "Besançon",
+//             coordinates: (
+//                 lat: 47.242222222,
+//                 lon: 6.021388888,
+//             ),
+//         ),
+        (
+            name: "Orléans",
+            coordinates: (
+                lat: 47.902222222,
+                lon: 1.904166666,
+            ),
+        ),
+//         (
+//             name: "Rouen",
+//             coordinates: (
+//                 lat: 49.443055555,
+//                 lon: 1.1025,
+//             ),
+//         ),
+//         (
+//             name: "Montreuil",
+//             coordinates: (
+//                 lat: 48.860277777,
+//                 lon: 2.443055555,
+//             ),
+//         ),
+//         (
+//             name: "Caen",
+//             coordinates: (
+//                 lat: 49.18585,
+//                 lon: -0.35912,
+//             ),
+//         ),
+//         (
+//             name: "Argenteuil",
+//             coordinates: (
+//                 lat: 48.947777777,
+//                 lon: 2.248888888,
+//             ),
+//         ),
+//         (
+//             name: "Saint-Paul",
+//             coordinates: (
+//                 lat: -21.009722222,
+//                 lon: 55.269722222,
+//             ),
+//         ),
+    ],
+)

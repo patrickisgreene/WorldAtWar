@@ -1,0 +1,183 @@
+(
+    name: "Croatia",
+    code: "HR",
+    population: 4047200,
+    capital: 0,
+    cities: [
+        (
+            name: "Zagreb",
+            coordinates: (
+                lat: 45.813055555,
+                lon: 15.977222222,
+            ),
+        ),
+        (
+            name: "Split",
+            coordinates: (
+                lat: 43.51,
+                lon: 16.44,
+            ),
+        ),
+        (
+            name: "Rijeka",
+            coordinates: (
+                lat: 45.32693,
+                lon: 14.43758,
+            ),
+        ),
+        (
+            name: "Osijek",
+            coordinates: (
+                lat: 45.560277777,
+                lon: 18.670277777,
+            ),
+        ),
+//         (
+//             name: "Zadar",
+//             coordinates: (
+//                 lat: 44.11578,
+//                 lon: 15.22514,
+//             ),
+//         ),
+//         (
+//             name: "Trešnjevka – jug",
+//             coordinates: (
+//                 lat: 45.7848187,
+//                 lon: 15.9220756,
+//             ),
+//         ),
+//         (
+//             name: "Velika Gorica",
+//             coordinates: (
+//                 lat: 45.7,
+//                 lon: 16.066666666,
+//             ),
+//         ),
+//         (
+//             name: "Novi Zagreb – istok",
+//             coordinates: (
+//                 lat: 45.7607044,
+//                 lon: 16.0094535,
+//             ),
+//         ),
+//         (
+//             name: "Novi Zagreb – zapad",
+//             coordinates: (
+//                 lat: 45.7608065,
+//                 lon: 15.9203508,
+//             ),
+//         ),
+//         (
+//             name: "Peščenica – Žitnjak",
+//             coordinates: (
+//                 lat: 45.79344167,
+//                 lon: 16.04846111,
+//             ),
+//         ),
+//         (
+//             name: "Sesvete",
+//             coordinates: (
+//                 lat: 45.827056,
+//                 lon: 16.111167,
+//             ),
+//         ),
+//         (
+//             name: "Sesvete",
+//             coordinates: (
+//                 lat: 45.831111111,
+//                 lon: 16.116388888,
+//             ),
+//         ),
+//         (
+//             name: "Trešnjevka – sjever",
+//             coordinates: (
+//                 lat: 45.8024039,
+//                 lon: 15.93727,
+//             ),
+//         ),
+//         (
+//             name: "Grad Pula",
+//             coordinates: (
+//                 lat: 44.86667,
+//                 lon: 13.86667,
+//             ),
+//         ),
+//         (
+//             name: "Pula",
+//             coordinates: (
+//                 lat: 44.870277777,
+//                 lon: 13.845555555,
+//             ),
+//         ),
+//         (
+//             name: "Stenjevec",
+//             coordinates: (
+//                 lat: 45.805361,
+//                 lon: 15.877528,
+//             ),
+//         ),
+//         (
+//             name: "Slavonski Brod",
+//             coordinates: (
+//                 lat: 45.155277777,
+//                 lon: 18.014444444,
+//             ),
+//         ),
+//         (
+//             name: "Grad Karlovac",
+//             coordinates: (
+//                 lat: 45.5,
+//                 lon: 15.53333,
+//             ),
+//         ),
+//         (
+//             name: "Karlovac",
+//             coordinates: (
+//                 lat: 45.493055555,
+//                 lon: 15.555833333,
+//             ),
+//         ),
+//         (
+//             name: "Maksimir",
+//             coordinates: (
+//                 lat: 45.832139,
+//                 lon: 16.019833,
+//             ),
+//         ),
+//         (
+//             name: "Podsused – Vrapče",
+//             coordinates: (
+//                 lat: 45.8144542,
+//                 lon: 15.877093,
+//             ),
+//         ),
+//         (
+//             name: "Šibenik",
+//             coordinates: (
+//                 lat: 43.733888888,
+//                 lon: 15.895555555,
+//             ),
+//         ),
+//         (
+//             name: "Trnje",
+//             coordinates: (
+//                 lat: 45.794802777,
+//                 lon: 15.979205555,
+//             ),
+//         ),
+        (
+            name: "Dubrovnik",
+            coordinates: (
+                lat: 42.640277777,
+                lon: 18.108333333,
+            ),
+        ),
+//         (
+//             name: "Sisak",
+//             coordinates: (
+//                 lat: 45.487222222,
+//                 lon: 16.376111111,
+//             ),
+//         ),
+    ],
+)

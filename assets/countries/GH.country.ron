@@ -1,0 +1,358 @@
+(
+    name: "Ghana",
+    code: "GH",
+    population: 31072945,
+    capital: 1,
+    cities: [
+//         (
+//             name: "Kumasi",
+//             coordinates: (
+//                 lat: 6.7,
+//                 lon: -1.625,
+//             ),
+//         ),
+        (
+            name: "Accra",
+            coordinates: (
+                lat: 5.55602,
+                lon: -0.1969,
+            ),
+        ),
+        (
+            name: "Tamale",
+            coordinates: (
+                lat: 9.4075,
+                lon: -0.853333333,
+            ),
+        ),
+//         (
+//             name: "Sekondi-Takoradi",
+//             coordinates: (
+//                 lat: 4.916666666,
+//                 lon: -1.766666666,
+//             ),
+//         ),
+//         (
+//             name: "Takoradi",
+//             coordinates: (
+//                 lat: 4.89,
+//                 lon: -1.76,
+//             ),
+//         ),
+//         (
+//             name: "Cape Coast",
+//             coordinates: (
+//                 lat: 5.1,
+//                 lon: -1.25,
+//             ),
+//         ),
+//         (
+//             name: "Ashaiman",
+//             coordinates: (
+//                 lat: 5.698611111,
+//                 lon: -0.034444444,
+//             ),
+//         ),
+//         (
+//             name: "Achiaman",
+//             coordinates: (
+//                 lat: 5.7,
+//                 lon: -0.33333,
+//             ),
+//         ),
+//         (
+//             name: "Teshie",
+//             coordinates: (
+//                 lat: 5.583333333,
+//                 lon: -0.1,
+//             ),
+//         ),
+//         (
+//             name: "Obuasi",
+//             coordinates: (
+//                 lat: 6.2,
+//                 lon: -1.683333333,
+//             ),
+//         ),
+//         (
+//             name: "Tema",
+//             coordinates: (
+//                 lat: 5.666666666,
+//                 lon: -0.016666666,
+//             ),
+//         ),
+//         (
+//             name: "Koforidua",
+//             coordinates: (
+//                 lat: 6.1,
+//                 lon: -0.266666666,
+//             ),
+//         ),
+//         (
+//             name: "Akosombo",
+//             coordinates: (
+//                 lat: 6.3,
+//                 lon: 0.05,
+//             ),
+//         ),
+//         (
+//             name: "Madina",
+//             coordinates: (
+//                 lat: 5.666666666,
+//                 lon: -0.15,
+//             ),
+//         ),
+        (
+            name: "Wa",
+            coordinates: (
+                lat: 10.0667,
+                lon: -2.5,
+            ),
+        ),
+//         (
+//             name: "Atebubu",
+//             coordinates: (
+//                 lat: 7.75,
+//                 lon: -0.983333,
+//             ),
+//         ),
+//         (
+//             name: "Twifu Praso",
+//             coordinates: (
+//                 lat: 5.61411,
+//                 lon: -1.5502,
+//             ),
+//         ),
+//         (
+//             name: "Tema New Town",
+//             coordinates: (
+//                 lat: 5.65396,
+//                 lon: 0.0264,
+//             ),
+//         ),
+        (
+            name: "Saboba",
+            coordinates: (
+                lat: 9.70738,
+                lon: 0.31843,
+            ),
+        ),
+//         (
+//             name: "Jirapa",
+//             coordinates: (
+//                 lat: 10.53689,
+//                 lon: -2.70155,
+//             ),
+//         ),
+//         (
+//             name: "Kasoa",
+//             coordinates: (
+//                 lat: 5.53333333,
+//                 lon: -0.41666667,
+//             ),
+//         ),
+//         (
+//             name: "Gbawe",
+//             coordinates: (
+//                 lat: 5.58333333,
+//                 lon: -0.3,
+//             ),
+//         ),
+//         (
+//             name: "Ho",
+//             coordinates: (
+//                 lat: 6.611388888,
+//                 lon: 0.470277777,
+//             ),
+//         ),
+//         (
+//             name: "Mandela",
+//             coordinates: (
+//                 lat: 5.55221,
+//                 lon: -0.33912,
+//             ),
+//         ),
+//         (
+//             name: "Sunyani",
+//             coordinates: (
+//                 lat: 7.333333333,
+//                 lon: -2.333333333,
+//             ),
+//         ),
+//         (
+//             name: "Winneba",
+//             coordinates: (
+//                 lat: 5.35,
+//                 lon: -0.633333333,
+//             ),
+//         ),
+//         (
+//             name: "Ejura",
+//             coordinates: (
+//                 lat: 7.383333333,
+//                 lon: -1.366666666,
+//             ),
+//         ),
+//         (
+//             name: "Berekum",
+//             coordinates: (
+//                 lat: 7.45,
+//                 lon: -2.583333333,
+//             ),
+//         ),
+//         (
+//             name: "Nungua",
+//             coordinates: (
+//                 lat: 5.60105,
+//                 lon: -0.07713,
+//             ),
+//         ),
+//         (
+//             name: "Techiman",
+//             coordinates: (
+//                 lat: 7.59054,
+//                 lon: -1.93947,
+//             ),
+//         ),
+        (
+            name: "Bolgatanga",
+            coordinates: (
+                lat: 10.785555555,
+                lon: -0.851388888,
+            ),
+        ),
+        (
+            name: "Aflao",
+            coordinates: (
+                lat: 6.11982,
+                lon: 1.19012,
+            ),
+        ),
+//         (
+//             name: "Buduburam",
+//             coordinates: (
+//                 lat: 5.533333333,
+//                 lon: -0.466666666,
+//             ),
+//         ),
+//         (
+//             name: "Bawku",
+//             coordinates: (
+//                 lat: 11.06,
+//                 lon: -0.242222222,
+//             ),
+//         ),
+//         (
+//             name: "Bawku",
+//             coordinates: (
+//                 lat: 11.05806,
+//                 lon: -0.24167,
+//             ),
+//         ),
+//         (
+//             name: "Akim Oda",
+//             coordinates: (
+//                 lat: 5.92665,
+//                 lon: -0.98577,
+//             ),
+//         ),
+//         (
+//             name: "Dome",
+//             coordinates: (
+//                 lat: 5.655,
+//                 lon: -0.235,
+//             ),
+//         ),
+//         (
+//             name: "Hohoe",
+//             coordinates: (
+//                 lat: 7.14904,
+//                 lon: 0.4746,
+//             ),
+//         ),
+//         (
+//             name: "Agona Swedru",
+//             coordinates: (
+//                 lat: 5.530555555,
+//                 lon: -0.702777777,
+//             ),
+//         ),
+//         (
+//             name: "Kintampo",
+//             coordinates: (
+//                 lat: 8.052347222,
+//                 lon: -1.734722222,
+//             ),
+//         ),
+//         (
+//             name: "Yendi",
+//             coordinates: (
+//                 lat: 9.431944444,
+//                 lon: -0.004166666,
+//             ),
+//         ),
+//         (
+//             name: "Adenta",
+//             coordinates: (
+//                 lat: 5.72469,
+//                 lon: -0.163544,
+//             ),
+//         ),
+//         (
+//             name: "Suhum",
+//             coordinates: (
+//                 lat: 6.04,
+//                 lon: -0.45,
+//             ),
+//         ),
+//         (
+//             name: "Tafo",
+//             coordinates: (
+//                 lat: 6.73583,
+//                 lon: -1.60806,
+//             ),
+//         ),
+//         (
+//             name: "Nsawam",
+//             coordinates: (
+//                 lat: 5.81111111,
+//                 lon: -0.35,
+//             ),
+//         ),
+//         (
+//             name: "Asamankese",
+//             coordinates: (
+//                 lat: 5.866666666,
+//                 lon: -0.666666666,
+//             ),
+//         ),
+//         (
+//             name: "Wenchi",
+//             coordinates: (
+//                 lat: 7.734333333,
+//                 lon: -2.103472222,
+//             ),
+//         ),
+//         (
+//             name: "Osu",
+//             coordinates: (
+//                 lat: 5.55389,
+//                 lon: -0.175,
+//             ),
+//         ),
+//         (
+//             name: "Konongo",
+//             coordinates: (
+//                 lat: 6.616666666,
+//                 lon: -1.216666666,
+//             ),
+//         ),
+//         (
+//             name: "Dunkwa-on-Offin",
+//             coordinates: (
+//                 lat: 5.9667,
+//                 lon: -1.7833,
+//             ),
+//         ),
+    ],
+)

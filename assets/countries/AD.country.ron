@@ -1,0 +1,15 @@
+(
+    name: "Andorra",
+    code: "AD",
+    population: 77265,
+    capital: 0,
+    cities: [
+        (
+            name: "Andorra la Vella",
+            coordinates: (
+                lat: 42.5,
+                lon: 1.52,
+            ),
+        ),
+    ],
+)

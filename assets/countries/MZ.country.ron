@@ -1,0 +1,211 @@
+(
+    name: "Mozambique",
+    code: "MZ",
+    population: 31255435,
+    capital: 0,
+    cities: [
+        (
+            name: "Maputo",
+            coordinates: (
+                lat: -25.915277777,
+                lon: 32.576388888,
+            ),
+        ),
+//         (
+//             name: "Matola",
+//             coordinates: (
+//                 lat: -25.966666666,
+//                 lon: 32.466666666,
+//             ),
+//         ),
+        (
+            name: "Nampula",
+            coordinates: (
+                lat: -15.11646,
+                lon: 39.2666,
+            ),
+        ),
+        (
+            name: "Beira",
+            coordinates: (
+                lat: -19.833333333,
+                lon: 34.85,
+            ),
+        ),
+        (
+            name: "Quelimane",
+            coordinates: (
+                lat: -17.876388888,
+                lon: 36.887222222,
+            ),
+        ),
+        (
+            name: "Nacala",
+            coordinates: (
+                lat: -14.56257,
+                lon: 40.68538,
+            ),
+        ),
+        (
+            name: "Chimoio",
+            coordinates: (
+                lat: -19.116666666,
+                lon: 33.45,
+            ),
+        ),
+        (
+            name: "Gurúè",
+            coordinates: (
+                lat: -15.466944444,
+                lon: 36.977777777,
+            ),
+        ),
+        (
+            name: "Maxixe",
+            coordinates: (
+                lat: -23.859722222,
+                lon: 35.347222222,
+            ),
+        ),
+        (
+            name: "Tete",
+            coordinates: (
+                lat: -16.157916666,
+                lon: 33.589805555,
+            ),
+        ),
+        (
+            name: "Lichinga",
+            coordinates: (
+                lat: -13.3,
+                lon: 35.245555555,
+            ),
+        ),
+        (
+            name: "Pemba",
+            coordinates: (
+                lat: -12.97395,
+                lon: 40.51775,
+            ),
+        ),
+        (
+            name: "Xai-Xai",
+            coordinates: (
+                lat: -25.05,
+                lon: 33.65,
+            ),
+        ),
+//         (
+//             name: "Ressano Garcia",
+//             coordinates: (
+//                 lat: -25.46416667,
+//                 lon: 31.995,
+//             ),
+//         ),
+        (
+            name: "Angoche",
+            coordinates: (
+                lat: -16.230829,
+                lon: 39.910549,
+            ),
+        ),
+        (
+            name: "Cuamba",
+            coordinates: (
+                lat: -14.82,
+                lon: 36.548611111,
+            ),
+        ),
+        (
+            name: "Montepuez",
+            coordinates: (
+                lat: -13.11666667,
+                lon: 39.0,
+            ),
+        ),
+//         (
+//             name: "Dondo",
+//             coordinates: (
+//                 lat: -19.61666667,
+//                 lon: 34.75,
+//             ),
+//         ),
+//         (
+//             name: "Inhambane",
+//             coordinates: (
+//                 lat: -23.865,
+//                 lon: 35.383333333,
+//             ),
+//         ),
+        (
+            name: "Palma",
+            coordinates: (
+                lat: -10.78333333,
+                lon: 40.48333333,
+            ),
+        ),
+        (
+            name: "Mocuba",
+            coordinates: (
+                lat: -16.8390998,
+                lon: 36.98552598,
+            ),
+        ),
+//         (
+//             name: "Chokwe",
+//             coordinates: (
+//                 lat: -24.53333,
+//                 lon: 32.98333,
+//             ),
+//         ),
+//         (
+//             name: "Chibuto",
+//             coordinates: (
+//                 lat: -24.686666666,
+//                 lon: 33.530555555,
+//             ),
+//         ),
+//         (
+//             name: "Nametil",
+//             coordinates: (
+//                 lat: -15.72028,
+//                 lon: 39.3425,
+//             ),
+//         ),
+//         (
+//             name: "Monapo",
+//             coordinates: (
+//                 lat: -14.91694444,
+//                 lon: 40.30222222,
+//             ),
+//         ),
+        (
+            name: "Marromeu",
+            coordinates: (
+                lat: -18.29083333,
+                lon: 35.94527778,
+            ),
+        ),
+//         (
+//             name: "Moatize",
+//             coordinates: (
+//                 lat: -16.116666666,
+//                 lon: 33.75,
+//             ),
+//         ),
+        (
+            name: "Vilankulo",
+            coordinates: (
+                lat: -22.0,
+                lon: 35.316666666,
+            ),
+        ),
+//         (
+//             name: "Manica",
+//             coordinates: (
+//                 lat: -18.934444444,
+//                 lon: 32.875555555,
+//             ),
+//         ),
+    ],
+)
