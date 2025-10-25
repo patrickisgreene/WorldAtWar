@@ -15,3 +15,6 @@ pub struct Radar {
     pub rotation: Quat,
     pub translation: Vec3,
 }
+
+#[derive(Component)]
+pub struct RadarCrossSection(pub f32);

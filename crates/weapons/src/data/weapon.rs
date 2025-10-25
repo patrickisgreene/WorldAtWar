@@ -11,6 +11,12 @@ pub struct Weapon {
     pub movement: Movement,
     pub model: Model,
     pub radar: Option<Radar>,
+    #[serde(default = "default_radar_cross_section")]
+    pub radar_cross_section: f32
+}
+
+fn default_radar_cross_section() -> f32 {
+    1.0
 }
 
 impl Weapon {

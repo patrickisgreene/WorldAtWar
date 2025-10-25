@@ -60,6 +60,7 @@ pub fn initialize_weapon_instances(
                         rotation: transform.rotation,
                         translation: transform.translation,
                     })
+                    .insert(waw_radar::RadarCrossSection(weapon.radar_cross_section))
                     .insert(shape)
                     .insert(waw_radar::RadarGizmoVisible);
             }
