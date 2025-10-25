@@ -68,6 +68,7 @@ pub fn spawn_city_entities(
                     rotation: Default::default(),
                     translation: Default::default(),
                 },
+                waw_weapons::Inventory::default(),
                 Transform::from_translation(grid_offset),
             ));
         }

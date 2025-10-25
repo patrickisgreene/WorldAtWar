@@ -9,7 +9,9 @@ bevy_app.workspace = true
 bevy_gltf.workspace = true
 bevy_math.workspace = true
 bevy_asset.workspace = true
+bevy_derive.workspace = true
 bevy_reflect.workspace = true
+bevy_platform.workspace = true
 bevy_transform.workspace = true
 
 serde.workspace = true
