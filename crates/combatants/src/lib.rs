@@ -11,6 +11,12 @@ use bevy_asset::{prelude::*, LoadedFolder};
 use bevy_reflect::TypePath;
 use serde::{Serialize, Deserialize};
 
+#[derive(Debug, PartialEq, Clone, Copy, Serialize, Deserialize)]
+pub enum CombatantRelationship {
+    Friendly,
+    Enemy
+}
+
 #[derive(Resource)]
 pub struct Alliances(pub Handle<LoadedFolder>);
 

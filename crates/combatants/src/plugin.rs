@@ -4,7 +4,7 @@ use bevy_asset::prelude::*;
 
 use waw_ron_asset::RonAssetPlugin;
 
-use crate::{Alliance, Alliances, Combatant, CombatantColor};
+use crate::{Alliance, Alliances, Combatant, CombatantColor, CombatantRelationship};
 
 pub struct CombatantsPlugin;
 
@@ -24,10 +24,12 @@ fn load_alliances(mut commands: Commands, assets: Res<AssetServer>) {
 fn temp_load_combatants(mut commands: Commands) {
     commands.spawn(Combatant {
         color: CombatantColor::Red,
+        relationship: CombatantRelationship::Friendly,
         countries: vec!["US".into(), "CA".into()],
     });
     commands.spawn(Combatant {
         color: CombatantColor::Violet,
         countries: vec!["MX".into()],
+        relationship: CombatantRelationship::Enemy,
     });
 }
