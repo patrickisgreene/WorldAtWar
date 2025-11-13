@@ -1,0 +1,333 @@
+use crate::shaders::DEPTH_COPY_SHADER;
+use bevy::{
+    core_pipeline::{FullscreenShader, core_3d::CORE_3D_DEPTH_FORMAT},
+    ecs::query::QueryItem,
+    prelude::*,
+    render::{
+        Extract,
+        camera::ExtractedCamera,
+        render_graph::{NodeRunError, RenderGraphContext, RenderLabel, ViewNode},
+        render_phase::{
+            CachedRenderPipelinePhaseItem, DrawFunctionId, PhaseItem, PhaseItemExtraIndex,
+            SortedPhaseItem, TrackedRenderPass, ViewSortedRenderPhases,
+        },
+        render_resource::{binding_types::texture_depth_2d_multisampled, *},
+        renderer::{RenderContext, RenderDevice},
+        sync_world::MainEntity,
+        texture::{CachedTexture, TextureCache},
+        view::{RetainedViewEntity, ViewDepthTexture, ViewTarget},
+    },
+};
+use std::ops::Range;
+
+pub(crate) const EARTH_DEPTH_FORMAT: TextureFormat = TextureFormat::Depth32FloatStencil8;
+
+pub struct EarthItem {
+    pub representative_entity: (Entity, MainEntity),
+    pub draw_function: DrawFunctionId,
+    pub pipeline: CachedRenderPipelineId,
+    pub batch_range: Range<u32>,
+    pub extra_index: PhaseItemExtraIndex,
+    pub order: u32,
+}
+
+impl PhaseItem for EarthItem {
+    const AUTOMATIC_BATCHING: bool = false;
+
+    #[inline]
+    fn entity(&self) -> Entity {
+        self.representative_entity.0
+    }
+
+    #[inline]
+    fn main_entity(&self) -> MainEntity {
+        self.representative_entity.1
+    }
+
+    #[inline]
+    fn draw_function(&self) -> DrawFunctionId {
+        self.draw_function
+    }
+
+    #[inline]
+    fn batch_range(&self) -> &Range<u32> {
+        &self.batch_range
+    }
+
+    fn batch_range_mut(&mut self) -> &mut Range<u32> {
+        &mut self.batch_range
+    }
+
+    fn extra_index(&self) -> PhaseItemExtraIndex {
+        self.extra_index.clone()
+    }
+
+    fn batch_range_and_extra_index_mut(&mut self) -> (&mut Range<u32>, &mut PhaseItemExtraIndex) {
+        (&mut self.batch_range, &mut self.extra_index)
+    }
+}
+
+impl SortedPhaseItem for EarthItem {
+    type SortKey = u32;
+
+    fn sort_key(&self) -> Self::SortKey {
+        u32::MAX - self.order
+    }
+
+    fn indexed(&self) -> bool {
+        false
+    }
+}
+
+impl CachedRenderPipelinePhaseItem for EarthItem {
+    fn cached_pipeline(&self) -> CachedRenderPipelineId {
+        self.pipeline
+    }
+}
+
+pub fn extract_earth_phases(
+    mut earth_phases: ResMut<ViewSortedRenderPhases<EarthItem>>,
+    cameras: Extract<Query<(Entity, &Camera), With<Camera3d>>>,
+) {
+    earth_phases.clear();
+
+    for (entity, camera) in &cameras {
+        if !camera.is_active {
+            continue;
+        }
+
+        earth_phases.insert(
+            RetainedViewEntity {
+                main_entity: entity.into(),
+                auxiliary_entity: Entity::PLACEHOLDER.into(),
+                subview_index: 0,
+            },
+            default(),
+        );
+    }
+}
+
+#[derive(Component)]
+pub struct EarthViewDepthTexture {
+    texture: Texture,
+    pub view: TextureView,
+    pub depth_view: TextureView,
+    pub stencil_view: TextureView,
+}
+
+impl EarthViewDepthTexture {
+    pub fn new(texture: CachedTexture) -> Self {
+        let depth_view = texture.texture.create_view(&TextureViewDescriptor {
+            aspect: TextureAspect::DepthOnly,
+            ..default()
+        });
+        let stencil_view = texture.texture.create_view(&TextureViewDescriptor {
+            aspect: TextureAspect::StencilOnly,
+            ..default()
+        });
+
+        Self {
+            texture: texture.texture,
+            view: texture.default_view,
+            depth_view,
+            stencil_view,
+        }
+    }
+
+    pub fn get_attachment(&self) -> RenderPassDepthStencilAttachment<'_> {
+        RenderPassDepthStencilAttachment {
+            view: &self.view,
+            depth_ops: Some(Operations {
+                load: LoadOp::Clear(0.0), // Clear depth
+                store: StoreOp::Store,
+            }),
+            stencil_ops: Some(Operations {
+                load: LoadOp::Clear(0), // Initialize stencil to 0 (lowest priority)
+                store: StoreOp::Store,
+            }),
+        }
+    }
+}
+
+pub fn prepare_earth_depth_textures(
+    mut commands: Commands,
+    mut texture_cache: ResMut<TextureCache>,
+    device: Res<RenderDevice>,
+    views_3d: Query<(Entity, &ExtractedCamera, &Msaa)>,
+) {
+    for (view, camera, msaa) in &views_3d {
+        let Some(physical_target_size) = camera.physical_target_size else {
+            continue;
+        };
+
+        let descriptor = TextureDescriptor {
+            label: Some("view_depth_texture"),
+            size: Extent3d {
+                depth_or_array_layers: 1,
+                width: physical_target_size.x,
+                height: physical_target_size.y,
+            },
+            mip_level_count: 1,
+            sample_count: msaa.samples(),
+            dimension: TextureDimension::D2,
+            format: EARTH_DEPTH_FORMAT,
+            usage: TextureUsages::RENDER_ATTACHMENT | TextureUsages::TEXTURE_BINDING,
+            view_formats: &[],
+        };
+
+        let cached_texture = texture_cache.get(&device, descriptor);
+
+        commands
+            .entity(view)
+            .insert(EarthViewDepthTexture::new(cached_texture));
+    }
+}
+
+#[derive(Resource)]
+pub struct DepthCopyPipeline {
+    layout: BindGroupLayout,
+    id: CachedRenderPipelineId,
+}
+
+impl FromWorld for DepthCopyPipeline {
+    fn from_world(world: &mut World) -> Self {
+        let vertex_shader = FullscreenShader::from_world(world);
+        let device = world.resource::<RenderDevice>();
+        let pipeline_cache = world.resource::<PipelineCache>();
+
+        let layout = device.create_bind_group_layout(
+            None,
+            &BindGroupLayoutEntries::sequential(
+                ShaderStages::FRAGMENT,
+                (texture_depth_2d_multisampled(),),
+            ),
+        );
+
+        let id = pipeline_cache.queue_render_pipeline(RenderPipelineDescriptor {
+            label: None,
+            layout: vec![layout.clone()],
+            push_constant_ranges: Vec::new(),
+            vertex: vertex_shader.to_vertex_state(),
+            fragment: Some(FragmentState {
+                shader: world.load_asset(DEPTH_COPY_SHADER),
+                shader_defs: vec![],
+                entry_point: Some("fragment".into()),
+                targets: vec![],
+            }),
+            primitive: Default::default(),
+            depth_stencil: Some(DepthStencilState {
+                format: CORE_3D_DEPTH_FORMAT,
+                depth_write_enabled: true,
+                depth_compare: CompareFunction::Always,
+                stencil: Default::default(),
+                bias: Default::default(),
+            }),
+            multisample: MultisampleState {
+                count: 4, // Todo: specialize per camera ...
+                ..Default::default()
+            },
+            zero_initialize_workgroup_memory: false,
+        });
+
+        Self { layout, id }
+    }
+}
+
+#[derive(Debug, Hash, Default, PartialEq, Eq, Clone, RenderLabel)]
+pub struct EarthPass;
+
+impl ViewNode for EarthPass {
+    type ViewQuery = (
+        Entity,
+        MainEntity,
+        &'static ExtractedCamera,
+        &'static ViewTarget,
+        &'static ViewDepthTexture,
+        &'static EarthViewDepthTexture,
+    );
+
+    fn run<'w>(
+        &self,
+        _graph: &mut RenderGraphContext,
+        context: &mut RenderContext<'w>,
+        (render_view, main_view, camera, target, depth, earth_depth): QueryItem<
+            'w,
+            '_,
+            Self::ViewQuery,
+        >,
+        world: &'w World,
+    ) -> Result<(), NodeRunError> {
+        let device = world.resource::<RenderDevice>();
+        let pipeline_cache = world.resource::<PipelineCache>();
+        let depth_copy_pipeline = world.resource::<DepthCopyPipeline>();
+
+        let Some(pipeline) = pipeline_cache.get_render_pipeline(depth_copy_pipeline.id) else {
+            return Ok(());
+        };
+
+        let Some(earth_phase) = world
+            .get_resource::<ViewSortedRenderPhases<EarthItem>>()
+            .and_then(|phase| {
+                phase.get(&RetainedViewEntity {
+                    main_entity: main_view.into(),
+                    auxiliary_entity: Entity::PLACEHOLDER.into(),
+                    subview_index: 0,
+                })
+            })
+        else {
+            return Ok(());
+        };
+
+        if earth_phase.items.is_empty() {
+            return Ok(());
+        }
+
+        // Todo: prepare this in a separate system
+        let earth_depth_view = earth_depth.texture.create_view(&TextureViewDescriptor {
+            aspect: TextureAspect::DepthOnly,
+            ..default()
+        });
+        let depth_copy_bind_group = device.create_bind_group(
+            None,
+            &depth_copy_pipeline.layout,
+            &BindGroupEntries::single(&earth_depth_view),
+        );
+
+        // call this here, otherwise the order between passes is incorrect
+        let color_attachments = [Some(target.get_color_attachment())];
+        let earth_depth_stencil_attachment = Some(earth_depth.get_attachment());
+        let depth_stencil_attachment = Some(depth.get_attachment(StoreOp::Store));
+
+        context.add_command_buffer_generation_task(move |device| {
+            let mut encoder = device.create_command_encoder(&CommandEncoderDescriptor::default());
+
+            let pass = encoder.begin_render_pass(&RenderPassDescriptor {
+                label: Some("earth_pass"),
+                color_attachments: &color_attachments,
+                depth_stencil_attachment: earth_depth_stencil_attachment,
+                ..default()
+            });
+            let mut pass = TrackedRenderPass::new(&device, pass);
+
+            if let Some(viewport) = camera.viewport.as_ref() {
+                pass.set_camera_viewport(viewport);
+            }
+
+            earth_phase.render(&mut pass, world, render_view).unwrap();
+            drop(pass);
+
+            let mut pass = encoder.begin_render_pass(&RenderPassDescriptor {
+                depth_stencil_attachment,
+                ..default()
+            });
+            pass.set_bind_group(0, &depth_copy_bind_group, &[]);
+            pass.set_pipeline(pipeline);
+            pass.draw(0..3, 0..1);
+            drop(pass);
+
+            encoder.finish()
+        });
+
+        Ok(())
+    }
+}
