@@ -14,6 +14,10 @@ pub struct EarthMaterial {
     pub ripple_frequency: f32,
     #[uniform(0)]
     pub ripple_distance: f32,
+
+    #[texture(1)]
+    #[sampler(2)]
+    pub water_normal: Handle<Image>
 }
 
 impl Material for EarthMaterial {

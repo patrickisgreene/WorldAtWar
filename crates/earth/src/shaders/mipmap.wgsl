@@ -13,6 +13,8 @@
 @group(0) @binding(2) var child_texture: texture_storage_2d_array<rg16uint, write>;
 #else ifdef R32F
 @group(0) @binding(2) var child_texture: texture_storage_2d_array<r32float, write>;
+#else ifdef R8UNORM
+@group(0) @binding(2) var child_texture: texture_storage_2d_array<r8unorm, write>;
 #endif
 
 @compute @workgroup_size(8, 8, 1)

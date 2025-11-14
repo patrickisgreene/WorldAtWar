@@ -1,4 +1,5 @@
 use bevy::dev_tools::fps_overlay::FpsOverlayPlugin;
+use bevy::image::{ImageAddressMode, ImageLoaderSettings, ImageSampler, ImageSamplerDescriptor};
 use bevy::math::{DQuat, DVec3};
 use bevy::prelude::*;
 use waw_earth::material::EarthMaterial;
@@ -39,7 +40,10 @@ pub fn spawn_lighting(mut commands: Commands, grid: Query<(Entity, &Grid)>) {
     let rotation = DQuat::from_rotation_arc(-DVec3::NEG_X, direction);
     commands.grid(grid_entity, grid.clone()).spawn_spatial((
         grid_cell,
-        DirectionalLight::default(),
+        DirectionalLight {
+            illuminance: 0.,
+            ..default()
+        },
         Transform::from_translation(grid_trans).with_rotation(rotation.as_quat()),
     ));
 }
@@ -65,6 +69,20 @@ fn initialize(
         asset_server.load("earth/data/config.tc.ron"),
         EarthViewConfig::default(),
         EarthMaterial {
+                water_normal: asset_server.load_with_settings(
+                "earth/water-normal.png",
+                |s: &mut _| {
+                    *s = ImageLoaderSettings {
+                        sampler: ImageSampler::Descriptor(ImageSamplerDescriptor {
+                            // rewriting mode to repeat image,
+                            address_mode_u: ImageAddressMode::Repeat,
+                            address_mode_v: ImageAddressMode::Repeat,
+                            ..default()
+                        }),
+                        ..default()
+                    }
+                },
+            ),
             shallow_water_color: LinearRgba::new(0.04, 0.35, 0.55, 1.0),
             medium_water_color: LinearRgba::new(0.02, 0.25, 0.45, 1.0),
             deep_water_color: LinearRgba::new(0.0, 0.05, 0.15, 1.0),

@@ -21,7 +21,7 @@ impl MipPipelineKey {
         let mut shader_defs = Vec::new();
 
         let format = match self.format {
-            AttachmentFormat::R8Unorm => "R8Unorm",
+            AttachmentFormat::R8Unorm => "R8UNORM",
             AttachmentFormat::Rgb8U => "RGB8U",
             AttachmentFormat::Rgba8U => "RGBA8U",
             AttachmentFormat::R16U => "R16U",
