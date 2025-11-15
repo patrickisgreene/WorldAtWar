@@ -1,8 +1,7 @@
 [workspace]
 resolver = "3"
 members = [
-    "crates/earth",
-    "crates/preprocess"
+    "crates/earth/*",
 ]
 
 [workspace.package]
@@ -36,5 +35,5 @@ gdal = { version = "0.18.0", features = ["bindgen", "ndarray"] }
 bevy_common_assets = { version = "0.14.0", features = ["ron"] }
 bevy = { version = "0.17.2", default-features = false, features = ["bevy_dev_tools", "file_watcher"] }
 
-waw_earth = { path = "crates/earth" }
+waw_earth_render = { path = "crates/earth/render" }
 waw_earth_preprocess = { path = "crates/preprocess" }

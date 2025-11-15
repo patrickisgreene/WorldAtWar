@@ -1,0 +1,20 @@
+[package]
+name = "waw_earth_preprocess"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+waw_earth_render.workspace = true
+gag.workspace = true
+gdal.workspace = true
+gdal-sys.workspace = true
+glam.workspace = true
+itertools.workspace = true
+thiserror.workspace = true
+num.workspace = true
+rayon.workspace = true
+thread_local.workspace = true
+clap.workspace = true
+indicatif.workspace = true
+ndarray.workspace = true
+

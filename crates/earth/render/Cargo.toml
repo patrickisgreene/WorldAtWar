@@ -1,0 +1,24 @@
+[package]
+name = "waw_earth_render"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bevy_common_assets.workspace = true
+big_space.workspace = true
+tiff.workspace = true
+bytemuck.workspace = true
+ndarray.workspace = true
+itertools.workspace = true
+bitflags.workspace = true
+serde.workspace = true
+async-channel.workspace = true
+slab.workspace = true
+strum.workspace = true
+strum_macros.workspace = true
+bevy = { workspace = true, features = ["bevy_color", "bevy_gizmos", "bevy_render", "bevy_core_pipeline", "bevy_pbr"] }
+
+rand.workspace = true
+
+[dev-dependencies]
+bevy = { workspace = true, features = ["default"] }

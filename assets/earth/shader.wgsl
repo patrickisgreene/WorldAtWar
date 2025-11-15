@@ -1,22 +1,22 @@
-#import waw_earth::types::{EarthMaterial, AtlasTile}
-#import waw_earth::bindings::{
+#import waw_earth_render::types::{EarthMaterial, AtlasTile}
+#import waw_earth_render::bindings::{
     bathyometry_attachment,
     earth, earth_view, nighttime_attachment,
     attachments, daytime_attachment, ocean_attachment
 }
 #import bevy_pbr::mesh_view_bindings::{globals, view}
-#import waw_earth::attachments::{
+#import waw_earth_render::attachments::{
     compute_sample_uv, sample_height,
     sample_height_mask,
     sample_surface_gradient, relief_shading
 }
-#import waw_earth::fragment::{
+#import waw_earth_render::fragment::{
     FragmentInput, FragmentOutput, FragmentInfo,
     fragment_info, fragment_debug
 }
 #import bevy_pbr::pbr_functions::{calculate_view, apply_pbr_lighting}
 #import bevy_pbr::pbr_types::{PbrInput, pbr_input_new}
-#import waw_earth::functions::{apply_height, lookup_tile, sample_attachment}
+#import waw_earth_render::functions::{apply_height, lookup_tile, sample_attachment}
 
 fn grayscale(color: vec3<f32>) -> f32 {
     return (0.299 * color.x) + (0.587 * color.y) + (0.114 * color.z);
