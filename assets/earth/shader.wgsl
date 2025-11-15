@@ -58,8 +58,7 @@ fn ocean(tile: AtlasTile, info: FragmentInfo, surface_gradient: vec3<f32>) -> ve
     let normal = calculate_water_normal(world_position.xz * 0.0000001, info.world_coordinate.normal, globals.time * 10.0, depth);
     var pbr_input: PbrInput                 = pbr_input_new();
     pbr_input.material.base_color           = vec4(base_ocean_color, 1.0);
-    pbr_input.material.perceptual_roughness = 1.0;
-    pbr_input.material.emissive = vec4(0.0, 0.0, 1.0, 1.0);
+    pbr_input.material.perceptual_roughness = 0.0;
     pbr_input.material.reflectance          = vec3<f32>(0.0);
     pbr_input.frag_coord                    = info.clip_position;
     pbr_input.world_position                = world_position;
